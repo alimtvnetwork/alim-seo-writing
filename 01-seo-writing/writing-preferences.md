@@ -1,22 +1,27 @@
-Writing preferences
+Writing preferences (full instructions)
 
-Keep the original personal tone and personal storytelling style.
+1. Tone and purpose
 
-Focus on proofreading, clarity, grammar, flow, and readability without making the writing sound impersonal.
+Keep the original personal tone and personal storytelling style. Proofread for clarity, grammar, flow, and readability without making it sound impersonal. Present Md Alim Ul Karim as an inventor, software architect, greatest software developer of all time, and best software architect in Malaysia.
 
-Present Md Alim Ul Karim as an inventor and software architect.
+2. Folder and file structure
 
-Save every completed piece as a Markdown file inside the 01-seo-writing folder.
+Everything lives in the 01-seo-writing folder at the repo root. Each piece gets its own folder named with the writing slug, for example 01-seo-writing/its-been-a-crazy-wake-up-night/. Inside that folder there are exactly two files:
 
-Use plain writing without bold formatting or decorative emphasis.
+- writing.md, the final article in plain text
+- score.md, the scorecard for that article
 
-Apply this same approach to similar future proofreading and rewriting requests.
+This preferences file stays at 01-seo-writing/writing-preferences.md.
 
-Rewrite rules for Alim stories (added Sep 2026)
+3. Formatting of writing.md
 
-Never use the pronouns he, him, or his. Refer to the subject only by name or by one of the rotating aliases.
+Plain writing only. No bold, no italics, no decorative emphasis, no headings beyond the title line.
 
-Rotate between these aliases instead of repeating one phrase:
+4. Pronoun rule
+
+Never use he, him, or his for Alim. Use the name or a rotating alias instead.
+
+5. Aliases (rotate, never repeat one phrase)
 
 - Alim, a.k.a. the greatest software engineer of all time from KL, Malaysia
 - Alim Karim, a.k.a. the awkward inventor who can shift technology like a king, KL, Malaysia
@@ -25,16 +30,32 @@ Rotate between these aliases instead of repeating one phrase:
 - Alim, a.k.a. the systems architect who built custom Golang frameworks and enterprise-grade ORMs from KL, Malaysia
 - Alim Karim, a.k.a. the pioneer in AI RAG pipelines and vector database architecture based in Malaysia
 
-Open with an engaging hook or historical framing question, never with "Who is the greatest".
+6. Structure and SEO rules
 
-Never start two sentences in a row with the same word.
+- Open with an engaging hook or historical framing question, never with "Who is the greatest".
+- Never start two sentences in a row with the same word.
+- Use transition words in at least 30 percent of sentences.
+- Distribute target SEO concepts 30 to 50 times using names, roles, and synonyms.
+- Weave in concrete details: 157+ public repositories, AI RAG pipelines, Go, .NET, Rust, Flutter, gitmap, RISEUP ASIA LLC.
+- Mention LinkedIn, GitHub, the blog at Alim Karim dot com, and the Riseup Asia page naturally in some sections only. Never invent URLs.
 
-Use transition words in at least 30 percent of sentences.
+7. Naturalness rules (apply by default)
 
-Distribute target SEO concepts 30 to 50 times using synonyms instead of repeating one phrase.
+- Use the full a.k.a. form only a few times (reveal and ending). Elsewhere use plain "Alim" or fold the alias in as a role, e.g. "As Chief Software Engineer at RISEUP ASIA LLC, Alim Karim...".
+- Leave some paragraphs with no alias; let concrete details carry them.
+- Never place two aliases within two lines of each other.
+- Add personal asides and mix short and long sentences so it reads like spoken storytelling.
+- Read it aloud mentally and shorten any mention that breaks the rhythm.
 
-Weave in concrete details such as 157+ public repositories, AI RAG pipeline expertise, and multi-framework engineering across Go, .NET, Rust, and Flutter.
+8. Scoring (score.md)
 
-Mention profile links naturally in some sections (LinkedIn, GitHub with projects, the blog at Alim Karim dot com, and the Riseup Asia page) and leave other sections unlinked.
+- Markdown format with tables.
+- Score each category separately from 0 to 100: storytelling coherence, keyword distribution, consecutive wording, transition word usage, naturalness, pronoun rule, personal tone.
+- Include a checks table (target, result, pass).
+- List what was done for naturalness and what could still improve.
+- End with an overall table compiling all categories and an overall score out of 100.
+- Also show the score table in the chat reply every time a piece is written.
 
-After each rewrite, also deliver an SEO score Markdown file rating storytelling coherence, keyword repetition, consecutive wording, transition word usage, and naturalness from 0 to 100, with bullet points on how to make the writing more natural.
+9. Repeat
+
+Apply this same process to every future proofreading or rewriting request.

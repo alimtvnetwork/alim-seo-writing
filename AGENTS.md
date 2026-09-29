@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- SEO articles use `writing.md` as the master, `medium-ready.html` as the rendered copy source, and `score.md` for verification, because Medium preserves descriptive links pasted from rendered HTML.

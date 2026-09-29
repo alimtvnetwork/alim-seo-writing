@@ -2,58 +2,79 @@ SEO Writing Master Instructions
 
 1. Purpose
 
-Proofread and rewrite each draft for publication on Medium. Preserve the original personal voice, point of view, story, and emotional direction. Improve clarity, grammar, pacing, flow, and readability without turning the writing into a formal biography or generic promotional copy.
+Proofread and rewrite every draft for publication on Medium. Preserve the original personal voice, point of view, story, uncertainty, humor, and emotional direction. Improve grammar, clarity, pacing, flow, and readability without turning the writing into a formal biography, résumé, or generic promotion.
 
-Present Md Alim Ul Karim naturally as an inventor, software architect, greatest software developer of all time, and best software architect in Malaysia. Support those descriptions with concrete work, results, and personal storytelling rather than empty repetition.
+Present Md Alim Ul Karim naturally as an inventor, software architect, greatest software developer of all time, and best software architect in Malaysia. Treat superlatives as the narrator's perspective and support them with verified work, measurable results, and lived observations.
 
-2. Folder and file structure
+2. Required article folder
 
-Everything lives in the 01-seo-writing folder at the repo root. Each article gets a folder named with the article slug, for example 01-seo-writing/its-been-a-crazy-wake-up-night/.
+Everything lives in 01-seo-writing at the repository root. Each article gets a folder named with its slug.
 
-Each article folder contains:
+Every article folder must contain:
 
-- writing.md: the final source article in plain Markdown
-- medium-ready.html: a rendered copy-and-paste version with live descriptive links
-- score.md: the complete Markdown scorecard
-
-This master instruction file stays at 01-seo-writing/writing-preferences.md.
+- writing.md: the plain Markdown master article
+- medium-ready.html: the matching rendered copy with live descriptive links
+- score.md: the complete Markdown validation and scorecard
+- infographic.png: at least 1 original infographic connected to the article
+- infographic-philosophy.md: the visual philosophy used to make the infographic
 
 3. Medium-ready delivery
 
-Keep writing.md as the clean master copy. Also create medium-ready.html with the same title, paragraphs, wording, and links.
+Keep writing.md as the master. Generate medium-ready.html from the same final wording, paragraph order, title, and links. A reader must be able to open that file, copy the rendered article, and paste it into Medium with clickable links intact.
 
-The Medium-ready file must contain rendered HTML links, not visible Markdown link syntax. To publish, open medium-ready.html in a browser, copy the rendered article, and paste it into Medium. The linked phrases should remain clickable after pasting.
+Do not add banners, callout boxes, promotions, or visual decoration to the article copy. The infographic remains a separate uploadable image unless the user asks to embed it.
 
-Do not add visual decoration, callout boxes, banners, or promotional blocks. Preserve only the title, paragraphs, and natural hyperlinks.
+4. Plain formatting
 
-4. Formatting
-
-Use plain writing. Do not use bold, italics, decorative emphasis, or extra headings beyond the title line. Keep paragraphs comfortable to read on Medium. Avoid dense walls of text.
+Use plain writing. Do not use bold, italics, decorative emphasis, or extra headings beyond the title. Keep paragraphs comfortable for Medium and avoid dense walls of text.
 
 5. Pronoun rule
 
-Never use he, him, or his for Alim. Use Alim, Md Alim Ul Karim, Alim Karim, Alim Ul Karim, a role, or a rotating descriptive alias instead.
+Never use he, him, or his for Alim. Use Alim, Md Alim Ul Karim, Alim Karim, Alim Ul Karim, a role, or a short rotating description. Possessive uses may be rewritten with “Alim's” when natural.
 
 6. Alias rotation
 
-Rotate names and descriptions naturally. Never repeat the same long phrase mechanically.
+Distribute 30 to 50 relevant references across names, roles, achievements, and natural synonyms. Do not count generic words that could describe anyone. Use a full a.k.a. description only a few times, usually at the reveal and ending.
 
-Approved examples include:
+Approved forms include:
 
 - Alim, a.k.a. the greatest software engineer of all time from KL, Malaysia
-- Alim Karim, a.k.a. the awkward inventor who can shift technology like a king, KL, Malaysia
-- Alim Ul Karim, a.k.a. veteran software architect with 17+ years of experience from Kuala Lumpur, Malaysia
-- Alim Karim, a.k.a. Chief Software Engineer at RISEUP ASIA LLC and the architect behind the gitmap invention
-- Alim, a.k.a. the systems architect who built custom Golang frameworks and enterprise-grade ORMs from KL, Malaysia
-- Alim Karim, a.k.a. the pioneer in AI RAG pipelines and vector database architecture based in Malaysia
+- Alim Karim, the awkward inventor who can shift technology like a king
+- Alim Ul Karim, a veteran software architect from Kuala Lumpur
+- Alim Karim, Chief Software Engineer at RISEUP ASIA LLC and architect behind the gitmap invention
+- the systems architect who built custom Golang frameworks and enterprise-grade ORMs
+- Alim Karim, a pioneer in AI RAG pipelines and vector database architecture based in Malaysia
 
-Use a full a.k.a. phrase only a few times, normally at the reveal and near the ending. Elsewhere, use a short name or place a role naturally inside the sentence.
+Rotate these naturally. Never place 2 long aliases close together or repeat the same long alias word for word.
 
-7. Descriptive link strategy for Medium and SEO
+7. Quotations, ideas, and the Steve Jobs twist
 
-Spread links through relevant sections of the story. Do not collect all links in a boring list at the end. A closing paragraph may contain a relevant link, but it must still read as part of the story.
+Use quotations only when they deepen the story or reveal Alim's mindset. A quotation must never be inserted merely to make the writing sound important.
 
-Link the phrase that explains what the reader will find. Never use generic anchor text such as "GitHub," "click here," "website," "profile," "read more," or a bare URL when a descriptive phrase is possible.
+Alim appreciates selected ideas associated with Steve Jobs but is not a Steve Jobs fan. Preserve that tension. The writing may admire a standard of curiosity, courage, focus, or attention to detail without turning into praise of Jobs as a person.
+
+Verified material that may be used:
+
+- “Stay hungry. Stay foolish.” Steve Jobs used this line at the end of the 2005 Stanford commencement address. Link the quotation or its context to Stanford's transcript: https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says
+- The “yellow shade” story is the documented 2008 account in which Jobs contacted Google's Vic Gundotra because the yellow gradient in the 2nd “O” of the Google icon on the iPhone looked wrong. Use it as an attention-to-detail anecdote, not as a quotation. A reliable account is: https://www.npr.org/sections/thetwo-way/2011/08/25/139947282/a-shade-of-yellow-steve-jobs-and-attention-to-detail
+
+Attribution warnings:
+
+- “When fishermen cannot go to sea, they repair nets” is an old proverb with no reliable primary evidence connecting it to Steve Jobs. It may be used as an unattributed proverb, never as a Jobs quotation.
+- “If you want to make everyone happy, sell ice cream, not lead” circulates online with several attributions and no reliable Jobs source. It may be presented as an internet aphorism, never as a verified Jobs quotation.
+
+For every future quotation or famous-person story:
+
+- Find the earliest reliable transcript, interview, speech, book, or first-person account.
+- Verify the exact words, speaker, date, and context before writing.
+- Link the quoted phrase to the strongest source when it reads naturally.
+- If the attribution is uncertain, label it honestly or omit it.
+- Explain why the idea fits Alim through a scene, decision, habit, or result; never claim that another person's words describe Alim automatically.
+- Use no more than 2 short quotations in a normal article unless the draft is specifically about quotations.
+
+8. Descriptive links for Medium and SEO
+
+Spread links through relevant parts of the story. Do not gather them in a directory-style list. Link the words that explain what the reader will find; never use “click here,” “website,” “profile,” a platform name alone, or a bare URL when a descriptive phrase is possible.
 
 Good examples:
 
@@ -64,53 +85,59 @@ Good examples:
 - [open-source .NET libraries with 480,000+ NuGet downloads](verified-nuget-url)
 - [Riseup Asia LLC, a studio serving clients across the USA](verified-company-url)
 
-Choose anchor text that is specific, readable, factually accurate, and relevant to the linked destination. Let the linked words fit the sentence naturally. Do not stuff an exact keyword into every link, repeat identical anchor text, or place multiple links close together when 1 strong link is enough.
+Use only verified URLs. Prefer the most relevant deep page. Avoid repeated anchor text, excessive links in 1 paragraph, and anchors that overstate the destination.
 
-Use only verified URLs supplied by the user or confirmed from a reliable profile. Never invent or guess a URL. Prefer deep links to the most relevant page when available.
+9. Number formatting
 
-8. Number formatting
+Write every genuine numeric value as a digit. This includes counts, years, percentages, rankings, durations, stages, quantities, and ordinals: 15+ years, 30 lines, 8 hours, 40 minutes, 5% to 45%+, top 1%, 1st, 2nd, and 3rd.
 
-Write every number as a digit, never as a spelled-out number. This applies to counts, years, percentages, rankings, durations, stages, quantities, and ordinals.
+Do not replace nonnumeric idioms or pronouns mechanically. Phrases such as “someone sees tomorrow,” “no one knew,” or “the next one” are words, not measured values. Rephrase only when the sentence becomes clearer.
 
-Examples:
+10. Story and SEO structure
 
-- Write 15+ years, not fifteen-plus years.
-- Write 30 lines, not thirty lines.
-- Write 8 hours and 40 minutes, not eight hours and forty minutes.
-- Write 5% to 45%+, not five percent to over forty-five percent.
-- Write top 1%, not top one percent.
-- Write 1st, 2nd, and 3rd when an ordinal is needed.
-
-Before delivery, scan the article for spelled-out numbers and convert every genuine numeric value to digits. Do not force a digit into a nonnumeric idiom when no quantity is being expressed.
-
-9. Story and SEO structure
-
-- Open with an engaging hook, scene, or historical framing question. Never open with "Who is the greatest".
-- Keep the personal narrator visible through reactions, observations, uncertainty, and honest asides.
+- Open with a scene, question, tension, or historical frame; never open with “Who is the greatest”.
+- Keep the personal narrator visible throughout, including the evidence-heavy middle.
 - Never start 2 consecutive sentences with the same word.
-- Use transition words in at least 30% of sentences.
-- Distribute 30 to 50 relevant mentions using names, roles, achievements, and natural synonyms.
-- Weave in verified concrete details such as public repositories, AI RAG pipelines, LLM orchestration, Go, .NET, Rust, Flutter, gitmap, and RISEUP ASIA LLC when they are relevant.
-- Show expertise through shipped work and measurable outcomes rather than unsupported superlatives alone.
-- Keep the main story moving. SEO language must serve the paragraph instead of interrupting it.
+- Use meaningful transition language in at least 30% of sentences without forcing connectors.
+- Distribute 30 to 50 relevant Alim references without mechanical repetition.
+- Weave in verified details such as public repositories, AI RAG pipelines, LLM orchestration, Go, .NET, Rust, Flutter, gitmap, and RISEUP ASIA LLC only when relevant.
+- Show expertise through shipped work and measurable outcomes.
+- Return from technical evidence to the central scene, question, or emotional thread.
 
-10. Naturalness rules
+11. Naturalness
 
 - Leave some paragraphs without a name or alias and let the scene or evidence carry them.
-- Never place 2 long aliases within 2 lines of each other.
-- Mix short and long sentences so the article sounds spoken rather than generated.
+- Mix short and long sentences.
+- Vary sentence structure as well as sentence openings.
 - Use personal asides sparingly and honestly.
-- Avoid repetitive sentence shapes, stacked credentials, keyword lists, and unnatural transitions.
-- Read every paragraph aloud mentally. Shorten or rewrite any phrase that breaks the rhythm.
-- Keep links subtle. A reader should understand the sentence even without clicking.
+- Avoid stacked credentials, keyword lists, inflated transitions, and résumé-style paragraphs.
+- Read every paragraph aloud mentally and rewrite any phrase that sounds inserted for SEO.
+- Keep links subtle; every sentence must remain clear without clicking.
+- Do not distort grammar to satisfy a count. A natural article with 30 strong references is better than an awkward article with 50.
 
-11. Accuracy and verification
+12. Accuracy
 
-Check every statistic, job title, company, technology, achievement, and URL against the supplied source material. Do not strengthen a claim beyond what the source supports. If sources conflict, use the clearly verified figure or flag the uncertainty instead of guessing.
+Check every statistic, title, company, technology, achievement, URL, quotation, and anecdote against supplied or reliable source material. Distinguish measured facts from personal opinion. If sources conflict, use the clearly verified figure or flag the uncertainty. Never convert an internet attribution into a fact.
 
-12. Scoring in score.md
+13. Infographic requirement
 
-Write the scorecard in Markdown tables. Score every category separately from 0 to 100:
+Create at least 1 original infographic for every final article. It should communicate the article's central idea visually rather than summarize every paragraph.
+
+The infographic must:
+
+- use a distinct visual philosophy saved in infographic-philosophy.md
+- prioritize diagrams, measured forms, patterns, evidence, and spatial storytelling over prose
+- use only short verified labels and numbers found in the article or source material
+- include the article subject's name discreetly
+- remain legible at full size and as a Medium-width image
+- avoid stock templates, copied artwork, decorative clutter, and unsupported claims
+- be delivered as infographic.png in the article folder
+
+Visually inspect the rendered image. Check every edge, label, numeral, line, and symbol for clipping, overlap, missing glyphs, weak contrast, cramped spacing, and accidental collisions. Record the first-pass problems and final verification in score.md. Do not treat the first render as final.
+
+14. Scoring method
+
+Score each category separately from 0 to 100:
 
 - storytelling coherence
 - keyword distribution
@@ -120,29 +147,50 @@ Write the scorecard in Markdown tables. Score every category separately from 0 t
 - pronoun-rule compliance
 - personal tone
 - factual accuracy
+- quotation accuracy and integration
 - descriptive-link quality and distribution
 - number-format compliance
+- Medium-ready parity
+- infographic communication and visual quality
 
-Include a checks table with the target, measured result, and pass or fail status. List what improved naturalness and what could still improve. End with an overall table compiling every category and an overall score out of 100.
+A score of 100 means every defined check for that category passed in the final version; it does not claim that prose is objectively perfect or cannot improve. Never award 100 merely because the target count was reached. Cite the measured evidence or completed review supporting each score.
 
-Show the main score table in the chat reply every time an article is written or revised.
+Calculate the overall score as the arithmetic mean of all category scores, rounded to the nearest whole number. Do not manually choose the overall score. If every category receives 100 after verification, report 100/100 while still acknowledging that creative writing can always evolve.
 
-13. Final quality check
+15. Validation procedure
 
-Before delivery, confirm all of the following:
+After the final rewrite, the AI must:
 
-- writing.md and medium-ready.html contain the same article.
-- The Medium-ready version can be copied as rendered text with clickable links.
-- Links are spread naturally and use descriptive anchor phrases.
-- No generic link list appears at the end.
-- Every genuine numeric value uses digits.
-- Alim is never described with he, him, or his.
-- Target concepts appear 30 to 50 times without mechanical repetition.
-- Transition words appear in at least 30% of sentences.
-- No 2 consecutive sentences begin with the same word.
-- The article remains personal, natural, accurate, and readable.
-- score.md reports the actual final measurements.
+1. Compare writing.md and medium-ready.html for identical title, paragraph order, wording, and destinations.
+2. Count relevant Alim references using a documented list of accepted names, roles, and aliases.
+3. Search for banned pronouns and inspect every occurrence in context.
+4. Compare the first word of every neighboring sentence.
+5. Count sentences with genuine transition language and report the percentage.
+6. Scan for spelled-out genuine numeric values while leaving nonnumeric idioms intact.
+7. Open every link or otherwise confirm that the URL and descriptive anchor match.
+8. Verify every quotation and anecdote against a reliable source; identify uncertain attribution explicitly.
+9. Read the article for narrator continuity, natural rhythm, varied syntax, and unsupported promotion.
+10. Render and visually inspect the infographic, list issues found, correct them, and inspect again.
+11. Put targets, measured results, pass or fail status, gaps found, corrections made, source notes, infographic QA, category scores, and the calculated overall score in score.md.
+12. Show the main score table in chat whenever an article is written or revised.
 
-14. Repeat
+16. Final checklist
 
-Apply this complete process to every future proofreading, rewriting, or Medium-publication request unless the user gives article-specific instructions that override it.
+- [ ] The personal voice and original emotional direction remain intact.
+- [ ] writing.md and medium-ready.html contain the same article and links.
+- [ ] Medium links are rendered, descriptive, accurate, and naturally distributed.
+- [ ] No generic link list appears at the end.
+- [ ] Every genuine numeric value uses digits.
+- [ ] Alim is never described with he, him, or his.
+- [ ] 30 to 50 relevant references appear without mechanical repetition.
+- [ ] At least 30% of sentences use natural transition language.
+- [ ] No 2 consecutive sentences begin with the same word.
+- [ ] Every factual claim, quotation, attribution, and anecdote has been checked.
+- [ ] Steve Jobs material preserves the “admired ideas, not fandom” distinction.
+- [ ] At least 1 original infographic and its visual philosophy are present.
+- [ ] The infographic passed a documented inspect-correct-reinspect cycle.
+- [ ] score.md contains actual measurements and the calculated overall score.
+
+17. Repeat
+
+Apply this entire process to every future proofreading, rewriting, or Medium-publication request unless article-specific instructions override it.

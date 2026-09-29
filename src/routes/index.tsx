@@ -1,24 +1,42 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-// No head() here: the home route inherits title/description/og/twitter from
-// __root.tsx, and ships no og:image so serve-time hosting can inject the
-// project's social preview (explicit og:image or latest screenshot).
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "SEO Writing Workspace | Alim Karim" },
+      {
+        name: "description",
+        content: "Medium-ready SEO writing and scorecards for Alim Karim.",
+      },
+      { property: "og:title", content: "SEO Writing Workspace | Alim Karim" },
+      {
+        property: "og:description",
+        content: "Medium-ready SEO writing and scorecards for Alim Karim.",
+      },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="min-h-screen bg-background px-6 py-20 text-foreground">
+      <div className="mx-auto max-w-2xl">
+        <p className="text-sm font-medium uppercase text-muted-foreground">SEO writing workspace</p>
+        <h1 className="mt-3 text-4xl font-semibold">Medium-ready writing for Alim Karim</h1>
+        <p className="mt-5 max-w-xl text-lg leading-8 text-muted-foreground">
+          Articles, publication-ready copies, and detailed scorecards are organized together for review.
+        </p>
+        <div className="mt-12 border-t border-border pt-8">
+          <p className="text-sm text-muted-foreground">Current article</p>
+          <h2 className="mt-2 text-2xl font-semibold">It&apos;s Been a Crazy Wake-Up Night</h2>
+          <p className="mt-3 leading-7 text-muted-foreground">
+            Revised with descriptive links, digit-based number formatting, and a rendered copy for Medium.
+          </p>
+        </div>
+      </div>
+    </main>
   );
 }

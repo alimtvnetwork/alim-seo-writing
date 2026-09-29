@@ -9,4 +9,4 @@
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
 
-- SEO articles use `writing.md` as the master, `medium-ready.html` as the rendered copy source, and `score.md` for verification, because Medium preserves descriptive links pasted from rendered HTML.
+- SEO articles use `writing.md` as the master, `medium-ready.html` as the rendered copy source, `score.md` for verification, and an original `infographic.png` with `infographic-philosophy.md`, because each article needs publishable copy and a validated visual.

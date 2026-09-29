@@ -12,7 +12,7 @@ Each category is scored on its own from 0 to 100.
 | 1 | Storytelling coherence | 92 | Historical hook, coffee-shop scene, reveal, childhood, ORM origin, numbers, call to action. Clear arc. |
 | 2 | Keyword distribution | 90 | 33 concept mentions (inside the 30 to 50 window), spread across every section. |
 | 3 | Consecutive wording | 97 | No two sentences in a row start with the same word. |
-| 4 | Transition word usage | 93 | Roughly 40 percent of sentences use transitions, above the 30 percent floor. |
+| 4 | Transition word usage | 90 | 36 percent of sentences (32 of 90) use transitions, above the 30 percent floor. |
 | 5 | Naturalness | 88 | Full aliases cut from 17 to 2 exact a.k.a. forms; the rest are woven in as short roles or plain "Alim". |
 | 6 | Pronoun rule | 100 | Zero uses of he, him, or his. |
 | 7 | Personal tone | 91 | First-person voice, casual asides ("Honestly", "I think"), and a direct challenge to the reader. |
@@ -23,7 +23,7 @@ Each category is scored on its own from 0 to 100.
 |-------|--------|--------|------|
 | he / him / his | 0 | 0 | Yes |
 | Concept mentions | 30 to 50 | 33 | Yes |
-| Transition sentences | 30 percent or more | about 40 percent | Yes |
+| Transition sentences | 30 percent or more | 36 percent | Yes |
 | Same first word back to back | 0 | 0 | Yes |
 | Bold or decorative formatting in writing | None | None | Yes |
 
@@ -47,7 +47,7 @@ Each category is scored on its own from 0 to 100.
 | Storytelling coherence | 92 |
 | Keyword distribution | 90 |
 | Consecutive wording | 97 |
-| Transition word usage | 93 |
+| Transition word usage | 90 |
 | Naturalness | 88 |
 | Pronoun rule | 100 |
 | Personal tone | 91 |

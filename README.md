@@ -1,29 +1,35 @@
-# Welcome to your Lovable project
+# seo article workspace
 
-This project was built with [Lovable](https://lovable.dev).
+this repository is a personal seo article workspace: proofread, rewritten personal articles with validated scores and one original infographic per article.
 
-## Build with Lovable
+## folder structure
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```text
+01-seo-writing/
+  writing-preferences.md        master writing instructions for every article
+  <article-slug>/               one folder per article, named by its slug
+    writing.md                  plain-text master article
+    medium-ready.html           rendered copy with clickable links, ready to paste into medium
+    score.md                    validation results, category scores, and verification tables
+    infographic.png             original infographic for the article
+    infographic-philosophy.md   the visual philosophy used to make the infographic
 ```
 
-## Built with
+## how a new article is made
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+1. a draft gets proofread and rewritten inside `01-seo-writing/<slug>/writing.md` following `writing-preferences.md` (personal tone, plain text, descriptive links, digit-formatted numbers).
+2. the same final wording and paragraph order generate `medium-ready.html` with live descriptive links.
+3. validation runs against `writing-preferences.md`, and `score.md` records the measured results and category scores.
+4. an original `infographic.png` is created from `infographic-philosophy.md`, visually inspected, corrected, and reinspected.
+
+## sample article
+
+`01-seo-writing/its-been-a-crazy-wake-up-night/` is the working example: a personal wake-up-night story about the inventor and software architect behind riseup asia llc. the folder holds the scored writing, the medium-ready copy with descriptive links spread through the story, and an "engineered wonder" infographic built from the article's own verified numbers and its `infographic-philosophy.md`.
+
+## why the infographic
+
+every article includes at least 1 original infographic. it communicates the article's central idea visually rather than summarizing each paragraph, using only short verified labels and numbers from the article, and stays legible at full size and as a medium-width image. the reasoning behind each design lives in the article's `infographic-philosophy.md`.
+
+## publishing
+
+paste `medium-ready.html` into medium and the links carry over as clickable, descriptive anchors. for other platforms and the repackaging rules (canonical links, varied anchors, avoiding duplicate copy), see the "publication platforms for seo backlinks" section in `01-seo-writing/writing-preferences.md`.

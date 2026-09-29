@@ -194,3 +194,29 @@ After the final rewrite, the AI must:
 17. Repeat
 
 Apply this entire process to every future proofreading, rewriting, or Medium-publication request unless article-specific instructions override it.
+
+18. Publication platforms for SEO backlinks
+
+Besides Medium, these free platforms are the top places to republish this type of personal article for reach and backlinks. Availability and link behavior can change at any time, so verify each platform's current link policy before counting on link equity:
+
+1. Medium (primary): the default destination; use medium-ready.html as-is.
+2. LinkedIn Articles: professional reach and profile-level authority for the same audience that matters for Alim.
+3. Dev.to: developer community with fast indexing and friendly reposting conventions.
+4. Hashnode: developer blogging with a free custom-domain option.
+5. Substack: newsletter plus a permanent article archive page.
+6. Tumblr: long-standing, high-authority platform that accepts long-form posts free.
+7. WordPress.com (free tier): classic blogging with a public subdomain.
+8. Blogger / Blogspot: Google-owned, quick indexing, fully free.
+9. HubPages and Vocal Media: revenue-sharing article communities for wider topical reach.
+10. DZone: technology-focused article community for engineering pieces.
+11. Write.as / WriteFreely: minimal markdown publishing for clean supplementary posts.
+
+Re-packaging rules when adapting an article for these platforms:
+
+- Set the original article URL as canonical when the platform supports it; otherwise include a clear link back to the strongest profile or company page.
+- Vary the anchor wording between platforms; never paste the same link sentence everywhere.
+- Do not paste identical full copy on multiple platforms; use a reworded version or a 1-paragraph teaser plus a link to avoid duplicate-content problems.
+- Keep the personal tone, digit-formatted numbers, and the pronoun rule intact on every platform.
+- Adapt the infographic width per platform's guidance (roughly 1200-1600 px wide) and only use verified labels from the article.
+
+Workflow: when the user asks to "publish" or "adapt" an article for a specific platform, generate a matching ready-to-paste file in the article folder next to medium-ready.html, for example linkedin-ready.html, devto-ready.md, or substack-ready.md, using the same verified wording and links, and confirm parity before reporting the result.

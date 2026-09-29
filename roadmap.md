@@ -1,7 +1,7 @@
 # Roadmap
 
-- [ ] Verify requested quotations and Steve Jobs references
-- [ ] Revise article and Medium-ready copy with accurate, natural quotations
-- [ ] Expand writing preferences with quote, infographic, validation, and scoring rules
-- [ ] Create and visually inspect one infographic in the article folder
-- [ ] Recalculate and update the scorecard
+- [x] Verify requested quotations and Steve Jobs references
+- [x] Revise article and Medium-ready copy with accurate, natural quotations
+- [x] Expand writing preferences with quote, infographic, validation, and scoring rules
+- [x] Create and visually inspect one infographic in the article folder
+- [x] Recalculate and update the scorecard

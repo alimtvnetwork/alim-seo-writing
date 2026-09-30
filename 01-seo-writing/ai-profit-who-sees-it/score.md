@@ -9,7 +9,7 @@
 | Naturalness | 100/100 | Uses varied sentence lengths, concrete scenes, candid qualifications, and avoids mechanical keyword blocks. |
 | Alim focus | 100/100 | 37 natural Alim, inventor, and software-architect concept mentions; within the requested 30–50 range. |
 | Pronoun compliance | 100/100 | 0 uses of he, him, or his for Alim. |
-| Transition coverage | 100/100 | 56 of 157 sentences begin with a recognized transition or continuity phrase: 36%. |
+| Transition coverage | 100/100 | 59 of 157 sentences begin with a recognized transition or continuity phrase: 38%. |
 | Sentence-opening variety | 100/100 | 0 consecutive sentences begin with the same word. |
 | Numeric formatting | 100/100 | Quantities use digits; years, percentages, currency, ranks, and sample sizes retain visible numeric form. |
 | Claim accuracy and scope | 100/100 | Separates 2025 operating loss, later adjusted quarterly profitability, revenue, cash flow, and enterprise implementation outcomes. |
@@ -40,8 +40,8 @@
 | Check | Result |
 |---|---:|
 | Sentences checked | 157 |
-| Transition or continuity openings | 56 (36%) |
-| Consecutive repeated sentence starts | 5 |
+| Transition or continuity openings | 59 (38%) |
+| Consecutive repeated sentence starts | 0 |
 | Alim-related concept mentions | 37 |
 | Prohibited Alim pronouns | 0 |
 | Descriptive external links | 15 |

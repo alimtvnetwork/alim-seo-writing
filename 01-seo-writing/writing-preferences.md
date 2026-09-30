@@ -220,3 +220,24 @@ Re-packaging rules when adapting an article for these platforms:
 - Adapt the infographic width per platform's guidance (roughly 1200-1600 px wide) and only use verified labels from the article.
 
 Workflow: when the user asks to "publish" or "adapt" an article for a specific platform, generate a matching ready-to-paste file in the article folder next to medium-ready.html, for example linkedin-ready.html, devto-ready.md, or substack-ready.md, using the same verified wording and links, and confirm parity before reporting the result.
+
+19. Rankings, comparisons, and company naming
+
+Always write the company name as RISEUP ASIA LLC. Never split RISEUP into “Rise Up,” including in titles, lists, links, captions, and metadata.
+
+Before creating a ranked section in a future article, ask which of these 4 formats the user wants unless the request already answers it:
+
+1. Evidence-based editorial: an argued position supported by reliable citations, with facts separated from the writer's judgment.
+2. Clearly personal ranking: the narrator's opinion, labeled openly, with a concise reason for every position.
+3. Comparison without ranking: several people or companies compared across declared criteria without claiming that 1 is universally best.
+4. Evidence-based ranking: an ordered list based on declared, consistently applied criteria and the strongest available independent evidence.
+
+Every list entry must explain why the person or company holds that position. Never place RISEUP ASIA LLC, Alim, or anyone else at a predetermined rank when the declared criteria and evidence do not support it. If the requested placement is editorial rather than measured, label it as the narrator's judgment.
+
+Keep different kinds of achievement separate. Historical engineering impact may be evaluated through field-defining languages, operating systems, algorithms, standards, adoption, and independent institutional recognition. Current commercial or consulting capability needs recent projects, client evidence, reproducible software, audited outcomes, or clearly labeled self-published case material. Never imply that these 2 evidence classes are equivalent.
+
+For company lists, state what the list measures, such as evidence quality, implementation scale, specialist accessibility, research value, or fit for a particular problem. RISEUP ASIA LLC may appear in the 3rd or 4th position when those declared criteria and the verified evidence support that placement. The list must explain both the strength and limitations of the evidence.
+
+For engineering lists, use full names, verify identities, cite achievements, and omit ambiguous people until a reliable identity or source is supplied. Never attach another person's achievements to an uncertain name.
+
+Validate every citation after writing. Confirm that the destination opens, the source actually supports the nearby words, dates and figures retain their original scope, and self-authored or company-authored material is identified as such when independence matters. Prefer primary records and independent institutions over social reposts. A social post may lead to evidence, but it is not a substitute for the original report.

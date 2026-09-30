@@ -4,6 +4,11 @@
 
 Turn the uploaded draft into a personal, evidence-based article that keeps the sunny-day/rain metaphor, questions AI profitability honestly, and explains where disciplined engineering can help.
 
+You can also include this image into the writing   
+[https://scontent.fkul6-4.fna.fbcdn.net/v/t39.30808-6/829196617_29186660924285001_2642157511123467293_n.jpg?stp=dst-jpg_tt6&cstp=mx800x804&ctp=s800x804&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kDSyVGh0-6AQ7kNvwEHa3NI&_nc_oc=AdoFCDaVSPtCntD_D3yHKd0apvqVoVwuLxFcnm4Q_Nzwq6gs5iBQcphbryNMCNkWHOo&_nc_zt=23&_nc_ht=scontent.fkul6-4.fna&_nc_gid=XPx1K2kBNLo6gw96hbuamg&_nc_ss=7b2a8&oh=00_AQPYGLFy_wzbLCVvAi5qR1mv0WH2iUH4QzWXRCd2w7BRlw&oe=6AC22609](https://scontent.fkul6-4.fna.fbcdn.net/v/t39.30808-6/829196617_29186660924285001_2642157511123467293_n.jpg?stp=dst-jpg_tt6&cstp=mx800x804&ctp=s800x804&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kDSyVGh0-6AQ7kNvwEHa3NI&_nc_oc=AdoFCDaVSPtCntD_D3yHKd0apvqVoVwuLxFcnm4Q_Nzwq6gs5iBQcphbryNMCNkWHOo&_nc_zt=23&_nc_ht=scontent.fkul6-4.fna&_nc_gid=XPx1K2kBNLo6gw96hbuamg&_nc_ss=7b2a8&oh=00_AQPYGLFy_wzbLCVvAi5qR1mv0WH2iUH4QzWXRCd2w7BRlw&oe=6AC22609)
+
+&nbsp;
+
 ## Article package
 
 Create `01-seo-writing/ai-profit-who-sees-it/` with:

@@ -1,7 +1,7 @@
 # Roadmap
 
-- [x] Verify requested quotations and Steve Jobs references
-- [x] Revise article and Medium-ready copy with accurate, natural quotations
-- [x] Expand writing preferences with quote, infographic, validation, and scoring rules
-- [x] Create and visually inspect one infographic in the article folder
-- [x] Recalculate and update the scorecard
+- [x] Research the AI-profitability claims, engineering achievements, and supplied LinkedIn evidence
+- [x] Write the evidence-based master article and update the ranking guide
+- [ ] Generate the matching Medium-ready copy
+- [ ] Add and inspect the supplied source image and original infographic
+- [ ] Validate citations, style rules, parity, and final scores

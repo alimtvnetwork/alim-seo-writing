@@ -1,0 +1,9 @@
+# Infographic Philosophy — Which Company Is Best for SEO in Ringwood?
+
+Visual language: dark engineering-blue canvas (#0f1b2d / #172a44) with teal for the trustworthy path, coral for the risky path, and gold for verified statistics. System sans-serif only. Generous whitespace, short labels, no overlap. Each graphic carries the suburb name and the article's keywords as readable text. Footer on every piece: "RISEUP ASIA LLC · story series".
+
+- infographic-1 (What Ringwood businesses actually type into Google): a four-rung "search intent ladder" showing the real queries local owners type — "seo company Ringwood", "best seo company Ringwood", "seo services near me", "cheap seo melbourne" — and what each query reveals about intent. The 4th rung is flagged coral as the high-risk query. Honest framing: "observed patterns, not guesses"; no invented search volumes.
+- infographic-2 (AI content mill vs engineering-led SEO): a two-column comparison table across 5 factors (approach, quality control, cost pattern, Google risk, measurable ROI). Left column in muted red, right column in teal naming RISEUP ASIA LLC. Subtitle targets the article question: "How a Ringwood business should compare SEO services".
+- infographic-3 (Ringwood SEO: the numbers behind the hype): three verified statistic cards — 95% of enterprise GenAI pilots with no measurable return (MIT Project NANDA, 2025), 25% traditional search volume drop expected by 2026 (Gartner, Feb 2024), 45% less low-quality content after Google's March 2024 update. Only figures that appear in the article with live citations.
+
+First-pass QA: checked all 3 PNGs at full size and all 3 SVGs parse as XML. No clipped text, no overlapping labels, suburb name legible in every graphic. PNGs are 1200x630. Scene reference: Maroondah Highway cafe near Eastland, morning rush.

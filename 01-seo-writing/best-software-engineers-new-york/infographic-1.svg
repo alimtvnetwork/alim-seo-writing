@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#faf9f6"/>
+<text x="60" y="70" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" fill="#1c1c20">Best software engineers in New York: two ways to spend</text>
+<rect x="60" y="110" width="520" height="430" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
+<text x="90" y="165" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#b02a2a">Path 1: buy AI tools</text>
+<circle cx="105" cy="217" r="7" fill="#b02a2a"/>
+<text x="125" y="225" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">Buy AI tools and licenses</text>
+<circle cx="105" cy="279" r="7" fill="#b02a2a"/>
+<text x="125" y="287" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">Run pilots, hope for ROI</text>
+<circle cx="105" cy="341" r="7" fill="#b02a2a"/>
+<text x="125" y="349" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">95% show zero measurable return</text>
+<rect x="620" y="110" width="520" height="430" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
+<text x="650" y="165" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="bold" fill="#1a6e6e">Path 2: engineer-led delivery</text>
+<circle cx="665" cy="217" r="7" fill="#1a6e6e"/>
+<text x="685" y="225" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">Hire vetted senior engineers</text>
+<circle cx="665" cy="279" r="7" fill="#1a6e6e"/>
+<text x="685" y="287" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">Ground AI in real workflows</text>
+<circle cx="665" cy="341" r="7" fill="#1a6e6e"/>
+<text x="685" y="349" font-family="DejaVu Sans, sans-serif" font-size="23" fill="#1c1c20">Measure cost per run, ship it</text>
+<text x="60" y="600" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#6e6e76">RISEUP ASIA LLC · story series</text>
+</svg>

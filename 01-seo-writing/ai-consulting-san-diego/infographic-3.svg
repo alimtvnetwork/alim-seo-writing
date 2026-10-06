@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0d1726"/>
+<rect width="1200" height="10" fill="#f2b035"/>
+<text x="60" y="56" font-family="DejaVu Sans" font-size="20" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
+<text x="60" y="130" font-family="DejaVu Sans" font-size="38" font-weight="bold" fill="#ffffff">4 WAYS SAN DIEGO HIRES AI CONSULTANTS</text>
+
+  <circle cx="105" cy="187" r="30" fill="#f2b035"/>
+  <text x="105" y="197" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">1</text>
+  <text x="170" y="195" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The embedded builder: ships in week 1</text>
+  <circle cx="105" cy="275" r="30" fill="#f2b035"/>
+  <text x="105" y="285" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">2</text>
+  <text x="170" y="283" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The specialist auditor: 2 weeks, 1 system</text>
+  <circle cx="105" cy="363" r="30" fill="#f2b035"/>
+  <text x="105" y="373" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">3</text>
+  <text x="170" y="371" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The big-firm strategy team: frameworks, no commits</text>
+  <circle cx="105" cy="451" r="30" fill="#f2b035"/>
+  <text x="105" y="461" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">4</text>
+  <text x="170" y="459" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The vendor's free consulting: a sales call in a lab coat</text>
+<text x="60" y="610" font-family="DejaVu Sans" font-size="15" fill="#5b7186">San Diego · AI consulting San Diego</text></svg>

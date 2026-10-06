@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0d1726"/>
+<rect width="1200" height="10" fill="#f2b035"/>
+<text x="60" y="46" font-family="DejaVu Sans" font-size="19" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
+<text x="60" y="88" font-family="DejaVu Sans" font-size="40" font-weight="bold" fill="#ffffff">RAG PIPELINES IN CALIFORNIA</text>
+<text x="60" y="132" font-family="DejaVu Sans" font-size="26" fill="#f2b035">What actually works</text>
+
+  <rect x="60" y="164" width="340" height="310" rx="14" fill="#182a44" stroke="#2c4a72" stroke-width="2"/>
+  <text x="85" y="264" font-family="DejaVu Sans" font-size="84" font-weight="bold" fill="#f2b035">95%</text>
+  <text x="85" y="334" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">of enterprise GenAI</text><text x="85" y="364" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">pilots deliver no</text><text x="85" y="394" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">measurable return</text>
+  <text x="85" y="434" font-family="DejaVu Sans" font-size="16" fill="#8ea3bd">MIT Project NANDA, 2025</text>
+  <rect x="430" y="164" width="340" height="340" rx="14" fill="#182a44" stroke="#2c4a72" stroke-width="2"/>
+  <text x="455" y="264" font-family="DejaVu Sans" font-size="84" font-weight="bold" fill="#f2b035">80%+</text>
+  <text x="455" y="334" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">of documented</text><text x="455" y="364" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">enterprise AI</text><text x="455" y="394" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">projects failed</text><text x="455" y="424" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">outright</text>
+  <text x="455" y="464" font-family="DejaVu Sans" font-size="16" fill="#8ea3bd">RAND meta-analysis, 2025</text>
+  <rect x="800" y="164" width="340" height="280" rx="14" fill="#182a44" stroke="#2c4a72" stroke-width="2"/>
+  <text x="825" y="264" font-family="DejaVu Sans" font-size="84" font-weight="bold" fill="#f2b035">28%</text>
+  <text x="825" y="334" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">of AI use cases met</text><text x="825" y="364" font-family="DejaVu Sans" font-size="23" fill="#dbe6f2">ROI targets at all</text>
+  <text x="825" y="404" font-family="DejaVu Sans" font-size="16" fill="#8ea3bd">Gartner, 782 leaders, 2026</text>
+<text x="60" y="606" font-family="DejaVu Sans" font-size="15" fill="#5b7186">California · RAG pipelines California</text></svg>

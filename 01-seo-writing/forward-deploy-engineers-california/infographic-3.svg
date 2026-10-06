@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#0d1726"/>
+<rect width="1200" height="10" fill="#f2b035"/>
+<text x="60" y="56" font-family="DejaVu Sans" font-size="20" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
+<text x="60" y="130" font-family="DejaVu Sans" font-size="38" font-weight="bold" fill="#ffffff">HOW CALIFORNIA COMPANIES ACTUALLY SHIP</text>
+
+  <circle cx="105" cy="187" r="30" fill="#f2b035"/>
+  <text x="105" y="197" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">1</text>
+  <text x="170" y="195" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Buy 200 AI seats, declare victory, watch the roadmap stall</text>
+  <circle cx="105" cy="275" r="30" fill="#f2b035"/>
+  <text x="105" y="285" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">2</text>
+  <text x="170" y="283" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Hire consultants who write 6-month discovery decks</text>
+  <circle cx="105" cy="363" r="30" fill="#f2b035"/>
+  <text x="105" y="373" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">3</text>
+  <text x="170" y="371" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Staff offshore teams that need 3 months of onboarding</text>
+  <circle cx="105" cy="451" r="30" fill="#f2b035"/>
+  <text x="105" y="461" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">4</text>
+  <text x="170" y="459" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Embed 1 forward deploy engineer with production access</text>
+<text x="60" y="610" font-family="DejaVu Sans" font-size="15" fill="#5b7186">California · forward deploy engineers California</text></svg>

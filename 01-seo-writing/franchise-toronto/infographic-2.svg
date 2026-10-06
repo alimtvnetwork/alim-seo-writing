@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#ffffff"/>
+<rect x="0" y="0" width="1200" height="14" fill="#b3352b"/>
+<text x="600" y="110" text-anchor="middle" font-family="sans-serif" font-size="52" font-weight="bold" fill="#1a1a1a">THE GENAI DIVIDE</text>
+<text x="600" y="160" text-anchor="middle" font-family="sans-serif" font-size="26" fill="#555555">Enterprise AI pilots, measured by return &#8212; MIT Project NANDA, 2025</text>
+<rect x="120" y="230" width="440" height="200" rx="14" fill="#f7e8e6"/>
+<text x="340" y="330" text-anchor="middle" font-family="sans-serif" font-size="96" font-weight="bold" fill="#b3352b">95%</text>
+<text x="340" y="380" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#5a3a36">no measurable return</text>
+<rect x="640" y="230" width="440" height="200" rx="14" fill="#e8f3e8"/>
+<text x="860" y="330" text-anchor="middle" font-family="sans-serif" font-size="96" font-weight="bold" fill="#2e7d32">5%</text>
+<text x="860" y="380" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#33502f">reach production with value</text>
+<text x="600" y="500" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#1a1a1a">Toronto needs engineers, not licences.</text>
+<text x="600" y="585" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#888888">RISEUP ASIA LLC &#183; story series</text>
+</svg>

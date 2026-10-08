@@ -74,6 +74,16 @@ Evaluate in order; sequences are alphabetical within the parent, zero-padded 2 d
 - Area `<AA>` alphabetical: 01-california, 02-kuala-lumpur, 03-los-angeles, 04-new-york,
   05-san-diego, 06-sheridan, 07-wyoming. Franchise areas and suburbs likewise alphabetical.
 
+## As-built deviation (2026-10-09, Worker 01)
+
+Area-group articles were placed directly in the sequenced area folder with no extra
+slug level — `01-forward-deployed-engineers/<AA>-<area>/`,
+`02-franchise/<AA>-<area>/`, `03-software-engineering/<TT>-<topic>/<AA>-<area>/`,
+`04-seo-services/01-best-seo-company/<AA>-<suburb>/` — because each area holds exactly
+one article there, matching the user's described layout ("inside this, I would just keep
+the area names"). Sequence groups keep the `<NN>-<slug>` leaf. Verified: 205 leaf dirs,
+file count identical before/after, every leaf keeps its `writing.md`.
+
 ## Acceptance criteria
 
 - All ~200 article dirs moved; file count under `01-seo-writing/` identical before/after;

@@ -1,6 +1,6 @@
 # Plan: 01-seo-writing-restructure
 
-Status: ACTIVE — Phase 1 (spec/plan) complete; Phase 2 waves dispatch next.
+Status: COMPLETED 2026-10-09 — all waves done, pushed as 04bade9.
 Spec: 02-spec/21-app/01-seo-writing-restructure/
 
 ## Phases and owners

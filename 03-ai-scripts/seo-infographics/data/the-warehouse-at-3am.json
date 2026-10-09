@@ -1,0 +1,82 @@
+{
+ "articles": [
+  {
+   "slug": "the-warehouse-at-3am",
+   "dir": "01-seo-writing/05-riseup-asia-brand/50-the-warehouse-at-3am"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "LOGISTICS FIRMS WITH 75–100% CLEAN DATA",
+   "hero": "23%",
+   "proof": [
+    [
+     "nearly 1 in 3 admit ",
+     "muted"
+    ],
+    [
+     "<50% ",
+     "accent"
+    ],
+    [
+     "trustworthy · Ontegos, 800+",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "FANTASY VS FLOOR",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Optimize-first",
+     "Renamed streets",
+     "Fantasy warehouse",
+     "Stale feeds"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Audit-first",
+     "Driver-validated geocodes",
+     "Digitized local knowledge",
+     "Measured freshness"
+    ]
+   },
+   "verdict": "Audit the data before the route."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 LOGISTICS AI FAILURE MODES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Optimizing dirty addresses",
+     "desc": "garbage in, gospel out"
+    },
+    {
+     "rank": 2,
+     "title": "Training only on ran routes",
+     "desc": "the map has holes"
+    },
+    {
+     "rank": 3,
+     "title": "Cutting out the driver",
+     "desc": "the gospel arrives late"
+    },
+    {
+     "rank": 4,
+     "title": "Real-time on stale data",
+     "desc": "fantasy warehouse"
+    }
+   ]
+  }
+ ]
+}

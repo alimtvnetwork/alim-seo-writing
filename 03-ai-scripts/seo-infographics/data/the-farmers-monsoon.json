@@ -1,0 +1,66 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-farmers-monsoon",
+   "dir": "01-seo-writing/05-riseup-asia-brand/21-the-farmers-monsoon"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "FARMERS USING GEN AI",
+   "bars": [
+    {
+     "label": "GLOBAL",
+     "pct": 17
+    },
+    {
+     "label": "LATIN AMERICA",
+     "pct": 26
+    }
+   ],
+   "note": "McKinsey Global Farmer Insights"
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "THE ADOPTION GAP",
+   "bars": [
+    {
+     "label": "LARGE FARMS",
+     "pct": 60
+    },
+    {
+     "label": "SMALL FARMS",
+     "pct": 22
+    }
+   ],
+   "note": "Reaching the farms that need it least"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "FARMER-FIRST MODELING",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Encode farmer knowledge"
+    },
+    {
+     "rank": 2,
+     "title": "Retrieval layer"
+    },
+    {
+     "rank": 3,
+     "title": "Evaluate vs farmer calls"
+    },
+    {
+     "rank": 4,
+     "title": "Agronomist decides"
+    }
+   ]
+  }
+ ]
+}

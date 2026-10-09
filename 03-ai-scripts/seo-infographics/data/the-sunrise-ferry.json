@@ -1,0 +1,77 @@
+{
+ "articles": [
+  {
+   "slug": "the-sunrise-ferry",
+   "dir": "01-seo-writing/05-riseup-asia-brand/44-the-sunrise-ferry"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "THE GENAI DIVIDE · MIT PROJECT NANDA",
+   "hero": "95%",
+   "headline": "of pilots show no P&L impact",
+   "segments": [
+    {
+     "value": "$30–40B",
+     "label": "ENTERPRISE SPENDING"
+    },
+    {
+     "value": "5%",
+     "label": "RAPID REVENUE ACCELERATION"
+    }
+   ]
+  },
+  {
+   "layout": "model-cards",
+   "n": 2,
+   "eyebrow": "THE FERRY KEEPS ITS OWN LEDGER",
+   "hero": "6:40",
+   "headline": "sailing never missed",
+   "segments": [
+    {
+     "value": "200",
+     "label": "KOPI ORDERS BY HEART"
+    },
+    {
+     "value": "ZERO",
+     "label": "DASHBOARDS AT DAWN"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 FERRY RULES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Ledger before the model",
+     "desc": "count first"
+    },
+    {
+     "rank": 2,
+     "title": "Evaluation before celebration",
+     "desc": "proof before party"
+    },
+    {
+     "rank": 3,
+     "title": "Retrieval grounding",
+     "desc": "read before answering"
+    },
+    {
+     "rank": 4,
+     "title": "Cost per run, honestly",
+     "desc": "every cent counted"
+    },
+    {
+     "rank": 5,
+     "title": "One accountable name",
+     "desc": "someone signs"
+    }
+   ]
+  }
+ ]
+}

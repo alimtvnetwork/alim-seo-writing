@@ -1,0 +1,76 @@
+{
+ "articles": [
+  {
+   "slug": "the-travel-agents-brochure",
+   "dir": "01-seo-writing/05-riseup-asia-brand/48-the-travel-agents-brochure"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AI TRAVEL PLACES THAT DON'T EXIST",
+   "hero": "1 in 6",
+   "proof": [
+    [
+     "55% ",
+     "accent"
+    ],
+    [
+     "bad recommendations · Greetwell",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "DREAM VS RACK RATE",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Gorgeous unverified itineraries",
+     "Phantom destinations",
+     "Chatbots that can't book"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Live inventory",
+     "Cited facts",
+     "Measured conversion"
+    ]
+   },
+   "verdict": "Bookable beats beautiful."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 TRAVEL AI DISAPPOINTMENTS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Places that don't exist",
+     "desc": "stranded by fiction"
+    },
+    {
+     "rank": 2,
+     "title": "Confidently wrong prices",
+     "desc": "hours that lie"
+    },
+    {
+     "rank": 3,
+     "title": "\"Personalized\" ignoring constraints",
+     "desc": "personal in name only"
+    },
+    {
+     "rank": 4,
+     "title": "Chatbots that can't book",
+     "desc": "concierge with no desk"
+    }
+   ]
+  }
+ ]
+}

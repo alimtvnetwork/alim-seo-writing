@@ -1,0 +1,70 @@
+{
+ "articles": [
+  {
+   "slug": "the-recruiters-handshake",
+   "dir": "01-seo-writing/05-riseup-asia-brand/42-the-recruiters-handshake"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "APPLICATIONS REJECTED BY HIRING TOOLS",
+   "hero": "1.1B+",
+   "proof": [
+    [
+     "the number should ",
+     "muted"
+    ],
+    [
+     "frighten first",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "RESUME-NAME BIAS · UW STUDY",
+   "bars": [
+    {
+     "label": "White-associated favored",
+     "pct": 85
+    },
+    {
+     "label": "Female-associated favored",
+     "pct": 11
+    }
+   ],
+   "note": "bias laundered at scale"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "AUDITABLE HIRING",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Structured evidence",
+     "desc": "same bar, everyone"
+    },
+    {
+     "rank": 2,
+     "title": "Bias-audit the model",
+     "desc": "measure the skew"
+    },
+    {
+     "rank": 3,
+     "title": "Explain every rejection",
+     "desc": "reasons on record"
+    },
+    {
+     "rank": 4,
+     "title": "Human decides",
+     "desc": "handshake stays human"
+    }
+   ]
+  }
+ ]
+}

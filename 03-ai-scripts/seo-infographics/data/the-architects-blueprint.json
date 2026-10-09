@@ -1,0 +1,89 @@
+{
+ "articles": [
+  {
+   "slug": "the-architects-blueprint",
+   "dir": "01-seo-writing/07-engineering-culture/07-the-architects-blueprint"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "ORACLE VS GROUNDED MODEL",
+   "left": {
+    "head": "VALUATION ORACLE",
+    "rows": [
+     "Trusts the decimals",
+     "Automates the guess",
+     "Finds errors at earthworks"
+    ]
+   },
+   "right": {
+    "head": "GROUNDED MODEL",
+    "rows": [
+     "Backtests against real sales",
+     "Publishes the uncertainty",
+     "Valuer signs every figure"
+    ]
+   },
+   "verdict": "Engineer the judgment."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "5 PROPTECH MYTHS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The model has seen this property",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "More data means more accuracy",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "The decimals are real",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Automation removes the valuer",
+     "desc": ""
+    },
+    {
+     "rank": 5,
+     "title": "Backtesting is optional",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "OFF-MARKET MEDIAN ERROR RATE",
+   "hero": "7.06%",
+   "proof": [
+    [
+     "1.94% ",
+     "accent"
+    ],
+    [
+     "on-market · ",
+     "muted"
+    ],
+    [
+     "$70K ",
+     "accent"
+    ],
+    [
+     "error on a $1M home · Zillow",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

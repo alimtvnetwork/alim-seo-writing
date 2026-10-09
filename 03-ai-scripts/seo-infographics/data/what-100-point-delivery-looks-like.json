@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "what-100-point-delivery-looks-like",
+   "dir": "01-seo-writing/07-engineering-culture/13-what-100-point-delivery-looks-like"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AGENTIC AI PROJECTS CANCELLED",
+   "hero": "40%+",
+   "proof": [
+    [
+     "no officials, no score · ",
+     "muted"
+    ],
+    [
+     "Gartner 2025",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE PATH TO 100 POINTS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Evaluation evidence",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Requirements match",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Cost discipline",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Handoff quality",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "DIMENSIONS THAT COST THE MOST",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Evaluation evidence",
+     "desc": "Scoreboard with no lights"
+    },
+    {
+     "rank": 2,
+     "title": "Requirements match",
+     "desc": "Drift hides 20 points"
+    },
+    {
+     "rank": 3,
+     "title": "Cost discipline",
+     "desc": "Unit economics, not surprises"
+    },
+    {
+     "rank": 4,
+     "title": "Handoff quality",
+     "desc": "Done when the team runs it alone"
+    }
+   ]
+  }
+ ]
+}

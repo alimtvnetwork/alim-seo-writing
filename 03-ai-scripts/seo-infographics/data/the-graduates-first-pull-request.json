@@ -1,0 +1,72 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-graduates-first-pull-request",
+   "dir": "01-seo-writing/05-riseup-asia-brand/24-the-graduates-first-pull-request"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "SPECIALIZED-MODEL GROWTH",
+   "hero": "210%",
+   "proof": [
+    [
+     "Gartner · sharper tools, untrained hands",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TYPISTS VS ENGINEERS",
+   "left": {
+    "head": "FAST TYPISTS",
+    "rows": [
+     "Ship unverified code",
+     "Growing incident queues",
+     "Trust the machine"
+    ]
+   },
+   "right": {
+    "head": "ENGINEERS",
+    "rows": [
+     "Read every line",
+     "Tests are admission",
+     "Senior review"
+    ]
+   },
+   "verdict": "Read every line the machine writes."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 THINGS BOOTCAMPS SHOULD TEACH",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Read every line the machine writes"
+    },
+    {
+     "rank": 2,
+     "title": "Tests are the price of admission"
+    },
+    {
+     "rank": 3,
+     "title": "Know the failure modes by heart"
+    },
+    {
+     "rank": 4,
+     "title": "Cost per run is your problem too"
+    },
+    {
+     "rank": 5,
+     "title": "Own the merge"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "your-ip-your-repo",
+   "dir": "01-seo-writing/07-engineering-culture/18-your-ip-your-repo"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "NO MEASURABLE RETURN",
+   "hero": "95%",
+   "proof": [
+    [
+     "$30-40B spent anyway · ",
+     "muted"
+    ],
+    [
+     "MIT NANDA",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 OWNERSHIP GUARANTEES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Commits in your repo from day 1",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "IP assignment in writing",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "No copies on vendor infra",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "NDAs before credentials",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "PROTECTIONS THAT OUTLAST THE DEAL",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Commits in your repo day 1",
+     "desc": "Can't be withheld later"
+    },
+    {
+     "rank": 2,
+     "title": "IP assignment in writing",
+     "desc": "Paper beats memory"
+    },
+    {
+     "rank": 3,
+     "title": "No vendor copies",
+     "desc": "Never possessing beats deletion"
+    },
+    {
+     "rank": 4,
+     "title": "NDAs before credentials",
+     "desc": "Trust is verified"
+    }
+   ]
+  }
+ ]
+}

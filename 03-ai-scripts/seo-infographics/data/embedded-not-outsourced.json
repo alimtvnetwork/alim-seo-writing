@@ -1,0 +1,85 @@
+{
+ "articles": [
+  {
+   "slug": "embedded-not-outsourced",
+   "dir": "01-seo-writing/07-engineering-culture/03-embedded-not-outsourced"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "PARTNER-BUILT TOOLS DEPLOYED",
+   "hero": "67%",
+   "proof": [
+    [
+     "vs ",
+     "muted"
+    ],
+    [
+     "33% ",
+     "accent"
+    ],
+    [
+     "built internally · MIT NANDA",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 SIGNS OF TRUE EMBEDDING",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Commits land in the client repository",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Joins standups and rituals",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Owns outcomes, not tickets",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Knowledge stays after engagement",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "WHAT SURVIVES UNSUPERVISED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Commits in the client repository",
+     "desc": "Visible in your GitHub daily"
+    },
+    {
+     "rank": 2,
+     "title": "Joins standups and rituals",
+     "desc": "Talk to the builder directly"
+    },
+    {
+     "rank": 3,
+     "title": "Owns outcomes, not tickets",
+     "desc": "Answers for the release"
+    },
+    {
+     "rank": 4,
+     "title": "Knowledge stays after",
+     "desc": "Stronger in month 6"
+    }
+   ]
+  }
+ ]
+}

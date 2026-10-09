@@ -1,0 +1,58 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "from-kl-to-california",
+   "dir": "01-seo-writing/05-riseup-asia-brand/02-from-kl-to-california"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ENGINEERS PASSING THE 5-STAGE FILTER",
+   "hero": "5%",
+   "proof": [
+    [
+     "top 5% of applicants admitted",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE COMPANY JOURNEY",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The 5-stage filter"
+    },
+    {
+     "rank": 2,
+     "title": "The gitmap invention"
+    },
+    {
+     "rank": 3,
+     "title": "15+ years inventing in KL"
+    },
+    {
+     "rank": 4,
+     "title": "The California expansion"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "PRODUCTION ENGINEERING DEPTH",
+   "hero": "15+ YRS",
+   "proof": [
+    [
+     "Go · .NET · Rust · AI systems",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

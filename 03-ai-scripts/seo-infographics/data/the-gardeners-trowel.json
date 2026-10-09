@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-gardeners-trowel",
+   "dir": "01-seo-writing/05-riseup-asia-brand/23-the-gardeners-trowel"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "EXTRACT VALUE FROM AI",
+   "hero": "5%",
+   "proof": [
+    [
+     "MIT · the engineer-led slice",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "RENDERS VS SOIL",
+   "left": {
+    "head": "GORGEOUS RENDERS",
+    "rows": [
+     "Satellite guesses",
+     "Invisible drainage",
+     "No dirt under nails"
+    ]
+   },
+   "right": {
+    "head": "ACTUAL SOIL",
+    "rows": [
+     "Digitized soil records",
+     "Logged survival",
+     "Thumb on the dirt"
+    ]
+   },
+   "verdict": "Grow from actual soil."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 GREEN-TECH AI GAPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Planting plans ignore drainage"
+    },
+    {
+     "rank": 2,
+     "title": "Irrigation without sensors"
+    },
+    {
+     "rank": 3,
+     "title": "ID apps as pro tools"
+    },
+    {
+     "rank": 4,
+     "title": "Reports that invent treatments"
+    }
+   ]
+  }
+ ]
+}

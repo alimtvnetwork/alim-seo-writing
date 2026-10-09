@@ -1,0 +1,77 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-beekeepers-smoke",
+   "dir": "01-seo-writing/05-riseup-asia-brand/05-the-beekeepers-smoke"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "LEDGER VS DASHBOARD",
+   "left": {
+    "head": "THE DASHBOARD",
+    "rows": [
+     "Satellite platform",
+     "Unreadable in the field",
+     "Predictions nobody saw"
+    ]
+   },
+   "right": {
+    "head": "THE LEDGER",
+    "rows": [
+     "Water-stained book",
+     "15 years of bloom dates",
+     "Usable anywhere"
+    ]
+   },
+   "verdict": "Humility beats false precision."
+  },
+  {
+   "layout": "model-cards",
+   "n": 2,
+   "eyebrow": "SAAGU BAAGU · ENGINEER-LED",
+   "hero": "21%",
+   "headline": "higher chili yields",
+   "segments": [
+    {
+     "value": "2X",
+     "label": "FARMER INCOMES"
+    },
+    {
+     "value": "500K",
+     "label": "FARMERS SCALING UP"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 APIARY LESSONS, RANKED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The 2-decimal harvest"
+    },
+    {
+     "rank": 2,
+     "title": "The valley the model never met"
+    },
+    {
+     "rank": 3,
+     "title": "The dashboard with no signal"
+    },
+    {
+     "rank": 4,
+     "title": "The 10 percent adoption trap"
+    },
+    {
+     "rank": 5,
+     "title": "The ledger never digitized"
+    }
+   ]
+  }
+ ]
+}

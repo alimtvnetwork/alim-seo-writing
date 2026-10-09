@@ -1,0 +1,62 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "alim-ul-karim-build-philosophy",
+   "dir": "01-seo-writing/05-riseup-asia-brand/01-alim-ul-karim-build-philosophy"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "GENAI PILOTS, NO MEASURABLE ROI",
+   "hero": "95%",
+   "proof": [
+    [
+     "MIT Project NANDA",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE 5 BUILD PRINCIPLES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Evaluation before celebration"
+    },
+    {
+     "rank": 2,
+     "title": "Retrieval grounding before generation"
+    },
+    {
+     "rank": 3,
+     "title": "Cost-per-run discipline"
+    },
+    {
+     "rank": 4,
+     "title": "Accountable ownership"
+    },
+    {
+     "rank": 5,
+     "title": "Simplicity before cleverness"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "WORLDWIDE AI SPENDING, 2026",
+   "hero": "$2.7T",
+   "proof": [
+    [
+     "Gartner forecast · up 49.5% in a year",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

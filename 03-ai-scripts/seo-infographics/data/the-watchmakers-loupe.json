@@ -1,0 +1,86 @@
+{
+ "articles": [
+  {
+   "slug": "the-watchmakers-loupe",
+   "dir": "01-seo-writing/05-riseup-asia-brand/51-the-watchmakers-loupe"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "YEARS OF HANDWRITTEN SERVICE LEDGERS",
+   "hero": "40",
+   "proof": [
+    [
+     "4 decades ",
+     "accent"
+    ],
+    [
+     "of recorded failures",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE HARVEST CYCLE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Magnify first",
+     "desc": "loupe before judgment"
+    },
+    {
+     "rank": 2,
+     "title": "Read the ledgers",
+     "desc": "40 years of failures"
+    },
+    {
+     "rank": 3,
+     "title": "Extract with engineers",
+     "desc": "value, not demos"
+    },
+    {
+     "rank": 4,
+     "title": "Ask the 3 questions",
+     "desc": "loupe asks before shipping"
+    },
+    {
+     "rank": 5,
+     "title": "Ship only what's proven",
+     "desc": "judgment after magnification"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 WATCHMAKER VERDICTS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Phantom taste profile",
+     "desc": "knew no one's wrist"
+    },
+    {
+     "rank": 2,
+     "title": "Mute concierge",
+     "desc": "recommended owned watches"
+    },
+    {
+     "rank": 3,
+     "title": "Loyalty-punishing pricing",
+     "desc": "undercut own dealers"
+    },
+    {
+     "rank": 4,
+     "title": "Invented heritage story",
+     "desc": "fiction about fiction"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "articles": [
+  {
+   "slug": "custom-software-development-california",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/01-california"
+  },
+  {
+   "slug": "custom-software-development-kuala-lumpur",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/02-kuala-lumpur"
+  },
+  {
+   "slug": "custom-software-development-los-angeles",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/03-los-angeles"
+  },
+  {
+   "slug": "custom-software-development-new-york",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/04-new-york"
+  },
+  {
+   "slug": "custom-software-development-san-diego",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/05-san-diego"
+  },
+  {
+   "slug": "custom-software-development-sheridan",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/06-sheridan"
+  },
+  {
+   "slug": "custom-software-development-wyoming",
+   "dir": "01-seo-writing/03-software-engineering/04-custom-software-development/07-wyoming"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "CUSTOM SOFTWARE DEVELOPMENT · {{AREA}}",
+   "hero": "95%",
+   "headline": "of enterprise GenAI pilots fail",
+   "segments": [
+    {
+     "value": "80%+",
+     "label": "AI INITIATIVES FAIL"
+    },
+    {
+     "value": "28%",
+     "label": "HIT ROI TARGETS"
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "The GenAI divide",
+   "bars": [
+    {
+     "label": "No measurable return",
+     "pct": 95
+    },
+    {
+     "label": "delivering real business value",
+     "pct": 5
+    }
+   ],
+   "note": "MIT Project NANDA, 2025"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 CUSTOM-BUILD FACTORS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Proximity",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Weekly shipping",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Deletion discipline",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Data reality",
+     "desc": ""
+    },
+    {
+     "rank": 5,
+     "title": "Handoff plan",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "articles": [
+  {
+   "slug": "the-pilots-checklist",
+   "dir": "01-seo-writing/05-riseup-asia-brand/39-the-pilots-checklist"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "AIRLINE TECH SPEND, 2025",
+   "bars": [
+    {
+     "label": "Airline IT · $36B",
+     "pct": 71
+    },
+    {
+     "label": "Industry · $50.8B",
+     "pct": 100
+    }
+   ],
+   "note": "the scale of the bet"
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "CREW DELAYS AVOIDED",
+   "hero": "60–80%",
+   "proof": [
+    [
+     "Dartmouth · ",
+     "muted"
+    ],
+    [
+     "$13B ",
+     "accent"
+    ],
+    [
+     "in savings",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "CHECKLIST DISCIPLINE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Verify every line",
+     "desc": "no skipped steps"
+    },
+    {
+     "rank": 2,
+     "title": "AI advises",
+     "desc": "never commands"
+    },
+    {
+     "rank": 3,
+     "title": "Unify data first",
+     "desc": "one source of truth"
+    },
+    {
+     "rank": 4,
+     "title": "Dispatcher decides",
+     "desc": "human has final call"
+    }
+   ]
+  }
+ ]
+}

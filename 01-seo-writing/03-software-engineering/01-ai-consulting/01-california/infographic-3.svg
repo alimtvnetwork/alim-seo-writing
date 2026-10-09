@@ -1,19 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#0d1726"/>
-<rect width="1200" height="10" fill="#f2b035"/>
-<text x="60" y="56" font-family="DejaVu Sans" font-size="20" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
-<text x="60" y="130" font-family="DejaVu Sans" font-size="38" font-weight="bold" fill="#ffffff">4 WAYS CALIFORNIA HIRES AI CONSULTANTS</text>
-
-  <circle cx="105" cy="187" r="30" fill="#f2b035"/>
-  <text x="105" y="197" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">1</text>
-  <text x="170" y="195" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The embedded builder: ships in week 1</text>
-  <circle cx="105" cy="275" r="30" fill="#f2b035"/>
-  <text x="105" y="285" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">2</text>
-  <text x="170" y="283" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The specialist auditor: 2 weeks, 1 system</text>
-  <circle cx="105" cy="363" r="30" fill="#f2b035"/>
-  <text x="105" y="373" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">3</text>
-  <text x="170" y="371" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The big-firm strategy team: frameworks, no commits</text>
-  <circle cx="105" cy="451" r="30" fill="#f2b035"/>
-  <text x="105" y="461" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">4</text>
-  <text x="170" y="459" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The vendor's free consulting: a sales call in a lab coat</text>
-<text x="60" y="610" font-family="DejaVu Sans" font-size="15" fill="#5b7186">California · AI consulting California</text></svg>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">AI CONSULTANTS IN CALIFORNIA</text>
+<text x="195.0" y="177.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="154.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Embedded builder</text>
+<text x="195.0" y="291.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="267.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Specialist auditor</text>
+<text x="195.0" y="404.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="380.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Big-firm strategy team</text>
+<text x="195.0" y="516.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="494.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Vendor’s "free" consulting</text>
+</svg>

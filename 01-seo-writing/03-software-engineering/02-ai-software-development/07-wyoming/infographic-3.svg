@@ -1,31 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#faf9f6"/>
-<text x="60" y="70" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="bold" fill="#1c1c20">How RISEUP ASIA LLC staffs Wyoming projects</text>
-<rect x="60" y="180" width="196" height="200" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
-<text x="158" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#1a6e6e">1</text>
-<text x="158" y="290" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Stage 1</text>
-<text x="158" y="322" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Screen</text>
-<text x="266" y="295" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#b02a2a">→</text>
-<rect x="276" y="180" width="196" height="200" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
-<text x="374" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#1a6e6e">2</text>
-<text x="374" y="290" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Stage 2</text>
-<text x="374" y="322" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Code test</text>
-<text x="482" y="295" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#b02a2a">→</text>
-<rect x="492" y="180" width="196" height="200" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
-<text x="590" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#1a6e6e">3</text>
-<text x="590" y="290" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Stage 3</text>
-<text x="590" y="322" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Systems design</text>
-<text x="698" y="295" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#b02a2a">→</text>
-<rect x="708" y="180" width="196" height="200" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
-<text x="806" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#1a6e6e">4</text>
-<text x="806" y="290" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Stage 4</text>
-<text x="806" y="322" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">AI evaluation</text>
-<text x="914" y="295" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#b02a2a">→</text>
-<rect x="924" y="180" width="196" height="200" rx="14" fill="#ffffff" stroke="#d8d4cc"/>
-<text x="1022" y="245" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="30" font-weight="bold" fill="#1a6e6e">5</text>
-<text x="1022" y="290" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Stage 5</text>
-<text x="1022" y="322" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#1c1c20">Paid trial</text>
-<text x="600" y="460" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#1c1c20">Only the top 5% of applicants make it through</text>
-<text x="600" y="505" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#6e6e76">Evidence-led delivery for companies in Wyoming</text>
-<text x="60" y="600" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#6e6e76">RISEUP ASIA LLC · story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">WHAT SHIPS AI IN WYOMING</text>
+<text x="195.0" y="171.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="153.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Data ownership</text>
+<text x="195.0" y="260.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="241.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Evaluation harness</text>
+<text x="195.0" y="348.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="329.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Human-in-the-loop</text>
+<text x="195.0" y="435.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="417.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Cost modeling</text>
+<text x="195.0" y="523.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">5</text>
+<text x="235.0" y="505.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Kill switch</text>
 </svg>

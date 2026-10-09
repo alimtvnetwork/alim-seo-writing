@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "direct-team-rituals",
+   "dir": "01-seo-writing/07-engineering-culture/02-direct-team-rituals"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "FEEDBACK CYCLES",
+   "hero": "3 WKS",
+   "proof": [
+    [
+     "3-hour ",
+     "accent"
+    ],
+    [
+     "cycles are what the work needs",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE 4 DIRECT RITUALS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Daily standup, shared overlap hours",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Commits to the client repository",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "2-way code review",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Sprint planning with a voice",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "MOST CONTEXT PER MINUTE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Daily standup in overlap hours",
+     "desc": "15 minutes replaces 20 tickets"
+    },
+    {
+     "rank": 2,
+     "title": "Commits to your repository",
+     "desc": "Your IP, your repo"
+    },
+    {
+     "rank": 3,
+     "title": "2-way code review",
+     "desc": "Where standards transfer"
+    },
+    {
+     "rank": 4,
+     "title": "Sprint planning with a voice",
+     "desc": "Estimates with ownership"
+    }
+   ]
+  }
+ ]
+}

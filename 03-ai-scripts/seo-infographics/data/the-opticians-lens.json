@@ -1,0 +1,80 @@
+{
+ "articles": [
+  {
+   "slug": "the-opticians-lens",
+   "dir": "01-seo-writing/05-riseup-asia-brand/37-the-opticians-lens"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "2026 AI PLATFORMS & MODELS SPEND",
+   "hero": "$64B",
+   "proof": [
+    [
+     "Gartner · ",
+     "muted"
+    ],
+    [
+     "63.4% ",
+     "accent"
+    ],
+    [
+     "growth",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "MIRROR VS MEASUREMENT",
+   "left": {
+    "head": "GLOWING TABLET PROMISES",
+    "rows": [
+     "Adoption is easy",
+     "Selfies over fit",
+     "Trend-vector advice"
+    ]
+   },
+   "right": {
+    "head": "MEASURED OUTCOMES",
+    "rows": [
+     "Ownership is rare",
+     "Fit over selfie",
+     "Returns as ground truth"
+    ]
+   },
+   "verdict": "Fix the measurement, not the mirror."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "RETAIL AI VANITY PROJECTS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Virtual try-on, no pupillary distance",
+     "desc": "optimizes the selfie"
+    },
+    {
+     "rank": 2,
+     "title": "Chatbot stylist",
+     "desc": "no one accountable"
+    },
+    {
+     "rank": 3,
+     "title": "AI dynamic frame pricing",
+     "desc": "numbers without reasons"
+    },
+    {
+     "rank": 4,
+     "title": "AI product descriptions",
+     "desc": "words without eyes"
+    }
+   ]
+  }
+ ]
+}

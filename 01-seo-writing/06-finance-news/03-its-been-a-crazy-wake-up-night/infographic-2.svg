@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="304.0" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#A855F7" text-anchor="start" letter-spacing="8">SPEC MANAGEMENT SYSTEM</text>
+<text x="600.0" y="333.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F8FAFC" text-anchor="middle">45%</text>
+<rect x="309.5" y="420.0" width="581.0" height="104.0" rx="52" fill="#172036" stroke="#A855F7" stroke-width="2" stroke-opacity="0.43"/>
+<text x="384.5" y="480.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#94A3B8" text-anchor="start">5% → </text>
+<text x="466.5" y="480.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#A855F7" text-anchor="start">45%</text>
+<text x="539.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#94A3B8" text-anchor="start"> project success</text>
+</svg>

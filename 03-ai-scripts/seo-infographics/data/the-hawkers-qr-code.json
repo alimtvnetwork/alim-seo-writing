@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-hawkers-qr-code",
+   "dir": "01-seo-writing/05-riseup-asia-brand/25-the-hawkers-qr-code"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "WALKED AWAY WHEN TECH FAILED",
+   "hero": "37%",
+   "proof": [
+    [
+     "Canopy 2026 · 1,007 adults",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TWO PATTERNS",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Dead QR codes",
+     "Handoff-less AI",
+     "Unserviced kiosks"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Offline-first ordering",
+     "Designed handoffs",
+     "Monitoring that pages"
+    ]
+   },
+   "verdict": "Survive the lunch rush."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 FOOD-BUSINESS TECH TRAPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The QR code nobody maintains"
+    },
+    {
+     "rank": 2,
+     "title": "The drive-thru that can't answer"
+    },
+    {
+     "rank": 3,
+     "title": "The loyalty app that eats points"
+    },
+    {
+     "rank": 4,
+     "title": "The kiosk nobody services"
+    }
+   ]
+  }
+ ]
+}

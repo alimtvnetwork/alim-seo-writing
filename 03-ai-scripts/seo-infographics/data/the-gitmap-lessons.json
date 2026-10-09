@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "the-gitmap-lessons",
+   "dir": "01-seo-writing/07-engineering-culture/11-the-gitmap-lessons"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "NO MEASURABLE RETURN",
+   "hero": "95%",
+   "proof": [
+    [
+     "ships without specs · ",
+     "muted"
+    ],
+    [
+     "MIT NANDA",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE GITMAP DISCIPLINE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Never swallow errors",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Specify before coding",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Choose boring technology",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Release as a habit",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "PREVENTING EXPENSIVE FAILURES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Never swallow errors",
+     "desc": "2 AM mysteries become 10-minute fixes"
+    },
+    {
+     "rank": 2,
+     "title": "Specify before coding",
+     "desc": "Readable at 2,100 commits"
+    },
+    {
+     "rank": 3,
+     "title": "Boring technology",
+     "desc": "Go and SQLite, 420 releases"
+    },
+    {
+     "rank": 4,
+     "title": "Release as a habit",
+     "desc": "Progress legible, risk small"
+    }
+   ]
+  }
+ ]
+}

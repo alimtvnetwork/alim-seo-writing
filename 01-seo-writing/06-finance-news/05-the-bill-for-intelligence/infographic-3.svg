@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="140" r="430" fill="url(#gl)"/>
+<text x="441.5" y="120.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#38BDF8" text-anchor="start" letter-spacing="7">THE AI BUILDOUT</text>
+<text x="600.0" y="293.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="190" fill="#F8FAFC" text-anchor="middle">3</text>
+<text x="600.0" y="421.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="56" fill="#F8FAFC" text-anchor="middle">places the bill lands</text>
+<rect x="85.0" y="476.0" width="322.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="246.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">1</text>
+<text x="148.5" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">BALANCE SHEET</text>
+<rect x="439.0" y="476.0" width="322.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="600.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">2</text>
+<text x="522.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">POWER GRID</text>
+<rect x="793.0" y="476.0" width="322.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="954.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">3</text>
+<text x="870.5" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">EVERY QUERY</text>
+</svg>

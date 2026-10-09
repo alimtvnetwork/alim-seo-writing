@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-drivers-rearview",
+   "dir": "01-seo-writing/05-riseup-asia-brand/18-the-drivers-rearview"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO PLATFORMS",
+   "left": {
+    "head": "AI-SPENDING PLATFORM",
+    "rows": [
+     "Pricing oracle",
+     "Tuned for take rate",
+     "Driver protests"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PLATFORM",
+    "rows": [
+     "Models full economics",
+     "Publishes the pay math",
+     "Override for 2 a.m."
+    ]
+   },
+   "verdict": "No drivers, no marketplace."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 MOBILITY AI TRUTHS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The driver is the product"
+    },
+    {
+     "rank": 2,
+     "title": "Surge needs legibility"
+    },
+    {
+     "rank": 3,
+     "title": "Optimize the round trip"
+    },
+    {
+     "rank": 4,
+     "title": "Churn is the cost center"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "THE PRODUCT",
+   "hero": "DRIVERS",
+   "proof": [
+    [
+     "algorithms price rides humans drive",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

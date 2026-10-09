@@ -1,0 +1,78 @@
+{
+ "articles": [
+  {
+   "slug": "the-teller-who-counted-everything",
+   "dir": "01-seo-writing/05-riseup-asia-brand/47-the-teller-who-counted-everything"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "WRONG ANSWERS TO FINANCIAL QUESTIONS",
+   "hero": "57%",
+   "proof": [
+    [
+     "88% ",
+     "accent"
+    ],
+    [
+     "on harder questions · Saturn fintech",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "GUESSING VS VERIFYING",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Guessing from the open internet",
+     "No evaluation harness",
+     "Per-token billing",
+     "No named owner"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Grounded retrieval",
+     "Scored on 200 hardest",
+     "Cost per resolved query",
+     "Named owner"
+    ]
+   },
+   "verdict": "Verify every number."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 WAYS BANKS BURN AI BUDGETS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Chatbots on the open internet",
+     "desc": "uncited answers become fines"
+    },
+    {
+     "rank": 2,
+     "title": "Pilots with no evaluation",
+     "desc": "no harness, no learning"
+    },
+    {
+     "rank": 3,
+     "title": "Per-token for search-box work",
+     "desc": "2019 called"
+    },
+    {
+     "rank": 4,
+     "title": "No owner for wrong answers",
+     "desc": "nobody signs"
+    }
+   ]
+  }
+ ]
+}

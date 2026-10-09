@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "the-plumbers-wrench",
+   "dir": "01-seo-writing/05-riseup-asia-brand/40-the-plumbers-wrench"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "WORLDWIDE AI SPENDING FORECAST",
+   "hero": "$2.67T",
+   "proof": [
+    [
+     "Gartner · ",
+     "muted"
+    ],
+    [
+     "the river of money",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "VANS VS DISPATCHERS",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Animated vans",
+     "Rented enthusiasm",
+     "Theatre over fix"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Dispatcher knowledge",
+     "First-visit fix rates",
+     "The wrench decides"
+    ]
+   },
+   "verdict": "Start from the van, not the demo."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 HOME-SERVICES AI MISSES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Dispatch ignoring skill nuance",
+     "desc": "techs aren't interchangeable"
+    },
+    {
+     "rank": 2,
+     "title": "Arrival times to the minute",
+     "desc": "precision theater"
+    },
+    {
+     "rank": 3,
+     "title": "AI upsell scripts",
+     "desc": "trust killer"
+    },
+    {
+     "rank": 4,
+     "title": "Sentiment analysis on calls",
+     "desc": "feelings as KPIs"
+    },
+    {
+     "rank": 5,
+     "title": "AI job summaries for invoices",
+     "desc": "words instead of work"
+    }
+   ]
+  }
+ ]
+}

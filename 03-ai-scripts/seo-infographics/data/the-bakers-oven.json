@@ -1,0 +1,80 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-bakers-oven",
+   "dir": "01-seo-writing/05-riseup-asia-brand/03-the-bakers-oven"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AI HIGH PERFORMERS",
+   "hero": "6%",
+   "proof": [
+    [
+     "88% ",
+     "accent"
+    ],
+    [
+     "use AI · only ",
+     "muted"
+    ],
+    [
+     "39% ",
+     "accent"
+    ],
+    [
+     "see earnings impact",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TWO PATHS",
+   "left": {
+    "head": "LAST YEAR'S TUESDAYS",
+    "rows": [
+     "Forecasts on last year's Tuesdays",
+     "No weather features",
+     "No override logging"
+    ]
+   },
+   "right": {
+    "head": "THE BAKER'S WAY",
+    "rows": [
+     "Weather features in the model",
+     "Logged baker overrides",
+     "Weekly waste measured"
+    ]
+   },
+   "verdict": "The baker's knowledge, captured."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "BAKERY AI LESSONS, BY TUITION COST",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The model doesn't know it's raining"
+    },
+    {
+     "rank": 2,
+     "title": "Waste logs beat sales logs"
+    },
+    {
+     "rank": 3,
+     "title": "The override button is the product"
+    },
+    {
+     "rank": 4,
+     "title": "Simple models beat grand platforms"
+    }
+   ]
+  }
+ ]
+}

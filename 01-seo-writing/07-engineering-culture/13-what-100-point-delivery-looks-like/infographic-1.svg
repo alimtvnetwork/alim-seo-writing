@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#f7f5ef"/>
-<rect width="1200" height="96" fill="#12263a"/>
-<text x="60" y="60" font-family="sans-serif" font-size="32" fill="#ffffff">What 100-Point Delivery Looks Like</text>
-<text x="60" y="170" font-family="sans-serif" font-size="24" fill="#12263a">Agentic AI projects to be cancelled by end of 2027</text>
-<rect x="60" y="184" width="352" height="58" fill="#c0392b" rx="6"/>
-<text x="422" y="224" font-family="sans-serif" font-size="30" font-weight="bold" fill="#12263a">40%</text>
-<text x="60" y="320" font-family="sans-serif" font-size="24" fill="#12263a">Deliveries graded against a written 100-point standard</text>
-<rect x="60" y="334" width="880" height="58" fill="#1e8449" rx="6"/>
-<text x="950" y="374" font-family="sans-serif" font-size="30" font-weight="bold" fill="#12263a">100%</text>
-<text x="60" y="560" font-family="sans-serif" font-size="20" fill="#5a6b7d">Sheridan · RISEUP ASIA LLC · Alim Ul Karim · Gartner Jun 2025; the scoreboard model</text>
-<text x="1140" y="610" font-family="sans-serif" font-size="18" fill="#8a97a5" text-anchor="end">RISEUP ASIA LLC · story series</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="232.5" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#FFAD01" text-anchor="start" letter-spacing="8">AGENTIC AI PROJECTS CANCELLED</text>
+<text x="600.0" y="333.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F7F5F2" text-anchor="middle">40%+</text>
+<rect x="227.5" y="420.0" width="745.0" height="104.0" rx="52" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="302.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#ADA8A2" text-anchor="start">no officials, no score · </text>
+<text x="673.5" y="480.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#FFAD01" text-anchor="start">Gartner 2025</text>
 </svg>

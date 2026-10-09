@@ -1,0 +1,100 @@
+{
+ "articles": [
+  {
+   "slug": "legacy-modernization-california",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/01-california"
+  },
+  {
+   "slug": "legacy-modernization-kuala-lumpur",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/02-kuala-lumpur"
+  },
+  {
+   "slug": "legacy-modernization-los-angeles",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/03-los-angeles"
+  },
+  {
+   "slug": "legacy-modernization-new-york",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/04-new-york"
+  },
+  {
+   "slug": "legacy-modernization-san-diego",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/05-san-diego"
+  },
+  {
+   "slug": "legacy-modernization-sheridan",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/06-sheridan"
+  },
+  {
+   "slug": "legacy-modernization-wyoming",
+   "dir": "01-seo-writing/03-software-engineering/06-legacy-modernization/07-wyoming"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "LEGACY MODERNIZATION · {{AREA}}",
+   "hero": "95%",
+   "headline": "of enterprise GenAI pilots fail",
+   "segments": [
+    {
+     "value": "42%",
+     "label": "ABANDONED AI INITIATIVES"
+    },
+    {
+     "value": "27%",
+     "label": "CLOUD SPEND WASTED"
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "The GenAI divide",
+   "bars": [
+    {
+     "label": "No measurable return",
+     "pct": 95
+    },
+    {
+     "label": "modernizations that finish",
+     "pct": 5
+    }
+   ],
+   "note": "MIT Project NANDA, 2025"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 LEGACY MODERNIZATION MOVES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Rule extraction",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Strangler sequence",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Parallel reconciliation",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Interviewing maintainers",
+     "desc": ""
+    },
+    {
+     "rank": 5,
+     "title": "Rollback story",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-builders-tea-break",
+   "dir": "01-seo-writing/05-riseup-asia-brand/08-the-builders-tea-break"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "AI USE IN CONSTRUCTION",
+   "bars": [
+    {
+     "label": "2023",
+     "pct": 15
+    },
+    {
+     "label": "2025",
+     "pct": 75
+    }
+   ],
+   "note": "Association for Project Management"
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "NO AI AT ALL VS ORG-WIDE USE",
+   "hero": "45%",
+   "proof": [
+    [
+     "no AI at all · ",
+     "muted"
+    ],
+    [
+     "<1%",
+     "accent"
+    ],
+    [
+     " org-wide · RICS 2025",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "FOREMAN-LED DATA",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Notebook = ground truth"
+    },
+    {
+     "rank": 2,
+     "title": "Digitize real records"
+    },
+    {
+     "rank": 3,
+     "title": "Verify vs the slab"
+    },
+    {
+     "rank": 4,
+     "title": "PM signs off"
+    }
+   ]
+  }
+ ]
+}

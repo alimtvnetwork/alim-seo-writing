@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "why-engineering-beats-ai-hype",
+   "dir": "01-seo-writing/07-engineering-culture/15-why-engineering-beats-ai-hype"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ABANDONED MOST AI INITIATIVES",
+   "hero": "42%",
+   "proof": [
+    [
+     "up from 17% a year earlier · ",
+     "muted"
+    ],
+    [
+     "S&P Global",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "HYPE VS ENGINEERING",
+   "left": {
+    "head": "HYPE PLAYBOOK",
+    "rows": [
+     "Announcements as progress",
+     "Hallucinations as creativity",
+     "Token bills as innovation"
+    ]
+   },
+   "right": {
+    "head": "ENGINEERING PLAYBOOK",
+    "rows": [
+     "Measure first, always",
+     "Evaluation harnesses",
+     "Owners for failure paths"
+    ]
+   },
+   "verdict": "Engineering compounds."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "DURABILITY OF THE RESULT",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Evidence compounds",
+     "desc": "A measured win teaches the next"
+    },
+    {
+     "rank": 2,
+     "title": "Hype depreciates",
+     "desc": "Last year's demo, this year's joke"
+    },
+    {
+     "rank": 3,
+     "title": "Engineers own failures",
+     "desc": "Models don't take responsibility"
+    },
+    {
+     "rank": 4,
+     "title": "Cost discipline",
+     "desc": "Every run priced"
+    },
+    {
+     "rank": 5,
+     "title": "Trust",
+     "desc": "Customers remember what worked"
+    }
+   ]
+  }
+ ]
+}

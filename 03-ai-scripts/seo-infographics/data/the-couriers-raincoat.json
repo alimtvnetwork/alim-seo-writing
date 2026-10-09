@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-couriers-raincoat",
+   "dir": "01-seo-writing/05-riseup-asia-brand/16-the-couriers-raincoat"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO RETAILERS",
+   "left": {
+    "head": "AI-SPENDING RETAILER",
+    "rows": [
+     "Routing engine",
+     "Same-day, all weather",
+     "Celebrates the dashboard"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED RETAILER",
+    "rows": [
+     "Instruments the operation",
+     "Evaluates vs the monsoon",
+     "Rider's veto sacred"
+    ]
+   },
+   "verdict": "Promise only what the system can prove."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 E-COMMERCE AI GAPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The weather gap"
+    },
+    {
+     "rank": 2,
+     "title": "The last-door gap"
+    },
+    {
+     "rank": 3,
+     "title": "The override gap"
+    },
+    {
+     "rank": 4,
+     "title": "The promise gap"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "PARCELS IN THE FLOOD",
+   "hero": "14",
+   "proof": [
+    [
+     "one rider, redrawn route",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

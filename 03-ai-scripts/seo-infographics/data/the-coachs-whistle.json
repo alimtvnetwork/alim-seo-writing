@@ -1,0 +1,72 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-coachs-whistle",
+   "dir": "01-seo-writing/05-riseup-asia-brand/13-the-coachs-whistle"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "GENAI PILOTS, NO MEASURABLE RETURN",
+   "hero": "95%",
+   "proof": [
+    [
+     "MIT GenAI Divide",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TWO PATHS",
+   "left": {
+    "head": "AI-SPENDING PATH",
+    "rows": [
+     "Signs the platform",
+     "Uploads three seasons",
+     "Trusts the demo"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATH",
+    "rows": [
+     "Evaluates vs reality",
+     "Keeps the whistle human",
+     "Measures the scoreboard"
+    ]
+   },
+   "verdict": "The whistle still matters."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 SPORTS AI OVERCLAIMS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Injury prediction demos"
+    },
+    {
+     "rank": 2,
+     "title": "Video-only talent scouting"
+    },
+    {
+     "rank": 3,
+     "title": "Real-time formation optimization"
+    },
+    {
+     "rank": 4,
+     "title": "Personalized fan spam"
+    },
+    {
+     "rank": 5,
+     "title": "Auto-written match reports"
+    }
+   ]
+  }
+ ]
+}

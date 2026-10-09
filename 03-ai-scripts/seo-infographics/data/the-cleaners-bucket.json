@@ -1,0 +1,77 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-cleaners-bucket",
+   "dir": "01-seo-writing/05-riseup-asia-brand/12-the-cleaners-bucket"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO ROSTERS, ONE WINNER",
+   "left": {
+    "head": "AI SCHEDULER",
+    "rows": [
+     "Footfall and dispenser data",
+     "Judged by the pitch deck",
+     "Billed per tower monthly"
+    ]
+   },
+   "right": {
+    "head": "SUPERVISOR'S ROSTER",
+    "rows": [
+     "22 years of where dirt lands",
+     "Judged by the lobby at 8 AM",
+     "The 5:12 walk"
+    ]
+   },
+   "verdict": "A gleaming floor reads at a glance."
+  },
+  {
+   "layout": "model-cards",
+   "n": 2,
+   "eyebrow": "THE FACILITIES NUMBERS",
+   "hero": "18%",
+   "headline": "savings the platform promised",
+   "segments": [
+    {
+     "value": "0",
+     "label": "CLEANED ON TIME"
+    },
+    {
+     "value": "$12",
+     "label": "THE $12 VICTORY"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 LOBBY LESSONS, RANKED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The 8:05 lobby"
+    },
+    {
+     "rank": 2,
+     "title": "The phantom restroom"
+    },
+    {
+     "rank": 3,
+     "title": "The ant incident on 7"
+    },
+    {
+     "rank": 4,
+     "title": "The roster nobody believed"
+    },
+    {
+     "rank": 5,
+     "title": "The 9-month pilot"
+    }
+   ]
+  }
+ ]
+}

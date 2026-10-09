@@ -1,0 +1,78 @@
+{
+ "articles": [
+  {
+   "slug": "the-teachers-red-pen",
+   "dir": "01-seo-writing/05-riseup-asia-brand/46-the-teachers-red-pen"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AVG GAP: AI VS HUMAN ESSAY MARKS",
+   "hero": "16.1",
+   "proof": [
+    [
+     "40 at the individual level · ",
+     "muted"
+    ],
+    [
+     "Kay et al., 2026",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "SURFACE VS THOUGHT",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Surface grading",
+     "Compression to middle",
+     "Silent scale failure",
+     "Deference as policy"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Rubric grounding",
+     "Human benchmarking",
+     "Batch monitoring",
+     "Designed-in sign-off"
+    ]
+   },
+   "verdict": "Grade the thought, not the surface."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 THINGS AI TUTORS GET WRONG",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Grade the surface",
+     "desc": "not the thought"
+    },
+    {
+     "rank": 2,
+     "title": "Compress to the middle",
+     "desc": "teaches safe writing"
+    },
+    {
+     "rank": 3,
+     "title": "Launder errors via trust",
+     "desc": "teacher's name, machine's miss"
+    },
+    {
+     "rank": 4,
+     "title": "Fail quietly at scale",
+     "desc": "deference becomes policy"
+    }
+   ]
+  }
+ ]
+}

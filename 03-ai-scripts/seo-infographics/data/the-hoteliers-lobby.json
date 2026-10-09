@@ -1,0 +1,61 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-hoteliers-lobby",
+   "dir": "01-seo-writing/05-riseup-asia-brand/26-the-hoteliers-lobby"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "HOTEL AI: USE VS STRATEGY",
+   "bars": [
+    {
+     "label": "USE AI",
+     "pct": 78
+    },
+    {
+     "label": "FORMAL STRATEGY",
+     "pct": 8
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "TRUST IN AI VS ACTUAL RELIANCE",
+   "hero": "6.6 / 4.7",
+   "proof": [
+    [
+     "fragmented data underneath",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "STAFF-EMPOWERED SYSTEMS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The hotel's own guest history"
+    },
+    {
+     "rank": 2,
+     "title": "Surface what Mei knows"
+    },
+    {
+     "rank": 3,
+     "title": "Test off-peak"
+    },
+    {
+     "rank": 4,
+     "title": "Staff decides"
+    }
+   ]
+  }
+ ]
+}

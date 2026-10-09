@@ -1,0 +1,81 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-barbers-clippers",
+   "dir": "01-seo-writing/05-riseup-asia-brand/04-the-barbers-clippers"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO SHOPS",
+   "left": {
+    "head": "AI-SPENDING SHOP",
+    "rows": [
+     "Booking oracle bot",
+     "Pays per message",
+     "Celebrates the dashboard"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED SHOP",
+    "rows": [
+     "Measures walkouts first",
+     "Texts the waitlist",
+     "Kills the bot if it fails"
+    ]
+   },
+   "verdict": "Earn it, one measured fix at a time."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "5 SMALL-BUSINESS AI TRAPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The per-message money pit"
+    },
+    {
+     "rank": 2,
+     "title": "Automating a broken process"
+    },
+    {
+     "rank": 3,
+     "title": "Dashboard theatre"
+    },
+    {
+     "rank": 4,
+     "title": "No-exit contracts"
+    },
+    {
+     "rank": 5,
+     "title": "Skipping the free fix"
+    }
+   ]
+  },
+  {
+   "layout": "model-cards",
+   "n": 3,
+   "eyebrow": "SMALL BUSINESS · AI ADOPTION",
+   "hero": "58%",
+   "headline": "used generative AI in 2025",
+   "segments": [
+    {
+     "value": "$67K",
+     "label": "YEARLY NO-SHOW LOSS"
+    },
+    {
+     "value": "10-30%",
+     "label": "NO-SHOW RATE RANGE"
+    },
+    {
+     "value": "95%",
+     "label": "PILOTS, NO RETURN"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "articles": [
+  {
+   "slug": "the-cheapest-developer-fallacy",
+   "dir": "01-seo-writing/07-engineering-culture/08-the-cheapest-developer-fallacy"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "OVER THE SENIOR-TEAM QUOTE",
+   "hero": "40%",
+   "proof": [
+    [
+     "after rework at emergency rates",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "WHERE THE CHEAP QUOTE BREAKS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Rework at senior rates",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Missed sprints, slipped launches",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Senior time spent repairing",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Handover gaps, lost knowledge",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "THE REAL PRICE OF CHEAP",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Rework at senior rates",
+     "desc": "2-3x the original saving"
+    },
+    {
+     "rank": 2,
+     "title": "Missed sprints",
+     "desc": "A quarter lost to timing"
+    },
+    {
+     "rank": 3,
+     "title": "Seniors repairing, not building",
+     "desc": "Hours stolen from features"
+    },
+    {
+     "rank": 4,
+     "title": "Handover gaps",
+     "desc": "Knowledge walks out the door"
+    }
+   ]
+  }
+ ]
+}

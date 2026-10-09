@@ -1,0 +1,72 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-factory-whistle",
+   "dir": "01-seo-writing/05-riseup-asia-brand/20-the-factory-whistle"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "LOST TO UNPLANNED DOWNTIME / YEAR",
+   "hero": "$50B",
+   "proof": [
+    [
+     "Deloitte · Siemens 2024",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TWO PATTERNS",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Decoration dashboards",
+     "Wrong machines",
+     "Ignored alarms"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Instrument-first sequencing",
+     "Corrected sensor maps",
+     "Clipboard authority"
+    ]
+   },
+   "verdict": "Instrument first, predict second."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 STAGES OF FACTORY AI MATURITY",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Dashboard, no sensors"
+    },
+    {
+     "rank": 2,
+     "title": "Sensors nobody trusts"
+    },
+    {
+     "rank": 3,
+     "title": "Alerts tuned on real logs"
+    },
+    {
+     "rank": 4,
+     "title": "Prediction verified by humans"
+    },
+    {
+     "rank": 5,
+     "title": "The system pays for itself"
+    }
+   ]
+  }
+ ]
+}

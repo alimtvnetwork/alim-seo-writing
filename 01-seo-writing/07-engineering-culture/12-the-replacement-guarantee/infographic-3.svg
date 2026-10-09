@@ -1,20 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#f7f5ef"/>
-<rect width="1200" height="96" fill="#12263a"/>
-<text x="60" y="60" font-family="sans-serif" font-size="32" fill="#ffffff">The Replacement Guarantee</text>
-<text x="60" y="150" font-family="sans-serif" font-size="24" fill="#12263a">My criterion: which feature protects the project when things go wrong</text>
-<rect x="60" y="190" width="1080" height="100" fill="#ffffff" stroke="#12263a" stroke-width="2" rx="10"/>
-<circle cx="130" cy="240" r="32" fill="#d4a017"/>
-<text x="130" y="253" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
-<text x="185" y="250" font-family="sans-serif" font-size="24" fill="#12263a">Free replacement of a bad fit</text>
-<rect x="60" y="310" width="1080" height="100" fill="#ffffff" stroke="#12263a" stroke-width="2" rx="10"/>
-<circle cx="130" cy="360" r="32" fill="#7f8c8d"/>
-<text x="130" y="373" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
-<text x="185" y="370" font-family="sans-serif" font-size="24" fill="#12263a">Your IP, your repo</text>
-<rect x="60" y="430" width="1080" height="100" fill="#ffffff" stroke="#12263a" stroke-width="2" rx="10"/>
-<circle cx="130" cy="480" r="32" fill="#a0622d"/>
-<text x="130" y="493" font-family="sans-serif" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
-<text x="185" y="490" font-family="sans-serif" font-size="24" fill="#12263a">Fourteen-day placement</text>
-<text x="60" y="590" font-family="sans-serif" font-size="20" fill="#5a6b7d">New York · RISEUP ASIA LLC · Alim Ul Karim</text>
-<text x="1140" y="610" font-family="sans-serif" font-size="18" fill="#8a97a5" text-anchor="end">RISEUP ASIA LLC · story series</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F7F5F2" text-anchor="middle">WHEN THINGS GO WRONG</text>
+<text x="195.0" y="177.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">1</text>
+<text x="235.0" y="154.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Free replacement of a bad fit</text>
+<text x="235.0" y="184.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Lose weeks, not quarters</text>
+<text x="195.0" y="291.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">2</text>
+<text x="235.0" y="265.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Your IP, your repo</text>
+<text x="235.0" y="297.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">No hostage situations</text>
+<text x="195.0" y="404.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">3</text>
+<text x="235.0" y="379.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">14-day placement</text>
+<text x="235.0" y="410.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Speed without gambling</text>
+<text x="195.0" y="516.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">4</text>
+<text x="235.0" y="493.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Direct team rituals</text>
+<text x="235.0" y="523.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Rarely needs replacing</text>
 </svg>

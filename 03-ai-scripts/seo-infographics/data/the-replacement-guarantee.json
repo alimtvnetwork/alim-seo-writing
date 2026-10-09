@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "the-replacement-guarantee",
+   "dir": "01-seo-writing/07-engineering-culture/12-the-replacement-guarantee"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AVERAGE COST PER BAD HIRE",
+   "hero": "$5,475",
+   "proof": [
+    [
+     "non-executive · ",
+     "muted"
+    ],
+    [
+     "SHRM 2025",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "HOW THE GUARANTEE WORKS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Free replacement of a bad fit",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Your IP, your repo",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "14-day placement",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Direct team rituals",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "WHEN THINGS GO WRONG",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Free replacement of a bad fit",
+     "desc": "Lose weeks, not quarters"
+    },
+    {
+     "rank": 2,
+     "title": "Your IP, your repo",
+     "desc": "No hostage situations"
+    },
+    {
+     "rank": 3,
+     "title": "14-day placement",
+     "desc": "Speed without gambling"
+    },
+    {
+     "rank": 4,
+     "title": "Direct team rituals",
+     "desc": "Rarely needs replacing"
+    }
+   ]
+  }
+ ]
+}

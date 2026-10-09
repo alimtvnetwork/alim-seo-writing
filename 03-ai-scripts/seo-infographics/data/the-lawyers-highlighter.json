@@ -1,0 +1,70 @@
+{
+ "articles": [
+  {
+   "slug": "the-lawyers-highlighter",
+   "dir": "01-seo-writing/05-riseup-asia-brand/29-the-lawyers-highlighter"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "FIRST-PASS REVIEW TIME",
+   "bars": [
+    {
+     "label": "Manual review",
+     "pct": 100
+    },
+    {
+     "label": "AI-assisted",
+     "pct": 40
+    }
+   ],
+   "note": "55–65% faster with AI"
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "ADOPTION UP, IMPACT FLAT",
+   "bars": [
+    {
+     "label": "AI adoption",
+     "pct": 78
+    },
+    {
+     "label": "See business impact",
+     "pct": 15
+    }
+   ],
+   "note": "the gap is the argument"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "THE ENGINEER-LED REVIEW",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Retrieve firm playbooks",
+     "desc": "ground in precedent"
+    },
+    {
+     "rank": 2,
+     "title": "Evaluate vs lawyer markups",
+     "desc": "the human sets the bar"
+    },
+    {
+     "rank": 3,
+     "title": "Track cost per run",
+     "desc": "every run accounted"
+    },
+    {
+     "rank": 4,
+     "title": "Lawyer signs off",
+     "desc": "accountability stays human"
+    }
+   ]
+  }
+ ]
+}

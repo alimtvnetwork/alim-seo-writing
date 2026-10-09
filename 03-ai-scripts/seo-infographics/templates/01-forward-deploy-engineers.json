@@ -1,0 +1,95 @@
+{
+ "articles": [
+  {
+   "slug": "forward-deploy-engineers-california",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/01-california"
+  },
+  {
+   "slug": "forward-deploy-engineers-kuala-lumpur",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/02-kuala-lumpur"
+  },
+  {
+   "slug": "forward-deploy-engineers-los-angeles",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/03-los-angeles"
+  },
+  {
+   "slug": "forward-deploy-engineers-new-york",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/04-new-york"
+  },
+  {
+   "slug": "forward-deploy-engineers-san-diego",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/05-san-diego"
+  },
+  {
+   "slug": "forward-deploy-engineers-sheridan",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/06-sheridan"
+  },
+  {
+   "slug": "forward-deploy-engineers-wyoming",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/07-wyoming"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "FORWARD DEPLOY ENGINEERS · {{AREA}}",
+   "hero": "95%",
+   "headline": "of enterprise GenAI pilots fail",
+   "segments": [
+    {
+     "value": "27%",
+     "label": "CLOUD SPEND WASTED"
+    },
+    {
+     "value": "80%+",
+     "label": "AI INITIATIVES FAIL"
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "The GenAI divide",
+   "bars": [
+    {
+     "label": "No measurable return",
+     "pct": 95
+    },
+    {
+     "label": "Producing rapid meaningful returns",
+     "pct": 5
+    }
+   ],
+   "note": "MIT Project NANDA, 2025"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "HOW {{AREA}} SHIPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Buy 200 AI seats",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "6-month consulting decks",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "3-month offshore onboarding",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Embed 1 forward-deploy engineer",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

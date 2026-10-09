@@ -1,0 +1,100 @@
+{
+ "articles": [
+  {
+   "slug": "best-software-engineers-california",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/01-california"
+  },
+  {
+   "slug": "best-software-engineers-kuala-lumpur",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/02-kuala-lumpur"
+  },
+  {
+   "slug": "best-software-engineers-los-angeles",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/03-los-angeles"
+  },
+  {
+   "slug": "best-software-engineers-new-york",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/04-new-york"
+  },
+  {
+   "slug": "best-software-engineers-san-diego",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/05-san-diego"
+  },
+  {
+   "slug": "best-software-engineers-sheridan",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/06-sheridan"
+  },
+  {
+   "slug": "best-software-engineers-wyoming",
+   "dir": "01-seo-writing/03-software-engineering/03-best-software-engineers/07-wyoming"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "BEST SOFTWARE ENGINEERS · {{AREA}}",
+   "hero": "95%",
+   "headline": "of enterprise GenAI pilots fail",
+   "segments": [
+    {
+     "value": "80%+",
+     "label": "AI INITIATIVES FAIL"
+    },
+    {
+     "value": "27%",
+     "label": "CLOUD SPEND WASTED"
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "The GenAI divide",
+   "bars": [
+    {
+     "label": "No measurable return",
+     "pct": 95
+    },
+    {
+     "label": "capturing real value at scale",
+     "pct": 5
+    }
+   ],
+   "note": "MIT Project NANDA, 2025"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "{{AREA}}: 5 ENGINEER TRAITS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Production scar tissue",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Deletion instinct",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Data fluency",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Business literacy",
+     "desc": ""
+    },
+    {
+     "rank": 5,
+     "title": "Speed of repair",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

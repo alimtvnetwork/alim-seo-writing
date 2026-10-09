@@ -1,0 +1,70 @@
+{
+ "articles": [
+  {
+   "slug": "the-forward-deployed-engineer",
+   "dir": "01-seo-writing/01-forward-deployed-engineers/08-brand/the-forward-deployed-engineer"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ENTERPRISE GENAI PILOTS",
+   "hero": "95%",
+   "proof": [
+    [
+     "95% ",
+     "accent"
+    ],
+    [
+     "no measurable return",
+     "muted"
+    ],
+    [
+     " · $30-40B ",
+     "muted"
+    ],
+    [
+     "enterprise spend",
+     "muted"
+    ]
+   ],
+   "source": "MIT Project NANDA · 2025"
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "TWO PATTERNS",
+   "left": {
+    "head": "THE AI-SPENDING PATTERN",
+    "rows": [
+     "Buy 200 AI seats",
+     "6-month consulting decks",
+     "Pilots that never ship"
+    ]
+   },
+   "right": {
+    "head": "THE ENGINEER-LED PATTERN",
+    "rows": [
+     "Embed with the client",
+     "Ship to production",
+     "Stay until it works"
+    ]
+   },
+   "verdict": "Embed the engineer."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "PILOT TO PRODUCTION: 5 MOVES",
+   "factors": [
+    "Production access",
+    "Real error logs",
+    "Deployed fixes",
+    "Client embedding",
+    "Ownership to done"
+   ]
+  }
+ ]
+}

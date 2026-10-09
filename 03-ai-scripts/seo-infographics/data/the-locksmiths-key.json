@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "the-locksmiths-key",
+   "dir": "01-seo-writing/05-riseup-asia-brand/31-the-locksmiths-key"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "SECURITY AI HALLUCINATION RATE",
+   "hero": "69–88%",
+   "proof": [
+    [
+     "Stanford range · ",
+     "muted"
+    ],
+    [
+     "pro tools fail too",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "CAMERA VS GUARD",
+   "left": {
+    "head": "RED-BOX DEMOS",
+    "rows": [
+     "Red-box demos",
+     "Alert fatigue",
+     "Camera mistakes"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED",
+    "rows": [
+     "Audited cameras",
+     "Guard ground truth",
+     "Verified response"
+    ]
+   },
+   "verdict": "A camera is not a guard."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "SECURITY AI BLIND SPOTS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Behavior analytics, no baseline",
+     "desc": "no truth to compare"
+    },
+    {
+     "rank": 2,
+     "title": "Badge anomalies in isolation",
+     "desc": "context-free alerts"
+    },
+    {
+     "rank": 3,
+     "title": "Predictive patrol routing",
+     "desc": "maps, not streets"
+    },
+    {
+     "rank": 4,
+     "title": "AI incident summaries",
+     "desc": "compliance theater"
+    },
+    {
+     "rank": 5,
+     "title": "Facial recognition as access",
+     "desc": "identity is not intent"
+    }
+   ]
+  }
+ ]
+}

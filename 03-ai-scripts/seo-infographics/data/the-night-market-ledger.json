@@ -1,0 +1,83 @@
+{
+ "articles": [
+  {
+   "slug": "the-night-market-ledger",
+   "dir": "01-seo-writing/05-riseup-asia-brand/35-the-night-market-ledger"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "FORECAST ERROR AFTER LOCAL RETRAINING",
+   "hero": "22% → 7%",
+   "proof": [
+    [
+     "18–25% ",
+     "accent"
+    ],
+    [
+     "off-the-shelf gap · CSIRO",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "FOREIGN MODEL VS LOCAL LEDGER",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Foreign calendars",
+     "Thanksgiving turkeys in Penang",
+     "No backtest",
+     "Shelfware license"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Local data layers",
+     "Payday features",
+     "2-season backtest",
+     "Week-1 cost math"
+    ]
+   },
+   "verdict": "Demand is local or fiction."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 SIGNS OF RETAIL AI THEATRE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Can't name local events",
+     "desc": "demand is local or fiction"
+    },
+    {
+     "rank": 2,
+     "title": "Never backtested",
+     "desc": "no worst seasons"
+    },
+    {
+     "rank": 3,
+     "title": "Planners still use spreadsheets",
+     "desc": "ask why"
+    },
+    {
+     "rank": 4,
+     "title": "Costs more than waste saved",
+     "desc": "theater has rent"
+    },
+    {
+     "rank": 5,
+     "title": "No human override",
+     "desc": "pencils beat dictatorships"
+    }
+   ]
+  }
+ ]
+}

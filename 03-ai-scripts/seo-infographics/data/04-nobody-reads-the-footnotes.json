@@ -1,0 +1,80 @@
+{
+ "theme": "navy-purple",
+ "articles": [
+  {
+   "slug": "nobody-reads-the-footnotes",
+   "dir": "01-seo-writing/06-finance-news/04-nobody-reads-the-footnotes"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "HEADLINES vs FOOTNOTES",
+   "left": {
+    "head": "HEADLINES",
+    "rows": [
+     "Written to be repeated",
+     "Revenue up, growth strong",
+     "What happened"
+    ]
+   },
+   "right": {
+    "head": "FOOTNOTES",
+    "rows": [
+     "Written to be defensible",
+     "Where the story lives",
+     "The definition, redefined"
+    ]
+   },
+   "verdict": "Start with the footnotes."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "WHAT GETS BURIED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Related-party deals",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Auditor switches",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Concentration risk",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Going-concern warnings",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "COMPLIANCE AS CAMOUFLAGE",
+   "hero": "8-PT",
+   "proof": [
+    [
+     "accurate · ",
+     "muted"
+    ],
+    [
+     "complete · ",
+     "muted"
+    ],
+    [
+     "in 8-point type",
+     "accent"
+    ]
+   ]
+  }
+ ]
+}

@@ -1,17 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#0F1B2D"/>
-<text x="60" y="80" font-family="sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">SEO in Melton: where the clicks go</text>
-<text x="60" y="122" font-family="sans-serif" font-size="22" fill="#94A3B8">Organic click share by Google ranking position · FirstPageSage 2025</text>
-<text x="60" y="220" font-family="sans-serif" font-size="24" fill="#FFFFFF">Position 1</text>
-<rect x="260" y="190" width="672" height="44" rx="8" fill="#2dd4bf"/>
-<text x="952" y="222" font-family="sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">39.8%</text>
-<text x="60" y="304" font-family="sans-serif" font-size="24" fill="#FFFFFF">Position 2</text>
-<rect x="260" y="274" width="315" height="44" rx="8" fill="#f59e0b"/>
-<text x="595" y="306" font-family="sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">18.7%</text>
-<text x="60" y="388" font-family="sans-serif" font-size="24" fill="#FFFFFF">Position 3</text>
-<rect x="260" y="358" width="172" height="44" rx="8" fill="#94a3b8"/>
-<text x="452" y="390" font-family="sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF">10.2%</text>
-<text x="60" y="500" font-family="sans-serif" font-size="24" fill="#94A3B8">The top 3 organic results take 68.7% of clicks on a clean page.</text>
-<text x="60" y="536" font-family="sans-serif" font-size="24" fill="#94A3B8">2026 update: local pack position 1 holds 14.8% — the most resilient surface.</text>
-<text x="60" y="590" font-family="sans-serif" font-size="20" fill="#64748B">RISEUP ASIA LLC · story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="109.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">Melton on Google</text>
+<text x="195.0" y="191.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="167.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">seo company Melton</text>
+<text x="235.0" y="198.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Local partner, not a call centre</text>
+<text x="195.0" y="305.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="280.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">best seo company Melton</text>
+<text x="235.0" y="311.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Proof and evidence, not promises</text>
+<text x="195.0" y="418.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="394.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">seo services near me</text>
+<text x="235.0" y="424.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Fast contact, clear pricing</text>
+<text x="195.0" y="530.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="506.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">cheap seo melbourne</text>
+<text x="235.0" y="537.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Lowest price, highest AI-spam risk</text>
 </svg>

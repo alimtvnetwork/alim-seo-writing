@@ -1,0 +1,87 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-bootcamp-whiteboard",
+   "dir": "01-seo-writing/05-riseup-asia-brand/06-the-bootcamp-whiteboard"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO CLASSROOMS",
+   "left": {
+    "head": "AI-HYPE COURSE",
+    "rows": [
+     "Buys the tools",
+     "Trains click-through",
+     "Celebrates demos"
+    ]
+   },
+   "right": {
+    "head": "HARVEST-MINDED BOOTCAMP",
+    "rows": [
+     "Debugs real failures",
+     "Measures cost per run",
+     "Grades evaluation"
+    ]
+   },
+   "verdict": "Clear, paced, circled twice."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "5 SIGNS OF A SERIOUS BOOTCAMP",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Students explain a failure"
+    },
+    {
+     "rank": 2,
+     "title": "Curriculum measures cost per run"
+    },
+    {
+     "rank": 3,
+     "title": "Retrieval before generation"
+    },
+    {
+     "rank": 4,
+     "title": "Instructors ship real systems"
+    },
+    {
+     "rank": 5,
+     "title": "Evaluation is graded, not vibes"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "THE ENGINEER'S LOOP",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Build"
+    },
+    {
+     "rank": 2,
+     "title": "Break"
+    },
+    {
+     "rank": 3,
+     "title": "Measure"
+    },
+    {
+     "rank": 4,
+     "title": "Fix"
+    },
+    {
+     "rank": 5,
+     "title": "Document"
+    }
+   ]
+  }
+ ]
+}

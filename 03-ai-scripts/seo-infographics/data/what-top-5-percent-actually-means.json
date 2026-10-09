@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "what-top-5-percent-actually-means",
+   "dir": "01-seo-writing/07-engineering-culture/14-what-top-5-percent-actually-means"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AI HIGH PERFORMERS",
+   "hero": "6%",
+   "proof": [
+    [
+     "5% of EBIT from AI · ",
+     "muted"
+    ],
+    [
+     "McKinsey 2026",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "RESUME FILTER VS EVIDENCE FILTER",
+   "left": {
+    "head": "RESUME FILTER",
+    "rows": [
+     "Pedigree and keywords",
+     "Whiteboard speed",
+     "Interview performance"
+    ]
+   },
+   "right": {
+    "head": "EVIDENCE FILTER",
+    "rows": [
+     "Shipped production systems",
+     "Incident stories",
+     "Measurement habit"
+    ]
+   },
+   "verdict": "Trust production, not pedigree."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "PREDICTING ON-THE-JOB PERFORMANCE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Shipped production systems",
+     "desc": "The only credential that transfers"
+    },
+    {
+     "rank": 2,
+     "title": "Incident stories",
+     "desc": "Failure reveals judgment"
+    },
+    {
+     "rank": 3,
+     "title": "Measurement habit",
+     "desc": "Instrument before arguing"
+    },
+    {
+     "rank": 4,
+     "title": "Cost awareness",
+     "desc": "Spend as design input"
+    },
+    {
+     "rank": 5,
+     "title": "Written communication",
+     "desc": "Clear writing, clear thinking"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "articles": [
+  {
+   "slug": "the-riseuppro-pipeline",
+   "dir": "01-seo-writing/05-riseup-asia-brand/43-the-riseuppro-pipeline"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "THE RISEUPRO FILTER",
+   "bars": [
+    {
+     "label": "Enter the filter",
+     "pct": 100
+    },
+    {
+     "label": "Reach production · top 5%",
+     "pct": 5
+    }
+   ],
+   "note": "5 stages, bootcamp to production"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE 5-STAGE PIPELINE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Sign-up",
+     "desc": "open the door"
+    },
+    {
+     "rank": 2,
+     "title": "Training & assessment",
+     "desc": "foundations first"
+    },
+    {
+     "rank": 3,
+     "title": "Practical assignment",
+     "desc": "ambiguity is the test"
+    },
+    {
+     "rank": 4,
+     "title": "Client simulation",
+     "desc": "the whitewash stage"
+    },
+    {
+     "rank": 5,
+     "title": "Live test & hire",
+     "desc": "observed, not interviewed"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "STAGES THAT PREDICT PRODUCTION",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Practical assignment",
+     "desc": "tutorials predict nothing"
+    },
+    {
+     "rank": 2,
+     "title": "Client simulation",
+     "desc": "no panic at first real one"
+    },
+    {
+     "rank": 3,
+     "title": "Live test & hire",
+     "desc": "working session, not quiz"
+    },
+    {
+     "rank": 4,
+     "title": "Training & assessment",
+     "desc": "foundations matter least"
+    }
+   ]
+  }
+ ]
+}

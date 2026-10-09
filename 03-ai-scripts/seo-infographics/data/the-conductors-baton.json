@@ -1,0 +1,73 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-conductors-baton",
+   "dir": "01-seo-writing/05-riseup-asia-brand/15-the-conductors-baton"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "LETTERS VS RELATIONSHIPS",
+   "left": {
+    "head": "FUNDRAISING PLATFORM",
+    "rows": [
+     "Purchased donor lists",
+     "Judged by the pitch deck",
+     "Billed as donations fell"
+    ]
+   },
+   "right": {
+    "head": "CHAIR'S NOTEBOOK",
+    "rows": [
+     "20 years of relationships",
+     "Judged by the gala total",
+     "Stamps and evenings"
+    ]
+   },
+   "verdict": "The quiet weight of 20 years of pages."
+  },
+  {
+   "layout": "model-cards",
+   "n": 2,
+   "eyebrow": "THE FUNDRAISING NUMBERS",
+   "hero": "2,000",
+   "headline": "letters the platform generated",
+   "segments": [
+    {
+     "value": "-11%",
+     "label": "DONATIONS"
+    },
+    {
+     "value": "20 YRS",
+     "label": "PAGES IGNORED"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 REHEARSAL HALL LESSONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The invented concert"
+    },
+    {
+     "rank": 2,
+     "title": "The scored donor"
+    },
+    {
+     "rank": 3,
+     "title": "The gala forecast"
+    },
+    {
+     "rank": 4,
+     "title": "The 2,000 letters"
+    }
+   ]
+  }
+ ]
+}

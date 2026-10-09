@@ -1,18 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<title>Ringwood SEO: the numbers behind the hype</title>
-<rect width="1200" height="630" fill="#0f1b2d"/>
-<rect x="30" y="30" width="1140" height="570" rx="18" fill="#172a44"/>
-<text x="70" y="100" font-family="sans-serif" font-size="40" font-weight="bold" fill="#f5f7fa">Ringwood SEO: the numbers</text>
-<text x="70" y="150" font-family="sans-serif" font-size="40" font-weight="bold" fill="#f5f7fa">behind the hype</text>
-<rect x="70" y="180" width="1060" height="150" rx="14" fill="#0f1b2d"/>
-<text x="100" y="224" font-family="sans-serif" font-size="30" font-weight="bold" fill="#f87171">95% of enterprise GenAI pilots: no measurable return</text>
-<text x="100" y="262" font-family="sans-serif" font-size="22" fill="#a0afc3">MIT Project NANDA — The GenAI Divide: State of AI in Business 2025</text>
-<text x="100" y="300" font-family="sans-serif" font-size="22" fill="#f5f7fa">Only about 5% of pilots reach production with sustained business value.</text>
-<rect x="70" y="360" width="1060" height="96" rx="14" fill="#0f1b2d"/>
-<text x="100" y="404" font-family="sans-serif" font-size="26" font-weight="bold" fill="#fbbf24">25% — traditional search volume expected to drop by 2026 (Gartner, Feb 2024)</text>
-<text x="100" y="436" font-family="sans-serif" font-size="21" fill="#a0afc3">Answer engines absorb the queries; expertise-led content wins.</text>
-<rect x="70" y="472" width="1060" height="96" rx="14" fill="#0f1b2d"/>
-<text x="100" y="516" font-family="sans-serif" font-size="26" font-weight="bold" fill="#fbbf24">45% — less low-quality, unoriginal content after Google’s March 2024 update</text>
-<text x="100" y="548" font-family="sans-serif" font-size="21" fill="#a0afc3">Scaled content abuse is now an explicit spam policy.</text>
-<text x="40" y="600" font-family="sans-serif" font-size="20" fill="#a0afc3">RISEUP ASIA LLC · story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="140" r="430" fill="url(#gl)"/>
+<text x="292.5" y="120.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#38BDF8" text-anchor="start" letter-spacing="7">BEST SEO COMPANY · RINGWOOD</text>
+<text x="600.0" y="293.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="190" fill="#F8FAFC" text-anchor="middle">95%</text>
+<text x="600.0" y="421.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="56" fill="#F8FAFC" text-anchor="middle">of GenAI pilots see no return</text>
+<rect x="142.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="362.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">25%</text>
+<text x="168.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">SEARCH VOLUME DROP BY 2026</text>
+<rect x="618.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="838.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">45%</text>
+<text x="659.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">LOW-QUALITY CONTENT CUT</text>
 </svg>

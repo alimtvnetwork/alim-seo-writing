@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "slug": "staff-augmentation-california",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/01-california"
+    },
+    {
+      "slug": "staff-augmentation-kuala-lumpur",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/02-kuala-lumpur"
+    },
+    {
+      "slug": "staff-augmentation-los-angeles",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/03-los-angeles"
+    },
+    {
+      "slug": "staff-augmentation-new-york",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/04-new-york"
+    },
+    {
+      "slug": "staff-augmentation-san-diego",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/05-san-diego"
+    },
+    {
+      "slug": "staff-augmentation-sheridan",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/06-sheridan"
+    },
+    {
+      "slug": "staff-augmentation-wyoming",
+      "dir": "01-seo-writing/03-software-engineering/09-staff-augmentation/07-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "STAFF AUGMENTATION · {{AREA}}",
+      "hero": "95%",
+      "headline": "of enterprise GenAI pilots fail",
+      "segments": [
+        {
+          "value": "80%+",
+          "label": "AI INITIATIVES FAIL"
+        },
+        {
+          "value": "27%",
+          "label": "CLOUD SPEND WASTED"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "The GenAI divide",
+      "bars": [
+        {
+          "label": "No measurable return",
+          "pct": 95
+        },
+        {
+          "label": "capturing real value at scale",
+          "pct": 5
+        }
+      ],
+      "note": "MIT Project NANDA, 2025"
+    },
+    {
+      "layout": "ranking-list",
+      "n": 3,
+      "title": "5 TESTS FOR STAFF AUGMENTATION",
+      "rows": [
+        {
+          "rank": 1,
+          "title": "Seniority floor",
+          "desc": ""
+        },
+        {
+          "rank": 2,
+          "title": "Week-1 commits",
+          "desc": ""
+        },
+        {
+          "rank": 3,
+          "title": "Two-way code review",
+          "desc": ""
+        },
+        {
+          "rank": 4,
+          "title": "Defined end",
+          "desc": ""
+        },
+        {
+          "rank": 5,
+          "title": "Cost honesty",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

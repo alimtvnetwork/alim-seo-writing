@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "why-senior-matters",
+   "dir": "01-seo-writing/07-engineering-culture/17-why-senior-matters"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "US MEDIAN: ENGINEERING MANAGER",
+   "hero": "$200K",
+   "proof": [
+    [
+     "vs $52K in India · ",
+     "muted"
+    ],
+    [
+     "Stack Overflow 2025",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 SENIOR ADVANTAGES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Knowing what not to build",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Review judgement on generated code",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Pattern recognition in incidents",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Mentorship that compounds",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "WHICH ADVANTAGE SAVES THE MOST?",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Knowing what not to build",
+     "desc": "The killed feature costs nothing"
+    },
+    {
+     "rank": 2,
+     "title": "Review judgement",
+     "desc": "Cheapest evaluation gate"
+    },
+    {
+     "rank": 3,
+     "title": "Pattern recognition",
+     "desc": "30-second diagnosis"
+    },
+    {
+     "rank": 4,
+     "title": "Mentorship",
+     "desc": "Team gets stronger quarterly"
+    }
+   ]
+  }
+ ]
+}

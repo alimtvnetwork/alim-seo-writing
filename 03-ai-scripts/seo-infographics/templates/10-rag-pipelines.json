@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "slug": "rag-pipelines-california",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/01-california"
+    },
+    {
+      "slug": "rag-pipelines-kuala-lumpur",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/02-kuala-lumpur"
+    },
+    {
+      "slug": "rag-pipelines-los-angeles",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/03-los-angeles"
+    },
+    {
+      "slug": "rag-pipelines-new-york",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/04-new-york"
+    },
+    {
+      "slug": "rag-pipelines-san-diego",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/05-san-diego"
+    },
+    {
+      "slug": "rag-pipelines-sheridan",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/06-sheridan"
+    },
+    {
+      "slug": "rag-pipelines-wyoming",
+      "dir": "01-seo-writing/03-software-engineering/08-rag-pipelines/07-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "RAG PIPELINES · {{AREA}}",
+      "hero": "95%",
+      "headline": "of enterprise GenAI pilots fail",
+      "segments": [
+        {
+          "value": "80%+",
+          "label": "AI INITIATIVES FAIL"
+        },
+        {
+          "value": "28%",
+          "label": "HIT ROI TARGETS"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "The GenAI divide",
+      "bars": [
+        {
+          "label": "No measurable return",
+          "pct": 95
+        },
+        {
+          "label": "with measured retrieval",
+          "pct": 5
+        }
+      ],
+      "note": "MIT Project NANDA, 2025"
+    },
+    {
+      "layout": "ranking-list",
+      "n": 3,
+      "title": "5 RAG DISCIPLINES",
+      "rows": [
+        {
+          "rank": 1,
+          "title": "Golden test set",
+          "desc": ""
+        },
+        {
+          "rank": 2,
+          "title": "Structure-aware chunking",
+          "desc": ""
+        },
+        {
+          "rank": 3,
+          "title": "Hybrid retrieval",
+          "desc": ""
+        },
+        {
+          "rank": 4,
+          "title": "Citation verification",
+          "desc": ""
+        },
+        {
+          "rank": 5,
+          "title": "Human feedback loop",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

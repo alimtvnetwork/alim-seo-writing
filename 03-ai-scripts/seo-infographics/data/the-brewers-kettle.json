@@ -1,0 +1,72 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-brewers-kettle",
+   "dir": "01-seo-writing/05-riseup-asia-brand/07-the-brewers-kettle"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "WHAT THE SENSORS SAW — AND MISSED",
+   "left": {
+    "head": "THE AI MEASURED",
+    "rows": [
+     "Drum temperature",
+     "Airflow",
+     "Gas and bean color"
+    ]
+   },
+   "right": {
+    "head": "THE CRAFT KNOWS",
+    "rows": [
+     "Aroma",
+     "Bean age, weather",
+     "The roaster's palate"
+    ]
+   },
+   "verdict": "Timer tells you when. Nose tells you if."
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "GREEN COFFEE BURNED AS TUITION",
+   "hero": "2 TONS",
+   "proof": [
+    [
+     "every profile cost a batch to test",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 ROASTERY LESSONS, RANKED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Palate over dashboard"
+    },
+    {
+     "rank": 2,
+     "title": "Instrument the craft"
+    },
+    {
+     "rank": 3,
+     "title": "Evaluate like a customer"
+    },
+    {
+     "rank": 4,
+     "title": "Keep a hand on the gas"
+    },
+    {
+     "rank": 5,
+     "title": "Cost per run as recipe"
+    }
+   ]
+  }
+ ]
+}

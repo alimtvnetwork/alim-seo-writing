@@ -1,1 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect x="0" y="0" width="1200" height="630" fill="#ffffff"/><rect x="0" y="0" width="1200" height="144" fill="#1b2a4a"/><text x="40" y="58" font-size="33" fill="#ffffff" font-weight="bold">What Top 5 Percent Actually Means</text><text x="40" y="108" font-size="21" fill="#cbd5e1">Los Angeles: what the filter actually filters</text><text x="40" y="606" font-size="15" fill="#94a3b8">RISEUP ASIA LLC · story series</text><rect x="40" y="172" width="1120" height="329" rx="18" fill="#f1f5f9"/><text x="600" y="290" font-size="120" fill="#1b2a4a" font-weight="bold" text-anchor="middle">6%</text><text x="600" y="338" font-size="24" fill="#334155" font-weight="normal" text-anchor="middle">of organizations qualify as AI high performers,</text><text x="600" y="369" font-size="24" fill="#334155" font-weight="normal" text-anchor="middle">attributing at least 5% of EBIT to AI</text><rect x="140" y="414" width="920" height="4" fill="#b7791f"/><text x="600" y="452" font-size="16" fill="#64748b" font-weight="normal" text-anchor="middle">Source: McKinsey State of AI 2026, via CloudZero.</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="373.0" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#FFAD01" text-anchor="start" letter-spacing="8">AI HIGH PERFORMERS</text>
+<text x="600.0" y="333.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F7F5F2" text-anchor="middle">6%</text>
+<rect x="237.5" y="420.0" width="725.0" height="104.0" rx="52" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="312.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#ADA8A2" text-anchor="start">5% of EBIT from AI · </text>
+<text x="631.5" y="482.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#FFAD01" text-anchor="start">McKinsey 2026</text>
+</svg>

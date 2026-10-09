@@ -1,0 +1,85 @@
+{
+ "articles": [
+  {
+   "slug": "the-vets-stethoscope",
+   "dir": "01-seo-writing/05-riseup-asia-brand/49-the-vets-stethoscope"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "MEDICAL HALLUCINATION RATE",
+   "hero": "43–64%",
+   "proof": [
+    [
+     "makes ",
+     "muted"
+    ],
+    [
+     "\"the vet decides\"",
+     "accent"
+    ],
+    [
+     " non-negotiable",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "DEMO VS VET",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Investor-impressing differentials",
+     "Confident demos",
+     "Usage as success"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Cited suggestions",
+     "Logged overrides",
+     "Measured agreement"
+    ]
+   },
+   "verdict": "The vet decides. Always."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 VET-TECH AI CAUTIONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Never let the model diagnose",
+     "desc": "suggestion, not verdict"
+    },
+    {
+     "rank": 2,
+     "title": "Ground in the patient record",
+     "desc": "this animal, not averages"
+    },
+    {
+     "rank": 3,
+     "title": "Log every override",
+     "desc": "training data with fur"
+    },
+    {
+     "rank": 4,
+     "title": "Measure agreement, not usage",
+     "desc": "right, not often"
+    },
+    {
+     "rank": 5,
+     "title": "Vet signs off comms",
+     "desc": "client hears the vet"
+    }
+   ]
+  }
+ ]
+}

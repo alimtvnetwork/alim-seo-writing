@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "cost-per-run-discipline",
+   "dir": "01-seo-writing/07-engineering-culture/01-cost-per-run-discipline"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "WORLDWIDE AI SPENDING 2026",
+   "hero": "$2.7T",
+   "proof": [
+    [
+     "49.5% ",
+     "accent"
+    ],
+    [
+     "spending growth in one year · Gartner",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE COST-PER-RUN DISCIPLINE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Per-run cost tracked from day 1",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Budgets with alerts, not dashboards",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Smallest passing model, grounded first",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Kill criteria before launch",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "STOPPING THE SURPRISE INVOICE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Per-run cost tracked from day 1",
+     "desc": "Instrument before scaling"
+    },
+    {
+     "rank": 2,
+     "title": "Budgets with alerts",
+     "desc": "A dashboard nobody watches is decoration"
+    },
+    {
+     "rank": 3,
+     "title": "Smallest passing model",
+     "desc": "Cheapest way to know"
+    },
+    {
+     "rank": 4,
+     "title": "Kill criteria up front",
+     "desc": "Kill number before launch"
+    }
+   ]
+  }
+ ]
+}

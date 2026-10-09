@@ -1,0 +1,95 @@
+{
+ "articles": [
+  {
+   "slug": "the-publishers-manuscript",
+   "dir": "01-seo-writing/05-riseup-asia-brand/41-the-publishers-manuscript"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "UNSOLICITED MANUSCRIPTS PER YEAR",
+   "hero": "5,000",
+   "proof": [
+    [
+     "4 model calls each · ",
+     "muted"
+    ],
+    [
+     "8.3% ",
+     "accent"
+    ],
+    [
+     "hallucination rate",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE MAYBE PILE, ENGINEERED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Retrieve house reader reports",
+     "desc": "ground in own history"
+    },
+    {
+     "rank": 2,
+     "title": "Triage in stages",
+     "desc": "20 pages before verdict"
+    },
+    {
+     "rank": 3,
+     "title": "Score with citations",
+     "desc": "page numbers or nothing"
+    },
+    {
+     "rank": 4,
+     "title": "Evaluate on 400 known",
+     "desc": "outcomes on record"
+    },
+    {
+     "rank": 5,
+     "title": "Pencil decides",
+     "desc": "editor keeps final call"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 PUBLISHING AI FAILURES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Training on success",
+     "desc": "survivorship as strategy"
+    },
+    {
+     "rank": 2,
+     "title": "Throughput vs taste",
+     "desc": "speed eats judgment"
+    },
+    {
+     "rank": 3,
+     "title": "Lost margin notes",
+     "desc": "the 3 words, underlined"
+    },
+    {
+     "rank": 4,
+     "title": "Author trust",
+     "desc": "once burned"
+    },
+    {
+     "rank": 5,
+     "title": "Cost blindness",
+     "desc": "cents times 5,000"
+    }
+   ]
+  }
+ ]
+}

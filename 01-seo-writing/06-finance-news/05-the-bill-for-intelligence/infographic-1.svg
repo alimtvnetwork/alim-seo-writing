@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">WHO PAYS FOR AI</text>
+<text x="195.0" y="177.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="153.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Shareholders</text>
+<text x="235.0" y="184.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Dilution, multiple compression</text>
+<text x="195.0" y="291.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="265.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Customers</text>
+<text x="235.0" y="297.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Tighter free tiers</text>
+<text x="195.0" y="404.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="378.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Taxpayers</text>
+<text x="235.0" y="410.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Subsidies, tax breaks</text>
+<text x="195.0" y="516.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="491.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Everyone</text>
+<text x="235.0" y="523.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Grid rebuilt at speed</text>
+</svg>

@@ -1,0 +1,87 @@
+{
+ "articles": [
+  {
+   "slug": "the-pharmacists-question",
+   "dir": "01-seo-writing/05-riseup-asia-brand/38-the-pharmacists-question"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "CLINICAL AI PAPERS USING REAL PATIENT DATA",
+   "hero": "23%",
+   "proof": [
+    [
+     "4,600 papers · ",
+     "muted"
+    ],
+    [
+     "19 ",
+     "accent"
+    ],
+    [
+     "prospective trials",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "BEFORE HARM VS AFTER",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Billing-code triage",
+     "Bolted-on sign-off",
+     "Untested certification",
+     "Unpriced liability"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Protocol-grounded retrieval",
+     "Designed-in sign-off",
+     "Hardest-case evaluation",
+     "Audit-first architecture"
+    ]
+   },
+   "verdict": "The question before harm beats the answer after."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 RULES FOR AI IN HEALTHCARE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Licensed human decides",
+     "desc": "AI suggests only"
+    },
+    {
+     "rank": 2,
+     "title": "Ground in own protocols",
+     "desc": "hospital's own truth"
+    },
+    {
+     "rank": 3,
+     "title": "Log everything",
+     "desc": "replay anything"
+    },
+    {
+     "rank": 4,
+     "title": "Evaluate hardest cases",
+     "desc": "before go-live"
+    },
+    {
+     "rank": 5,
+     "title": "Refuse loudly when uncertain",
+     "desc": "refusal is a feature"
+    }
+   ]
+  }
+ ]
+}

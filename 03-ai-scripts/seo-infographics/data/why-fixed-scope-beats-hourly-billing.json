@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "why-fixed-scope-beats-hourly-billing",
+   "dir": "01-seo-writing/07-engineering-culture/16-why-fixed-scope-beats-hourly-billing"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ABANDONED MOST AI INITIATIVES",
+   "hero": "42%",
+   "proof": [
+    [
+     "$2.59T global spend, up 47% · ",
+     "muted"
+    ],
+    [
+     "Gartner",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "HOURLY BILLING VS FIXED SCOPE",
+   "left": {
+    "head": "HOURLY BILLING",
+    "rows": [
+     "Vendor profits from lingering",
+     "Costs run, demos stay demos",
+     "Surprises by design"
+    ]
+   },
+   "right": {
+    "head": "FIXED SCOPE",
+    "rows": [
+     "Named outcomes, flat price",
+     "Vendor profits from finishing",
+     "Surprises designed out"
+    ]
+   },
+   "verdict": "Buy the finish line."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "BILLING MODELS, RANKED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Fixed scope, acceptance criteria",
+     "desc": "Vendor profits from finishing well"
+    },
+    {
+     "rank": 2,
+     "title": "Fixed scope, discovery phase",
+     "desc": "Uncertainty gets its own price"
+    },
+    {
+     "rank": 3,
+     "title": "Capped time-and-materials",
+     "desc": "Honest ceiling, lingering incentive"
+    },
+    {
+     "rank": 4,
+     "title": "Open hourly billing",
+     "desc": "Vendor profits from lingering"
+    },
+    {
+     "rank": 5,
+     "title": "Equity-for-work",
+     "desc": "Aligns beautifully, bankrupts slowly"
+    }
+   ]
+  }
+ ]
+}

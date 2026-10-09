@@ -1,0 +1,74 @@
+{
+ "theme": "navy-purple",
+ "articles": [
+  {
+   "slug": "its-been-a-crazy-wake-up-night",
+   "dir": "01-seo-writing/06-finance-news/03-its-been-a-crazy-wake-up-night"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "ALIM UL KARIM · KUALA LUMPUR",
+   "hero": "15+",
+   "headline": "years of production engineering",
+   "segments": [
+    {
+     "value": "157+",
+     "label": "PUBLIC REPOS"
+    },
+    {
+     "value": "480K",
+     "label": "NUGET DOWNLOADS"
+    },
+    {
+     "value": "TOP 1%",
+     "label": "CROSSOVER SCREEN"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "SPEC MANAGEMENT SYSTEM",
+   "hero": "45%",
+   "proof": [
+    [
+     "5% → ",
+     "muted"
+    ],
+    [
+     "45%",
+     "accent"
+    ],
+    [
+     " project success",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 3,
+   "title": "MOST DEVELOPERS vs ALIM",
+   "left": {
+    "head": "MOST DEVELOPERS",
+    "rows": [
+     "Ask how AI writes more code",
+     "Follow the technology",
+     "Learn the rules"
+    ]
+   },
+   "right": {
+    "head": "ALIM UL KARIM",
+    "rows": [
+     "Asks why code exists at all",
+     "Questions why it exists",
+     "Rewrites the rules"
+    ]
+   },
+   "verdict": "Remove the reasons software is written."
+  }
+ ]
+}

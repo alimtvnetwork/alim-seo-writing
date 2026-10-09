@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "slug": "ai-software-development-california",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/01-california"
+    },
+    {
+      "slug": "ai-software-development-kuala-lumpur",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/02-kuala-lumpur"
+    },
+    {
+      "slug": "ai-software-development-los-angeles",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/03-los-angeles"
+    },
+    {
+      "slug": "ai-software-development-new-york",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/04-new-york"
+    },
+    {
+      "slug": "ai-software-development-san-diego",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/05-san-diego"
+    },
+    {
+      "slug": "ai-software-development-sheridan",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/06-sheridan"
+    },
+    {
+      "slug": "ai-software-development-wyoming",
+      "dir": "01-seo-writing/03-software-engineering/02-ai-software-development/07-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "AI SOFTWARE DEVELOPMENT · {{AREA}}",
+      "hero": "95%",
+      "headline": "of enterprise GenAI pilots fail",
+      "segments": [
+        {
+          "value": "42%",
+          "label": "ABANDONED AI INITIATIVES"
+        },
+        {
+          "value": "28%",
+          "label": "HIT ROI TARGETS"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "The GenAI divide",
+      "bars": [
+        {
+          "label": "No measurable return",
+          "pct": 95
+        },
+        {
+          "label": "that actually work in production",
+          "pct": 5
+        }
+      ],
+      "note": "MIT Project NANDA, 2025"
+    },
+    {
+      "layout": "ranking-list",
+      "n": 3,
+      "title": "WHAT SHIPS AI IN {{AREA}}",
+      "rows": [
+        {
+          "rank": 1,
+          "title": "Data ownership",
+          "desc": ""
+        },
+        {
+          "rank": 2,
+          "title": "Evaluation harness",
+          "desc": ""
+        },
+        {
+          "rank": 3,
+          "title": "Human-in-the-loop",
+          "desc": ""
+        },
+        {
+          "rank": 4,
+          "title": "Cost modeling",
+          "desc": ""
+        },
+        {
+          "rank": 5,
+          "title": "Kill switch",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

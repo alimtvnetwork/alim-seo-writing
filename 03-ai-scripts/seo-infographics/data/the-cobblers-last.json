@@ -1,0 +1,73 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-cobblers-last",
+   "dir": "01-seo-writing/05-riseup-asia-brand/14-the-cobblers-last"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "PIXELS ARE NOT PROTOTYPES",
+   "left": {
+    "head": "DESIGN PLATFORM",
+    "rows": [
+     "Trend reports, sentiment",
+     "Judged by the launch film",
+     "6 figures on pixels"
+    ]
+   },
+   "right": {
+    "head": "COBBLER'S CRAFT",
+    "rows": [
+     "Lasts and return reasons",
+     "Judged at month 6",
+     "Prices every repair"
+    ]
+   },
+   "verdict": "Buildable beats imaginable."
+  },
+  {
+   "layout": "model-cards",
+   "n": 2,
+   "eyebrow": "THE FOOTWEAR NUMBERS",
+   "hero": "500",
+   "headline": "silhouettes the platform generated",
+   "segments": [
+    {
+     "value": "12",
+     "label": "COULD NOT BE BUILT"
+    },
+    {
+     "value": "6 FIGURES",
+     "label": "WASTED ON PIXELS"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 WORKBENCH LESSONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The unlastable dozen"
+    },
+    {
+     "rank": 2,
+     "title": "The phantom cushioning"
+    },
+    {
+     "rank": 3,
+     "title": "The undyeable colorways"
+    },
+    {
+     "rank": 4,
+     "title": "The sentiment silhouette"
+    }
+   ]
+  }
+ ]
+}

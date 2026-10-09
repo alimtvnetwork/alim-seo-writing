@@ -1,0 +1,62 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-electricians-ladder",
+   "dir": "01-seo-writing/05-riseup-asia-brand/19-the-electricians-ladder"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "LOAD-FORECAST ACCURACY",
+   "bars": [
+    {
+     "label": "TRADITIONAL",
+     "pct": 80
+    },
+    {
+     "label": "MACHINE LEARNING",
+     "pct": 92
+    }
+   ],
+   "note": "Industry analyses · 75-85% vs 90-94%"
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "2025 GLOBAL GRID INVESTMENT",
+   "hero": "$400B",
+   "proof": [
+    [
+     "IEA · scale is the context",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "MODEL THE PHYSICS FIRST",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Map the grid topology"
+    },
+    {
+     "rank": 2,
+     "title": "Ground in real history"
+    },
+    {
+     "rank": 3,
+     "title": "Forecast with physics"
+    },
+    {
+     "rank": 4,
+     "title": "Operator decides"
+    }
+   ]
+  }
+ ]
+}

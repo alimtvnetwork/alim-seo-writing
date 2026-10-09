@@ -1,0 +1,73 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-dentists-chair",
+   "dir": "01-seo-writing/05-riseup-asia-brand/17-the-dentists-chair"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO CLINICS",
+   "left": {
+    "head": "AI-SPENDING CLINIC",
+    "rows": [
+     "Scheduling oracle",
+     "Trains nobody",
+     "Phones waitlist by hand"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED CLINIC",
+    "rows": [
+     "Instruments the front desk",
+     "Reminders first",
+     "Override one tap away"
+    ]
+   },
+   "verdict": "Fill chairs, not dashboards."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 CLINIC AI MISSTEPS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Buying prediction before plumbing"
+    },
+    {
+     "rank": 2,
+     "title": "Optimizing the model's metric"
+    },
+    {
+     "rank": 3,
+     "title": "Skipping the boring reminder"
+    },
+    {
+     "rank": 4,
+     "title": "No human override"
+    }
+   ]
+  },
+  {
+   "layout": "model-cards",
+   "n": 3,
+   "eyebrow": "THE NO-SHOW NUMBERS",
+   "hero": "7.4%",
+   "headline": "average no-show rate",
+   "segments": [
+    {
+     "value": "$105K+",
+     "label": "LOST PER PRACTICE"
+    },
+    {
+     "value": "-23%",
+     "label": "REMINDERS WORK"
+    }
+   ]
+  }
+ ]
+}

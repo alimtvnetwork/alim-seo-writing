@@ -1,13 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#f7f5ef"/>
-<rect width="1200" height="96" fill="#12263a"/>
-<text x="60" y="60" font-family="sans-serif" font-size="32" fill="#ffffff">From KL to California</text>
-<text x="60" y="170" font-family="sans-serif" font-size="24" fill="#12263a">GenAI pilots with no measurable ROI</text>
-<rect x="60" y="184" width="880" height="58" fill="#c0392b" rx="6"/>
-<text x="950" y="224" font-family="sans-serif" font-size="30" font-weight="bold" fill="#12263a">95%</text>
-<text x="60" y="320" font-family="sans-serif" font-size="24" fill="#12263a">Integrated pilots delivering real value</text>
-<rect x="60" y="334" width="46" height="58" fill="#1e8449" rx="6"/>
-<text x="116" y="374" font-family="sans-serif" font-size="30" font-weight="bold" fill="#12263a">5%</text>
-<text x="60" y="560" font-family="sans-serif" font-size="20" fill="#5a6b7d">New York · RISEUP ASIA LLC · Alim Ul Karim · MIT Project NANDA, The GenAI Divide, Jul 2025</text>
-<text x="1140" y="610" font-family="sans-serif" font-size="18" fill="#8a97a5" text-anchor="end">RISEUP ASIA LLC · story series</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="160.0" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#FFAD01" text-anchor="start" letter-spacing="8">ENGINEERS PASSING THE 5-STAGE FILTER</text>
+<text x="600.0" y="333.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F7F5F2" text-anchor="middle">5%</text>
+<rect x="268.5" y="420.0" width="663.0" height="104.0" rx="52" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="343.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#ADA8A2" text-anchor="start">top 5% of applicants admitted</text>
 </svg>

@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "slug": "dedicated-development-teams-california",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/01-california"
+    },
+    {
+      "slug": "dedicated-development-teams-kuala-lumpur",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/02-kuala-lumpur"
+    },
+    {
+      "slug": "dedicated-development-teams-los-angeles",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/03-los-angeles"
+    },
+    {
+      "slug": "dedicated-development-teams-new-york",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/04-new-york"
+    },
+    {
+      "slug": "dedicated-development-teams-san-diego",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/05-san-diego"
+    },
+    {
+      "slug": "dedicated-development-teams-sheridan",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/06-sheridan"
+    },
+    {
+      "slug": "dedicated-development-teams-wyoming",
+      "dir": "01-seo-writing/03-software-engineering/05-dedicated-development-teams/07-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "DEDICATED DEVELOPMENT TEAMS · {{AREA}}",
+      "hero": "95%",
+      "headline": "of enterprise GenAI pilots fail",
+      "segments": [
+        {
+          "value": "80%+",
+          "label": "AI INITIATIVES FAIL"
+        },
+        {
+          "value": "28%",
+          "label": "HIT ROI TARGETS"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "The GenAI divide",
+      "bars": [
+        {
+          "label": "No measurable return",
+          "pct": 95
+        },
+        {
+          "label": "capturing real value at scale",
+          "pct": 5
+        }
+      ],
+      "note": "MIT Project NANDA, 2025"
+    },
+    {
+      "layout": "ranking-list",
+      "n": 3,
+      "title": "5 PRACTICES OF DEDICATED TEAMS",
+      "rows": [
+        {
+          "rank": 1,
+          "title": "1 product, 1 metric",
+          "desc": ""
+        },
+        {
+          "rank": 2,
+          "title": "Stable membership",
+          "desc": ""
+        },
+        {
+          "rank": 3,
+          "title": "Customer access",
+          "desc": ""
+        },
+        {
+          "rank": 4,
+          "title": "Deletion rights",
+          "desc": ""
+        },
+        {
+          "rank": 5,
+          "title": "Cost transparency",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

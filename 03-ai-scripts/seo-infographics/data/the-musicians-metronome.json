@@ -1,0 +1,85 @@
+{
+ "articles": [
+  {
+   "slug": "the-musicians-metronome",
+   "dir": "01-seo-writing/05-riseup-asia-brand/34-the-musicians-metronome"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AI UPLOADS VS STREAM SHARE",
+   "hero": "44%",
+   "proof": [
+    [
+     "of uploads are AI · only ",
+     "muted"
+    ],
+    [
+     "1–3% ",
+     "accent"
+    ],
+    [
+     "of streams · Deezer",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "DIALS VS CURATORS",
+   "left": {
+    "head": "DIALS & DEMOS",
+    "rows": [
+     "Dials and demos",
+     "Catalog bloat",
+     "Noise as music"
+    ]
+   },
+   "right": {
+    "head": "CURATOR-LED",
+    "rows": [
+     "Labeled skips",
+     "Curator ground truth",
+     "Measured replays"
+    ]
+   },
+   "verdict": "Making noise isn't making music."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "MUSIC AI MYTHS, RANKED",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "AI A&R finds the next hit",
+     "desc": "data can't hear"
+    },
+    {
+     "rank": 2,
+     "title": "Generative music democratizes",
+     "desc": "floods, not frees"
+    },
+    {
+     "rank": 3,
+     "title": "AI mastering replaces engineers",
+     "desc": "taste isn't a preset"
+    },
+    {
+     "rank": 4,
+     "title": "Synthetic artists are the future",
+     "desc": "no one to believe in"
+    },
+    {
+     "rank": 5,
+     "title": "AI liner notes enrich",
+     "desc": "words without ears"
+    }
+   ]
+  }
+ ]
+}

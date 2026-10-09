@@ -1,9 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect x="0" y="0" width="1200" height="630" fill="#ffffff"/>
-<rect x="0" y="0" width="1200" height="100" fill="#0f2a44"/>
-<text x="56" y="63" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#ffffff">The Teacher's Red Pen</text>
-<rect x="0" y="592" width="1200" height="38" fill="#eef2f7"/>
-<text x="600" y="618" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" fill="#5b6b7f" text-anchor="middle" letter-spacing="2">RISEUP ASIA LLC &#183; story series</text>
-<rect x="56" y="140" width="500" height="58" rx="10" fill="#fee2e2"/><text x="306" y="178" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#b91c1c" text-anchor="middle">THE AI-SPENDING PATTERN</text><text x="108" y="250" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#dc2626">✗ </tspan>Grades the surface, not thought</text><text x="108" y="332" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#dc2626">✗ </tspan>Compresses all toward middle</text><text x="108" y="414" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#dc2626">✗ </tspan>1,400 essays misgraded at scale</text><text x="108" y="496" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#dc2626">✗ </tspan>Teachers defer to harshness</text>
-<rect x="644" y="140" width="500" height="58" rx="10" fill="#dcfce7"/><text x="894" y="178" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#15803d" text-anchor="middle">THE ENGINEER-LED PATTERN</text><text x="696" y="250" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#16a34a">✓ </tspan>Rubric-grounded evaluation</text><text x="696" y="332" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#16a34a">✓ </tspan>Benchmarked vs human markers</text><text x="696" y="414" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#16a34a">✓ </tspan>Batch monitoring before ship</text><text x="696" y="496" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="23" fill="#1f2937"><tspan font-weight="700" fill="#16a34a">✓ </tspan>Teacher sign-off designed in</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="107.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="52" fill="#F7F5F2" text-anchor="middle">SURFACE VS THOUGHT</text>
+<rect x="80.0" y="132.0" width="500.0" height="300.0" rx="18" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="156.5" y="186.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#6E6963" text-anchor="start" letter-spacing="4">AI-SPENDING PATTERN</text>
+<text x="110.0" y="220.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Surface grading</text>
+<text x="110.0" y="272.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Compression to middle</text>
+<text x="110.0" y="324.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Silent scale failure</text>
+<text x="110.0" y="376.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Deference as policy</text>
+<rect x="620.0" y="132.0" width="500.0" height="300.0" rx="18" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="689.0" y="186.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#FFAD01" text-anchor="start" letter-spacing="4">ENGINEER-LED PATTERN</text>
+<text x="650.0" y="220.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Rubric grounding</text>
+<text x="650.0" y="272.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Human benchmarking</text>
+<text x="650.0" y="324.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Batch monitoring</text>
+<text x="650.0" y="376.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Designed-in sign-off</text>
+<rect x="258.0" y="464.0" width="684.0" height="84.0" rx="42" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="600.0" y="514.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#F7F5F2" text-anchor="middle">Grade the thought, not the surface.</text>
 </svg>

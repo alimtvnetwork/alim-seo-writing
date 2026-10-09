@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "evaluation-before-celebration",
+   "dir": "01-seo-writing/07-engineering-culture/04-evaluation-before-celebration"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AGENTIC AI PROJECTS CANCELLED",
+   "hero": "40%+",
+   "proof": [
+    [
+     "escalating costs, unclear value · ",
+     "muted"
+    ],
+    [
+     "Gartner 2025",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE 4 EVALUATION GATES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Baseline before build",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Business metric, not model metric",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Cost-per-run tracking from day 1",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Human review on schedule",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "CATCHING SELF-DECEPTION",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Baseline before build",
+     "desc": "No baseline, no claim"
+    },
+    {
+     "rank": 2,
+     "title": "Business metric, not model metric",
+     "desc": "CFO metrics, not test accuracy"
+    },
+    {
+     "rank": 3,
+     "title": "Cost-per-run from day 1",
+     "desc": "Bills compound silently"
+    },
+    {
+     "rank": 4,
+     "title": "Human review on schedule",
+     "desc": "Catch drift weekly"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "articles": [
+  {
+   "slug": "the-evidence-led-delivery-model",
+   "dir": "01-seo-writing/07-engineering-culture/09-the-evidence-led-delivery-model"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "IBM PRODUCTIVITY GAINS FROM AI",
+   "hero": "$4.5B",
+   "proof": [
+    [
+     "measured, not announced",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "PROMISE-FIRST VS EVIDENCE-FIRST",
+   "left": {
+    "head": "PROMISE-FIRST",
+    "rows": [
+     "Demo on day 1",
+     "Success declared at launch",
+     "Costs found in production"
+    ]
+   },
+   "right": {
+    "head": "EVIDENCE-FIRST",
+    "rows": [
+     "Measure the baseline",
+     "Ship the smallest proof",
+     "Price every run"
+    ]
+   },
+   "verdict": "Proof before promises."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "PROOF BEFORE PROMISES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Measure the baseline",
+     "desc": "No baseline, no claim"
+    },
+    {
+     "rank": 2,
+     "title": "Ship the smallest proof",
+     "desc": "One workflow beats ten decks"
+    },
+    {
+     "rank": 3,
+     "title": "Price the run",
+     "desc": "Unit economics before scale"
+    },
+    {
+     "rank": 4,
+     "title": "Name the owner",
+     "desc": "Someone owns the failure path"
+    },
+    {
+     "rank": 5,
+     "title": "Show the receipt",
+     "desc": "The P&L line that moved"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-fishermans-net",
+   "dir": "01-seo-writing/05-riseup-asia-brand/22-the-fishermans-net"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO EXPORTERS",
+   "left": {
+    "head": "AI-SPENDING EXPORTER",
+    "rows": [
+     "Pricing engine",
+     "Trusts one number",
+     "Learns monsoon from settlement"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED EXPORTER",
+    "rows": [
+     "Data pipeline first",
+     "Backtests every shock",
+     "Veteran trader's veto"
+    ]
+   },
+   "verdict": "Engineer the decision, don't automate the guess."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 COMMODITY AI LESSONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Backtest the shocks, not averages"
+    },
+    {
+     "rank": 2,
+     "title": "Publish uncertainty or don't ship"
+    },
+    {
+     "rank": 3,
+     "title": "Keep the veteran in the loop"
+    },
+    {
+     "rank": 4,
+     "title": "Price the pipeline, not the model"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "REGIME KNOWLEDGE, NO TRAINING SET",
+   "hero": "40 YRS",
+   "proof": [
+    [
+     "the old fisherman's grunt",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

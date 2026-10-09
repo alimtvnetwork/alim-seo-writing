@@ -1,0 +1,77 @@
+{
+ "articles": [
+  {
+   "slug": "the-nurses-shift",
+   "dir": "01-seo-writing/05-riseup-asia-brand/36-the-nurses-shift"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO HOSPITALS",
+   "left": {
+    "head": "AI-SPENDING HOSPITAL",
+    "rows": [
+     "Buys the scribe suite",
+     "Top-down rollout",
+     "Celebrates pilot metrics"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED HOSPITAL",
+    "rows": [
+     "Shadows the night shift",
+     "Automates hated minutes first",
+     "Nurses hold veto"
+    ]
+   },
+   "verdict": "Optimize 3 a.m., not the announcement."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 HEALTH-TECH AI RULES",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Clinician's veto is absolute",
+     "desc": "workflow authority stays human"
+    },
+    {
+     "rank": 2,
+     "title": "Flag uncertainty",
+     "desc": "never smooth the gaps"
+    },
+    {
+     "rank": 3,
+     "title": "Evaluate on real charts",
+     "desc": "score weekly, continuously"
+    },
+    {
+     "rank": 4,
+     "title": "Automate hated minutes first",
+     "desc": "kill the worst 20 minutes"
+    }
+   ]
+  },
+  {
+   "layout": "model-cards",
+   "n": 3,
+   "eyebrow": "DOCUMENTATION BURDEN · UW/AMA STUDY",
+   "hero": "5.9 HRS",
+   "headline": "in the EHR per workday",
+   "segments": [
+    {
+     "value": "11.4 HRS",
+     "label": "PHYSICIAN WORKDAY"
+    },
+    {
+     "value": "50%+",
+     "label": "DAY ON DATA ENTRY"
+    }
+   ]
+  }
+ ]
+}

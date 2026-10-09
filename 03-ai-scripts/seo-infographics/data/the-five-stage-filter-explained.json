@@ -1,0 +1,77 @@
+{
+ "articles": [
+  {
+   "slug": "the-five-stage-filter-explained",
+   "dir": "01-seo-writing/07-engineering-culture/10-the-five-stage-filter-explained"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "STAGES, NOT ONE INTERVIEW",
+   "hero": "5",
+   "proof": [
+    [
+     "for the 51% of CIOs facing the skills gap · Gartner",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "SINGLE-GATE VS FIVE-GATE HIRING",
+   "left": {
+    "head": "SINGLE-GATE HIRE",
+    "rows": [
+     "One interview decides",
+     "Rewards interview performance",
+     "Feels rigorous, stays arbitrary"
+    ]
+   },
+   "right": {
+    "head": "FIVE-GATE FILTER",
+    "rows": [
+     "Portfolio: shipped work only",
+     "Paid trial, real pay",
+     "Client team decides fit"
+    ]
+   },
+   "verdict": "Assemble, don’t find."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "THE FIVE GATES, IN ORDER",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Portfolio screen",
+     "desc": "Shipped work or no conversation"
+    },
+    {
+     "rank": 2,
+     "title": "Paid trial",
+     "desc": "Real work, real pay, real signal"
+    },
+    {
+     "rank": 3,
+     "title": "Incident interview",
+     "desc": "Failure stories reveal judgment"
+    },
+    {
+     "rank": 4,
+     "title": "Systems review",
+     "desc": "Architecture under pressure"
+    },
+    {
+     "rank": 5,
+     "title": "Client fit",
+     "desc": "The team decides"
+    }
+   ]
+  }
+ ]
+}

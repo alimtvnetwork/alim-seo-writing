@@ -1,0 +1,84 @@
+{
+ "articles": [
+  {
+   "slug": "the-insurance-agents-umbrella",
+   "dir": "01-seo-writing/05-riseup-asia-brand/27-the-insurance-agents-umbrella"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AI-DENIED CLAIMS REVERSED ON APPEAL",
+   "hero": "90%",
+   "proof": [
+    [
+     "300,000 ",
+     "accent"
+    ],
+    [
+     "denied in 2 months · ",
+     "muted"
+    ],
+    [
+     "1.2s ",
+     "accent"
+    ],
+    [
+     "per decision",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "THE DENIAL MACHINE, TWO WAYS",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Machine-speed denial",
+     "Black-box decisions",
+     "Denial-rate KPIs"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Cited clauses",
+     "Logged factors",
+     "Overturn-rate KPIs"
+    ]
+   },
+   "verdict": "Every denial must survive its own appeal."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "INSURANCE AI PITFALLS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Denial at machine speed",
+     "desc": "speed without review"
+    },
+    {
+     "rank": 2,
+     "title": "The unappealable black box",
+     "desc": "no reason given"
+    },
+    {
+     "rank": 3,
+     "title": "Automation without audit",
+     "desc": "nobody checks the checker"
+    },
+    {
+     "rank": 4,
+     "title": "Optimizing denial rate",
+     "desc": "the metric is the morality"
+    }
+   ]
+  }
+ ]
+}

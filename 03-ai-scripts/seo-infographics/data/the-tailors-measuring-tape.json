@@ -1,0 +1,83 @@
+{
+ "articles": [
+  {
+   "slug": "the-tailors-measuring-tape",
+   "dir": "01-seo-writing/05-riseup-asia-brand/45-the-tailors-measuring-tape"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "CLOTHING RETURNS CITING SIZE & FIT",
+   "hero": "70%",
+   "proof": [
+    [
+     "23.4% ",
+     "accent"
+    ],
+    [
+     "US online apparel return rate · Coresight/Alvanon",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "RUMOR VS MEASUREMENT",
+   "left": {
+    "head": "AI-SPENDING PATTERN",
+    "rows": [
+     "Rumor-based recommendations",
+     "Chart worship",
+     "Try-on theatre",
+     "Logistics framing"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED PATTERN",
+    "rows": [
+     "Measured garments",
+     "Mapped variance",
+     "Holdout backtesting",
+     "Never-shipped returns"
+    ]
+   },
+   "verdict": "The tape does not lie."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "5 FASHION AI MYTHS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "AI fixes fit without fit data",
+     "desc": "selling the rumor"
+    },
+    {
+     "rank": 2,
+     "title": "More sizes, fewer returns",
+     "desc": "inventory isn't insight"
+    },
+    {
+     "rank": 3,
+     "title": "The size chart is truth",
+     "desc": "charts aren't bodies"
+    },
+    {
+     "rank": 4,
+     "title": "Virtual try-on replaces measurement",
+     "desc": "pixels aren't tape"
+    },
+    {
+     "rank": 5,
+     "title": "Returns are logistics",
+     "desc": "measurement failed at purchase"
+    }
+   ]
+  }
+ ]
+}

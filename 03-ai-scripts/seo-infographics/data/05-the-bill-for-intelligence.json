@@ -1,0 +1,81 @@
+{
+ "theme": "navy-purple",
+ "articles": [
+  {
+   "slug": "the-bill-for-intelligence",
+   "dir": "01-seo-writing/06-finance-news/05-the-bill-for-intelligence"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "ranking-list",
+   "n": 1,
+   "title": "WHO PAYS FOR AI",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Shareholders",
+     "desc": "Dilution, multiple compression"
+    },
+    {
+     "rank": 2,
+     "title": "Customers",
+     "desc": "Tighter free tiers"
+    },
+    {
+     "rank": 3,
+     "title": "Taxpayers",
+     "desc": "Subsidies, tax breaks"
+    },
+    {
+     "rank": 4,
+     "title": "Everyone",
+     "desc": "Grid rebuilt at speed"
+    }
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "THE PITCH vs THE REALITY",
+   "left": {
+    "head": "WEIGHTLESS BUSINESS",
+    "rows": [
+     "No factories",
+     "No inventory",
+     "No marginal cost"
+    ]
+   },
+   "right": {
+    "head": "HEAVY INTELLIGENCE",
+    "rows": [
+     "Concrete and copper",
+     "Cooling water",
+     "Transformer queues"
+    ]
+   },
+   "verdict": "Intelligence has a supply chain."
+  },
+  {
+   "layout": "model-cards",
+   "n": 3,
+   "eyebrow": "THE AI BUILDOUT",
+   "hero": "3",
+   "headline": "places the bill lands",
+   "segments": [
+    {
+     "value": "1",
+     "label": "BALANCE SHEET"
+    },
+    {
+     "value": "2",
+     "label": "POWER GRID"
+    },
+    {
+     "value": "3",
+     "label": "EVERY QUERY"
+    }
+   ]
+  }
+ ]
+}

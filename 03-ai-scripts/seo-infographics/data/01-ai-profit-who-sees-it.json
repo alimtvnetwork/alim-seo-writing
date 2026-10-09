@@ -1,0 +1,91 @@
+{
+ "theme": "navy-purple",
+ "articles": [
+  {
+   "slug": "ai-profit-who-sees-it",
+   "dir": "01-seo-writing/06-finance-news/01-ai-profit-who-sees-it"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ANTHROPIC · 2025",
+   "hero": "$4.6B",
+   "proof": [
+    [
+     "$4.6B ",
+     "accent"
+    ],
+    [
+     "revenue · ",
+     "muted"
+    ],
+    [
+     "$8.06B ",
+     "accent"
+    ],
+    [
+     "operating loss",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "PROJECT NANDA",
+   "hero": "95%",
+   "proof": [
+    [
+     "95% ",
+     "accent"
+    ],
+    [
+     "no measurable return · ",
+     "muted"
+    ],
+    [
+     "5% ",
+     "accent"
+    ],
+    [
+     "extracting millions",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "WHERE VALUE COMES FROM",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Problem",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Data",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Evaluation",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Cost",
+     "desc": ""
+    },
+    {
+     "rank": 5,
+     "title": "Accountable owner",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

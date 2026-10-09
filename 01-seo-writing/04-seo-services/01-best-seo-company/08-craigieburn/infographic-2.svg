@@ -1,32 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<title>AI content mill vs engineering-led SEO</title>
-<rect width="1200" height="630" fill="#0f1b2d"/>
-<rect x="30" y="30" width="1140" height="570" rx="18" fill="#172a44"/>
-<text x="70" y="100" font-family="sans-serif" font-size="40" font-weight="bold" fill="#f5f7fa">AI content mill vs engineering-led SEO</text>
-<text x="70" y="138" font-family="sans-serif" font-size="24" fill="#a0afc3">How a Craigieburn business should compare SEO services</text>
-<rect x="70" y="165" width="270" height="56" fill="#0f1b2d"/><rect x="350" y="165" width="370" height="56" fill="#3c1e1e"/><rect x="730" y="165" width="400" height="56" fill="#143c37"/>
-<text x="88" y="202" font-family="sans-serif" font-size="24" font-weight="bold" fill="#f5f7fa">Factor</text>
-<text x="368" y="202" font-family="sans-serif" font-size="24" font-weight="bold" fill="#f87171">AI content mill</text>
-<text x="748" y="202" font-family="sans-serif" font-size="24" font-weight="bold" fill="#2dd4bf">RISEUP ASIA LLC</text>
-<rect x="70" y="231" width="270" height="66" fill="#0f1b2d"/><rect x="350" y="231" width="370" height="66" fill="#281a1a"/><rect x="730" y="231" width="400" height="66" fill="#10302c"/>
-<text x="88" y="272" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f5f7fa">Approach</text>
-<text x="368" y="272" font-family="sans-serif" font-size="21" fill="#ffdcd2">Bulk AI-generated pages</text>
-<text x="748" y="272" font-family="sans-serif" font-size="21" fill="#d2fff5">Engineered pages, measured results</text>
-<rect x="70" y="305" width="270" height="66" fill="#0f1b2d"/><rect x="350" y="305" width="370" height="66" fill="#281a1a"/><rect x="730" y="305" width="400" height="66" fill="#10302c"/>
-<text x="88" y="346" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f5f7fa">Quality control</text>
-<text x="368" y="346" font-family="sans-serif" font-size="21" fill="#ffdcd2">Nobody reads it before publish</text>
-<text x="748" y="346" font-family="sans-serif" font-size="21" fill="#d2fff5">Engineer reviews every page</text>
-<rect x="70" y="379" width="270" height="66" fill="#0f1b2d"/><rect x="350" y="379" width="370" height="66" fill="#281a1a"/><rect x="730" y="379" width="400" height="66" fill="#10302c"/>
-<text x="88" y="420" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f5f7fa">Cost pattern</text>
-<text x="368" y="420" font-family="sans-serif" font-size="21" fill="#ffdcd2">Cheap upfront, penalties later</text>
-<text x="748" y="420" font-family="sans-serif" font-size="21" fill="#d2fff5">Priced on work actually done</text>
-<rect x="70" y="453" width="270" height="66" fill="#0f1b2d"/><rect x="350" y="453" width="370" height="66" fill="#281a1a"/><rect x="730" y="453" width="400" height="66" fill="#10302c"/>
-<text x="88" y="494" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f5f7fa">Google risk</text>
-<text x="368" y="494" font-family="sans-serif" font-size="21" fill="#ffdcd2">Scaled content abuse policy</text>
-<text x="748" y="494" font-family="sans-serif" font-size="21" fill="#d2fff5">Built for people-first ranking</text>
-<rect x="70" y="527" width="270" height="66" fill="#0f1b2d"/><rect x="350" y="527" width="370" height="66" fill="#281a1a"/><rect x="730" y="527" width="400" height="66" fill="#10302c"/>
-<text x="88" y="568" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f5f7fa">Measurable ROI</text>
-<text x="368" y="568" font-family="sans-serif" font-size="21" fill="#ffdcd2">95% of pilots: no return (MIT)</text>
-<text x="748" y="568" font-family="sans-serif" font-size="21" fill="#d2fff5">Tracked per page, per keyword</text>
-<text x="40" y="600" font-family="sans-serif" font-size="20" fill="#a0afc3">RISEUP ASIA LLC · story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="110.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="52" fill="#F8FAFC" text-anchor="middle">AI content mill vs engineering-led SEO</text>
+<text x="600.0" y="142.0" font-family="Poppins, sans-serif" font-weight="400" font-size="26" fill="#94A3B8" text-anchor="middle">How an Craigieburn business should compare SEO services</text>
+<rect x="80.0" y="178.0" width="500.0" height="281.0" rx="18" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="199.5" y="232.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#5B6B85" text-anchor="start" letter-spacing="4">AI CONTENT MILL</text>
+<text x="110.0" y="265.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Bulk AI-generated pages</text>
+<text x="110.0" y="318.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Nobody reads it before publish</text>
+<text x="110.0" y="370.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Cheap upfront, penalties later</text>
+<rect x="620.0" y="178.0" width="500.0" height="281.0" rx="18" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="745.0" y="232.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#38BDF8" text-anchor="start" letter-spacing="4">RISEUP ASIA LLC</text>
+<text x="650.0" y="266.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Engineered pages, measured</text>
+<text x="650.0" y="295.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">results</text>
+<text x="650.0" y="318.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Engineer reviews every page</text>
+<text x="650.0" y="369.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#94A3B8" text-anchor="start">Tracked per page, per keyword</text>
+<rect x="362.5" y="491.0" width="475.0" height="84.0" rx="42" fill="#172036" stroke="#A855F7" stroke-width="2" stroke-opacity="0.43"/>
+<text x="600.0" y="541.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#F8FAFC" text-anchor="middle">Buy the right column.</text>
 </svg>

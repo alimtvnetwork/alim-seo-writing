@@ -1,0 +1,65 @@
+{
+ "theme": "navy-purple",
+ "articles": [
+  {
+   "slug": "inflation-priced-in-roti-bakar",
+   "dir": "01-seo-writing/06-finance-news/02-inflation-priced-in-roti-bakar"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ROTI BAKAR INDEX",
+   "hero": "RM4.00",
+   "proof": [
+    [
+     "was RM2.50 · ",
+     "muted"
+    ],
+    [
+     "up 60%",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "SHRINKFLATION",
+   "hero": "420g",
+   "proof": [
+    [
+     "was 500g · ",
+     "muted"
+    ],
+    [
+     "same price",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 3,
+   "title": "THE INDEX vs THE RECEIPT",
+   "left": {
+    "head": "THE INDEX",
+    "rows": [
+     "Hundreds of items",
+     "Weighted and smoothed",
+     "Sharp edges off"
+    ]
+   },
+   "right": {
+    "head": "THE RECEIPT",
+    "rows": [
+     "Twenty items",
+     "Bought weekly",
+     "No smoothing at all"
+    ]
+   },
+   "verdict": "Nobody lives in an average."
+  }
+ ]
+}

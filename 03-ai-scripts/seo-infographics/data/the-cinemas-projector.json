@@ -1,0 +1,68 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-cinemas-projector",
+   "dir": "01-seo-writing/05-riseup-asia-brand/11-the-cinemas-projector"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "ENGINE VS PROJECTIONIST",
+   "left": {
+    "head": "PROGRAMMING ENGINE",
+    "rows": [
+     "Sentiment and clicks",
+     "Judged by launch memo",
+     "Billed monthly forever"
+    ]
+   },
+   "right": {
+    "head": "PROJECTIONIST'S CRAFT",
+    "rows": [
+     "30 years of ticket stubs",
+     "Judged every Friday night",
+     "Chalk costs nothing"
+    ]
+   },
+   "verdict": "Memory beats guesses."
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "MIDNIGHT SERIES THE MODEL CALLED NOISE",
+   "hero": "20 YRS",
+   "proof": [
+    [
+     "of cult screenings, murdered",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "4 PROJECTION BOOTH LESSONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The murdered midnight series"
+    },
+    {
+     "rank": 2,
+     "title": "The 10 PM family animation"
+    },
+    {
+     "rank": 3,
+     "title": "The dynamic pricing revolt"
+    },
+    {
+     "rank": 4,
+     "title": "The trailer that lied"
+    }
+   ]
+  }
+ ]
+}

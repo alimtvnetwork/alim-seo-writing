@@ -1,0 +1,201 @@
+{
+ "articles": [
+  {
+   "slug": "best-seo-company-airport-west",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/01-airport-west"
+  },
+  {
+   "slug": "best-seo-company-avondale-heights",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/02-avondale-heights"
+  },
+  {
+   "slug": "best-seo-company-blackburn",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/03-blackburn"
+  },
+  {
+   "slug": "best-seo-company-box-hill",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/04-box-hill"
+  },
+  {
+   "slug": "best-seo-company-braybrook",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/05-braybrook"
+  },
+  {
+   "slug": "best-seo-company-broadmeadows",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/06-broadmeadows"
+  },
+  {
+   "slug": "best-seo-company-clayton",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/07-clayton"
+  },
+  {
+   "slug": "best-seo-company-craigieburn",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/08-craigieburn"
+  },
+  {
+   "slug": "best-seo-company-dandenong",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/09-dandenong"
+  },
+  {
+   "slug": "best-seo-company-deer-park",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/10-deer-park"
+  },
+  {
+   "slug": "best-seo-company-footscray",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/11-footscray"
+  },
+  {
+   "slug": "best-seo-company-glenroy",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/12-glenroy"
+  },
+  {
+   "slug": "best-seo-company-hoppers-crossing",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/13-hoppers-crossing"
+  },
+  {
+   "slug": "best-seo-company-keilor-east",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/14-keilor-east"
+  },
+  {
+   "slug": "best-seo-company-maidstone",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/15-maidstone"
+  },
+  {
+   "slug": "best-seo-company-maribyrnong",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/16-maribyrnong"
+  },
+  {
+   "slug": "best-seo-company-melton",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/17-melton"
+  },
+  {
+   "slug": "best-seo-company-mitcham",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/18-mitcham"
+  },
+  {
+   "slug": "best-seo-company-noble-park",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/19-noble-park"
+  },
+  {
+   "slug": "best-seo-company-point-cook",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/20-point-cook"
+  },
+  {
+   "slug": "best-seo-company-ringwood",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/21-ringwood"
+  },
+  {
+   "slug": "best-seo-company-roxburgh-park",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/22-roxburgh-park"
+  },
+  {
+   "slug": "best-seo-company-springvale",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/23-springvale"
+  },
+  {
+   "slug": "best-seo-company-st-albans",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/24-st-albans"
+  },
+  {
+   "slug": "best-seo-company-sunshine",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/25-sunshine"
+  },
+  {
+   "slug": "best-seo-company-sunshine-west",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/26-sunshine-west"
+  },
+  {
+   "slug": "best-seo-company-tarneit",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/27-tarneit"
+  },
+  {
+   "slug": "best-seo-company-truganina",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/28-truganina"
+  },
+  {
+   "slug": "best-seo-company-werribee",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/29-werribee"
+  },
+  {
+   "slug": "best-seo-company-wyndham-vale",
+   "dir": "01-seo-writing/04-seo-services/01-best-seo-company/30-wyndham-vale"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "ranking-list",
+   "n": 1,
+   "title": "{{Area}} on Google",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "seo company {{Area}}",
+     "desc": "Local partner, not a call centre"
+    },
+    {
+     "rank": 2,
+     "title": "best seo company {{Area}}",
+     "desc": "Proof and evidence, not promises"
+    },
+    {
+     "rank": 3,
+     "title": "seo services near me",
+     "desc": "Fast contact, clear pricing"
+    },
+    {
+     "rank": 4,
+     "title": "cheap seo melbourne",
+     "desc": "Lowest price, highest AI-spam risk"
+    }
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "n": 2,
+   "title": "AI content mill vs engineering-led SEO",
+   "subtitle": "How an {{Area}} business should compare SEO services",
+   "factors": [
+    "Approach",
+    "Quality control",
+    "Cost pattern",
+    "Google risk",
+    "Measurable ROI"
+   ],
+   "left": {
+    "head": "AI CONTENT MILL",
+    "rows": [
+     "Bulk AI-generated pages",
+     "Nobody reads it before publish",
+     "Cheap upfront, penalties later"
+    ]
+   },
+   "right": {
+    "head": "RISEUP ASIA LLC",
+    "rows": [
+     "Engineered pages, measured results",
+     "Engineer reviews every page",
+     "Tracked per page, per keyword"
+    ]
+   },
+   "verdict": "Buy the right column."
+  },
+  {
+   "layout": "model-cards",
+   "n": 3,
+   "eyebrow": "BEST SEO COMPANY · {{AREA}}",
+   "hero": "95%",
+   "headline": "of GenAI pilots see no return",
+   "segments": [
+    {
+     "value": "25%",
+     "label": "SEARCH VOLUME DROP BY 2026"
+    },
+    {
+     "value": "45%",
+     "label": "LOW-QUALITY CONTENT CUT"
+    }
+   ]
+  }
+ ]
+}

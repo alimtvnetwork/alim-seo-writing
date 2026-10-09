@@ -1,0 +1,188 @@
+{
+  "articles": [
+    {
+      "slug": "franchise-atlanta",
+      "dir": "01-seo-writing/02-franchise/01-atlanta"
+    },
+    {
+      "slug": "franchise-austin",
+      "dir": "01-seo-writing/02-franchise/02-austin"
+    },
+    {
+      "slug": "franchise-boston",
+      "dir": "01-seo-writing/02-franchise/03-boston"
+    },
+    {
+      "slug": "franchise-california",
+      "dir": "01-seo-writing/02-franchise/04-california"
+    },
+    {
+      "slug": "franchise-charlotte",
+      "dir": "01-seo-writing/02-franchise/05-charlotte"
+    },
+    {
+      "slug": "franchise-chicago",
+      "dir": "01-seo-writing/02-franchise/06-chicago"
+    },
+    {
+      "slug": "franchise-dallas",
+      "dir": "01-seo-writing/02-franchise/07-dallas"
+    },
+    {
+      "slug": "franchise-denver",
+      "dir": "01-seo-writing/02-franchise/08-denver"
+    },
+    {
+      "slug": "franchise-houston",
+      "dir": "01-seo-writing/02-franchise/09-houston"
+    },
+    {
+      "slug": "franchise-kuala-lumpur",
+      "dir": "01-seo-writing/02-franchise/10-kuala-lumpur"
+    },
+    {
+      "slug": "franchise-las-vegas",
+      "dir": "01-seo-writing/02-franchise/11-las-vegas"
+    },
+    {
+      "slug": "franchise-london",
+      "dir": "01-seo-writing/02-franchise/12-london"
+    },
+    {
+      "slug": "franchise-los-angeles",
+      "dir": "01-seo-writing/02-franchise/13-los-angeles"
+    },
+    {
+      "slug": "franchise-miami",
+      "dir": "01-seo-writing/02-franchise/14-miami"
+    },
+    {
+      "slug": "franchise-minneapolis",
+      "dir": "01-seo-writing/02-franchise/15-minneapolis"
+    },
+    {
+      "slug": "franchise-nashville",
+      "dir": "01-seo-writing/02-franchise/16-nashville"
+    },
+    {
+      "slug": "franchise-new-york",
+      "dir": "01-seo-writing/02-franchise/17-new-york"
+    },
+    {
+      "slug": "franchise-philadelphia",
+      "dir": "01-seo-writing/02-franchise/18-philadelphia"
+    },
+    {
+      "slug": "franchise-phoenix",
+      "dir": "01-seo-writing/02-franchise/19-phoenix"
+    },
+    {
+      "slug": "franchise-portland",
+      "dir": "01-seo-writing/02-franchise/20-portland"
+    },
+    {
+      "slug": "franchise-san-diego",
+      "dir": "01-seo-writing/02-franchise/21-san-diego"
+    },
+    {
+      "slug": "franchise-san-francisco",
+      "dir": "01-seo-writing/02-franchise/22-san-francisco"
+    },
+    {
+      "slug": "franchise-san-jose",
+      "dir": "01-seo-writing/02-franchise/23-san-jose"
+    },
+    {
+      "slug": "franchise-seattle",
+      "dir": "01-seo-writing/02-franchise/24-seattle"
+    },
+    {
+      "slug": "franchise-sheridan",
+      "dir": "01-seo-writing/02-franchise/25-sheridan"
+    },
+    {
+      "slug": "franchise-singapore",
+      "dir": "01-seo-writing/02-franchise/26-singapore"
+    },
+    {
+      "slug": "franchise-sydney",
+      "dir": "01-seo-writing/02-franchise/27-sydney"
+    },
+    {
+      "slug": "franchise-toronto",
+      "dir": "01-seo-writing/02-franchise/28-toronto"
+    },
+    {
+      "slug": "franchise-washington-dc",
+      "dir": "01-seo-writing/02-franchise/29-washington-dc"
+    },
+    {
+      "slug": "franchise-wyoming",
+      "dir": "01-seo-writing/02-franchise/30-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "SOFTWARE FRANCHISE · {{AREA}}",
+      "hero": "$2M",
+      "headline": "franchise investment",
+      "segments": [
+        {
+          "value": "$2M",
+          "label": "INVESTMENT"
+        },
+        {
+          "value": "50%",
+          "label": "PROFIT MARGIN"
+        },
+        {
+          "value": "5 YRS",
+          "label": "OR BREAK-EVEN"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "The GenAI divide",
+      "bars": [
+        {
+          "label": "No measurable return",
+          "pct": 95
+        },
+        {
+          "label": "Reaching production",
+          "pct": 5
+        }
+      ],
+      "note": "MIT Project NANDA, 2025"
+    },
+    {
+      "layout": "stat-label-top",
+      "n": 3,
+      "label": "THE FRANCHISE ECONOMY",
+      "hero": "$921.4B",
+      "proof": [
+        [
+          "845,000 ",
+          "accent"
+        ],
+        [
+          "units · ",
+          "muted"
+        ],
+        [
+          "8.9M ",
+          "accent"
+        ],
+        [
+          "jobs · IFA 2026 outlook",
+          "muted"
+        ]
+      ]
+    }
+  ]
+}

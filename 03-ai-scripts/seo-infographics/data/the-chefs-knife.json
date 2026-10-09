@@ -1,0 +1,72 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-chefs-knife",
+   "dir": "01-seo-writing/05-riseup-asia-brand/10-the-chefs-knife"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "TWO KITCHENS",
+   "left": {
+    "head": "AI-SPENDING GROUP",
+    "rows": [
+     "Menu platform",
+     "Reprices the beloved dish",
+     "Celebrates the dashboard"
+    ]
+   },
+   "right": {
+    "head": "ENGINEER-LED GROUP",
+    "rows": [
+     "Instruments the kitchen",
+     "Evaluates vs reality",
+     "Chef's veto sacred"
+    ]
+   },
+   "verdict": "Optimize the dining room, not the spreadsheet."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "5 RESTAURANT AI FADS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Generative menu engineering"
+    },
+    {
+     "rank": 2,
+     "title": "Dynamic pricing without regulars"
+    },
+    {
+     "rank": 3,
+     "title": "Forecasting on dirty data"
+    },
+    {
+     "rank": 4,
+     "title": "The AI sommelier bot"
+    },
+    {
+     "rank": 5,
+     "title": "Display optimization nobody asked for"
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 3,
+   "label": "REPETITIONS TO EARN THE KNIFE",
+   "hero": "4,000",
+   "proof": [
+    [
+     "the chef's craft, respected",
+     "muted"
+    ]
+   ]
+  }
+ ]
+}

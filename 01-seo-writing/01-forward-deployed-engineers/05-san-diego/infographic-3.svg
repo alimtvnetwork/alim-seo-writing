@@ -1,22 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#0d1726"/>
-<rect width="1200" height="10" fill="#f2b035"/>
-<text x="60" y="56" font-family="DejaVu Sans" font-size="20" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
-<text x="60" y="130" font-family="DejaVu Sans" font-size="38" font-weight="bold" fill="#ffffff">5 SIGNS OF A GREAT DEPLOYED ENGINEER</text>
-
-  <circle cx="105" cy="187" r="30" fill="#f2b035"/>
-  <text x="105" y="197" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">1</text>
-  <text x="170" y="195" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Domain humility: ask about the sequencer first</text>
-  <circle cx="105" cy="273" r="30" fill="#f2b035"/>
-  <text x="105" y="283" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">2</text>
-  <text x="170" y="281" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Production access in week 1</text>
-  <circle cx="105" cy="359" r="30" fill="#f2b035"/>
-  <text x="105" y="369" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">3</text>
-  <text x="170" y="367" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Deletion instinct: simplify, do not decorate</text>
-  <circle cx="105" cy="445" r="30" fill="#f2b035"/>
-  <text x="105" y="455" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">4</text>
-  <text x="170" y="453" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">The gravel-road habit for reusable features</text>
-  <circle cx="105" cy="531" r="30" fill="#f2b035"/>
-  <text x="105" y="541" text-anchor="middle" font-family="DejaVu Sans" font-size="28" font-weight="bold" fill="#0d1726">5</text>
-  <text x="170" y="539" font-family="DejaVu Sans" font-size="25" fill="#dbe6f2">Honesty about AI: say when the model is wrong</text>
-<text x="60" y="610" font-family="DejaVu Sans" font-size="15" fill="#5b7186">San Diego · forward deploy engineers San Diego</text></svg>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">HOW SAN DIEGO SHIPS</text>
+<text x="195.0" y="177.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="153.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Buy 200 AI seats</text>
+<text x="195.0" y="291.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="267.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">6-month consulting decks</text>
+<text x="195.0" y="404.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="380.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">3-month offshore onboarding</text>
+<text x="195.0" y="516.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="493.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F8FAFC" text-anchor="start">Embed 1 forward-deploy engineer</text>
+</svg>

@@ -1,0 +1,86 @@
+{
+ "articles": [
+  {
+   "slug": "the-miners-headlamp",
+   "dir": "01-seo-writing/05-riseup-asia-brand/33-the-miners-headlamp"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "ALERTS PER SHIFT",
+   "hero": "200",
+   "proof": [
+    [
+     "dispatchers muted the wall ",
+     "muted"
+    ],
+    [
+     "within a month",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "FROM TAG BOARD TO SENSORS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Plywood tag board",
+     "desc": "the original source of truth"
+    },
+    {
+     "rank": 2,
+     "title": "Dust-proof the sensors",
+     "desc": "field note: dust"
+    },
+    {
+     "rank": 3,
+     "title": "Cover the dead zones",
+     "desc": "field note: dead zones"
+    },
+    {
+     "rank": 4,
+     "title": "Instrument the pit",
+     "desc": "sensors that survive"
+    },
+    {
+     "rank": 5,
+     "title": "Humans stay accountable",
+     "desc": "field note: accountability"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "RANKED BY REAL SAFETY",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "The 200-alert shift",
+     "desc": "tuned for the demo"
+    },
+    {
+     "rank": 2,
+     "title": "Sunglasses fatigue epidemic",
+     "desc": "dozens of false flags weekly"
+    },
+    {
+     "rank": 3,
+     "title": "Rockfall model, wrong mountains",
+     "desc": "trained elsewhere"
+    },
+    {
+     "rank": 4,
+     "title": "Video wall power bill",
+     "desc": "AC for the monitors"
+    }
+   ]
+  }
+ ]
+}

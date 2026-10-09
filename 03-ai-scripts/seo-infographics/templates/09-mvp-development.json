@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      "slug": "mvp-development-california",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/01-california"
+    },
+    {
+      "slug": "mvp-development-kuala-lumpur",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/02-kuala-lumpur"
+    },
+    {
+      "slug": "mvp-development-los-angeles",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/03-los-angeles"
+    },
+    {
+      "slug": "mvp-development-new-york",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/04-new-york"
+    },
+    {
+      "slug": "mvp-development-san-diego",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/05-san-diego"
+    },
+    {
+      "slug": "mvp-development-sheridan",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/06-sheridan"
+    },
+    {
+      "slug": "mvp-development-wyoming",
+      "dir": "01-seo-writing/03-software-engineering/07-mvp-development/07-wyoming"
+    }
+  ],
+  "theme": "navy-purple",
+  "cards": [
+    {
+      "layout": "model-cards",
+      "n": 1,
+      "eyebrow": "MVP DEVELOPMENT · {{AREA}}",
+      "hero": "70%",
+      "headline": "ran out of capital",
+      "segments": [
+        {
+          "value": "43%",
+          "label": "NO PRODUCT-MARKET FIT"
+        },
+        {
+          "value": "22",
+          "label": "MEDIAN MONTHS TO SHUTDOWN"
+        }
+      ]
+    },
+    {
+      "layout": "bars",
+      "n": 2,
+      "title": "Why startups die",
+      "bars": [
+        {
+          "label": "Ran out of capital",
+          "pct": 70
+        },
+        {
+          "label": "No product-market fit",
+          "pct": 43
+        }
+      ],
+      "note": "CB Insights 2026 · 431 VC-backed shutdowns"
+    },
+    {
+      "layout": "ranking-list",
+      "n": 3,
+      "title": "5 MVP DISCIPLINES",
+      "rows": [
+        {
+          "rank": 1,
+          "title": "1 metric",
+          "desc": ""
+        },
+        {
+          "rank": 2,
+          "title": "10 real users",
+          "desc": ""
+        },
+        {
+          "rank": 3,
+          "title": "Day-1 pricing",
+          "desc": ""
+        },
+        {
+          "rank": 4,
+          "title": "4-week clock",
+          "desc": ""
+        },
+        {
+          "rank": 5,
+          "title": "Kill list",
+          "desc": ""
+        }
+      ]
+    }
+  ]
+}

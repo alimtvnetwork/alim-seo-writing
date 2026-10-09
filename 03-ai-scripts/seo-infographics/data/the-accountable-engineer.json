@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "the-accountable-engineer",
+   "dir": "01-seo-writing/07-engineering-culture/06-the-accountable-engineer"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "AGENTIC AI PROJECTS CANCELLED",
+   "hero": "40%+",
+   "proof": [
+    [
+     "nobody measured · ",
+     "muted"
+    ],
+    [
+     "Gartner 2025",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "4 ACCOUNTABILITY MARKERS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "A named owner for every outcome",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "A written definition of done",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Visible progress against the scope",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Answerable postmortems",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "MAKING OWNERSHIP UNDENIABLE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Named owner for every outcome",
+     "desc": "A person, not a team"
+    },
+    {
+     "rank": 2,
+     "title": "Written definition of done",
+     "desc": "The departure log of software"
+    },
+    {
+     "rank": 3,
+     "title": "Visible progress at gates",
+     "desc": "Milestone by milestone"
+    },
+    {
+     "rank": 4,
+     "title": "Answerable postmortems",
+     "desc": "Blameless, not ownerless"
+    }
+   ]
+  }
+ ]
+}

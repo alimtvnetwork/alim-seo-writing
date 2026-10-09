@@ -1,0 +1,95 @@
+{
+ "articles": [
+  {
+   "slug": "ai-consulting-california",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/01-california"
+  },
+  {
+   "slug": "ai-consulting-kuala-lumpur",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/02-kuala-lumpur"
+  },
+  {
+   "slug": "ai-consulting-los-angeles",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/03-los-angeles"
+  },
+  {
+   "slug": "ai-consulting-new-york",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/04-new-york"
+  },
+  {
+   "slug": "ai-consulting-san-diego",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/05-san-diego"
+  },
+  {
+   "slug": "ai-consulting-sheridan",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/06-sheridan"
+  },
+  {
+   "slug": "ai-consulting-wyoming",
+   "dir": "01-seo-writing/03-software-engineering/01-ai-consulting/07-wyoming"
+  }
+ ],
+ "theme": "navy-purple",
+ "cards": [
+  {
+   "layout": "model-cards",
+   "n": 1,
+   "eyebrow": "AI CONSULTING · {{AREA}}",
+   "hero": "95%",
+   "headline": "of enterprise GenAI pilots fail",
+   "segments": [
+    {
+     "value": "42%",
+     "label": "ABANDONED AI INITIATIVES"
+    },
+    {
+     "value": "28%",
+     "label": "HIT ROI TARGETS"
+    }
+   ]
+  },
+  {
+   "layout": "bars",
+   "n": 2,
+   "title": "The GenAI divide",
+   "bars": [
+    {
+     "label": "No measurable return",
+     "pct": 95
+    },
+    {
+     "label": "reaching production with value",
+     "pct": 5
+    }
+   ],
+   "note": "MIT Project NANDA, 2025"
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "AI CONSULTANTS IN {{AREA}}",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Embedded builder",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Specialist auditor",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Big-firm strategy team",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Vendor’s \"free\" consulting",
+     "desc": ""
+    }
+   ]
+  }
+ ]
+}

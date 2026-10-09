@@ -1,0 +1,65 @@
+{
+ "theme": "warm-editorial",
+ "articles": [
+  {
+   "slug": "the-call-centre-headset",
+   "dir": "01-seo-writing/05-riseup-asia-brand/09-the-call-centre-headset"
+  }
+ ],
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "AI VOICE-AGENT SATISFACTION",
+   "bars": [
+    {
+     "label": "2022",
+     "pct": 53
+    },
+    {
+     "label": "2025",
+     "pct": 72
+    }
+   ]
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "CUSTOMER PREFERENCE",
+   "hero": "90%",
+   "proof": [
+    [
+     "prefer the human · ",
+     "muted"
+    ],
+    [
+     "AI wins routine calls",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "RESOLUTION OVER CONTAINMENT",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Detect fury fast"
+    },
+    {
+     "rank": 2,
+     "title": "Retrieve the verified fix"
+    },
+    {
+     "rank": 3,
+     "title": "Hand off gracefully"
+    },
+    {
+     "rank": 4,
+     "title": "Measure resolution"
+    }
+   ]
+  }
+ ]
+}

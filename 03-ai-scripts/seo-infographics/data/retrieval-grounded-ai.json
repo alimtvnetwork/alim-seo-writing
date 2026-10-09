@@ -1,0 +1,81 @@
+{
+ "articles": [
+  {
+   "slug": "retrieval-grounded-ai",
+   "dir": "01-seo-writing/07-engineering-culture/05-retrieval-grounded-ai"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "stat-label-top",
+   "n": 1,
+   "label": "NO MEASURABLE RETURN",
+   "hero": "95%",
+   "proof": [
+    [
+     "5% ",
+     "accent"
+    ],
+    [
+     "extract millions · MIT NANDA",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "THE GROUNDING PIPELINE",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Curated, versioned knowledge base",
+     "desc": ""
+    },
+    {
+     "rank": 2,
+     "title": "Mandatory citations on answers",
+     "desc": ""
+    },
+    {
+     "rank": 3,
+     "title": "Evaluation against a golden dataset",
+     "desc": ""
+    },
+    {
+     "rank": 4,
+     "title": "Human review on schedule",
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "FEWER FLUENT WRONG ANSWERS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Curated knowledge base",
+     "desc": "Treat it as a product"
+    },
+    {
+     "rank": 2,
+     "title": "Mandatory citations",
+     "desc": "No source, no ship"
+    },
+    {
+     "rank": 3,
+     "title": "Golden dataset evaluation",
+     "desc": "Regression-test like code"
+    },
+    {
+     "rank": 4,
+     "title": "Human review on schedule",
+     "desc": "Catch the rot early"
+    }
+   ]
+  }
+ ]
+}

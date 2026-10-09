@@ -1,13 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#0d1726"/>
-<rect width="1200" height="10" fill="#f2b035"/>
-<text x="60" y="56" font-family="DejaVu Sans" font-size="20" letter-spacing="4" fill="#8ea3bd">RISEUP ASIA LLC · FIELD NOTES</text>
-<text x="60" y="130" font-family="DejaVu Sans" font-size="40" font-weight="bold" fill="#ffffff">WHY CALIFORNIA STARTUPS DIE</text>
-<text x="60" y="172" font-family="DejaVu Sans" font-size="26" fill="#f2b035">What actually works</text>
-<text x="60" y="260" font-family="DejaVu Sans" font-size="26" fill="#dbe6f2">of dead startups ran out of capital</text>
-<text x="60" y="320" font-family="DejaVu Sans" font-size="64" font-weight="bold" fill="#e5484d">70%</text>
-<rect x="60" y="360" width="742" height="46" rx="8" fill="#e5484d"/>
-<rect x="802" y="360" width="318" height="46" rx="8" fill="#2c4a72"/>
-<text x="60" y="470" font-family="DejaVu Sans" font-size="26" fill="#dbe6f2">never found product-market fit</text>
-<text x="60" y="530" font-family="DejaVu Sans" font-size="64" font-weight="bold" fill="#f2b035">43%</text>
-<text x="60" y="592" font-family="DejaVu Sans" font-size="16" fill="#5b7186">Source: CB Insights - 431 VC-backed shutdowns since 2023 · California · MVP development California</text></svg>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="109.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">Why startups die</text>
+<text x="110.0" y="180.0" font-family="Poppins, sans-serif" font-weight="400" font-size="28" fill="#F8FAFC" text-anchor="start">Ran out of capital</text>
+<rect x="430.0" y="161.0" width="600.0" height="26.0" rx="13" fill="#172036"/>
+<rect x="430.0" y="161.0" width="420.0" height="26.0" rx="13" fill="#A855F7"/>
+<text x="1042.0" y="176.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#F8FAFC" text-anchor="start">70%</text>
+<text x="110.0" y="269.0" font-family="Poppins, sans-serif" font-weight="400" font-size="28" fill="#F8FAFC" text-anchor="start">No product-market</text>
+<rect x="430.0" y="251.0" width="600.0" height="26.0" rx="13" fill="#172036"/>
+<rect x="430.0" y="251.0" width="258.0" height="26.0" rx="13" fill="#A855F7"/>
+<text x="1042.0" y="266.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#F8FAFC" text-anchor="start">43%</text>
+<text x="600.0" y="334.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#5B6B85" text-anchor="middle">CB Insights 2026 · 431 VC-backed shutdowns</text>
+</svg>

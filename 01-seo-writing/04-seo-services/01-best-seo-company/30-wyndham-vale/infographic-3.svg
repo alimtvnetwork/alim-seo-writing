@@ -1,17 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect width="1200" height="630" fill="#0F1B2D"/>
-<text x="60" y="80" font-family="sans-serif" font-size="40" font-weight="bold" fill="#FFFFFF">The GenAI Divide hits Wyndham Vale too</text>
-<text x="60" y="122" font-family="sans-serif" font-size="22" fill="#94A3B8">Enterprise AI pilots and measurable P&amp;L return · MIT Project NANDA 2025</text>
-<circle cx="300" cy="340" r="130" fill="none" stroke="#2DD4BF" stroke-width="56"/>
-<circle cx="300" cy="340" r="130" fill="none" stroke="#F87171" stroke-width="56" stroke-dasharray="776.0 816.8" transform="rotate(90 300 340)"/>
-<text x="300" y="335" text-anchor="middle" font-family="sans-serif" font-size="52" font-weight="bold" fill="#F87171">95%</text>
-<text x="300" y="370" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#94A3B8">no return</text>
-<rect x="560" y="220" width="22" height="22" fill="#F87171"/>
-<text x="595" y="240" font-family="sans-serif" font-size="24" fill="#FFFFFF">95% of pilots: no measurable P&amp;L return</text>
-<rect x="560" y="270" width="22" height="22" fill="#2DD4BF"/>
-<text x="595" y="290" font-family="sans-serif" font-size="24" fill="#FFFFFF">5%: real value, engineering-led</text>
-<text x="560" y="380" font-family="sans-serif" font-size="24" fill="#94A3B8">Which company is best for SEO in Wyndham Vale?</text>
-<text x="560" y="416" font-family="sans-serif" font-size="24" fill="#94A3B8">Pick the team that measures revenue,</text>
-<text x="560" y="452" font-family="sans-serif" font-size="24" fill="#94A3B8">not the one that ships page counts.</text>
-<text x="60" y="600" font-family="sans-serif" font-size="20" fill="#64748B">RISEUP ASIA LLC · story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="140" r="430" fill="url(#gl)"/>
+<text x="246.5" y="120.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#38BDF8" text-anchor="start" letter-spacing="7">BEST SEO COMPANY · WYNDHAM VALE</text>
+<text x="600.0" y="293.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="190" fill="#F8FAFC" text-anchor="middle">95%</text>
+<text x="600.0" y="421.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="56" fill="#F8FAFC" text-anchor="middle">of GenAI pilots see no return</text>
+<rect x="142.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="362.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">25%</text>
+<text x="168.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">SEARCH VOLUME DROP BY 2026</text>
+<rect x="618.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#172036" stroke="#f8fafc" stroke-width="2" stroke-opacity="0.12"/>
+<text x="838.0" y="518.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F8FAFC" text-anchor="middle">45%</text>
+<text x="659.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#94A3B8" text-anchor="start" letter-spacing="3">LOW-QUALITY CONTENT CUT</text>
 </svg>

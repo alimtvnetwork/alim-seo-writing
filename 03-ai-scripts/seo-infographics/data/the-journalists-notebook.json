@@ -1,0 +1,74 @@
+{
+ "articles": [
+  {
+   "slug": "the-journalists-notebook",
+   "dir": "01-seo-writing/05-riseup-asia-brand/28-the-journalists-notebook"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "bars",
+   "n": 1,
+   "title": "AI ANSWERS WITH ISSUES",
+   "bars": [
+    {
+     "label": "Significant issues",
+     "pct": 45
+    },
+    {
+     "label": "Sourcing problems",
+     "pct": 31
+    },
+    {
+     "label": "Major accuracy failures",
+     "pct": 20
+    }
+   ],
+   "note": "EBU / BBC study"
+  },
+  {
+   "layout": "stat-label-top",
+   "n": 2,
+   "label": "CONTENT FARMS",
+   "hero": "2,089 → 3,006",
+   "proof": [
+    [
+     "in 5 months · ",
+     "muted"
+    ],
+    [
+     "deepfake trajectory rising",
+     "accent"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "VERIFICATION FIRST",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Retrieve real sources",
+     "desc": "ground before drafting"
+    },
+    {
+     "rank": 2,
+     "title": "Draft with citations",
+     "desc": "every claim traceable"
+    },
+    {
+     "rank": 3,
+     "title": "Flag uncertainty",
+     "desc": "never smooth the gaps"
+    },
+    {
+     "rank": 4,
+     "title": "Editor decides",
+     "desc": "the byline is human"
+    }
+   ]
+  }
+ ]
+}

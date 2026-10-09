@@ -1,0 +1,97 @@
+{
+ "articles": [
+  {
+   "slug": "the-librarians-index",
+   "dir": "01-seo-writing/05-riseup-asia-brand/30-the-librarians-index"
+  }
+ ],
+ "theme": "warm-editorial",
+ "cards": [
+  {
+   "layout": "compare-2col",
+   "n": 1,
+   "title": "FINDING ANSWERS, TWO WAYS",
+   "left": {
+    "head": "THE GLOWING KIOSK",
+    "rows": [
+     "Instant fluent answers",
+     "Citations that don't exist",
+     "Never checks the shelf"
+    ]
+   },
+   "right": {
+    "head": "THE LIBRARIAN'S WAY",
+    "rows": [
+     "Verified against the shelf",
+     "Citations that resolve",
+     "\"I don't know\" when unsure"
+    ]
+   },
+   "verdict": "Retrieval is the entire game."
+  },
+  {
+   "layout": "ranking-list",
+   "n": 2,
+   "title": "5 RETRIEVAL LESSONS",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "\"I don't know\" is a feature",
+     "desc": "abstention beats invention"
+    },
+    {
+     "rank": 2,
+     "title": "The index is the product",
+     "desc": "curation beats model choice"
+    },
+    {
+     "rank": 3,
+     "title": "Evaluate with real questions",
+     "desc": "grade against known answers"
+    },
+    {
+     "rank": 4,
+     "title": "Cite or stay silent",
+     "desc": "claims trace to passages"
+    },
+    {
+     "rank": 5,
+     "title": "Weed the collection",
+     "desc": "stale docs are worse than none"
+    }
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "title": "THE RETRIEVAL LOOP",
+   "rows": [
+    {
+     "rank": 1,
+     "title": "Receive the question",
+     "desc": "start from need"
+    },
+    {
+     "rank": 2,
+     "title": "Search the index",
+     "desc": "shelf before model"
+    },
+    {
+     "rank": 3,
+     "title": "Retrieve passages",
+     "desc": "evidence, not vibes"
+    },
+    {
+     "rank": 4,
+     "title": "Answer with citations",
+     "desc": "every claim traceable"
+    },
+    {
+     "rank": 5,
+     "title": "File and weed",
+     "desc": "curate continuously"
+    }
+   ]
+  }
+ ]
+}

@@ -1,19 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-<rect x="0" y="0" width="1200" height="630" fill="#ffffff"/>
-<rect x="0" y="0" width="1200" height="100" fill="#0f2a44"/>
-<text x="600" y="63" font-family="'DejaVu Sans', sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle">What a California Software Franchise Transfers</text>
-<text x="310" y="175" font-family="'DejaVu Sans', sans-serif" font-size="30" font-weight="700" fill="#b91c1c" text-anchor="middle">AI THEATRE</text>
-<text x="310" y="240" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Sells the demo</text>
-<text x="310" y="302" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Paid for the pilot</text>
-<text x="310" y="364" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">95% deliver no measurable return</text>
-<text x="310" y="426" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Theatre has no unit economics</text>
-<text x="890" y="175" font-family="'DejaVu Sans', sans-serif" font-size="30" font-weight="700" fill="#15803d" text-anchor="middle">FRANCHISED ENGINEERING</text>
-<text x="890" y="240" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Ships to production</text>
-<text x="890" y="302" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Paid from the profit margin</text>
-<text x="890" y="364" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">Systems that survive 2 AM</text>
-<text x="890" y="426" font-family="'DejaVu Sans', sans-serif" font-size="24" font-weight="400" fill="#1f2937" text-anchor="middle">50% margin share · 5-year cap</text>
-<line x1="600" y1="150" x2="600" y2="470" stroke="#cbd5e1" stroke-width="2"/>
-<text x="600" y="545" font-family="'DejaVu Sans', sans-serif" font-size="22" font-weight="400" fill="#5b6b7f" text-anchor="middle">A California software franchise transfers the right column</text>
-<rect x="0" y="592" width="1200" height="38" fill="#eef2f7"/>
-<text x="600" y="618" font-family="'DejaVu Sans', sans-serif" font-size="20" fill="#5b6b7f" text-anchor="middle" letter-spacing="2">RISEUP ASIA LLC &#183; story series</text>
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="321.5" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#A855F7" text-anchor="start" letter-spacing="8">THE FRANCHISE ECONOMY</text>
+<text x="600.0" y="344.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F8FAFC" text-anchor="middle">$921.4B</text>
+<rect x="165.5" y="420.0" width="869.0" height="104.0" rx="52" fill="#172036" stroke="#A855F7" stroke-width="2" stroke-opacity="0.43"/>
+<text x="240.5" y="481.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#A855F7" text-anchor="start">845,000 </text>
+<text x="389.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#94A3B8" text-anchor="start">units · </text>
+<text x="496.5" y="481.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#A855F7" text-anchor="start">8.9M </text>
+<text x="587.5" y="481.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#94A3B8" text-anchor="start">jobs · IFA 2026 outlook</text>
 </svg>

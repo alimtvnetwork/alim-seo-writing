@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<title>search mock background</title><desc>Cool light gray-blue gradient background.</desc>
+<defs><linearGradient id="g11" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#f1f4f8"/><stop offset="100%" stop-color="#d8e1eb"/></linearGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#g11)"/></g></svg>

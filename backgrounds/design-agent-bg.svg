@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+<title>design agent background</title><desc>White background with soft purple and pink corner washes.</desc>
+<defs><radialGradient id="g3a" cx="100%" cy="100%" r="60%">
+<stop offset="0%" stop-color="#c9b8f5" stop-opacity="0.55"/><stop offset="100%" stop-color="#c9b8f5" stop-opacity="0"/></radialGradient>
+<radialGradient id="g3b" cx="0%" cy="0%" r="55%">
+<stop offset="0%" stop-color="#f5c6dd" stop-opacity="0.5"/><stop offset="100%" stop-color="#f5c6dd" stop-opacity="0"/></radialGradient></defs>
+<g id="bg-base"><rect width="1200" height="1200" fill="#fdfdff"/></g>
+<g id="corner-wash-purple"><rect width="1200" height="1200" fill="url(#g3a)"/></g>
+<g id="corner-wash-pink"><rect width="1200" height="1200" fill="url(#g3b)"/></g></svg>

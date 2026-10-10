@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<title>services list background</title><desc>White background with faint grid.</desc>
+<defs><pattern id="g2" width="48" height="48" patternUnits="userSpaceOnUse">
+<path d="M 48 0 L 0 0 0 48" fill="none" stroke="#e4e4e4" stroke-width="1.5"/></pattern></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="#ffffff"/></g>
+<g id="grid-lines"><rect width="1080" height="1350" fill="url(#g2)"/></g></svg>

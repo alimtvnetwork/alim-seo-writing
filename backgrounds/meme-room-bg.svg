@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<title>meme room background</title><desc>Two-tone background: pale blue wall over warm wood floor.</desc>
+<defs><linearGradient id="g9" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#bfe3ea"/><stop offset="64%" stop-color="#bfe3ea"/><stop offset="66%" stop-color="#b08d5f"/><stop offset="100%" stop-color="#9a7849"/></linearGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#g9)"/></g>
+<g id="wall-floor-divide" opacity="0.25"><rect y="864" width="1080" height="10" fill="#ffffff"/></g></svg>

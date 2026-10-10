@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<title>code quiz background</title><desc>Soft purple-lavender gradient background.</desc>
+<defs><linearGradient id="g12" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#f4f0fd"/><stop offset="100%" stop-color="#ded3f5"/></linearGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#g12)"/></g></svg>

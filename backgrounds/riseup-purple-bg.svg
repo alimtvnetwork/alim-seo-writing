@@ -11,8 +11,8 @@
   <g id="bg-base">
     <rect width="2608" height="944" fill="url(#purpleGlow2)"/>
   </g>
-  <g id="triangle-watermark" opacity="0.22">
-    <polygon points="1500,80 2350,860 650,860" fill="#5a2f85"/>
+  <g id="triangle-watermark" opacity="0.2">
+    <polygon points="1400,110 2300,880 600,880" fill="#5a2f85"/>
   </g>
   <g id="star-specks" fill="#ffffff">
     <circle cx="320" cy="700" r="4" opacity="0.6"/>
@@ -36,8 +36,11 @@
     <rect x="180" y="200" width="360" height="112" rx="56" fill="#ffc400"/>
     <text x="360" y="278" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" fill="#1a1a1a">Apply</text>
   </g>
+  <g id="headline-shade" opacity="0.65">
+    <text x="183" y="570" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="800" fill="#0a0414" letter-spacing="2">RISEUP</text>
+  </g>
   <g id="headline-text">
-    <text x="175" y="560" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="800" fill="#ffffff" letter-spacing="2">RiseUp</text>
+    <text x="175" y="560" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="800" fill="#ece1fa" letter-spacing="2">RISEUP</text>
     <text x="178" y="680" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="600" fill="#c9b8e8">Bootcamp Feedback</text>
   </g>
 </svg>

@@ -33,7 +33,7 @@ being an accent. CTA is the only pure-black solid on the page.
 
 ## Texture
 
-- Base: `../../backgrounds/newsprint-texture-bg.png` (empty, no text).
+- Base: `../../assets/backgrounds/newsprint-texture-bg.png` (empty, no text).
 - Faded multi-column newsprint, column rules visible but quiet.
 - Warm vignette darkening toward all four edges — keeps the eye centred.
 - Paper grain + a few stains/specks for age. No tears, no folds; the

@@ -26,7 +26,7 @@ Headlines may sit directly on texture; body copy may not.
 ## Asset workflow
 
 1. Pick a background concept from file `02` and build it at 2x into
-   `backgrounds/` as `bg-<family>-<name>.png`.
+   `assets/backgrounds/` as `bg-<family>-<name>.png`.
 2. Pick a font pairing from file `03` for the asset's tone.
 3. Set the headline at 700 weight minimum, add an eyebrow label in mono
    or Nunito 800 uppercase where the source assets have one.

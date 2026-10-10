@@ -71,4 +71,4 @@ light canvas). Use for celebratory posts — milestones, wins, launches.
 - Texture contrast stays under 10% against the base — text must always win.
 - Keep a 120px "quiet margin" at the edges of dark backgrounds; keep light
   backgrounds fully flat so cards can float on them.
-- Export at 2x; name files `bg-<family>-<name>.png` in `backgrounds/`.
+- Export at 2x; name files `bg-<family>-<name>.png` in `assets/backgrounds/`.

@@ -3,7 +3,7 @@
 **Purpose:** Design language for article/social backgrounds and the fonts that
 sit on them, derived from three real source assets in this repo.
 
-**Source assets** (all in `../../backgrounds/`):
+**Source assets** (all in `../../assets/backgrounds/`):
 
 | # | File | Look |
 |---|------|------|

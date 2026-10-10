@@ -20,7 +20,7 @@ Prompt template (adapt the era/colour to taste):
 > headlines, no people, no logos — just the empty textured paper
 > background."
 
-Starter asset: `../../backgrounds/newsprint-texture-bg.png`.
+Starter asset: `../../assets/backgrounds/newsprint-texture-bg.png`.
 Want a different mood? Regenerate with "dark charcoal broadsheet",
 "cream modern newsprint", or "torn tabloid" variants — same prompt
 skeleton.

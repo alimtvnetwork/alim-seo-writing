@@ -5,7 +5,7 @@ announcement creatives, reverse-engineered from the Design Monks sample ad.
 Use it to produce similar — or better — creatives in any language.
 
 **Reference sample:** `sample-design-monks-ad.png` (kept in this folder).
-**Reusable asset:** `../../backgrounds/newsprint-texture-bg.png` — empty
+**Reusable asset:** `../../assets/backgrounds/newsprint-texture-bg.png` — empty
 aged-newsprint texture, no text, ready for overlay.
 
 **Files in this spec:**

@@ -15,6 +15,16 @@ this repository is a personal seo article workspace: proofread, rewritten person
     infographic-philosophy.md   the visual philosophy used to make the infographic
 ```
 
+```text
+assets/                         shared creative assets (images via git-lfs)
+  avatars/                      author/writer avatar images
+  backgrounds/                  reusable background plates, png + layered svg pairs
+  concepts/
+    originals/                  reference creatives, kept as found
+    <name>-clean.png            brand-stripped reusable versions
+    layered/                    figma-ready layered svg recreations of each concept
+  components/                   reusable vector components (e.g. label-pill.svg)
+```
 ## how a new article is made
 
 1. a draft gets proofread and rewritten inside `01-seo-writing/<slug>/writing.md` following `writing-preferences.md` (personal tone, plain text, descriptive links, digit-formatted numbers).

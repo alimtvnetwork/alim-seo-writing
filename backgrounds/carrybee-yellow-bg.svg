@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1296" height="1616" viewBox="0 0 1296 1616">
+  <title>carrybee yellow background</title>
+  <desc>Solid warm yellow background with subtle lighter radial glow in the centre.</desc>
+  <defs>
+    <radialGradient id="yellowGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#fdd103"/>
+      <stop offset="100%" stop-color="#ecb405"/>
+    </radialGradient>
+  </defs>
+  <g id="bg-base">
+    <rect width="1296" height="1616" fill="url(#yellowGlow)"/>
+  </g>
+</svg>

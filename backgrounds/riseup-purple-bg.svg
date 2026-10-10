@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2608" height="944" viewBox="0 0 2608 944">
+  <title>riseup purple background</title>
+  <desc>Purple background with RiseUp headline text and yellow Apply pill label.</desc>
+  <defs>
+    <radialGradient id="purpleGlow2" cx="65%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#2e0f45"/>
+      <stop offset="55%" stop-color="#170826"/>
+      <stop offset="100%" stop-color="#050208"/>
+    </radialGradient>
+  </defs>
+  <g id="bg-base">
+    <rect width="2608" height="944" fill="url(#purpleGlow2)"/>
+  </g>
+  <g id="triangle-watermark" opacity="0.22">
+    <polygon points="1500,80 2350,860 650,860" fill="#5a2f85"/>
+  </g>
+  <g id="star-specks" fill="#ffffff">
+    <circle cx="320" cy="700" r="4" opacity="0.6"/>
+    <circle cx="780" cy="180" r="3" opacity="0.4"/>
+    <circle cx="1050" cy="620" r="5" opacity="0.7"/>
+    <circle cx="1420" cy="240" r="3" opacity="0.5"/>
+    <circle cx="1700" cy="760" r="4" opacity="0.4"/>
+    <circle cx="1980" cy="140" r="3" opacity="0.6"/>
+    <circle cx="2230" cy="480" r="5" opacity="0.5"/>
+    <circle cx="2450" cy="300" r="3" opacity="0.65"/>
+    <circle cx="120" cy="320" r="3" opacity="0.35"/>
+    <circle cx="560" cy="840" r="4" opacity="0.45"/>
+    <circle cx="900" cy="420" r="3" opacity="0.55" fill="#c9a0ff"/>
+    <circle cx="1300" cy="860" r="3" opacity="0.4" fill="#c9a0ff"/>
+    <circle cx="1620" cy="520" r="4" opacity="0.6" fill="#c9a0ff"/>
+    <circle cx="2100" cy="700" r="3" opacity="0.45"/>
+    <circle cx="2380" cy="820" r="4" opacity="0.5" fill="#c9a0ff"/>
+    <circle cx="180" cy="120" r="3" opacity="0.3"/>
+  </g>
+  <g id="label-pill">
+    <rect x="180" y="200" width="360" height="112" rx="56" fill="#ffc400"/>
+    <text x="360" y="278" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="800" fill="#1a1a1a">Apply</text>
+  </g>
+  <g id="headline-text">
+    <text x="175" y="560" font-family="Arial, Helvetica, sans-serif" font-size="210" font-weight="800" fill="#ffffff" letter-spacing="2">RiseUp</text>
+    <text x="178" y="680" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="600" fill="#c9b8e8">Bootcamp Feedback</text>
+  </g>
+</svg>

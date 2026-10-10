@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <title>blitz dark grid background</title>
+  <desc>Near-black warm background with faint grid lines and soft central glow.</desc>
+  <defs>
+    <radialGradient id="blitzGlow" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#393944" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#393944" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="blitzGrid" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#343433" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <g id="bg-base">
+    <rect width="1600" height="1600" fill="#1f211d"/>
+  </g>
+  <g id="center-glow">
+    <rect width="1600" height="1600" fill="url(#blitzGlow)"/>
+  </g>
+  <g id="grid-lines">
+    <rect width="1600" height="1600" fill="url(#blitzGrid)"/>
+  </g>
+</svg>

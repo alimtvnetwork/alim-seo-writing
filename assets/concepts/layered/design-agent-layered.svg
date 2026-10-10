@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200"><title>design agent UI concept</title><desc>Layered recreation: canvas with selection rectangle, cursor and agent pill.</desc>
+<defs><radialGradient id="dbg" cx="100%" cy="100%" r="70%"><stop offset="0%" stop-color="#d9cdf5" stop-opacity="0.6"/><stop offset="100%" stop-color="#d9cdf5" stop-opacity="0"/></radialGradient></defs>
+<g id="bg-base"><rect width="1200" height="1200" fill="#fdfdff"/></g>
+<g id="bg-wash"><rect width="1200" height="1200" fill="url(#dbg)"/></g>
+<g id="selection-rect"><rect x="280" y="280" width="560" height="560" fill="none" stroke="#2f9be8" stroke-width="3"/>
+<rect x="272" y="272" width="16" height="16" fill="#fff" stroke="#2f9be8" stroke-width="3"/><rect x="832" y="272" width="16" height="16" fill="#fff" stroke="#2f9be8" stroke-width="3"/><rect x="272" y="832" width="16" height="16" fill="#fff" stroke="#2f9be8" stroke-width="3"/><rect x="832" y="832" width="16" height="16" fill="#fff" stroke="#2f9be8" stroke-width="3"/></g>
+<g id="cursor"><polygon points="840,840 840,910 862,890 872,918 884,912 874,884 896,884" fill="#6a5cff" stroke="#fff" stroke-width="4"/></g>
+<g id="agent-pill"><rect x="880" y="930" width="260" height="84" rx="42" fill="#6a5cff"/><circle cx="928" cy="972" r="28" fill="#c9bdf5"/><text x="972" y="986" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="600" fill="#fff">Design Agent</text></g>
+</svg>

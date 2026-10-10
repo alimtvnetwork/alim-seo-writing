@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><title>vsoft AI/ML intern concept</title><desc>Layered recreation: search-to-AI-overview hiring concept.</desc>
+<defs><linearGradient id="abg11" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f1f4f8"/><stop offset="100%" stop-color="#d8e1eb"/></linearGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#abg11)"/></g>
+<g id="headline"><text x="120" y="230" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#5a6270">Hiring</text><text x="120" y="360" font-family="Arial, Helvetica, sans-serif" font-size="120" font-weight="800" fill="#5a6270">AI/ML Intern</text></g>
+<g id="search-bar"><rect x="120" y="440" width="840" height="90" rx="45" fill="#ffffff" stroke="#d5dce5" stroke-width="2"/><text x="170" y="496" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#333">Best place in Nepal to do internship in AI/ML</text></g>
+<g id="ai-overview-card"><rect x="120" y="580" width="840" height="480" rx="40" fill="#ffffff"/><text x="170" y="650" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#2b6cb0">✦ AI Overview</text><text x="170" y="710" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#333">YourCompany</text><text x="170" y="770" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#2b3fd6">Hiring AI/ML Intern Nepal</text><text x="170" y="830" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#555">Join our growing team to work on real-world</text><text x="170" y="870" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#555">machine learning projects and grow with mentors.</text></g>
+<g id="footer-info"><text x="120" y="1160" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#123">Location</text><text x="120" y="1215" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#123">Nepal</text><text x="420" y="1160" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#123">Deadline</text><text x="420" y="1215" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#123">10th July</text></g>
+<defs><linearGradient id="fade-doodle-strip" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8a7bb8" stop-opacity="0"/><stop offset="45%" stop-color="#8a7bb8" stop-opacity="1"/></linearGradient>
+<mask id="m-doodle-strip"><rect x="0" y="1120" width="1080" height="220" fill="url(#fade-doodle-strip)"/></mask></defs>
+<g id="doodle-strip" opacity="0.45" mask="url(#m-doodle-strip)" stroke="#8a7bb8" stroke-width="3" fill="none">
+<path d="M120,1300 q10,-70 40,-90 q30,20 20,90 M140,1260 l-25,-15 M140,1280 l25,-15"/>
+<path d="M340,1305 q5,-60 35,-75 q25,15 15,75"/>
+<circle cx="520" cy="1270" r="10"/><circle cx="640" cy="1240" r="7"/>
+<path d="M700,1280 q20,-15 40,0 q20,15 40,0"/>
+<path d="M880,1290 l18,-30 l18,30 M898,1260 v-18"/>
+<path d="M180,1180 q15,-10 30,0"/><path d="M980,1200 l14,-14"/>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><title>vsoft code quiz concept</title><desc>Layered recreation: spot-the-bug code quiz card.</desc>
+<defs><linearGradient id="cbg12" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f4f0fd"/><stop offset="100%" stop-color="#ded3f5"/></linearGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#cbg12)"/></g>
+<g id="headline"><text x="540" y="200" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="600" fill="#5a5470">Guess what&apos;s</text><text x="540" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="600" fill="#5a5470">with this Code</text></g>
+<g id="speech-bubble"><rect x="640" y="120" width="220" height="90" rx="24" fill="#6a5cff"/><polygon points="700,210 700,250 740,210" fill="#6a5cff"/><text x="750" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700" fill="#fff">wrong</text></g>
+<g id="code-window"><rect x="140" y="380" width="800" height="760" rx="32" fill="#ffffff"/><circle cx="190" cy="430" r="14" fill="#e05a5a"/><circle cx="230" cy="430" r="14" fill="#f2c21b"/><circle cx="270" cy="430" r="14" fill="#4caf6d"/><text x="200" y="500" font-family="monospace" font-size="28" fill="#5b3df0">main.go</text><rect x="140" y="520" width="800" height="4" fill="#e8e4f5"/><text x="200" y="560" font-family="monospace" font-size="30" fill="#1a1a2e">func main() {</text><text x="200" y="604" font-family="monospace" font-size="30" fill="#1a1a2e">    numbers := []int{25, 99, -3, 99, 56},</text><text x="200" y="648" font-family="monospace" font-size="30" fill="#1a1a2e">    if len(numbers) == 0 {</text><text x="200" y="692" font-family="monospace" font-size="30" fill="#1a1a2e">        fmt.Println("Array is empty")</text><text x="200" y="736" font-family="monospace" font-size="30" fill="#1a1a2e">        return</text><text x="200" y="780" font-family="monospace" font-size="30" fill="#1a1a2e">    }</text><text x="200" y="824" font-family="monospace" font-size="30" fill="#1a1a2e">    max := numbers[0]</text><text x="200" y="868" font-family="monospace" font-size="30" fill="#1a1a2e">    for i, num := range numbers {</text><text x="200" y="912" font-family="monospace" font-size="30" fill="#1a1a2e">        if num >= max {</text><text x="200" y="956" font-family="monospace" font-size="30" fill="#1a1a2e">            max = num</text><text x="200" y="1000" font-family="monospace" font-size="30" fill="#1a1a2e">        }</text><text x="200" y="1044" font-family="monospace" font-size="30" fill="#1a1a2e">    }</text><text x="200" y="1088" font-family="monospace" font-size="30" fill="#1a1a2e">}</text></g>
+<defs><linearGradient id="fade-doodle-strip" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8a7bb8" stop-opacity="0"/><stop offset="45%" stop-color="#8a7bb8" stop-opacity="1"/></linearGradient>
+<mask id="m-doodle-strip"><rect x="0" y="1150" width="1080" height="220" fill="url(#fade-doodle-strip)"/></mask></defs>
+<g id="doodle-strip" opacity="0.4" mask="url(#m-doodle-strip)" stroke="#8a7bb8" stroke-width="3" fill="none">
+<path d="M120,1330 q10,-70 40,-90 q30,20 20,90 M140,1290 l-25,-15 M140,1310 l25,-15"/>
+<path d="M340,1335 q5,-60 35,-75 q25,15 15,75"/>
+<circle cx="520" cy="1300" r="10"/><circle cx="640" cy="1270" r="7"/>
+<path d="M700,1310 q20,-15 40,0 q20,15 40,0"/>
+<path d="M880,1320 l18,-30 l18,30 M898,1290 v-18"/>
+<path d="M180,1210 q15,-10 30,0"/><path d="M980,1230 l14,-14"/>
+</g>
+</svg>

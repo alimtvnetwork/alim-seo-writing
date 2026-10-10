@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><title>services list concept</title><desc>Layered recreation: service headlines with yellow pill sublabels.</desc>
+<defs><pattern id="sg" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 L 0 0 0 48" fill="none" stroke="#e6e6e6" stroke-width="1.5"/></pattern></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="#ffffff"/></g>
+<g id="bg-grid"><rect width="1080" height="1350" fill="url(#sg)"/></g>
+<g id="service-1-headline"><text x="120" y="210" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" fill="#141414">Brand Building.</text></g>
+<g id="service-1-pill"><rect x="130" y="238" width="500" height="56" rx="28" fill="#ffc400"/><text x="380" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#141414">Define Your Identity</text></g>
+<g id="service-2-headline"><text x="120" y="420" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" fill="#141414">Creative Design.</text></g>
+<g id="service-2-pill"><rect x="130" y="448" width="456" height="56" rx="28" fill="#ffc400"/><text x="358" y="486" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#141414">Visuals That Speak</text></g>
+<g id="service-3-headline"><text x="120" y="630" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" fill="#141414">Video Production.</text></g>
+<g id="service-3-pill"><rect x="130" y="658" width="632" height="56" rx="28" fill="#ffc400"/><text x="446" y="696" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#141414">Storytelling That Converts</text></g>
+<g id="service-4-headline"><text x="120" y="840" font-family="Arial, Helvetica, sans-serif" font-size="96" font-weight="800" fill="#141414">Performance Marketing.</text></g>
+<g id="service-4-pill"><rect x="130" y="868" width="434" height="56" rx="28" fill="#ffc400"/><text x="347" y="906" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#141414">Scale Your Growth</text></g>
+<g id="footer-line-1"><text x="120" y="1120" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#333">Ready to make your</text></g>
+<g id="footer-line-2"><text x="120" y="1175" font-family="Arial, Helvetica, sans-serif" font-size="40" fill="#333">brand Unforgettable</text></g>
+<g id="footer-cta"><text x="120" y="1240" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="800" fill="#111">Let&apos;s Roll !</text></g>
+</svg>

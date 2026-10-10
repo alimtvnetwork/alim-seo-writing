@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350"><title>vsoft hiring concept</title><desc>Layered recreation of the hiring card: headline, ladybug, info columns, CTA, repositioned doodle strip.</desc>
+<defs><radialGradient id="sbg" cx="50%" cy="40%" r="80%"><stop offset="0%" stop-color="#f2ecfd"/><stop offset="100%" stop-color="#d7c9f2"/></radialGradient></defs>
+<g id="bg-base"><rect width="1080" height="1350" fill="url(#sbg)"/></g>
+<g id="headline-eyebrow"><text x="540" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="110" font-weight="600" fill="#123">We&apos;re</text></g>
+<g id="headline-main"><text x="540" y="520" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="200" font-weight="900" fill="#6a5cff" letter-spacing="4">HIRING</text></g>
+<g id="headline-role"><text x="540" y="620" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="500" fill="#123">Senior SQA Engineer</text></g>
+<g id="ladybug"><ellipse cx="880" cy="640" rx="70.0" ry="85.0" fill="#d63a2f"/><line x1="880" y1="555.0" x2="880" y2="725.0" stroke="#1a1a1a" stroke-width="6.0"/><circle cx="879.5" cy="639.7" r="9.0" fill="#1a1a1a"/><circle cx="880.5" cy="639.7" r="9.0" fill="#1a1a1a"/><circle cx="879.45" cy="640.25" r="9.0" fill="#1a1a1a"/><circle cx="880.55" cy="640.25" r="9.0" fill="#1a1a1a"/><circle cx="880.0" cy="640.55" r="9.0" fill="#1a1a1a"/><circle cx="880" cy="540.0" r="28.0" fill="#1a1a1a"/></g>
+<g id="info-columns"><text x="200" y="830" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#123">Experience</text><text x="200" y="890" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#123">5+ years</text>
+<text x="480" y="830" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#123">Deadline</text><text x="480" y="890" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#123">12th July</text>
+<text x="760" y="830" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#123">Location</text><text x="760" y="890" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="800" fill="#123">Nepal</text></g>
+<g id="cta-pill"><rect x="300" y="970" width="220" height="64" rx="32" fill="#6a5cff"/>
+<text x="410" y="1012" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" fill="#ffffff">Apply Now</text></g>
+<g id="cta-note"><text x="560" y="1012" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#123">See the attached link</text></g>
+<defs><linearGradient id="fade-doodle-strip" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#8a7bb8" stop-opacity="0"/><stop offset="45%" stop-color="#8a7bb8" stop-opacity="1"/></linearGradient>
+<mask id="m-doodle-strip"><rect x="0" y="1080" width="1080" height="220" fill="url(#fade-doodle-strip)"/></mask></defs>
+<g id="doodle-strip" opacity="0.5" mask="url(#m-doodle-strip)" stroke="#8a7bb8" stroke-width="3" fill="none">
+<path d="M120,1260 q10,-70 40,-90 q30,20 20,90 M140,1220 l-25,-15 M140,1240 l25,-15"/>
+<path d="M340,1265 q5,-60 35,-75 q25,15 15,75"/>
+<circle cx="520" cy="1230" r="10"/><circle cx="640" cy="1200" r="7"/>
+<path d="M700,1240 q20,-15 40,0 q20,15 40,0"/>
+<path d="M880,1250 l18,-30 l18,30 M898,1220 v-18"/>
+<path d="M180,1140 q15,-10 30,0"/><path d="M980,1160 l14,-14"/>
+</g>
+</svg>

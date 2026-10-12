@@ -1,0 +1,20 @@
+# Dictation — 2026-10-12
+
+- **Date:** 2026-10-12
+- **Dictated by:** Alim (user)
+- **Intended outlet:** RISEUP ASIA blog
+- **Status:** raw — not yet turned into an article
+- **Topic:** vibe coding is dead — the magic-selling-shop analogy; AI companies sell demos and dreams while paying huge engineering salaries themselves
+
+---
+
+Hi there. So this is writing about the vibe coding is dead. Is vibe coding is dead? Okay. The answer is, is magic selling is dead? So I compare this vibe coding is a magic selling shop. If you ever been to a magic selling shop, you wonder why magics are costly. You purchase them, you feel good, but do you become a magician? No. The magic seller knows by selling the magic, they're just selling the trick for the time being, and it does not make them a magician. The reason for someone to become a magician, they have to practice, they have to have the passion, they have to devote their life in the magic tricks in order to learn, do, and become the best of the best. There is a very good magic show that's called Penn and Teller. If those who are fascinated, they should watch Penn and Teller. And a magician is a good magician if they can fool Penn and Teller. That means they know lots of tricks, but they know also how to fool a magician. Now, that being said, the same thing can be understood in software engineering and vibe coding. The vibe coding is nothing but a magic trick that has been sold with a dream that someone can do the magic trick on a stage show or in front of the family or friends. Now, a magic trick which is purchased from a shop, it is always good to showcase to a friend and family. That's it. But you cannot make money by doing it. Now, the same thing is with the vibe coding. It looks nice, it looks very incredible, but also at the same time, it does not have the underlying backend system properly. And recently, there is a flood of gaming, and you can see lots of gaming. These are shown in the LinkedIn, in Facebook, and Twitter, many places. But to be very honest, why they do not sell this game if that is very good? The reason is these are just HTML, and these are a sample that has been created by a developer and been trained on, and then someone just has been asked to do this marketing. They run the prompt, created this to do the marketing. Inside this, the product is very much empty. It is very likely, I could record something and showcase and say, "This would be a foolproof software," where it is not. It's just merely a demo. And this is what this is. The AI companies are trying to sell these demos and dreams while they know that how much engineering costs. And that's why one of the very big reason the top AI companies pays almost $500 million in salaries for very basic software engineers, not even software architect level. And that tells you that their product does not work. It is merely a dream selling game. So as long as the dream can be sold, it looks nice. But also at the same time, if you see their balance sheet, it will tell you, even with selling this dream, it does not make them profitable. Very funny. If a tool can do the software engineering and can save cost, why they do not save their own cost? Very big question. They don't have the answer. They pay 30 to 40% in salaries, which they could save. They could not do it because it does not work. Very simple. That's why vibe code is dead. It was never alive. It was merely a marketing for selling dreams. Does this make sense?
+
+---
+
+## Notes
+
+- [VERIFY] "$500 million in salaries for very basic software engineers, not even software architect level" — needs a real source and 2-3x verification before drafting.
+- [VERIFY] "They pay 30 to 40% in salaries" — needs a real source and exact scope before drafting.
+- [VERIFY] "flood of gaming" demos on LinkedIn/Facebook/Twitter — characterize carefully; do not name specific products without evidence.
+- Explicit user framing to preserve: "vibe coding is dead — it was never alive, merely marketing for selling dreams."

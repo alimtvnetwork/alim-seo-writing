@@ -1,23 +1,24 @@
 # Plan: 03-medium-account-assistant-cli
 
-Status: IN PROGRESS 2026-10-13 — spec written; implementation queued.
-Spec: 02-spec/21-app/03-medium-account-assistant-cli/
+Status: IN PROGRESS 2026-10-13 — spec v2 written (config-driven, SQLite, macro, pending list); implementation queued.
+Spec: 02-spec/21-app/03-medium-account-assistant-cli/ (01-overview.md, 02-config-and-pipeline.md)
 
 ## Scope reminder (hard boundary)
 
 Human performs Medium signup + publishing in the browser. The CLI assists around
-those actions only: workbook bookkeeping, username suggestions, OTP display,
-profile prep, URL recording. No browser automation against medium.com, no OTP
-submission, no programmatic posting — ever.
+those actions only. No browser automation against medium.com, no OTP submission,
+no programmatic posting — ever. PENDING items (P1–P4 in spec) are documented,
+not built.
 
 ## Phases and owners
 
 | Phase | Work | Owner | Owned files |
 |---|---|---|---|
-| 1 | Spec + this plan + subtasks | lead | 02-spec/21-app/03-medium-account-assistant-cli/, .ai-memory/plans/ |
-| 2 | CLI implementation: all 8 commands | Worker 01 | 03-ai-scripts/medium-account-assistant.py (new) |
-| 3 | End-to-end verification on test workbook + `doctor` | lead | /tmp test workbook |
-| 4 | Atomic `gitmap cpf`, push | lead | — |
+| 1 | Spec v2 + this plan + subtasks | lead | 02-spec/21-app/03-medium-account-assistant-cli/, .ai-memory/plans/ |
+| 2 | `config.seed.json` + macro JSON (static files) | lead | 03-ai-scripts/medium-account-assistant/ |
+| 3 | CLI implementation: config module, SQLite store, all commands | Worker 01 | 03-ai-scripts/medium-account-assistant.py (new) |
+| 4 | End-to-end verification on scratch config + `doctor` | lead | /tmp scratch |
+| 5 | Atomic `gitmap cpf`, push | lead | — |
 
 ## Rules for workers
 

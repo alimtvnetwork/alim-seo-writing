@@ -1,10 +1,14 @@
 # Spec 03 — Medium Account Assistant CLI (human-in-the-loop)
 
+Version: 2.0.0 (2026-10-13) — config-driven, SQLite store, gitmap macro.
+
 ## Goal
 
 A Python CLI that removes the bookkeeping overhead of creating Medium accounts
-for real people (employees), while the human performs the signup and publishing
-clicks in the browser themselves.
+for real people, while the human performs the signup and publishing clicks in
+the browser themselves. All behavior comes from config variables (seedable
+config pattern); all state lives in SQLite (gitmap-style); Excel is the
+feed-in/feed-out format. A gitmap macro chains the pipeline steps.
 
 ## Hard scope boundary (non-negotiable)
 
@@ -20,47 +24,50 @@ those two moments. This boundary is what keeps the tool inside Medium's rules,
 which prohibit registering accounts and posting content "automatically,
 systematically, or programmatically."
 
+## DONE vs PENDING (no bullshit)
+
+DONE (this build):
+- D1: Seedable config: `config.seed.json` → SQLite `config` table, versioned,
+  user overrides preserved. Every tunable comes from config (see 02-config-and-pipeline.md).
+- D2: SQLite store (`accounts`, `config` tables) at the configured database path.
+- D3: CLI commands: `init`, `add`, `suggest-usernames`, `otp` (display only),
+  `profile-prep`, `record-article`, `status`, `guide`, `doctor`,
+  `config get/set`, `import-excel`, `export-excel`.
+- D4: gitmap macro `maa-onboard` (importable JSON) chaining the pipeline steps.
+- D5: `doctor` prerequisite checks.
+
+PENDING (spec'd, NOT built — blocked, do not implement):
+- P1: Browser automation of the Medium signup form. Blocked: Medium policy.
+- P2: OTP auto-submit. Blocked: Medium policy.
+- P3: Programmatic draft creation / publishing. Blocked: Medium policy.
+- P4: go-email-reader self-update. Blocked: upstream has no updater.
+
 ## CLI surface
 
 `gitmap py 03-ai-scripts/medium-account-assistant.py <command>`
 
-| Command | What it does |
-|---|---|
-| `init [--workbook PATH]` | Create the accounts workbook with the schema below |
-| `add --email E --first F --last L [--username U]` | Stage a person; validates email format; rejects duplicate email/username |
-| `suggest-usernames --first F --last L` | Generate username candidates, collision-checked against the workbook |
-| `otp --email E` | Fetch the latest OTP email via go-email-reader and DISPLAY the code (never submit) |
-| `profile-prep --email E` | Draft bio suggestions + avatar guidance; store choices in workbook |
-| `record-article --email E --url URL` | After the human publishes, record the URL; mark account `published` |
-| `status [--email E]` | Show pipeline state per account |
-| `guide --step signup\|publish` | Print the human checklist for the manual browser steps |
-| `doctor` | Check prerequisites: go-email-reader binary, openpyxl, mailbox access |
+`init`, `add --email --first --last [--username]`, `suggest-usernames`,
+`otp --email` (display only), `profile-prep --email`, `record-article --email --url`,
+`status [--email]`, `guide --step signup|publish`, `doctor`,
+`config get <Key>`, `config set <Key> <Value>`,
+`import-excel --file PATH`, `export-excel [--file PATH]`.
 
-## Workbook schema (Sheet "Accounts")
+Global: `--workbook` no longer needed — paths come from config.
 
-email (unique) | first_name | last_name | username (unique) | display_name |
-bio | avatar_file | status (staged → signed_up → published) |
-otp_last_shown_at | article_url | notes | created_at | updated_at
+## Data flow
 
-Default workbook: `~/workspace/your_files/medium-accounts.xlsx` (NOT committed to
-git — it holds personal data). Override with `--workbook`.
+Excel/CSV (user's feed) → `import-excel` → SQLite `accounts` (source of truth)
+→ commands read/write SQLite → `export-excel` → Excel report.
 
-## GoEmailReader integration
-
-- Locate the binary: `~/workspace/go-email-reader/go-email-reader`, else PATH.
-- `otp` shells out to its `read` command for the latest email to the target
-  address, extracts a 6-digit code via regex, prints it with expiry warning.
-- `doctor` verifies the binary exists and the mailbox is reachable.
-- No self-update: go-email-reader has no updater; noted as future work, not claimed.
-
-## Dependencies
-
-- Python 3.10+, `openpyxl` (via `gitmap py`; falls back to a clear error if missing).
-- `go-email-reader` built binary (Go toolchain at `~/go/bin/go`).
+Personal data never enters git: database and workbooks live under
+`~/.medium-account-assistant/` (configurable).
 
 ## Acceptance
 
-- All 8 commands work end-to-end against a test workbook (no real accounts touched).
-- `otp` displays a code but contains zero code paths that submit anything anywhere.
-- `doctor` passes on this machine.
-- One atomic `gitmap cpf` per completed wave; spec + plan committed first.
+- `doctor` passes on this machine; `config get/set` round-trips; version bump
+  merges without clobbering user overrides.
+- Full pipeline on a scratch config: init → import-excel → status → otp (fixture)
+  → record-article → export-excel, all green.
+- `gitmap macro import` accepts the shipped macro JSON; `macro run --dry-run`
+  previews the steps.
+- One atomic `gitmap cpf`, pushed.

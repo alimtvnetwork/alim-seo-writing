@@ -1,37 +1,32 @@
 # Subtask 02 — OTP display, profile prep, guide, doctor
 
 Owner: Worker 02. Owned file: `03-ai-scripts/medium-account-assistant.py`
-(fill the stubs left by Worker 01; coordinate via the lead — do not start
-until Worker 01's skeleton is committed).
+(fill the stubs left by Worker 01; start only after Worker 01's file is committed).
+
+Spec: 02-spec/21-app/03-medium-account-assistant-cli/01-overview.md +
+02-config-and-pipeline.md.
 
 ## Deliverable
 
-Implement the stubbed commands in the existing CLI file:
+1. `otp --email E` — read `Paths.GoEmailReaderPath`, `Mailbox.OtpRegex`,
+   `Mailbox.OtpMaxAgeMinutes`, `Mailbox.MailboxTimeoutSeconds` from config;
+   shell out to the binary's `read` for the latest message to the address;
+   extract first regex match; check message age ≤ OtpMaxAgeMinutes (warn if
+   older); PRINT the code with: "paste this into Medium yourself — this tool
+   never submits codes anywhere." Update `OtpLastShownAt`. Binary/mailbox
+   unreachable → exact error, exit 3.
+2. `profile-prep --email E` — 3 bio draft options (role + beat templates, no
+   invented credentials); avatar filename convention `<username>-white.jpg`;
+   store chosen bio/avatar.
+3. `record-article --email E --url URL` — URL must start with
+   `https://medium.com/`; status → `published`; stamp updated_at.
+4. `guide --step signup|publish` — human checklists (spec 01).
+5. `doctor` — python version; sqlite3 ok; config keys all present;
+   go-email-reader binary exists (try `--version`); DB writable;
+   openpyxl present/missing (warn only). Exit 0 iff all required green.
 
-1. `otp --email E` — shell out to the go-email-reader binary (locate:
-   `~/workspace/go-email-reader/go-email-reader`, else PATH) `read` command
-   for the latest message to `--email`; extract the first 6-digit code with
-   regex; PRINT it with "paste this into Medium yourself — this tool never
-   submits codes anywhere." Update `otp_last_shown_at`. If the binary or
-   mailbox is unreachable, print the exact error and exit 3.
-2. `profile-prep --email E` — print 3 bio draft options (role + beat +
-   "writing about X" templates, no invented credentials); suggest avatar
-   filename convention `<username>-white.jpg`; store chosen bio/avatar in
-   workbook. Never invent job titles or affiliations.
-3. `record-article --email E --url URL` — validate URL looks like a Medium
-   post URL; set `article_url`, status → `published`, stamp updated_at.
-4. `guide --step signup|publish` — print the human checklist:
-   - signup: open medium.com → Sign up with email → enter details from
-     `status` → run `otp --email` → paste code manually → complete profile.
-   - publish: write/paste article in Medium editor → review → press Publish
-     manually → run `record-article --email --url`.
-5. `doctor` — report: python version, openpyxl present/missing,
-   go-email-reader binary found/missing (+ version if `--version` works),
-   workbook path exists/missing. Exit 0 only if all green.
+## Hard prohibitions (verify before finishing)
 
-## Hard prohibitions (assert in code review)
-
-- No selenium/playwright/requests calls to medium.com.
-- No function that posts, submits, or clicks anything on any website.
-- The word "submit" must not appear in OTP handling except in the
-  "never submits" notice.
+- No selenium/playwright/requests. No posting/submitting/clicking on any site.
+- "medium.com" appears only inside `guide` checklist text and the
+  `record-article` URL prefix check.

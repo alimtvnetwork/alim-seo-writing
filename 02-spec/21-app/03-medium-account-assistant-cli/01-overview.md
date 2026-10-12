@@ -30,11 +30,13 @@ DONE (this build):
 - D1: Seedable config: `config.seed.json` → SQLite `config` table, versioned,
   user overrides preserved. Every tunable comes from config (see 02-config-and-pipeline.md).
 - D2: SQLite store (`accounts`, `config` tables) at the configured database path.
-- D3: CLI commands: `init`, `add`, `suggest-usernames`, `otp` (display only),
+- D3: CLI commands: `init`, `add`, `suggest-usernames`, `otp` (display + clipboard copy),
   `profile-prep`, `record-article`, `status`, `guide`, `doctor`,
   `config get/set`, `import-excel`, `export-excel`.
 - D4: gitmap macro `maa-onboard` (importable JSON) chaining the pipeline steps.
-- D5: `doctor` prerequisite checks.
+- D5: `doctor` prerequisite checks (python, sqlite, config, binary, db, openpyxl).
+- D6: Seamless human assistance: auto-copy OTP to native OS clipboard (`clip`/`pbcopy`/`wl-copy`)
+  and optional browser launcher (`--open`) on `guide` and `otp`.
 
 PENDING (spec'd, NOT built — blocked, do not implement):
 - P1: Browser automation of the Medium signup form. Blocked: Medium policy.
@@ -47,8 +49,9 @@ PENDING (spec'd, NOT built — blocked, do not implement):
 `gitmap py 03-ai-scripts/medium-account-assistant.py <command>`
 
 `init`, `add --email --first --last [--username]`, `suggest-usernames`,
-`otp --email` (display only), `profile-prep --email`, `record-article --email --url`,
-`status [--email]`, `guide --step signup|publish`, `doctor`,
+`otp --email [--open]` (display + auto-clipboard copy, never submits),
+`profile-prep --email`, `record-article --email --url`,
+`status [--email]`, `guide --step signup|publish [--open]`, `doctor`,
 `config get <Key>`, `config set <Key> <Value>`,
 `import-excel --file PATH`, `export-excel [--file PATH]`.
 

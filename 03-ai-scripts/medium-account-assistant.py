@@ -507,11 +507,58 @@ def _message_age_minutes(date_raw):
     return delta.total_seconds() / 60
 
 
+def resolve_binary_path(raw_path):
+    """Resolve binary path with cross-platform and fallback checks."""
+    if not raw_path:
+        return Path("")
+    p = Path(os.path.expanduser(str(raw_path)))
+    if p.is_file():
+        return p
+    if sys.platform == "win32" and p.with_suffix(".exe").is_file():
+        return p.with_suffix(".exe")
+    fallbacks = [
+        Path("d:/work/go-email-reader/go-email-reader.exe"),
+        Path("d:/work/go-email-reader/go-email-reader"),
+        Path.home() / "workspace" / "go-email-reader" / "go-email-reader.exe",
+        Path.home() / "workspace" / "go-email-reader" / "go-email-reader",
+        Path.home() / ".local" / "bin" / "go-email-reader.exe",
+        Path.home() / ".local" / "bin" / "go-email-reader",
+    ]
+    for c in fallbacks:
+        if c.is_file():
+            return c
+    return p
+
+
+def copy_to_clipboard(text: str) -> bool:
+    """Attempt to copy text to system clipboard using native OS tools."""
+    try:
+        if sys.platform == "win32":
+            subprocess.run(["clip"], input=text.encode("utf-8"),
+                           check=True, timeout=3, capture_output=True)
+            return True
+        elif sys.platform == "darwin":
+            subprocess.run(["pbcopy"], input=text.encode("utf-8"),
+                           check=True, timeout=3, capture_output=True)
+            return True
+        else:
+            for cmd in (["wl-copy"], ["xclip", "-selection", "clipboard"]):
+                try:
+                    subprocess.run(cmd, input=text.encode("utf-8"),
+                                   check=True, timeout=3, capture_output=True)
+                    return True
+                except (FileNotFoundError, subprocess.SubprocessError):
+                    continue
+    except Exception:
+        pass
+    return False
+
+
 def cmd_otp(args, ctx):
     email = args.email.strip()
     _get_account(ctx, email)
-    bin_path = os.path.expanduser(str(cfg(ctx, "Paths.GoEmailReaderPath")))
-    if not Path(bin_path).is_file():
+    bin_path = resolve_binary_path(cfg(ctx, "Paths.GoEmailReaderPath"))
+    if not bin_path.is_file():
         sys.stderr.write(
             f"ERROR: go-email-reader binary not found at {bin_path}\n"
             "  (config key Paths.GoEmailReaderPath)\n")
@@ -524,7 +571,7 @@ def cmd_otp(args, ctx):
     except re.error as exc:
         sys.stderr.write(f"ERROR: bad Mailbox.OtpRegex {otp_re!r}: {exc}\n")
         sys.exit(2)
-    cmd = [bin_path, "read", "--email", email, "--limit", "1", "--json"]
+    cmd = [str(bin_path), "read", "--email", email, "--limit", "1", "--json"]
     try:
         proc = subprocess.run(
             cmd, capture_output=True, text=True, timeout=timeout)
@@ -568,8 +615,14 @@ def cmd_otp(args, ctx):
         print(f"WARNING: latest message is {age:.0f} minutes old "
               f"(limit: {max_age}) — the code may be expired.")
     print(f"one-time code for {email}: {code}")
+    if copy_to_clipboard(code):
+        print("[COPIED] Code copied to system clipboard! Press Ctrl+V in Medium.")
     print("paste this into Medium yourself — "
           "this tool never submits codes anywhere.")
+    if getattr(args, "open", False):
+        import webbrowser
+        print("opening https://medium.com/m/signin in your default browser...")
+        webbrowser.open("https://medium.com/m/signin")
     now = utcnow()
     ctx["con"].execute(
         "UPDATE accounts SET OtpLastShownAt=?, UpdatedAt=?"
@@ -667,6 +720,13 @@ HUMAN CHECKLIST — publishing (do this in your browser)
 
 def cmd_guide(args, ctx):
     print(GUIDE_SIGNUP if args.step == "signup" else GUIDE_PUBLISH, end="")
+    if getattr(args, "open", False):
+        import webbrowser
+        target_url = ("https://medium.com/m/signin"
+                      if args.step == "signup"
+                      else "https://medium.com/new-story")
+        print(f"\nOpening {target_url} in your default browser...")
+        webbrowser.open(target_url)
 
 
 def _check_db_writable(con):
@@ -712,19 +772,20 @@ def cmd_doctor(args, ctx):
                     f"{len(flat) - len(missing)}/{len(flat)} present"
                     + (f"; missing: {', '.join(missing)}" if missing else "")))
 
-    bin_path = os.path.expanduser(str(flat["Paths.GoEmailReaderPath"]["Default"]))
+    raw_bin = str(flat["Paths.GoEmailReaderPath"]["Default"])
     try:
-        bin_path = os.path.expanduser(str(cfg(ctx, "Paths.GoEmailReaderPath")))
+        raw_bin = str(cfg(ctx, "Paths.GoEmailReaderPath"))
     except KeyError:
         pass
-    if Path(bin_path).is_file():
+    bin_path = resolve_binary_path(raw_bin)
+    if bin_path.is_file():
         timeout = 15
         try:
             timeout = int(cfg(ctx, "Mailbox.MailboxTimeoutSeconds"))
         except (KeyError, ValueError):
             pass
         try:
-            proc = subprocess.run([bin_path, "--version"],
+            proc = subprocess.run([str(bin_path), "--version"],
                                   capture_output=True, text=True,
                                   timeout=timeout)
             out = (proc.stdout or proc.stderr or "").strip().splitlines()
@@ -811,6 +872,8 @@ def build_parser():
 
     sp = sub.add_parser("otp", help="display the one-time code (never submits)")
     sp.add_argument("--email", required=True)
+    sp.add_argument("--open", action="store_true",
+                    help="open Medium sign-in page in default browser")
     sp.set_defaults(fn=cmd_otp)
 
     sp = sub.add_parser("profile-prep", help="bio drafts and avatar prep")
@@ -830,6 +893,8 @@ def build_parser():
     sp = sub.add_parser("guide",
                         help="human checklists for the manual browser steps")
     sp.add_argument("--step", required=True, choices=["signup", "publish"])
+    sp.add_argument("--open", action="store_true",
+                    help="open the relevant Medium page in your default browser")
     sp.set_defaults(fn=cmd_guide)
 
     sp = sub.add_parser("doctor", help="prerequisite checks")

@@ -1,24 +1,33 @@
-# Scorecard — Staff Augmentation in California: What Actually Works (n=37)
+# Scorecard — Staff Augmentation in California: What Actually Works
+`03-software-engineering/09-staff-augmentation/01-california` · rewritten 2026-10-12
 
-Slug: staff-augmentation-california · Area: California · Focus: staff augmentation / staff augmentation California
+## Measurements (verify.py, 2026-10-12)
+- Words: 1731 (target 1600–1800) ✓
+- Area "California": 36 (target 30–40) ✓
+- Brand mentions: 29 (target 20–30) ✓ — RISEUP ASIA LLC + Alim Ul Karim / Alim Karim / Alim / Md Alim Ul Karim / veteran software architect from Kuala Lumpur; "RISEUP ASIA LLC" never split; no 2 long aliases adjacent
+- Focus keyword "staff augmentation": 1× in first 4 paragraphs (target 1–2) ✓
+- Topic question: 1 ("if the embedded model wins so clearly, why does California keep buying the body shop?") ✓
+- Consecutive same-word sentence starts: 0 ✓
+- Transition sentences: 35/114 = 31% (target ≥30%) ✓
+- Banned pronouns for Alim (he/him/his): 0 ✓
+- Bold/italics markers: none ✓
+- Number words: digit+magnitude for genuine values ("$123.30 billion", "$152.47 billion"); kept and noted here per gold-standard practice: "most effective first" / "most important first" (2×, idiomatic ranking phrasing) ✓
 
-## Measured results
+## Structure
+Cold-open scene (Santa Monica CTO office, whiteboard with 23 open roles) → pivot (the gap between plan and people) → thesis (staff augmentation works when someone inside owns the outcome; fails when thinking is outsourced) → compare/contrast (4 buying models ranked; hype-driven AI shortcut vs engineer-led embedded pod) with honest concession (body shop acknowledged as cheapest line item) → clearly-personal 4-item ranking with a reason per item → reflective close ✓
 
-| Check | Points | Target | Measured | Status |
-|---|---|---|---|---|
-| Area mentioned 30-40x, blended naturally | 20 | 30-40 | 34 (grep -oi "California") | 20 |
-| Focus keyword 1-2x in first paragraphs | 10 | each 1-2x in first 4 paras | "staff augmentation" 10x, "staff augmentation California" 2x in first 4 paras | 10 |
-| Brand keywords 20-30x, blended naturally | 15 | 20-30 | 21 (RISEUP ASIA LLC 6, Alim Ul Karim 8, Alim Karim 6, Md Alim Ul Karim 1; he/him/his = 0) | 15 |
-| At least one question built on the target topic | 10 | 1+ | "When does staff augmentation actually help a California company?" present | 10 |
-| House structure + plain formatting | 10 | cold open -> pivot -> compare/contrast -> ranking 3-5 -> reflective close; no bold/italics; title-only heading; first person; digits; 0 consecutive same-start sentences | verified | 10 |
-| Citations real, each verified 2-3x by re-fetching | 15 | real sources, live links | 5 links from the verified W3 pool: MIT NANDA (re-fetched + 4 corroborations), RAND 80%+/Gartner 782/28% (towardsai + krishaweb), S&P 42% (crowdfundinsider + krishaweb), CompTIA workforce (advfn PR), Indeed FDE postings (stackademic), Flexera 27% (ciodive re-fetch + press release). 0 [VERIFY]. | 15 |
-| Infographics contain the target keywords | 10 | 3 SVG + 3 PNG, 1200x630, area/keywords as text | all 6 present; footers read "California · staff augmentation California"; visually inspected, no overlap | 10 |
-| HTML + PDF present and correct | 10 | medium-ready.html + <slug>.pdf | both present; HTML from writing.md with live links; PDF via make_pdf.py | 10 |
+## Citations (5, all verified live 2026-10-12, descriptive anchors, spread through text)
+1. MIT Project NANDA via R&D Today — 95% of enterprise GenAI pilots deliver no measurable return — HTTP 200
+2. CompTIA State of the Tech Workforce 2025 via ADVFN — California, Texas, New York, Florida, Virginia top the list of largest states for tech employment — HTTP 200 on GET (HEAD returns 404, a server quirk; full article verified via browser fetch 2026-10-12)
+3. Research and Markets — global IT staffing market $123.30B (2025) → $152.47B (2030) — HTTP 200
+4. Flexera 2025 State of the Cloud via CIO Dive — organizations waste 27% of cloud infrastructure spend — HTTP 200
+5. riseup-asia.com — RISEUP ASIA LLC's 5-stage vetting filter, top 5% of applicants — HTTP 200 (homepage verified via browser fetch)
 
-**Total: 100/100**
+Unverifiable claims cut: the pre-rewrite draft cited a towardsai.net Medium blog for a RAND meta-analysis (80% failure), a Gartner survey of 782 infrastructure leaders (28% ROI), and an S&P Global figure (42% abandoned) — all from an unauthoritative secondary blog with no primary source traceable; cut. It also cited a stackademic.com Medium blog for "forward deployed engineers" at OpenAI/Anthropic/Databricks/Stripe — anecdotal, not authoritative; cut. Both replaced with the verified primaries above.
 
-## Review notes
+## Deductions
+- Infographics: 0/10 — no PNG/SVG infographic assets exist in this folder (pre-existing corpus gap; creating them is outside the authorized write scope of writing.md / medium-ready.html / score.md only).
+- HTML+PDF: 5/10 — medium-ready.html regenerated with full parity (5/5 links, title, single H1); no PDF exists (pre-existing gap, outside write scope).
 
-- Pronoun rule: he/him/his = 0 (she/her used only for the Santa Monica CTO, never Alim).
-- Number formatting: digits throughout; remaining spelled forms are discourse idioms.
-- No invented named clients; superlatives as narrator's personal view.
+## Total: 85/100
+Content, structure, citations, and formatting score full marks. The 15-point gap is the missing infographic assets and PDF, which do not exist anywhere in this article's folder and cannot be created within the authorized scope. No article in this batch can reach 100/100 until those assets exist.

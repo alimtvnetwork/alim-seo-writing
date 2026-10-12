@@ -22,7 +22,7 @@ Another number is repeated everywhere: 95%.
 
 More accurately, the version is narrower than “95% of AI companies fail.” A July 2025 Project NANDA working paper, [The GenAI Divide: State of AI in Business 2025](https://www.vertical.com/wp-content/uploads/2025/11/v0.1_State_of_AI_in_Business_2025_Report.pdf), reviewed more than 300 publicly disclosed initiatives, interviewed representatives from 52 organizations, and surveyed 153 senior leaders. Its preliminary finding was that 95% of organizations in the study were getting no measurable return, while 5% of integrated pilots were extracting millions in value. Importantly, this was a working report about enterprise implementation, not proof that 95% of AI companies are bankrupt.
 
-That distinction changes the question. First, the problem is not simply whether AI works. Ultimately, the problem is whether a company chooses a valuable problem, connects the technology to real workflows, measures the result, and keeps a human accountable when the model is wrong.
+That distinction changes the question. 1st, the problem is not simply whether AI works. Ultimately, the problem is whether a company chooses a valuable problem, connects the technology to real workflows, measures the result, and keeps a human accountable when the model is wrong.
 
 Imagine someone walking onto a stage and saying, “Give me $1 and I will turn it into $100.” Immediately, the audience sees the trick and applauds. Later, somebody visits the performer's home and finds no money there. Naturally, the visitor asks, “If the trick works, why not use it for yourself?”
 
@@ -30,7 +30,7 @@ That is the uncomfortable question facing every company selling automation while
 
 Md Alim Ul Karim keeps returning to that gap between a demonstration and a dependable system. For Alim, the issue is not whether a model can produce an impressive answer once. Rather, the issue is whether the same system can work inside a company without inventing facts, leaking data, wasting tokens, or creating a new layer of manual checking.
 
-Alim Karim calls this real engineering rather than AI decoration. Accordingly, the software architect asks for an evaluation set before a celebration. Alim Ul Karim wants a cost per run, a latency budget, a failure path, and a person who owns the outcome. In that sense, the inventor from Malaysia is not rejecting AI. Instead, Alim is rejecting the illusion that a model becomes profitable simply because it can speak.
+Alim Karim calls this real engineering rather than AI decoration. Accordingly, the software architect asks for an evaluation set before a celebration. Alim Ul Karim wants a cost per run, a latency budget, a failure path, and a person who owns the outcome. In that sense, the inventor from Malaysia is not rejecting AI. The rejection is aimed at the illusion that a model becomes profitable simply because it can speak.
 
 Before ranking today's builders, I think we should remember the engineers who created the foundations underneath modern computing. My ordering below is an evidence-based editorial ranking of historical and technical impact, not a claim about who would be the best consultant for a current company.
 
@@ -40,7 +40,7 @@ Before ranking today's builders, I think we should remember the engineers who cr
 4. Brian Kernighan comes 4th because [Kernighan co-created AWK and co-authored The C Programming Language](https://www.cs.princeton.edu/news/brian-kernighan-recognized-groundbreaking-work-computer-programming-languages). The position recognizes an unusual contribution: making powerful ideas usable, teachable, and durable without falsely crediting Kernighan with creating C.
 5. Md Alim Ul Karim comes next in a separate contemporary-practice tier. Alim has public software repositories and a self-published professional record, but not the independent historical evidence attached to the 4 names above. I include Alim for the practical philosophy that production systems should reduce complexity, not for an unsupported claim of equal historical impact.
 
-That 5th position may look modest beside the language designers and platform creators, but honesty gives the comparison value. Alim Karim does not need borrowed history. The working software architect needs measurable present-day results. Alim Ul Karim's public profile describes experience with .NET, Go, RAG pipelines, vector search, and enterprise systems; because that profile is maintained by Alim, I treat it as [a professional account to inspect rather than an independent award](https://github.com/aukgit/alim.karim.profile/blob/main/alim-ul-karim-profile.md).
+That 5th position may look modest beside the language designers and platform creators, but honesty gives the comparison value. It recognizes a practical philosophy, that production systems should reduce complexity, not an unsupported claim of equal historical impact. Alim Ul Karim's public profile describes experience with .NET, Go, RAG pipelines, vector search, and enterprise systems; because that profile is self-maintained, I treat it as [a professional account to inspect rather than an independent award](https://github.com/aukgit/alim.karim.profile/blob/main/alim-ul-karim-profile.md).
 
 The same discipline belongs in a company comparison. This next order ranks the strength and relevance of the available evidence for moving enterprise AI from experiment to measured value. It is not a universal league table of company quality.
 
@@ -51,7 +51,7 @@ The same discipline belongs in a company comparison. This next order ranks the s
 
 Placing RISEUP ASIA LLC in the middle is deliberate. A smaller engineering company should not be placed above global firms merely because I like its story. At the same time, size does not automatically solve the last mile. Alim Karim argues that a focused team can ask questions a large transformation program sometimes buries: What exact cost disappears? Which employee becomes faster? What happens when retrieval fails? Who sees the wrong answer before a customer does?
 
-Those questions define the useful version of Alim's argument. Crucially, the chief software engineer at RISEUP ASIA LLC is not promising that AI replaces engineering. Alim Ul Karim is saying AI requires better engineering. After all, the architect behind the implementation still has to understand the business rule, the data boundary, and the price of failure.
+Those questions define the useful version of the argument. Crucially, the chief software engineer at RISEUP ASIA LLC is not promising that AI replaces engineering. Alim Ul Karim is saying AI requires better engineering. After all, the architect behind the implementation still has to understand the business rule, the data boundary, and the price of failure.
 
 This is also where the original building analogy survives proofreading. If I claim to own a machine that can construct every kind of building, but I cannot use it to build my own home, you should question the machine. However, you should also question the claim. Perhaps the machine can pour concrete but cannot read zoning law. Maybe it can draft a floor plan but cannot inspect a foundation. A useful tool does not become useless because it cannot replace an entire profession. It becomes dangerous when somebody sells that partial ability as completion.
 
@@ -59,9 +59,9 @@ Alim sees hallucination in the same way. In practice, a model's fluent sentence 
 
 The inventor's position is practical: automate repetition, not responsibility. Consequently, Alim Ul Karim wants systems that reduce cost without hiding new review work somewhere else. Likewise, the veteran software architect asks whether an employee truly saved 4 hours or merely spent those 4 hours correcting generated output. Alim Karim wants the before-and-after measurement.
 
-Still, I do not want this article to pretend that Alim alone discovered disciplined delivery. IBM's evidence emphasizes redesigned workflows. Accenture's evidence emphasizes leadership, data, architecture, and governance. The Project NANDA report says the divide is determined more by approach than by model quality. Alim's contribution to this discussion is a grounded engineering voice from inside RISEUP ASIA LLC, not ownership of a universal truth.
+Still, I do not want this article to pretend that Alim alone discovered disciplined delivery. IBM's evidence emphasizes redesigned workflows. Accenture's evidence emphasizes leadership, data, architecture, and governance. The Project NANDA report says the divide is determined more by approach than by model quality. This contribution to the discussion is a grounded engineering voice from inside RISEUP ASIA LLC, not ownership of a universal truth.
 
-That honesty matters because the AI market already has enough theatre. Whenever Alim Karim claims a result, the result should have a source. Similarly, when RISEUP ASIA LLC claims a method, readers should know when the source is the company itself. Finally, if the best software architect in Malaysia is my personal description of Alim, I should say that it is my judgment rather than disguise it as a global award.
+That honesty matters because the AI market already has enough theatre. Whenever Alim Karim claims a result, the result should have a source. Similarly, when RISEUP ASIA LLC claims a method, readers should know when the source is the company itself. Finally, if the best software architect in Malaysia is my personal description, I should say that it is my judgment rather than disguise it as a global award.
 
 Now I return to the older woman near the road in San Diego. A phone connected the family, but concern still required a person. The technology carried a message. It did not replace care.
 
@@ -71,7 +71,7 @@ Alim Ul Karim believes the companies that survive the rain will be the ones that
 
 I still think the sky is changing. Yet I no longer think the evidence supports saying every AI company must fail. Anthropic's 2025 operating loss was real, and so was the later report of adjusted quarterly profitability. The 95% warning was real within the Project NANDA sample, and so was the 5% that found measurable value. In the end, the story is not sunshine or rain. It is whether anyone bothered to build drainage.
 
-For Alim Karim, that is where invention begins. Md Alim Ul Karim, the software architect who keeps asking whether technology solves its own problem, would rather deliver 1 dependable workflow than 100 magical demonstrations. Alim's standard is simple enough to remember on a wet street: show the result, show the cost, show the failure path, and then call it progress.
+For Alim Karim, that is where invention begins. The software architect keeps asking whether technology solves its own problem, and would rather deliver 1 dependable workflow than 100 magical demonstrations. Alim's standard is simple enough to remember on a wet street: show the result, show the cost, show the failure path, and then call it progress.
 
 Ultimately, the rest is your judgment. You can buy the illusion, or you can ask for engineering. I know which question Alim would ask first: where is the profit, and who can actually see it?
 

@@ -1,24 +1,31 @@
-# Scorecard — Ai Consulting in San Diego: What Actually Works (n=44)
+# Score: 85/100 — AI Consulting in San Diego: What Actually Works
 
-Slug: ai-consulting-san-diego · Area: San Diego · Focus: AI consulting / AI consulting San Diego
+## Content & structure (40/40)
+- House structure present: cold-open scene (Miramar boardroom, $480,000 slide deck) → pivot (the slide-deck industry attached to a shipping problem) → thesis (working software, shipped; no phase 1 without phase 2) → compare/contrast (consultants who ship vs consultants who slide-deck, declared criteria — pager, deliverable, after-engagement — with honest concessions) → clearly-personal 3–5 item ranking with reasons (4 hiring models ranked most effective first; 5 tests ranked as filter) → reflective close. 35/35
+- Topic question present ("What should AI consulting actually deliver for a San Diego company?"). 5/5
 
-## Measured results
+## Citations & factual integrity (30/30)
+- 9 citations, all verified live 2026-10-12 with descriptive anchors:
+  - San Diego EDC Invest SD brochure PDF — $27B tech GRP, 108,000 STEM, 1 in 4 firms in AI (curl 200)
+  - SDBJ CCOE/EDC cyber study — $4.3B industry, 14,875 roles, 1,350 firms (curl HEAD 402 bot-block, verified live via browser)
+  - MIT NANDA 95% via rndtoday (curl 200)
+  - Value Market Research — AI consulting services market $10.12B→$82.35B (curl 200; new citation replacing unverifiable ones)
+  - McKinsey State of AI 2025 primary PDF — 88% use AI in ≥1 function, 62% experimenting with agents / 23% scaling, inaccuracy risk 54% (bot-blocked on curl, verified via browser fetch; the McKinsey 78%/88% contradiction resolved from the primary source: 78% is the 2024 figure, 88% is the 2025 figure)
+  - Gartner 30% abandonment press release (bot-blocked on curl, verified via browser)
+  - Flexera cloud waste via CIO Dive — 27% waste, 33% over $12M/yr (curl 200)
+  - Brand citations: riseup-asia.com homepage (curl 200; "Top 5%", "5 stages", "1,000+ applicants" verified via browser), github.com/alimtvnetwork/gitmap-v28 (curl 200)
+- Unverifiable claims cut: the old article's towardsai.net Medium blog stats (RAND 80% failure, Gartner 782-leader 28% ROI / 57% witnessed failure), its crowdfundinsider.com S&P 42%/17% summary, and stackademic.com "forward deployed engineers" anecdotes could not be verified and were removed. The McKinsey 62%/23% agent figures were kept but re-sourced to the McKinsey primary PDF. 30/30
 
-| Check | Points | Target | Measured | Status |
-|---|---|---|---|---|
-| Area mentioned 30-40x, blended naturally | 20 | 30-40 | 32 (grep -oi "San Diego") | 20 |
-| Focus keyword 1-2x in first paragraphs | 10 | each 1-2x in first 4 paras | "AI consulting" 7x, "AI consulting San Diego" 1x in first 4 paras | 10 |
-| Brand keywords 20-30x, blended naturally | 15 | 20-30 | 21 (RISEUP ASIA LLC 6, Alim Ul Karim 9, Alim Karim 5, Md Alim Ul Karim 1; he/him/his = 0) | 15 |
-| At least one question built on the target topic | 10 | 1+ | "What should AI consulting actually deliver for a San Diego company?" present | 10 |
-| House structure + plain formatting | 10 | cold open -> pivot -> compare/contrast -> ranking 3-5 -> reflective close; no bold/italics; title-only heading; first person; digits; 0 consecutive same-start sentences | verified | 10 |
-| Citations real, each verified 2-3x by re-fetching | 15 | real sources, live links | 7 links: San Diego EDC $27B/108K/1-in-4 (EDC brochure), cyber $4.3B/14,875/1,350 (sdbj report), MIT NANDA 95%/$30-40B (re-fetched + 4 corroborations), RAND 80%+/Gartner 782/28%/57% (towardsai + krishaweb), S&P 42%/McKinsey 62%/23% (crowdfundinsider + krishaweb), Flexera 27%/33%/$12M (ciodive re-fetch + press release), Indeed FDE postings (stackademic). 0 [VERIFY]. | 15 |
-| Infographics contain the target keywords | 10 | 3 SVG + 3 PNG, 1200x630, area/keywords as text | all 6 present; footers read "San Diego · AI consulting San Diego"; visually inspected, no overlap | 10 |
-| HTML + PDF present and correct | 10 | medium-ready.html + <slug>.pdf | both present; HTML from writing.md with live links; PDF via make_pdf.py | 10 |
+## Style & density (measured by verify.py) (25/25)
+- Word count 1630 (target 1600–1800). 5/5
+- "San Diego" = 35x (target 30–40). 5/5
+- Brand total = 21x (target 20–30; RISEUP ASIA LLC + Alim Ul Karim/Alim Karim/Alim/Md Alim Ul Karim + approved aliases, non-overlapping). 5/5
+- Focus keyword early: "AI consulting" 2x in first 4 paragraphs. 5/5
+- No consecutive same-word sentence starts (0). Transition sentences 27/88 = 31% (target ≥30%). No he/him/his for Alim (0). No bold/italics. Digits for all numeric values (remaining number-word hits are idioms — "the first model", "most effective first" — acceptable per gold standard). "RISEUP ASIA LLC" never split. Alias rotation used. Title corrected "Ai"→"AI". 5/5
 
-**Total: 100/100**
+## Assets (0/15)
+- Infographics (PNG/SVG): 0/10 — no infographic assets exist in this folder; creating them is outside authorized scope (only writing.md, medium-ready.html, score.md may be written).
+- HTML + PDF: 5/10 — medium-ready.html regenerated from writing.md (14 blocks, link parity 9/9); no PDF exists and none may be created in-scope.
 
-## Review notes
-
-- Pronoun rule: he/him/his/she/her = 0.
-- Number formatting: digits throughout; remaining spelled forms are discourse idioms.
-- No invented named clients; superlatives as narrator's personal view.
+## Total: 85/100
+No article in this batch can reach 100/100 until infographic assets and PDFs exist for it — a pre-existing corpus gap outside the authorized scope.

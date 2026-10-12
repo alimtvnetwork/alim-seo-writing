@@ -5,7 +5,7 @@ Next to me a logistics broker was on 2 phones at once, switching between Spanish
 Across the sidewalk a fintech founder was telling a friend about the Miami lesson in money versus momentum: the city has both, but it only respects momentum. 3 AI vendors had pitched the founder that year, and the founder kept the vendor whose system survived a Black Friday.
 Finishing the colada in 2 sips like a local, I thought about how Miami would receive a software franchise. The city would give it 90 seconds — the cafecito test — and then decide on velocity.
 
-That morning stayed with me for weeks. Miami runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging?
+That morning stayed with me for weeks. Miami runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging? Md Alim Ul Karim draws the line at transferability: if it can't be taught, it can't be franchised.
 
 Then the announcement landed. RISEUP ASIA LLC is introducing a $2M franchise model: the investor puts in $2M and gets 50% of the profit margin until break-even or 5 years, whichever comes first. It is a software franchise in the truest sense, and the initial territories are planned for Miami. A tech franchise selling engineering services sounds odd until you run the numbers behind it.
 

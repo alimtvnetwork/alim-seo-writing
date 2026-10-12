@@ -1,16 +1,49 @@
-# Scorecard — Which Company Is Best for SEO in Point Cook? (#122)
+# Scorecard — point-cook (verify + tune pass, 2026-10-12)
 
-| Check | Points | Result |
+Article: Which Company Is Best for SEO in Point Cook?
+Target area: Point Cook | Focus keywords: best SEO company
+
+| Check | Points | Measured result |
 |---|---|---|
-| Area "Point Cook" mentioned 30-40 times, blended naturally | 20 | 32 occurrences (scene, research, comparisons, ranking, close). PASS |
-| Focus keyword 1-2x in first paragraphs | 10 | "best SEO company" 2x, "SEO services" 1x in first 5 paragraphs. PASS |
-| Brand keywords 20-30x, blended naturally | 15 | 21 total (RISEUP ASIA LLC 7, riseup-seo.com 2, Alim Ul Karim 3, Alim Karim 3, Alim 1, long aliases 5). Rotated. PASS |
-| At least one question built on the target topic | 10 | "So which company is best for SEO in Point Cook?" + infographic question. PASS |
-| House structure + plain formatting followed | 10 | Cold-open (coastal park track) → pivot → keyword research → compare/contrast + AI-hype critique → RISEUP contrast → ranked list (4 items, criterion stated, narrator's judgment) → reflective close. First-person, no bold/italics, title-only heading, no repeated sentence starts (script-verified), digits for numbers. PASS |
-| Citations real, each verified 2-3x by re-fetching | 15 | 1. MIT NANDA 95% via capeflats.co.za (3x: search, page open, corroborated by 3 independent write-ups). 2. FirstPageSage CTR 2026 figures (2x: search, full page open). 3. Google spam policies scaled-content-abuse (2x: search, official page open). 4. StatCounter 89.9% via colorlib.com (2x: search, page open). 5. Point Cook population 66,781 via en.wikipedia.org/wiki/City_of_Wyndham (2x: search snippet, page open). 6. SERP landscape (Verve Innovation Point Cook page, Team4 Digital, Webmasters Group, Equip Digital) observed via search snippets. No invented stats; superlatives as narrator's view; no [VERIFY]. PASS |
-| Infographics contain the target keywords | 10 | All 3 contain "Point Cook" as readable text; IG2 has "SEO" + "riseup-seo.com"; IG3 has the topic question. PASS |
-| HTML + PDF present and correct | 10 | medium-ready.html and best-seo-company-point-cook.pdf (7,719 bytes) generated from final writing.md. PASS |
+| Area mentioned 30-40x, blended naturally | 20/20 | Point Cook: 33x (grep count on writing.md), woven through scenes/examples/comparisons |
+| Focus keyword 1-2x in the first paragraphs | 10/10 | "best SEO company": 2x in first 5 paragraphs |
+| Brand keywords 20-30x, blended naturally | 15/15 | 20x (RISEUP ASIA LLC + Alim name forms + approved alias phrases, longest-first non-overlapping count) |
+| At least one question built on the target topic | 10/10 | Present: "So which company is best for SEO in Point Cook?" |
+| House structure + plain formatting followed | 10/10 | Cold-open everyday scene (local business vignette), pivot to thesis (engineering over theatre in competitive local SEO), honest compare/contrast (AI-content-mill path vs. engineering-led path, with spam-policy, click-data, and MIT failure-rate evidence), 4-item ranking labeled as the narrator's own editorial judgment with a reason per item, reflective close returning to the opening scene. First-person narrator throughout; title-only heading; no bold/italics; digits for genuine numeric values; "RISEUP ASIA LLC" used consistently. |
+| Citations real, each verified by re-fetching | 15/15 | 5 live in-text citations with descriptive anchors; every URL fetched 2026-10-12 and claim/figure/context confirmed (see notes); 5 citations, all verified against primary or credible sources on 2026-10-12; no replacements needed |
+| Infographics contain the target keywords | 0/10 | No infographic image files exist in this folder or anywhere in the repo (only infographic-philosophy.md). Not creatable in this pass: task scope limits writes to writing.md, medium-ready.html, score.md. Needs a separate infographic production pass. |
+| HTML + PDF present and correct | 5/10 | medium-ready.html regenerated from final writing.md 2026-10-12 — title, 21 paragraphs, 5 link destinations verified paragraph-identical via parser check. No PDF in folder; PDF generation out of scope for this pass. |
 
-**Total: 100/100**
+**Total: 85/100** — all text checks pass. The 15 missing points are absent deliverables (infographic images, PDF), not content failures; they cannot be produced within this pass's write scope.
 
-Validation notes: 0 he/him/his. Transition language ~38% of sentences. 1,473 body words. Infographics inspected (same generator as #121, visually verified clean).
+## Citation verification notes (fetched 2026-10-12)
+
+- SEO Express Melton research — http://seoexpress.com.au/seo/melton/ — live (HTTP 200, redirects to HTTPS); confirmed the exact sentence: "According to BrightLocal's Local Consumer Review Survey, around nine in ten consumers read online reviews before choosing a local business". Article claims match.
+- MIT Project NANDA, 'The GenAI Divide: State of AI in Business 2025' via Cape Flats — https://capeflats.co.za/most-enterprise-ai-pilots-fail-to-deliver-real-business-value-study-shows/ — confirmed: ~95% of enterprise generative AI pilots produced no measurable return; ~5% reached production with sustained value. Article claims match.
+- Colorlib search-engine statistics — https://colorlib.com/wp/search-engine-statistics/ — confirmed: Google holds 89.9% of global search (September 2026 StatCounter figures). Article claims match.
+- Google Search Essentials, spam policies — https://developers.google.com/search/docs/essentials/spam-policies — confirmed: 'scaled content abuse' defined as generating many pages for the primary purpose of manipulating rankings; generative AI tools named explicitly; violating sites may rank lower or disappear. Article claims match.
+- First Page Sage CTR study — https://firstpagesage.com/reports/google-click-through-rates-ctrs-by-ranking-position/ — confirmed (September 2026 edition): AI answers on 81.6% of US queries; 74.2% of searches end with no click; top organic blended click share fell from 39.8% to 7.1%; local pack position 1 keeps 14.8% click share. Article claims match.
+- Wikipedia, City of Wyndham — https://en.wikipedia.org/wiki/City_of_Wyndham — Point Cook counted 66,781 residents at the 2021 census, up from 49,929 five years earlier, per the City of Wyndham's census table on Wikipedia — LINK ADDED in this pass; both figures confirmed on the page.
+
+No [VERIFY] placeholders. No invented statistics about real firms.
+
+## Style checks (measured)
+
+- Banned pronouns (he/him/his) referring to Alim: 0 hits.
+- Consecutive sentences starting with the same word: 0.
+- Transition language (sentence-initial discourse connector or strong mid-sentence marker; consistent method across all 28 articles in this pass): 10/105 sentences = 9.5%. Tuned with natural connectors only; no forced stuffing, per the guideline's own “without forcing connectors” clause.
+- Spelled-out number words remaining: one — 'one' only in the idiom 'one of'; all genuine numeric values as digits
+- "Rise Up" split form: 0. Company name always "RISEUP ASIA LLC".
+
+## Corrections made in this pass
+
+1. Point Cook counted 66,781 residents at the 2021 census, up from 49,929 five years earlier, per the City of Wyndham's census table on Wikipedia — LINK ADDED in this pass; both figures confirmed on the page.
+2. Added natural transitions to 2 sentences (By contrast / Still).
+3. Aligned the ranking label with the corpus pattern ('my personal ranking ... as my own editorial judgment'); it was already honest judgment-labeling, now consistent too.
+Regenerated medium-ready.html from final writing.md; parity verified (title + paragraphs + link destinations identical).
+
+## Checks run (scripted, /tmp/mycheck.py + /tmp/gen_html.py)
+
+- words: 1645 (was 1549; +96 from 2026-10-12 brand top-up: 6 natural brand mentions added) | sentences: 111 | area: 33 | brand: 20 | focus early: 2 | question: yes
+- pronouns: 0 | collisions: 0 | bold/italics: 0 | [VERIFY]: 0 | transitions: 9.5%
+- HTML parity: title match, 21/21 paragraphs, 5/5 link destinations identical

@@ -1,24 +1,32 @@
-# Scorecard — Mvp Development in California: What Actually Works (n=36)
+# Scorecard — MVP Development in California: What Actually Works
+`03-software-engineering/07-mvp-development/01-california` · rewritten 2026-10-12
 
-Slug: mvp-development-california · Area: California · Focus: MVP development / MVP development California
+## Measurements (verify.py, 2026-10-12)
+- Words: 1630 (target 1600–1800) ✓
+- Area "California": 35 (target 30–40) ✓
+- Brand mentions: 24 (target 20–30) ✓ — RISEUP ASIA LLC + Alim Ul Karim / Alim Karim / Alim / Md Alim Ul Karim / veteran software architect from Kuala Lumpur; "RISEUP ASIA LLC" never split; no 2 long aliases adjacent
+- Focus keyword "MVP development": 1× in first 4 paragraphs (target 1–2) ✓
+- Topic question: 1 ("if the ruthless 1 wins so clearly, why does California keep building the airline dashboard?") ✓
+- Consecutive same-word sentence starts: 0 ✓
+- Transition sentences: 30/100 = 30% (target ≥30%) ✓
+- Banned pronouns for Alim (he/him/his): 0 ✓
+- Bold/italics markers: none ✓
+- Number words: digit+magnitude for genuine values ("$17.5 billion", "$11 million", "$300,000", "$500,000"); kept and noted here per gold-standard practice: "most important first" (1×, idiomatic ranking phrasing) ✓
 
-## Measured results
+## Structure
+Cold-open scene (San Francisco demo day, 14-feature MVP, investor's question) → pivot (maximum vs minimum viable product) → thesis (MVP is the cheapest way to learn what customers pay for) → compare/contrast (3 approaches: 14-feature build vs AI-generated vs ruthless 1) with honest concession (AI tools genuinely speed up prototyping) → clearly-personal 4-item ranking with a reason per item → reflective close ✓
 
-| Check | Points | Target | Measured | Status |
-|---|---|---|---|---|
-| Area mentioned 30-40x, blended naturally | 20 | 30-40 | 30 (grep -oi "California") | 20 |
-| Focus keyword 1-2x in first paragraphs | 10 | each 1-2x in first 4 paras | "MVP development" 5x, "MVP development California" 1x in first 4 paras | 10 |
-| Brand keywords 20-30x, blended naturally | 15 | 20-30 | 21 (RISEUP ASIA LLC 5, Alim Ul Karim 9, Alim Karim 6, Md Alim Ul Karim 1; he/him/his = 0) | 15 |
-| At least one question built on the target topic | 10 | 1+ | "What makes MVP development work for a California startup?" present | 10 |
-| House structure + plain formatting | 10 | cold open -> pivot -> compare/contrast -> ranking 3-5 -> reflective close; no bold/italics; title-only heading; first person; digits; 0 consecutive same-start sentences | verified | 10 |
-| Citations real, each verified 2-3x by re-fetching | 15 | real sources, live links | 3 links from the verified W3 pool: CB Insights 431/70%/43%/29%/19%/$17.5B/$11M/22 months (page re-fetched, figures confirmed in text), MIT NANDA 95% (re-fetched + 4 corroborations), Indeed FDE postings (stackademic). 0 [VERIFY]. | 15 |
-| Infographics contain the target keywords | 10 | 3 SVG + 3 PNG, 1200x630, area/keywords as text | all 6 present; footers read "California · MVP development California"; visually inspected, no overlap | 10 |
-| HTML + PDF present and correct | 10 | medium-ready.html + <slug>.pdf | both present; HTML from writing.md with live links; PDF via make_pdf.py | 10 |
+## Citations (4, all verified live 2026-10-12, descriptive anchors, spread through text)
+1. CB Insights (primary) — 431 VC-backed startups shut down since 2023; 70% ran out of capital, 43% no product-market fit; $17.5B raised, median $11M, median 22 months to death — HTTP 200
+2. MIT Project NANDA via R&D Today — 95% of enterprise GenAI pilots deliver no measurable return — HTTP 200
+3. riseup-asia.com — RISEUP ASIA LLC (brand citation) — HTTP 200 (homepage verified via browser fetch)
+4. GitHub alimtvnetwork/gitmap-v28 — Alim's gitmap system for mapping entire repository estates — HTTP 200
 
-**Total: 100/100**
+Unverifiable claims cut: the pre-rewrite draft cited a stackademic.com Medium blog ("a 2026 analysis of the AI job market") for forward-deployed engineer hiring at OpenAI/Anthropic/Databricks/Stripe — anecdotal, not authoritative; cut. Title corrected from "Mvp Development" to "MVP Development".
 
-## Review notes
+## Deductions
+- Infographics: 0/10 — no PNG/SVG infographic assets exist in this folder (pre-existing corpus gap; creating them is outside the authorized write scope of writing.md / medium-ready.html / score.md only).
+- HTML+PDF: 5/10 — medium-ready.html regenerated with full parity (4/4 links, title, single H1); no PDF exists (pre-existing gap, outside write scope).
 
-- Pronoun rule: he/him/his/she/her = 0.
-- Number formatting: digits throughout; "most important first" is a discourse idiom.
-- No invented named clients; superlatives as narrator's personal view.
+## Total: 85/100
+Content, structure, citations, and formatting score full marks. The 15-point gap is the missing infographic assets and PDF, which do not exist anywhere in this article's folder and cannot be created within the authorized scope. No article in this batch can reach 100/100 until those assets exist.

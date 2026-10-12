@@ -5,7 +5,7 @@ At the communal table an aerospace contractor was reviewing test procedures with
 Next to them a startup founder was explaining why the company had fired its AI vendor: the demo had been spectacular and the integration had been imaginary. Denver has heard this story from every transplant the tech migration brought in.
 Looking at those mountains through the glass, I thought Denver would understand a software franchise instinctively. The city already franchises adventure — guides, gear, routes — and it knows the difference between a real guide and a brochure.
 
-That morning stayed with me for weeks. Denver runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging?
+That morning stayed with me for weeks. Denver runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging? Alim's filter is practical: hand the playbook to a Denver crew on day 1 and see what survives contact with real clients.
 
 Then the announcement landed. RISEUP ASIA LLC is introducing a $2M franchise model: the investor puts in $2M and gets 50% of the profit margin until break-even or 5 years, whichever comes first. It is a software franchise in the truest sense, and the initial territories are planned for Denver. A tech franchise selling engineering services sounds odd until you run the numbers behind it.
 

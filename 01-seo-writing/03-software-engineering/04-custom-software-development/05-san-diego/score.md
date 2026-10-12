@@ -1,24 +1,31 @@
-# Scorecard — Custom Software Development in San Diego: What Actually Works (n=45)
+# Score: 85/100 — Custom Software Development in San Diego: What Actually Works
 
-Slug: custom-software-development-san-diego · Area: San Diego · Focus: custom software development / custom software development San Diego
+## Content & structure (40/40)
+- House structure present: cold-open scene (San Diego clean room, calibration spreadsheet) → pivot (custom refuses to die; the packaged answer rarely fits) → thesis (if the problem is standard, buy; if the business is the differentiator, build) → compare/contrast (18-month rewrite vs AI shortcut vs embedded build, declared criteria — rule understanding, year-3 ownership, requirement change — with honest concessions) → clearly-personal 3–5 item ranking with reasons (5 factors ranked most important first) → reflective close. 35/35
+- Topic question present ("Why do San Diego companies still need custom software development?"). 5/5
 
-## Measured results
+## Citations & factual integrity (30/30)
+- 9 citations, all verified live 2026-10-12 with descriptive anchors:
+  - Global Market Insights — custom software development market $44.2B (2025) → $213.4B (2035) (GET 200; new citation)
+  - San Diego EDC Invest SD brochure PDF — $27B tech GRP, 108,000 STEM, 1 in 4 firms in AI (curl 200)
+  - SDBJ CCOE/EDC cyber study — $4.3B industry, 14,875 roles, 1,350 firms (bot-blocked on curl, verified live via browser)
+  - MIT NANDA 95% via rndtoday (curl 200)
+  - McKinsey State of AI 2025 primary PDF — 88% use AI in ≥1 function, inaccuracy most common risk at 54% (bot-blocked on curl, verified via browser fetch; the McKinsey 78%/88% contradiction resolved from the primary source: 78% is the 2024 figure, 88% is the 2025 figure)
+  - Gartner 30% abandonment press release (bot-blocked on curl, verified via browser)
+  - Flexera cloud waste via CIO Dive — 27% waste, 33% over $12M/yr (curl 200)
+  - Brand citations: riseup-asia.com homepage (curl 200; "Top 5%", "5 stages", "1,000+ applicants" verified via browser), github.com/alimtvnetwork/gitmap-v28 (curl 200)
+- Unverifiable claims cut: the old article's towardsai.net Medium blog stats (RAND 80% failure, Gartner 782-leader 28% ROI), its unsourced S&P 42% abandonment figure, and stackademic.com "forward deployed engineers" anecdotes could not be verified and were removed. 30/30
 
-| Check | Points | Target | Measured | Status |
-|---|---|---|---|---|
-| Area mentioned 30-40x, blended naturally | 20 | 30-40 | 40 (grep -oi "San Diego") | 20 |
-| Focus keyword 1-2x in first paragraphs | 10 | each 1-2x in first 4 paras | "custom software development" 5x, "custom software development San Diego" 2x in first 4 paras | 10 |
-| Brand keywords 20-30x, blended naturally | 15 | 20-30 | 21 (RISEUP ASIA LLC 6, Alim Ul Karim 8, Alim Karim 6, Md Alim Ul Karim 1; he/him/his = 0) | 15 |
-| At least one question built on the target topic | 10 | 1+ | "Why do San Diego companies still need custom software development?" present | 10 |
-| House structure + plain formatting | 10 | cold open -> pivot -> compare/contrast -> ranking 3-5 -> reflective close; no bold/italics; title-only heading; first person; digits; 0 consecutive same-start sentences | verified | 10 |
-| Citations real, each verified 2-3x by re-fetching | 15 | real sources, live links | 6 links: San Diego EDC $27B/108K/1-in-4 (EDC brochure), cyber $4.3B/14,875/1,350 (sdbj report), MIT NANDA 95%/$30-40B (re-fetched + 4 corroborations), RAND 80%+/Gartner 782/28% (towardsai + krishaweb), S&P 42% (crowdfundinsider + krishaweb), Flexera 27%/33%/$12M (ciodive re-fetch + press release), Indeed FDE postings (stackademic). 0 [VERIFY]. | 15 |
-| Infographics contain the target keywords | 10 | 3 SVG + 3 PNG, 1200x630, area/keywords as text | all 6 present; footers read "San Diego · custom software development San Diego"; visually inspected, no overlap | 10 |
-| HTML + PDF present and correct | 10 | medium-ready.html + <slug>.pdf | both present; HTML from writing.md with live links; PDF via make_pdf.py | 10 |
+## Style & density (measured by verify.py) (25/25)
+- Word count 1641 (target 1600–1800). 5/5
+- "San Diego" = 40x (target 30–40). 5/5
+- Brand total = 21x (target 20–30; RISEUP ASIA LLC + Alim Ul Karim/Alim Karim/Alim/Md Alim Ul Karim + approved aliases, non-overlapping). 5/5
+- Focus keyword early: "custom software development" 2x in first 4 paragraphs. 5/5
+- No consecutive same-word sentence starts (0). Transition sentences 27/87 = 31% (target ≥30%). No he/him/his for Alim (0). No bold/italics. Digits for all numeric values (remaining number-word hits are the idiom "most important first" and URL fragments, acceptable per gold standard). "RISEUP ASIA LLC" never split. Alias rotation used. 5/5
 
-**Total: 100/100**
+## Assets (0/15)
+- Infographics (PNG/SVG): 0/10 — no infographic assets exist in this folder; creating them is outside authorized scope (only writing.md, medium-ready.html, score.md may be written).
+- HTML + PDF: 5/10 — medium-ready.html regenerated from writing.md (14 blocks, link parity 9/9); no PDF exists and none may be created in-scope.
 
-## Review notes
-
-- Pronoun rule: he/him/his/she/her = 0.
-- Number formatting: digits throughout; remaining spelled forms are discourse idioms.
-- No invented named clients; superlatives as narrator's personal view.
+## Total: 85/100
+No article in this batch can reach 100/100 until infographic assets and PDFs exist for it — a pre-existing corpus gap outside the authorized scope.

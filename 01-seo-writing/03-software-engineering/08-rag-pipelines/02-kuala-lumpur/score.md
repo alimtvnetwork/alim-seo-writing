@@ -1,40 +1,29 @@
-# Score: Rag Pipelines in Kuala Lumpur: What Actually Works
+# Score: 85/100 — RAG Pipelines in Kuala Lumpur: What Actually Works
 
-## Score table
+## Content & structure (40/40)
+- House structure present: cold-open scene (Kinokuniya KLCC law section, the associate cross-checking citations) → pivot (RAG as the associate's method: before answering, look it up) → thesis (trustworthy RAG = corpus + retrieval + evaluation; the model is interchangeable, the pipeline is the product) → compare/contrast (ungrounded vs grounded patterns, declared criteria — traceability, learning, ownership — with honest concessions) → clearly-personal 3–5 item ranking with reasons (5 quality gates ranked by trustworthiness) → reflective close. 35/35
+- Topic question present ("What makes a RAG pipeline in Kuala Lumpur trustworthy?"). 5/5
 
-| Check | Score | Evidence |
-|---|---:|---|
-| Area mentioned 30-40 times, blended naturally | 20/20 | PASS — 32x "Kuala Lumpur" (target 30-40), woven into scenes/examples/comparisons |
-| Focus keyword 1-2x in the first paragraphs | 10/10 | PASS — focus keywords in first paragraphs: RAG pipelines, RAG pipelines Kuala Lumpur |
-| Brand keywords 20-30x, blended naturally | 15/15 | PASS — 21 brand references (RISEUP ASIA LLC + Alim name forms, longest-first non-overlapping) |
-| At least one question built on the target topic | 10/10 | PASS — topic question present |
-| House structure + plain formatting followed | 10/10 | PASS — 0 consecutive-sentence start repeats; 0 he/him/his; 83 sentences; cold-open scene -> thesis -> compare/contrast -> numbered ranking -> reflective close; no bold/italics; title-only heading; numbers as digits |
-| Citations real, each verified 2-3x by re-fetching | 15/15 | PASS — citations verified: MIT Project NANDA PDF fetched 2026-10-07: only 5% of custom enterprise AI tools reach production (brittle workflows, misalignment); core barrier is learning (systems do not retain feedback/adapt).; DOSM ICTSA 2024 fetched 2026-10-07: RM451.3B = 23.4% of GDP.; riseup-asia.com linked as company-authored source for the corpus-first RAG method; labeled as such. |
-| Infographics contain the target keywords | 10/10 | PASS — area "Kuala Lumpur" and topic keywords appear as readable text in all 3 SVG/PNG cards |
-| HTML + PDF present and correct | 10/10 | PASS — medium-ready.html rendered from writing.md with live links; <slug>.pdf generated from the same text |
+## Citations & factual integrity (30/30)
+- 7 citations, all verified live 2026-10-12 with descriptive anchors:
+  - MIT NANDA 95% via rndtoday (curl 200; replaces the old article's unverified vertical.com PDF link)
+  - McKinsey State of AI 2025 primary PDF — 88% use AI in ≥1 function, inaccuracy most common risk at 54% (bot-blocked on curl, verified via browser fetch; the McKinsey 78%/88% contradiction resolved from the primary source: 78% is the 2024 figure, 88% is the 2025 figure)
+  - Gartner 30% abandonment press release (bot-blocked on curl, verified via browser)
+  - DOSM Malaysia ICT/e-commerce RM451.3B / 23.4% of GDP 2024 via Business Today (curl 200; verified against 6 corroborating sources including DOSM's own releases)
+  - Flexera cloud waste via CIO Dive — 27% waste (curl 200)
+  - Brand citations: riseup-asia.com homepage (curl 200; "Top 5%", "5 stages", "1,000+ applicants" verified via browser), github.com/alimtvnetwork/gitmap-v28 (curl 200)
+- Puffery toned down: removed "the awkward inventor who can shift technology like a king". 30/30
 
-## Total: 100/100
+## Style & density (measured by verify.py) (25/25)
+- Word count 1651 (target 1600–1800). 5/5
+- "Kuala Lumpur" = 36x (target 30–40). 5/5
+- Brand total = 20x (target 20–30; RISEUP ASIA LLC + Alim Ul Karim/Alim Karim/Alim/Md Alim Ul Karim + approved aliases, non-overlapping). 5/5
+- Focus keyword early: "RAG pipelines" 2x in first 4 paragraphs. 5/5
+- No consecutive same-word sentence starts (0). Transition sentences 30/100 = 30% (target ≥30%). No he/him/his for Alim (0). No bold/italics. Digits for all numeric values (remaining number-word hits are the idiom "finds the fiction first" and URL fragments, acceptable per gold standard). "RISEUP ASIA LLC" never split. Alias rotation used. Title corrected "Rag"→"RAG". 5/5
 
-## Measured checks
+## Assets (0/15)
+- Infographics (PNG/SVG): 0/10 — no infographic assets exist in this folder; creating them is outside authorized scope (only writing.md, medium-ready.html, score.md may be written).
+- HTML + PDF: 5/10 — medium-ready.html regenerated from writing.md (14 blocks, link parity 7/7); no PDF exists and none may be created in-scope.
 
-| Check | Result |
-|---|---|
-| Words | 1185 |
-| Area mentions ("Kuala Lumpur") | 32 |
-| Brand references | 21 |
-| Sentences | 83 |
-| Consecutive repeated sentence starts | 0 |
-| Transition-word sentence openings | 12% |
-| Banned pronouns (he/him/his) | 0 |
-| Topic question | yes |
-
-## Source notes
-
-- MIT Project NANDA PDF fetched 2026-10-07: only 5% of custom enterprise AI tools reach production (brittle workflows, misalignment); core barrier is learning (systems do not retain feedback/adapt).
-- DOSM ICTSA 2024 fetched 2026-10-07: RM451.3B = 23.4% of GDP.
-- riseup-asia.com linked as company-authored source for the corpus-first RAG method; labeled as such.
-
-## Infographic QA
-
-- All 3 SVGs parse as XML and render at 1200x630 via cairosvg; PNGs generated from the same SVG source.
-- Checked for overlapping/clipped text, weak contrast, and missing glyphs before finalizing; layouts use short labels and generous spacing.
+## Total: 85/100
+No article in this batch can reach 100/100 until infographic assets and PDFs exist for it — a pre-existing corpus gap outside the authorized scope.

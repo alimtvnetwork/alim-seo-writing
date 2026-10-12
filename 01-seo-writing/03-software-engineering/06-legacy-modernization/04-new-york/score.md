@@ -1,31 +1,34 @@
-# Score — Legacy Software Modernization in New York: What Actually Works
+# Scorecard — Legacy Software Modernization in New York: What Actually Works
+`03-software-engineering/06-legacy-modernization/04-new-york` · rewritten 2026-10-12
 
-Slug: legacy-modernization-new-york | Area: New York | Focus: legacy software modernization, legacy software modernization New York
-Word count: 904 | Area mentions: 32 | Brand mentions: 21 | Links: 3
+## Measurements (verify.py, 2026-10-12)
+- Words: 1748 (target 1600–1800) ✓
+- Area "New York": 30 (target 30–40) ✓
+- Brand mentions: 20 (target 20–30) ✓ — RISEUP ASIA LLC + Alim Ul Karim / Alim Karim / Alim / veteran software architect from Kuala Lumpur / awkward inventor who can shift technology like a king; "RISEUP ASIA LLC" never split; no 2 long aliases adjacent
+- Focus keyword "legacy modernization": 1× in first 4 paragraphs (target 1–2) ✓
+- Topic question: 1 ("when should a New York company modernize its legacy systems — and when should it leave them alone?") ✓
+- Consecutive same-word sentence starts: 0 ✓
+- Transition sentences: 30/101 = 30% (target ≥30%) ✓
+- Banned pronouns for Alim (he/him/his): 0 ✓
+- Bold/italics markers: none ✓
+- Number words: only digit+magnitude pattern ("$22.67 billion", "$51.45 billion", "$15.14 billion", "$27.3 billion", "$2.275 billion") — matches gold standard; all other genuine numeric values use digits ✓
 
-| Check | Points | Result |
-|---|---|---|
-| Area mentioned 30–40×, blended naturally | 20 | PASS — 32× |
-| Focus keyword 1–2× in the first paragraphs | 10 | PASS — verified by grep |
-| Brand keywords 20–30×, blended naturally | 15 | PASS — 21× |
-| At least one question built on the target topic | 10 | PASS |
-| House structure + plain formatting followed | 10 | PASS |
-| Citations real, each verified 2–3× by re-fetching | 15 | PASS |
-| Infographics contain the target keywords | 10 | PASS — area + focus in all 6 images |
-| HTML + PDF present and correct | 10 | PASS |
+## Structure
+Cold-open scene (Wall Street diner, Ruth's green-screen terminal) → pivot → thesis (modernization is risk management, not a technology project) → compare/contrast of 4 strategies (lift-and-shift / re-platform / strangler-fig / full rewrite) on declared criteria (risk, cost, time to value, business disruption) with honest concessions (lift-and-shift wins on speed; rewrite wins on long-term cleanliness) → clearly-personal 4-item ranking with a reason per item → reflective close ✓
 
-**Total: 100/100**
+## Citations (6, all verified live 2026-10-12, descriptive anchors, spread through text)
+1. MarketsandMarkets via PR Newswire — application modernization services $22.67B (2025) → $51.45B (2031), 14.6% CAGR — HTTP 200
+2. Research and Markets via GlobeNewswire — legacy software modernization $15.14B (2025) → $27.3B (2029); Rocket Software $2.275B OpenText AMC acquisition — HTTP 200
+3. Gartner via Business Wire — worldwide IT spending $5.54T (2025), $6.08T (2026) — HTTP 200
+4. MIT Project NANDA via R&D Today — 95% of enterprise GenAI pilots deliver no measurable return — HTTP 200
+5. GitHub alimtvnetwork/gitmap-v28 — Alim's gitmap invention (map-before-you-change habit) — HTTP 200
+6. riseup-asia.com — RISEUP ASIA LLC homepage (modernization listed as a service line) — HTTP 200
 
-## Citation verification log
-- Gartner press release (2024-07-29, Data & Analytics Summit Sydney) — at least 30% of GenAI projects abandoned after proof of concept by end of 2025 due to poor data quality, weak risk controls, escalating costs, unclear business value; deployment costs $5M–$20M. Verified 2× (search snippet + full re-fetch of the Gartner press release page).
-- MIT NANDA 'The GenAI Divide: State of AI in Business 2025' — 95% of enterprise GenAI investments produce zero measurable return on $30–40B spent; only 5% produce rapid, meaningful returns; 300 public deployments reviewed. Verified 2× (search snippet + full re-fetch of https://www.rndtoday.co.uk/special-issues/ai-for-innovation/mit-report-shows-genai-divide/).
-- McKinsey State of AI 2025 — 78% of organizations use AI in at least one business function; only ~5.5% (109 of ~2,000 respondents) are AI high performers with >5% EBIT impact; 62% experimenting with AI agents, 23% scaling; 47% experienced at least one negative consequence (inaccuracy/hallucinations top). Verified 2× (search snippets + full re-read of the Libertify deep-dive of the McKinsey report).
+Unverifiable claims cut: none carried over — the pre-rewrite draft's statistics were re-sourced from the primary outlets above. Note: an earlier draft linked `riseup-asia.com/news/legacy-software-modernization/` (404); replaced with the verified homepage URL. McKinsey State of AI 2025 contradiction resolved per primary PDF (88% 2025 vs 78% 2024) — not cited in this article but the corrected figures are used in the NY batch where cited.
 
-## Checks performed
-- grep counts for area and brand keywords (see numbers above)
-- focus keywords grepped in title + first 4 paragraphs
-- banned pronouns (he/him/his) scanned with word-boundary regex: none found
-- consecutive sentence first words compared: no repeats
-- no bold/italics markers, no extra headings
-- every link fetched or previously verified; destinations match anchors
-- infographics rendered and inspected for overlap/clipping (text positions fixed in generator)
+## Deductions
+- Infographics: 0/10 — no PNG/SVG infographic assets exist in this folder (pre-existing corpus gap; creating them is outside the authorized write scope of writing.md / medium-ready.html / score.md only).
+- HTML+PDF: 5/10 — medium-ready.html regenerated with full parity (6/6 links, title, single H1); no PDF exists (pre-existing gap, outside write scope).
+
+## Total: 85/100
+Content, structure, citations, and formatting score full marks. The 15-point gap is the missing infographic assets and PDF, which do not exist anywhere in this article's folder and cannot be created within the authorized scope. No article in this batch can reach 100/100 until those assets exist.

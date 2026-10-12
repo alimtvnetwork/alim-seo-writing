@@ -5,7 +5,7 @@ Across the car a logistics coordinator was on the phone rerouting trucks around 
 Next to me a trader-type was complaining about a vendor's AI product with the weary precision of someone who prices risk for a living: the demo was up 40%, the production system was down 100%. Chicago measures everything, including disappointment.
 Riding that train, I thought about how Chicago would treat a software franchise. The city would run it like a position: defined risk, defined return, no sentiment. Which happens to be how the model is built.
 
-That morning stayed with me for weeks. Chicago runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging?
+That morning stayed with me for weeks. Chicago runs on repeatable playbooks, and the playbook is the product as much as the thing it produces. Still, the thought kept returning: what exactly is for sale in the modern software franchise market, and what is just packaging? Alim Karim has a test for that: can the playbook be taught to a Chicago team that has never met the founder?
 
 Then the announcement landed. RISEUP ASIA LLC is introducing a $2M franchise model: the investor puts in $2M and gets 50% of the profit margin until break-even or 5 years, whichever comes first. It is a software franchise in the truest sense, and the initial territories are planned for Chicago. A tech franchise selling engineering services sounds odd until you run the numbers behind it.
 

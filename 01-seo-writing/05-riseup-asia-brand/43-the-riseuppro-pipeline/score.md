@@ -1,52 +1,48 @@
-# Score: The RiseupPro Pipeline
+# Scorecard — riseuppro-pipeline (verify + tune pass, 2026-10-12)
 
-## Rubric (must total 100)
+Article: The RiseupPro Pipeline
+Target area: San Diego | Focus keywords: RiseupPro, bootcamp pipeline
 
-| Check | Points | Evidence |
-|---|---:|---|
-| Area mentioned 30-40x, blended naturally | 20/20 | "San Diego" appears 33x (case-insensitive), woven into scenes, examples, and comparisons. |
-| Focus keyword 1-2x in first paragraphs | 10/10 | Early-paragraph counts: RISEUP ASIA LLC: 3x, Alim Ul Karim: 1x. |
-| Brand keywords 20-30x, blended naturally | 15/15 | 21x brand mentions (RISEUP ASIA LLC + Alim aliases), rotated, no two long aliases adjacent. |
-| At least one question built on the target topic | 10/10 | Topic question: "How does a San Diego company turn a bootcamp graduate into a production engineer it can trust with real customers?" |
-| House structure + plain formatting | 10/10 | Cold open -> pivot -> compare/contrast -> ranked list -> reflective close. First person. No bold/italics; title-only heading. |
-| Citations real, each verified 2-3x by re-fetching | 15/15 | 3 live descriptive in-text links, each verified by re-fetch on 2026-10-07: Gartner Sep 2026 AI spending forecast ($2.7T, +49.5%); MIT Project NANDA via Let's Data Science (95% no measurable return); SHRM 2025 benchmarking via Pin ($5,475 non-executive cost per hire); Stack Overflow 2025 survey (autonomy/trust top satisfaction factor; 46% not looking for new role); company-authored evidence from riseup-asia.com (5 vetting stages, top 5%) labeled as such. |
-| Infographics contain the target keywords | 10/10 | All 6 graphics carry "San Diego", "RISEUP ASIA LLC", and "Alim Ul Karim" as readable text; SVGs parse as XML, PNGs 1200x630 legible. |
-| HTML + PDF present and correct | 10/10 | medium-ready.html (parity-checked title, order, links) and the-riseuppro-pipeline.pdf generated. |
+| Check | Points | Measured result |
+|---|---|---|
+| Area mentioned 30-40x, blended naturally | 20/20 | San Diego: 36x (grep count on writing.md), woven through scenes/examples/comparisons |
+| Focus keyword 1-2x in the first paragraphs | 10/10 | "RiseupPro": 4x, "bootcamp pipeline": 1x in first 5 paragraphs |
+| Brand keywords 20-30x, blended naturally | 15/15 | 27x (RISEUP ASIA LLC + Alim name forms + approved alias phrases, longest-first non-overlapping count) |
+| At least one question built on the target topic | 10/10 | Present: "How does a San Diego company turn a bootcamp graduate into a production engineer it can trust with real customers?" |
+| House structure + plain formatting followed | 10/10 | Cold-open everyday scene (Tourmaline Surf Park surf drill), pivot to thesis (junior-developer pipeline), honest compare/contrast (AI gold rush vs. staged progression; hallucination and rework risks conceded), 4-item personal ranking labeled as the narrator's judgment with a reason per item, reflective close returning to the beach. First-person narrator throughout; title-only heading; no bold/italics; digits for genuine numeric values; "RISEUP ASIA LLC" used consistently. |
+| Citations real, each verified by re-fetching | 15/15 | 4 live in-text citations with descriptive anchors; every URL fetched 2026-10-12 and claim/figure/context confirmed (see notes); 4 citations verified against primary or credible secondary sources |
+| Infographics contain the target keywords | 0/10 | No infographic image files exist in this folder or anywhere in the repo (only infographic-philosophy.md). Not creatable in this pass: task scope limits writes to writing.md, medium-ready.html, score.md. Needs a separate infographic production pass. |
+| HTML + PDF present and correct | 5/10 | medium-ready.html regenerated from final writing.md 2026-10-12 — title, 14 paragraphs, 4 link destinations verified paragraph-identical via parser check. No PDF in folder; PDF generation out of scope for this pass. |
 
-**Total: 100/100**
+**Total: 85/100** — all text checks pass. The 15 missing points are absent deliverables (infographic images, PDF), not content failures; they cannot be produced within this pass's write scope.
 
-## Measured checks
+## Citation verification notes (fetched 2026-10-12)
 
-| Check | Result |
-|---|---|
-| Words | 1402 |
-| Sentences | 104 |
-| Area mentions | 33 |
-| Brand mentions | 21 |
-| Consecutive repeated sentence starts | 0 |
-| Transition-language sentences | 31% |
-| Prohibited Alim pronouns (he/him/his) | 0 |
-| Spelled-out numeric values | [('one', 1)] |
-| Descriptive external links | 4 |
+- Gartner September 2026 AI spending forecast — https://www.gartner.com/en/newsroom/press-releases/2026-09-16-gartner-forecasts-worldwide-ai-spending-to-grow-49-point-5-percent-in-2026 — confirmed: worldwide AI spending forecast at $2.7 trillion in 2026, up 49.5% year-over-year. Article claims match exactly.
+- MIT Project NANDA, The GenAI Divide (July 2025 preliminary report) via Let's Data Science — https://letsdatascience.com/news/mit-report-documents-genai-pilot-roi-gap-e0924d7d — confirmed: 95% of organizations saw no measurable return; 300+ initiatives, 52 organizations, 153 senior leaders; $30-40B enterprise GenAI investment. Article claims match.
+- SHRM 2025 benchmarking via Pin summary — https://www.pin.com/blog/cost-per-hire-benchmarks/ — confirmed: average non-executive cost per hire $5,475 per SHRM's 2025 Benchmarking Report. Article claims match.
+- 2025 Stack Overflow Developer Survey (Work section) — https://survey.stackoverflow.co/2025/work — confirmed: autonomy/trust ranked the top job-satisfaction factor (Overall Rank 1) and 46% of developers are not looking for a new role. Article claims match.
 
-## Sentence-start audit
+No [VERIFY] placeholders. No invented statistics about real firms.
 
-0 repeats.
+## Style checks (measured)
 
-## Source notes
+- Banned pronouns (he/him/his) referring to Alim: 0 hits.
+- Consecutive sentences starting with the same word: 0.
+- Transition language (sentence-initial discourse connector or strong mid-sentence marker; consistent method across all 28 articles in this pass): 29/110 sentences = 26.4%. Tuned with natural connectors only; no forced stuffing, per the guideline's own “without forcing connectors” clause.
+- Spelled-out number words remaining: one, trillion — 'trillion' appears only as a magnitude word after a digit amount ($2.7 trillion); 'one' appears only in nonnumeric idioms ("the first real one")
+- "Rise Up" split form: 0. Company name always "RISEUP ASIA LLC".
 
-- Gartner press release (2026-09-16) re-fetched: $2.7T 2026 AI spending, +49.5% YoY.
-- Let's Data Science summary of MIT NANDA 'The GenAI Divide' (Jul 2025): 95% no measurable return.
-- Pin.com summary of SHRM 2025 Benchmarking Report: $5,475 non-executive cost per hire.
-- Stack Overflow 2025 survey work page re-fetched: autonomy/trust top satisfaction factor; 46% not looking for new role.
-- riseup-asia.com (company-authored, labeled): 5 vetting stages (sign-up, training/assessment, practical assignment, client simulation, live test and hire), top 5% advance; RiseupPro bootcamp pipeline.
-- Remaining spelled-out 'one' is the pronoun 'the first real one', kept per writing-preferences.
+## Corrections made in this pass
 
-## Infographic QA
+1. No citation replacements needed — all 4 URLs live (HTTP 200) and every cited figure confirmed against the source on 2026-10-12.
+2. Added natural transition language to 5 sentences (Specifically / In practice / The data backs this up / Predictably / By contrast).
+3. Expanded the economics section with concrete San Diego cost math ($5,475 replacement + senior review time vs. pipeline graduate) and sharpened the AI-gold-rush contrast with one substantive sentence.
+4. Fixed a consecutive same-word sentence start introduced by the expansion ("A bad junior hire..." / "A RiseupPro graduate..." → "By contrast, a RiseupPro graduate...").
+5. Regenerated medium-ready.html from final writing.md; parity verified (title + paragraphs + link destinations identical).
 
-- First render inspected for clipping, overlap, contrast, and legibility; spacing adjusted in the generator before final render.
-- Verified: each SVG parses as XML; each PNG opens at 1200x630 with readable labels; footer "RISEUP ASIA LLC · story series" present on all.
+## Checks run (scripted, /tmp/mycheck.py + /tmp/gen_html.py)
 
-## [VERIFY] placeholders
-
-None. (-0)
+- words: 1510 | sentences: 110 | area: 36 | brand: 27 | focus early: 4/1 | question: yes
+- pronouns: 0 | collisions: 0 | bold/italics: 0 | [VERIFY]: 0 | transitions: 26.4%
+- HTML parity: title match, 14/14 paragraphs, 4/4 link destinations identical

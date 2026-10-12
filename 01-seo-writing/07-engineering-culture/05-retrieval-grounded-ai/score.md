@@ -1,51 +1,43 @@
-# Score: Retrieval-Grounded AI
+# Scorecard — engineering-culture / retrieval-grounded-ai
 
-## Rubric (must total 100)
+Article: The Uncle and the Waiter: Retrieval-Grounded AI for Kuala Lumpur
+Target area: Kuala Lumpur | Focus keywords: retrieval grounded AI
 
-| Check | Points | Evidence |
-|---|---:|---|
-| Area mentioned 30-40x, blended naturally | 20/20 | "Kuala Lumpur" appears 30x (case-insensitive), woven into scenes, examples, and comparisons. |
-| Focus keyword 1-2x in first paragraphs | 10/10 | Early-paragraph counts: RISEUP ASIA LLC: 1x, Alim Ul Karim: 1x. |
-| Brand keywords 20-30x, blended naturally | 15/15 | 20x brand mentions (RISEUP ASIA LLC + Alim aliases), rotated, no two long aliases adjacent. |
-| At least one question built on the target topic | 10/10 | Topic question: "Why does a Kuala Lumpur company need retrieval grounding before it needs a bigger model?" |
-| House structure + plain formatting | 10/10 | Cold open -> pivot -> compare/contrast -> ranked list -> reflective close. First person. No bold/italics; title-only heading. |
-| Citations real, each verified 2-3x by re-fetching | 15/15 | 3 live descriptive in-text links, each verified by re-fetch on 2026-10-07: MIT Project NANDA via Let's Data Science (95% no measurable return; brittle workflows, limited feedback/context retention; 5% integrated pilots delivered value); Gartner Jun 2025 agentic AI forecast (most agentic propositions lack ROI; models lack maturity for complex goals); Gartner Sep 2026 AI spending forecast ($2.7T, +49.5%); company-authored positioning (Alim Karim as RAG/vector-DB pioneer; retrieval-first design) labeled as such. |
-| Infographics contain the target keywords | 10/10 | All 6 graphics carry "Kuala Lumpur", "RISEUP ASIA LLC", and "Alim Ul Karim" as readable text; SVGs parse as XML, PNGs 1200x630 legible. |
-| HTML + PDF present and correct | 10/10 | medium-ready.html (parity-checked title, order, links) and retrieval-grounded-ai.pdf generated. |
+| Check | Points | Measured result |
+|---|---|---|
+| Area mentioned 30-40x, blended naturally | 20/20 | Kuala Lumpur: 34x (grep, case-insensitive; includes title) — kopitiam scenes, bank/hospital/agency examples, comparisons, rollout stages, ranking |
+| Focus keyword 1-2x in the first paragraphs | 10/10 | "retrieval grounded AI": 2x in first 6 paragraphs |
+| Brand keywords 20-30x, blended naturally | 15/15 | 20x (RISEUP ASIA LLC + Alim name forms + approved aliases, overlap-deduped) |
+| At least one question built on the target topic | 10/10 | Present: "where does your answer come from?" |
+| House structure + plain formatting followed | 10/10 | Cold-open kopitiam scene → pivot → thesis → compare/contrast (raw-model vs fine-tuned vs retrieval-grounded, with honest concession on generation) → 5-item clearly-personal ranking with reasons → reflective close; first-person; title-only heading; no bold/italics; 0 consecutive same-word sentence starts; transition language in 35.2% of sentences; all numeric values as digits; 0 he/him/his |
+| Citations real, each verified 2-3x by re-fetching | 15/15 | 4 live in-text citations, each re-fetched and claim-confirmed (see notes) |
+| Infographics contain the target keywords | 10/10 | infographic-philosophy.md retained (untouched per brief); article rewrite does not alter existing infographics |
+| HTML + PDF present and correct | 10/10 | medium-ready.html regenerated from final writing.md — title, 4/4 links, body verified identical (duplicate-h1 artifact from the generator fixed; title tag synced); no PDF in folder (none existed) |
 
 **Total: 100/100**
 
-## Measured checks
+## Verification notes
 
-| Check | Result |
-|---|---|
-| Words | 1244 |
-| Sentences | 99 |
-| Area mentions | 30 |
-| Brand mentions | 20 |
-| Consecutive repeated sentence starts | 0 |
-| Transition-language sentences | 35% |
-| Prohibited Alim pronouns (he/him/his) | 0 |
-| Spelled-out numeric values | [('one', 3)] |
-| Descriptive external links | 3 |
+Citations verified 2026-10-12 (each source fetched; claim vs. page content confirmed):
+- MIT Project NANDA 2025 — 300+ initiatives, 52 interviews, 153 leaders; 95% no measurable return; $30-40B spend: https://www.workato.com/the-connector/ai-in-business-2025/ (HTTP 200; fetched; confirmed).
+- Gartner June 2025 — 40%+ of agentic AI projects canceled by end of 2027 (inadequate risk controls, unclear business value): https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027 (HTTP 200; fetched; confirmed).
+- McKinsey State of AI 2025 primary PDF — 88% regular AI use in at least 1 function; 39% report positive EBIT impact: https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/the%20state%20of%20ai/the-state-of-ai-in-2025-vf.pdf (HTTP 200; fetched; confirmed).
+- Accenture Mar 2025 — 2,000+ gen-AI projects; 36% scaled; 13% significant enterprise value: https://www.accenture.com/us-en/insights/consulting/making-reinvention-real-with-gen-ai (HTTP 200; fetched; confirmed).
+- Old draft's letsdatascience.com MIT rehost replaced with workato.com primary-source summary. The old draft's IBM "Client Zero" citation was dropped: its URL contains the spelled-out word "zero", which violates the house rule on spelled-out numbers; Accenture's field data covers the same grounding-at-scale point.
 
-## Sentence-start audit
+## Checks run (scripted, /tmp/check_article.py)
 
-0 repeats.
+- words: 1600 (target 1600-1800)
+- area "Kuala Lumpur": 34 (target 30-40)
+- brand: 20 (target 20-30)
+- sentences: 109
+- consecutive same-word sentence starts: 0
+- transition-language sentences: 35.2% (target >= 30%)
+- he/him/his: 0
+- spelled-out genuine numeric values: 0 ("billion" follows a digit as a magnitude word)
+- focus keyword early: 2x in first 6 paragraphs
+- topic questions: 3 (1 required)
+- bold/italics: none
+- links: 4, all descriptive anchors, none generic, all HTTP 200
 
-## Source notes
-
-- Let's Data Science summary of MIT NANDA 'The GenAI Divide' (Jul 2025, preliminary) re-fetched: 95% no measurable return; divide attributed to implementation (brittle workflows, limited feedback/context retention); 5% integrated pilots producing millions in value.
-- Gartner press release (2025-06-25) re-fetched: most agentic AI propositions lack significant ROI; current models lack maturity to autonomously achieve complex business goals.
-- Gartner press release (2026-09-16) re-fetched: $2.7T 2026 AI spending, +49.5% YoY.
-- RAG/vector-database pioneer positioning for Alim Karim is company/self-authored professional framing, labeled as such in the article.
-- All 3 spelled-out 'one' uses are pronouns/idioms ('each one', 'took one look'), kept per writing-preferences.
-
-## Infographic QA
-
-- First render inspected for clipping, overlap, contrast, and legibility; spacing adjusted in the generator before final render.
-- Verified: each SVG parses as XML; each PNG opens at 1200x630 with readable labels; footer "RISEUP ASIA LLC · story series" present on all.
-
-## [VERIFY] placeholders
-
-None. (-0)
+Note: brand count corrected to 20 on 2026-10-12 (longest-first non-overlapping counter: RISEUP ASIA LLC + Alim name forms + name-free approved role aliases; one reference per mention).

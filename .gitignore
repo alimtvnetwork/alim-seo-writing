@@ -34,3 +34,6 @@ dist-ssr
 # Python
 __pycache__/
 *.py[cod]
+
+# Agent task runtime
+.ai-memory/temp-agents/

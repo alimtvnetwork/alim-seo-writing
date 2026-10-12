@@ -1,6 +1,7 @@
 # Plan: 03-medium-account-assistant-cli
 
-Status: IN PROGRESS 2026-10-13 — spec v2 written (config-driven, SQLite, macro, pending list); implementation queued.
+Status: COMPLETED 2026-10-13 — CLI built, verified end-to-end on scratch config,
+macro imported, pushed.
 Spec: 02-spec/21-app/03-medium-account-assistant-cli/ (01-overview.md, 02-config-and-pipeline.md)
 
 ## Scope reminder (hard boundary)

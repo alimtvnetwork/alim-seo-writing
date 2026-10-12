@@ -90,23 +90,42 @@ CREATE TABLE IF NOT EXISTS config (
 ## 3. gitmap macro: `maa-onboard`
 
 Shipped as `03-ai-scripts/medium-account-assistant/macro-maa-onboard.json`,
-importable via `gitmap macro import`. Combines the pipeline steps; future
-pipeline enhancements ship as new macro versions.
+importable via `gitmap macro import`. Format matches `gitmap macro export`
+exactly (strict importer — no extra fields): top-level `id/name/created_at/
+updated_at/total_steps/steps`, each step an object with `step_num`,
+`command_line`, `continue_on_error`, `timeout_seconds`.
 
 ```json
 {
-  "name": "maa-onboard",
-  "description": "Medium account assistant: full human-in-the-loop pipeline",
-  "tags": ["medium", "accounts", "human-in-the-loop"],
+  "id": 0, "name": "maa-onboard",
+  "created_at": "2026-10-13T01:11:00+08:00",
+  "updated_at": "2026-10-13T01:11:00+08:00",
+  "total_steps": 8,
   "steps": [
-    "gitmap py 03-ai-scripts/medium-account-assistant.py doctor",
-    "gitmap py 03-ai-scripts/medium-account-assistant.py status",
-    "gitmap py 03-ai-scripts/medium-account-assistant.py guide --step signup",
-    "# HUMAN: create the account in the browser, then continue",
-    "gitmap py 03-ai-scripts/medium-account-assistant.py otp --email {{email}}",
-    "# HUMAN: paste the OTP into Medium yourself, then continue",
-    "gitmap py 03-ai-scripts/medium-account-assistant.py guide --step publish",
-    "# HUMAN: publish in the browser, then: record-article --email {{email}} --url <URL>"
+    {"id": 0, "macro_id": 0, "step_num": 1,
+     "command_line": "gitmap py 03-ai-scripts/medium-account-assistant.py doctor",
+     "continue_on_error": false, "timeout_seconds": 120},
+    {"id": 0, "macro_id": 0, "step_num": 2,
+     "command_line": "gitmap py 03-ai-scripts/medium-account-assistant.py status",
+     "continue_on_error": false, "timeout_seconds": 60},
+    {"id": 0, "macro_id": 0, "step_num": 3,
+     "command_line": "gitmap py 03-ai-scripts/medium-account-assistant.py guide --step signup",
+     "continue_on_error": false, "timeout_seconds": 60},
+    {"id": 0, "macro_id": 0, "step_num": 4,
+     "command_line": "echo '>>> HUMAN: create the account in the browser now, then continue the macro'",
+     "continue_on_error": false, "timeout_seconds": 30},
+    {"id": 0, "macro_id": 0, "step_num": 5,
+     "command_line": "gitmap py 03-ai-scripts/medium-account-assistant.py otp --email EMAIL_HERE",
+     "continue_on_error": false, "timeout_seconds": 120},
+    {"id": 0, "macro_id": 0, "step_num": 6,
+     "command_line": "echo '>>> HUMAN: paste the displayed OTP into Medium YOURSELF, then continue'",
+     "continue_on_error": false, "timeout_seconds": 30},
+    {"id": 0, "macro_id": 0, "step_num": 7,
+     "command_line": "gitmap py 03-ai-scripts/medium-account-assistant.py guide --step publish",
+     "continue_on_error": false, "timeout_seconds": 60},
+    {"id": 0, "macro_id": 0, "step_num": 8,
+     "command_line": "echo '>>> HUMAN: publish in the browser, then run: record-article --email EMAIL_HERE --url <URL>'",
+     "continue_on_error": false, "timeout_seconds": 30}
   ]
 }
 ```
@@ -124,7 +143,7 @@ pipeline enhancements ship as new macro versions.
 | go-email-reader binary | Paths.GoEmailReaderPath | otp, doctor |
 | OTP regex | Mailbox.OtpRegex | otp |
 | OTP max age | Mailbox.OtpMaxAgeMinutes | otp |
-| Mailbox timeout | Mailbox.TimeoutSeconds | otp, doctor |
+| Mailbox timeout | Mailbox.MailboxTimeoutSeconds | otp, doctor |
 | Username suggestion count | Usernames.MaxSuggestions | suggest-usernames |
 | Username suffix digits | Usernames.SuffixDigits | suggest-usernames |
 | Username charset | Usernames.AllowedChars | suggest-usernames |

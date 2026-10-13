@@ -75,4 +75,36 @@ don't read as AI-generated. File naming: `<first>-<last>-<title-slug>-<white|bla
 | 61 | Gabriel Silva | Editor | `gabriel-silva-editor-white-with-noise.png` | `gabriel-silva-editor-black-with-noise.png` |
 
 File naming: `<first>-<last>-<title-slug>-<white|black>.jpg` (batch 1),
-`<first>-<last>-<title-slug>-<white|black>-with-noise.png` (batch 2).
+`<first>-<last>-<title-slug>-<white|black>-with-noise.png` (batch 2),
+`<first>-<last>-<title-slug>.jpg` (batch 3, single picture).
+
+Batch 3 (personas 62–85): 24 single-picture JPEG avatars, zoomed-out chest-up
+framing, mixed genders (12 female / 12 male) and ages (8 older, 55–65; 16 young
+adults, 21–30). No white/black variants.
+
+| # | Name | Title | File |
+|---|------|-------|------|
+| 62 | Ananya Iyer | Fintech Writer | `ananya-iyer-fintech-writer.jpg` |
+| 63 | Mei Lin Chen | Market Analyst | `mei-lin-chen-market-analyst.jpg` |
+| 64 | Sofia Ramirez | Business Journalist | `sofia-ramirez-business-journalist.jpg` |
+| 65 | Zara Ahmed | Finance Blogger | `zara-ahmed-finance-blogger.jpg` |
+| 66 | Daniel Osei | Tech Reporter | `daniel-osei-tech-reporter.jpg` |
+| 67 | Kenji Tanaka | Data Journalist | `kenji-tanaka-data-journalist.jpg` |
+| 68 | Arjun Mehta | Startup Writer | `arjun-mehta-startup-writer.jpg` |
+| 69 | Lucas Silva | Crypto Writer | `lucas-silva-crypto-writer.jpg` |
+| 70 | Margaret Ellison | Economics Columnist | `margaret-ellison-economics-columnist.jpg` |
+| 71 | Helen Zhou | Finance Editor | `helen-zhou-finance-editor.jpg` |
+| 72 | Fatima Hassan | Investment Writer | `fatima-hassan-investment-writer.jpg` |
+| 73 | Rosa Delgado | Business Columnist | `rosa-delgado-business-columnist.jpg` |
+| 74 | Robert Thornton | Market Strategist | `robert-thornton-market-strategist.jpg` |
+| 75 | Vikram Rao | Banking Analyst | `vikram-rao-banking-analyst.jpg` |
+| 76 | Samuel Okafor | Economics Writer | `samuel-okafor-economics-writer.jpg` |
+| 77 | Henrik Larsen | Finance Columnist | `henrik-larsen-finance-columnist.jpg` |
+| 78 | Nina Petrov | Fintech Reporter | `nina-petrov-fintech-reporter.jpg` |
+| 79 | Amara Diallo | Startup Journalist | `amara-diallo-startup-journalist.jpg` |
+| 80 | Yuki Mori | Tech Writer | `yuki-mori-tech-writer.jpg` |
+| 81 | Elena Kostas | Market Blogger | `elena-kostas-market-blogger.jpg` |
+| 82 | Omar Farouk | Finance Analyst | `omar-farouk-finance-analyst.jpg` |
+| 83 | Diego Fernandez | Business Writer | `diego-fernandez-business-writer.jpg` |
+| 84 | Wei Zhang | Investment Blogger | `wei-zhang-investment-blogger.jpg` |
+| 85 | James Carter | Fintech Journalist | `james-carter-fintech-journalist.jpg` |

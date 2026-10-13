@@ -1,0 +1,70 @@
+{
+ "articles": [
+  {
+   "dir": "04-blogs/medium/02-san-diego/cheap-h1b-vs-premium-developers",
+   "slug": "cheap-h1b-vs-premium-developers-san-diego"
+  }
+ ],
+ "cards": [
+  {
+   "hero": "1,700",
+   "label": "SAME 6-MONTH FEATURE · ILLUSTRATIVE",
+   "layout": "stat-label-top",
+   "n": 1,
+   "proof": [
+    [
+     "plus a 2-month delay",
+     "accent"
+    ],
+    [
+     " · vs 1,050 hrs shipped clean",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "hero": "$100,000",
+   "label": "H-1B POLICY · SEPT 2025 PROCLAMATION",
+   "layout": "stat-label-top",
+   "n": 2,
+   "proof": [
+    [
+     "certain new petitions",
+     "accent"
+    ],
+    [
+     " · USCIS — not a salary figure",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "rows": [
+    {
+     "desc": "",
+     "rank": 1,
+     "title": "Metrics-based hiring"
+    },
+    {
+     "desc": "",
+     "rank": 2,
+     "title": "Trial engagements first"
+    },
+    {
+     "desc": "",
+     "rank": 3,
+     "title": "Readable code before commitment"
+    },
+    {
+     "desc": "",
+     "rank": 4,
+     "title": "A team that owns the roadmap"
+    }
+   ],
+   "title": "THE PREMIUM RESOLUTION"
+  }
+ ],
+ "theme": "warm-editorial"
+}

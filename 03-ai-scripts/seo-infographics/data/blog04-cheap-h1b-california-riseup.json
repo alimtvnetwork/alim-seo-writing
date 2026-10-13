@@ -1,0 +1,65 @@
+{
+ "articles": [
+  {
+   "dir": "04-blogs/riseup-asia/california/cheap-h1b-vs-premium-developers",
+   "slug": "cheap-h1b-vs-premium-developers-california"
+  }
+ ],
+ "cards": [
+  {
+   "hero": "$2.41T",
+   "label": "COST OF POOR SOFTWARE QUALITY · US 2022",
+   "layout": "stat-label-top",
+   "n": 1,
+   "proof": [
+    [
+     "Includes $1.52T accumulated technical debt",
+     "accent"
+    ],
+    [
+     " · CISQ",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "hero": "$215",
+   "label": "H-1B REGISTRATION · CALIFORNIA",
+   "layout": "stat-label-top",
+   "n": 2,
+   "proof": [
+    [
+     "March 4–19 window",
+     "accent"
+    ],
+    [
+     " · then lottery + wage weighting",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "left": {
+    "head": "THE BARGAIN PATH",
+    "rows": [
+     "Low hourly rate",
+     "Rework compounds",
+     "Attrition resets context"
+    ]
+   },
+   "n": 3,
+   "right": {
+    "head": "THE PREMIUM PATH",
+    "rows": [
+     "5 vetting stages",
+     "Top 5% of 1,000+ applicants",
+     "Ownership from day 1"
+    ]
+   },
+   "title": "THE FALSE ECONOMY",
+   "verdict": "More per hour. Less per outcome."
+  }
+ ],
+ "theme": "warm-editorial"
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="260" r="430" fill="url(#gl)"/>
+<text x="114.5" y="172.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#FFAD01" text-anchor="start" letter-spacing="8">COST OF POOR SOFTWARE QUALITY · US 2022</text>
+<text x="600.0" y="344.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="170" fill="#F7F5F2" text-anchor="middle">$2.41T</text>
+<rect x="91.5" y="420.0" width="1017.0" height="104.0" rx="52" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="166.5" y="482.5" font-family="Poppins, sans-serif" font-weight="600" font-size="34" fill="#FFAD01" text-anchor="start">Includes $1.52T accumulated technical debt</text>
+<text x="926.5" y="479.5" font-family="Poppins, sans-serif" font-weight="400" font-size="34" fill="#ADA8A2" text-anchor="start"> · CISQ</text>
+</svg>

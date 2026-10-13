@@ -1,0 +1,75 @@
+{
+ "articles": [
+  {
+   "dir": "04-blogs/riseup-asia/san-diego/vibe-coding-is-dead",
+   "slug": "vibe-coding-is-dead-san-diego"
+  }
+ ],
+ "cards": [
+  {
+   "hero": "95%",
+   "label": "THE GENAI DIVIDE · SAN DIEGO",
+   "layout": "stat-label-top",
+   "n": 1,
+   "proof": [
+    [
+     "No measurable P&L effect",
+     "accent"
+    ],
+    [
+     " · MIT Project NANDA, 2025",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "hero": "40%+",
+   "label": "AGENTIC AI, CANCELED",
+   "layout": "stat-label-top",
+   "n": 2,
+   "proof": [
+    [
+     "canceled by end of 2027",
+     "accent"
+    ],
+    [
+     " · Gartner, June 2025",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "ranking-list",
+   "n": 3,
+   "rows": [
+    {
+     "desc": "",
+     "rank": 1,
+     "title": "Written scope before code"
+    },
+    {
+     "desc": "",
+     "rank": 2,
+     "title": "Evaluation gates before release"
+    },
+    {
+     "desc": "",
+     "rank": 3,
+     "title": "Cost-per-run budgets"
+    },
+    {
+     "desc": "",
+     "rank": 4,
+     "title": "Senior review on every PR"
+    },
+    {
+     "desc": "",
+     "rank": 5,
+     "title": "A named accountable owner"
+    }
+   ],
+   "title": "THE CRAFT, NOT THE TRICK"
+  }
+ ],
+ "theme": "warm-editorial"
+}

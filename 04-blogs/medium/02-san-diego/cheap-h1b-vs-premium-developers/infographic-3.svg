@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="106.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F7F5F2" text-anchor="middle">THE PREMIUM RESOLUTION</text>
+<text x="195.0" y="177.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">1</text>
+<text x="235.0" y="154.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Metrics-based hiring</text>
+<text x="195.0" y="291.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">2</text>
+<text x="235.0" y="267.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Trial engagements first</text>
+<text x="195.0" y="404.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">3</text>
+<text x="235.0" y="380.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">Readable code before commitment</text>
+<text x="195.0" y="516.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="62" fill="#FFAD01" text-anchor="end">4</text>
+<text x="235.0" y="492.0" font-family="Poppins, sans-serif" font-weight="600" font-size="28" fill="#F7F5F2" text-anchor="start">A team that owns the roadmap</text>
+</svg>

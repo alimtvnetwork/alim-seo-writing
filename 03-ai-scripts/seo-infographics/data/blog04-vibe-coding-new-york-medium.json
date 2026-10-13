@@ -1,0 +1,65 @@
+{
+ "articles": [
+  {
+   "dir": "04-blogs/medium/01-new-york/vibe-coding-is-dead",
+   "slug": "vibe-coding-is-dead-new-york"
+  }
+ ],
+ "cards": [
+  {
+   "hero": "19%",
+   "label": "PREDICTED VS MEASURED · AI CODING TOOLS",
+   "layout": "stat-label-top",
+   "n": 1,
+   "proof": [
+    [
+     "predicted 24% faster",
+     "accent"
+    ],
+    [
+     " · METR 246-task trial, Jul 2025",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "hero": "2.74x",
+   "label": "AI CO-AUTHORED CODE · SECURITY",
+   "layout": "stat-label-top",
+   "n": 2,
+   "proof": [
+    [
+     "1.7x more major issues too",
+     "accent"
+    ],
+    [
+     " · 470 PRs, Dec 2025",
+     "muted"
+    ]
+   ]
+  },
+  {
+   "layout": "compare-2col",
+   "left": {
+    "head": "THE DEMO",
+    "rows": [
+     "Demo-grade code",
+     "Ships to production",
+     "No owner on call"
+    ]
+   },
+   "n": 3,
+   "right": {
+    "head": "THE PRODUCTION SYSTEM",
+    "rows": [
+     "Code review",
+     "Ownership + on-call",
+     "A named senior owner"
+    ]
+   },
+   "title": "TRICKS ENTERTAIN. SYSTEMS ENDURE.",
+   "verdict": "Tricks entertain. Systems endure."
+  }
+ ],
+ "theme": "warm-editorial"
+}

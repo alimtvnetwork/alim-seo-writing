@@ -146,3 +146,41 @@ File naming: `<first>-<last>-<title-slug>-with-noise.png`.
 | 113 | Tariq Iqbal | Investment Writer | `tariq-iqbal-investment-writer-with-noise.png` |
 | 114 | Anders Dahl | Market Analyst | `anders-dahl-market-analyst-with-noise.png` |
 | 115 | Sven Lundberg | Columnist | `sven-lundberg-columnist-with-noise.png` |
+
+Batch 5 (personas 116–145): 30 single-picture PNG avatars with ~1% per-pixel film
+grain (same zoomed-out chest-up, bright high-key recipe as batch 4), mixed
+genders (15 female / 15 male) and ages (9 older, 57–64; 21 young adults, 23–31).
+File naming: `<first>-<last>-<title-slug>-with-noise.png`.
+
+| # | Name | Title | File |
+|---|------|-------|------|
+| 116 | Sara Bergstrom | Market Writer | `sara-bergstrom-market-writer-with-noise.png` |
+| 117 | Emma Rousseau | Fintech Blogger | `emma-rousseau-fintech-blogger-with-noise.png` |
+| 118 | Yuki Hayashi | Crypto Analyst | `yuki-hayashi-crypto-analyst-with-noise.png` |
+| 119 | Divya Krishnan | Data Reporter | `divya-krishnan-data-reporter-with-noise.png` |
+| 120 | Ana Souza | Business Writer | `ana-souza-business-writer-with-noise.png` |
+| 121 | Lena Fischer | Investment Blogger | `lena-fischer-investment-blogger-with-noise.png` |
+| 122 | Olga Smirnova | Finance Reporter | `olga-smirnova-finance-reporter-with-noise.png` |
+| 123 | Maria Papadopoulos | Market Analyst | `maria-papadopoulos-market-analyst-with-noise.png` |
+| 124 | Jane Cooper | Columnist | `jane-cooper-columnist-with-noise.png` |
+| 125 | Catherine Hughes | Finance Editor | `catherine-hughes-finance-editor-with-noise.png` |
+| 126 | Amina Yusuf | Investment Writer | `amina-yusuf-investment-writer-with-noise.png` |
+| 127 | Ruth Abraham | Market Strategist | `ruth-abraham-market-strategist-with-noise.png` |
+| 128 | Camila Vasquez | Startup Journalist | `camila-vasquez-startup-journalist-with-noise.png` |
+| 129 | Hannah Adeleke | Fintech Writer | `hannah-adeleke-fintech-writer-with-noise.png` |
+| 130 | Sophie Martin | Crypto Blogger | `sophie-martin-crypto-blogger-with-noise.png` |
+| 131 | Rajesh Kumar | Tech Analyst | `rajesh-kumar-tech-analyst-with-noise.png` |
+| 132 | David Huang | Finance Writer | `david-huang-finance-writer-with-noise.png` |
+| 133 | Marco Ferrari | Business Reporter | `marco-ferrari-business-reporter-with-noise.png` |
+| 134 | Omar Saeed | Crypto Analyst | `omar-saeed-crypto-analyst-with-noise.png` |
+| 135 | Pavel Horvat | Fintech Blogger | `pavel-horvat-fintech-blogger-with-noise.png` |
+| 136 | Samuel Adeyemi | Market Journalist | `samuel-adeyemi-market-journalist-with-noise.png` |
+| 137 | Ken Suzuki | Investment Writer | `ken-suzuki-investment-writer-with-noise.png` |
+| 138 | Diego Vargas | Startup Reporter | `diego-vargas-startup-reporter-with-noise.png` |
+| 139 | Sanjay Reddy | Data Analyst | `sanjay-reddy-data-analyst-with-noise.png` |
+| 140 | Lukas Schmidt | Economics Blogger | `lukas-schmidt-economics-blogger-with-noise.png` |
+| 141 | George Nikolaou | Columnist | `george-nikolaou-columnist-with-noise.png` |
+| 142 | Robert Stein | Finance Editor | `robert-stein-finance-editor-with-noise.png` |
+| 143 | Abdullah Malik | Investment Writer | `abdullah-malik-investment-writer-with-noise.png` |
+| 144 | Henrik Jensen | Market Columnist | `henrik-jensen-market-columnist-with-noise.png` |
+| 145 | Peter van Dam | Analyst | `peter-van-dam-analyst-with-noise.png` |

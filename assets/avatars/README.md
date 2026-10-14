@@ -108,3 +108,41 @@ adults, 21–30). No white/black variants.
 | 83 | Diego Fernandez | Business Writer | `diego-fernandez-business-writer.jpg` |
 | 84 | Wei Zhang | Investment Blogger | `wei-zhang-investment-blogger.jpg` |
 | 85 | James Carter | Fintech Journalist | `james-carter-fintech-journalist.jpg` |
+
+Batch 4 (personas 86–115): 30 single-picture PNG avatars with ~1% per-pixel film
+grain (same zoomed-out chest-up, bright high-key recipe as batch 2), mixed
+genders (15 female / 15 male) and ages (9 older, 56–64; 21 young adults, 24–30).
+File naming: `<first>-<last>-<title-slug>-with-noise.png`.
+
+| # | Name | Title | File |
+|---|------|-------|------|
+| 86 | Priya Sharma | Investment Writer | `priya-sharma-investment-writer-with-noise.png` |
+| 87 | Hana Kim | Fintech Analyst | `hana-kim-fintech-analyst-with-noise.png` |
+| 88 | Lucia Mendez | Business Reporter | `lucia-mendez-business-reporter-with-noise.png` |
+| 89 | Aisha Rahman | Market Blogger | `aisha-rahman-market-blogger-with-noise.png` |
+| 90 | Olivia Wang | Data Journalist | `olivia-wang-data-journalist-with-noise.png` |
+| 91 | Ingrid Johansson | Finance Writer | `ingrid-johansson-finance-writer-with-noise.png` |
+| 92 | Fatou Diallo | Startup Blogger | `fatou-diallo-startup-blogger-with-noise.png` |
+| 93 | Natalia Kowalski | Economics Writer | `natalia-kowalski-economics-writer-with-noise.png` |
+| 94 | Grace Mensah | Fintech Writer | `grace-mensah-fintech-writer-with-noise.png` |
+| 95 | Sofia Andersen | Market Analyst | `sofia-andersen-market-analyst-with-noise.png` |
+| 96 | Maria Torres | Crypto Reporter | `maria-torres-crypto-reporter-with-noise.png` |
+| 97 | Eleanor Hayes | Columnist | `eleanor-hayes-columnist-with-noise.png` |
+| 98 | Astrid Olsson | Finance Editor | `astrid-olsson-finance-editor-with-noise.png` |
+| 99 | Layla Nasser | Investment Columnist | `layla-nasser-investment-columnist-with-noise.png` |
+| 100 | Ruth Goldstein | Market Strategist | `ruth-goldstein-market-strategist-with-noise.png` |
+| 101 | Rahul Verma | Tech Writer | `rahul-verma-tech-writer-with-noise.png` |
+| 102 | Michael Cho | Finance Blogger | `michael-cho-finance-blogger-with-noise.png` |
+| 103 | Carlos Rivera | Business Analyst | `carlos-rivera-business-analyst-with-noise.png` |
+| 104 | Ahmed Khalil | Crypto Writer | `ahmed-khalil-crypto-writer-with-noise.png` |
+| 105 | Tomas Dvorak | Fintech Reporter | `tomas-dvorak-fintech-reporter-with-noise.png` |
+| 106 | Kwame Asante | Market Writer | `kwame-asante-market-writer-with-noise.png` |
+| 107 | Li Qiang | Investment Analyst | `li-qiang-investment-analyst-with-noise.png` |
+| 108 | Pedro Almeida | Startup Journalist | `pedro-almeida-startup-journalist-with-noise.png` |
+| 109 | Nikhil Reddy | Data Blogger | `nikhil-reddy-data-blogger-with-noise.png` |
+| 110 | Jonas Fischer | Economics Writer | `jonas-fischer-economics-writer-with-noise.png` |
+| 111 | William Crawford | Columnist | `william-crawford-columnist-with-noise.png` |
+| 112 | Giuseppe Moretti | Finance Editor | `giuseppe-moretti-finance-editor-with-noise.png` |
+| 113 | Tariq Iqbal | Investment Writer | `tariq-iqbal-investment-writer-with-noise.png` |
+| 114 | Anders Dahl | Market Analyst | `anders-dahl-market-analyst-with-noise.png` |
+| 115 | Sven Lundberg | Columnist | `sven-lundberg-columnist-with-noise.png` |

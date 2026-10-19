@@ -90,6 +90,7 @@ Strict typing, casting elimination, null safety, mutation avoidance.
 | 32 | `32-branch-immutability-and-clean-construction.md` | Branch immutability, constructor helper returns, condition decomposition |
 | 33 | `33-variadic-and-spread-parameters.md` | Variadic and spread parameters, zero wrapper calls, slice forwarding |
 | 34 | `34-string-normalization-and-equalfoldany.md` | String normalization, EqualFoldAnyTrim utility standard, Search First protocol |
+| 36 | `36-mime-and-media-type-enum-standards.md` | MIME and media type enum standards, Blob/Clipboard/Header type safety |
 
 ### 🔧 Patterns & Techniques
 
@@ -100,6 +101,7 @@ Nesting resolution, lazy evaluation, regex usage.
 | 16 | `16-lazy-evaluation-patterns.md` | Defer computation until needed |
 | 17 | `17-regex-usage-guidelines.md` | Compile once, named groups, readability |
 | 20 | `20-nesting-resolution-patterns.md` | Flatten nested code, avoid else after return |
+| 35 | `35-map-dispatch-and-handler-lookup.md` | Declarative map dispatch tables, handler lookup, and code smell elimination |
 
 ### 🧪 Testing
 
@@ -154,11 +156,13 @@ Consolidated reference, audit logs, contradiction checks.
 | 32 | `32-branch-immutability-and-clean-construction.md` | Type Safety |
 | 33 | `33-variadic-and-spread-parameters.md` | Type Safety |
 | 34 | `34-string-normalization-and-equalfoldany.md` | Type Safety |
+| 35 | `35-map-dispatch-and-handler-lookup.md` | Patterns |
+| 36 | `36-mime-and-media-type-enum-standards.md` | Type Safety |
 | 97 | `97-acceptance-criteria.md` | Meta |
 | 98 | `98-changelog.md` | Meta |
 | 99 | `99-consistency-report.md` | Meta |
 
-**Total:** 32 files (28 spec files + 1 overview + 3 meta)
+**Total:** 34 files (30 spec files + 1 overview + 3 meta)
 
 ---
 
@@ -195,6 +199,8 @@ Consolidated reference, audit logs, contradiction checks.
 | 32-branch-immutability-and-clean-construction.md |
 | 33-variadic-and-spread-parameters.md |
 | 34-string-normalization-and-equalfoldany.md |
+| 35-map-dispatch-and-handler-lookup.md |
+| 36-mime-and-media-type-enum-standards.md |
 | 97-acceptance-criteria.md |
 | 98-changelog.md |
 | 99-consistency-report.md |

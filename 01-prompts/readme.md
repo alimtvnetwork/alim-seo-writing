@@ -103,7 +103,7 @@ All 27 canonical prompt categories reside directly at the root of `01-prompts/`:
 | **12** | `12-old-plan-prompts/` | `01-plan-maximum-enforcement.md`, `05-plan-spec-steps.md` | Archived legacy planning protocols and audit workflows |
 | **13** | `13-plan-audit/` | `01-inventory-pending-tasks.md`, `02-plan-spec-steps-v2.md`, `03-audit-app-spec.md` | Task inventory, spec planning V2, and blind-AI audits |
 | **14** | `14-execute/` | `01-execute-pending-tasks.md`, `02-execute-parent-task-with-n-steps-v6.md`, `07-run.md` | Canonical V6 autonomous parent task execution, continuous loops, and run orchestration |
-| **15** | `15-cg-execute/` | `01-execute-coding-guideline-fix.md` through `20-*` | Granular coding guideline rule enforcement suite |
+| **15** | `15-cg-execute/` | `01-execute-coding-guideline-fix.md` through `38-*` | Granular coding guideline rule enforcement suite (all 38 prompts V6 compliant) |
 | **16** | `16-ci-cd/` | `01-ci-cd-fix-with-release.md`, `02-cicd-pipeline-create.md` | CI/CD pipeline diagnosis, creation, and release integration |
 | **17** | `17-release-management/` | `01-release.md`, `02-patch-bump.md`, `03-minor-bump.md`, `04-major-bump.md` | Semantic release ceremonies, version bumps, and tags |
 | **18** | `18-insults/` | `01-raw-insults.md` | Anti-carelessness discipline and quality enforcement |
@@ -115,6 +115,6 @@ All 27 canonical prompt categories reside directly at the root of `01-prompts/`:
 | **24** | `24-sync/` | `01-sync.md`, `02-sync-other-codebase.md` | Multi-repository synchronization engine: pull base branch, safety backup, asset mirroring with 5 boundary protections, atomic commit, and release tagging |
 | **25** | `25-ai-verification/` | `01-retrospective-ai-verification.md` | Retrospective quality audit, guideline verification, and CI validation |
 | **26** | `26-gitmap/` | `01-gitmap-core-engine.md` | GitMap AI training curriculum, streaming regex search, toolchain locator, and autonomous companion |
-| **27** | `27-muse-prompts/` | `01-muse-master-prompt.md`, `02-muse-execute-in-a-step.md` | Muse master onboarding prompt and execute-in-a-step one-shot execution prompt |
+| **27** | `27-muse-prompts/` | `01-muse-master-prompt.md` (Unified) | Unified Muse master onboarding & fleet execution prompt (SSH auth, GitMap scan, 14+ repo clone/pull-all, side chats, V6 multi-agent engine) |
 | **28** | `28-mastery-prompts/` | `01-mastery-bootstrap-prompt.md` | Foolproof standalone bootstrap prompt: reproduces the full working environment (GitHub, GitMap, repos, memory, chats) from any fresh chat on any machine |
 | **29** | `29-chat-management/` | `01-chat-histories-reread-remove-and-recreate.md` | Chat-history recovery: re-read per-repo side chats, prune stale ones (archive by default, delete only on explicit word), and recreate one `<repo> repo` chat per repo after a VM replacement |

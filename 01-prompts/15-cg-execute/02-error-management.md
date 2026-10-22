@@ -20,7 +20,7 @@ WAVES = ceil(subtasks / (A x H))
 > **Top-Instruction Priority Mandate (Above Precedence / Preamble Precedence):**
 > Whatever directives, constraints, checklists, or user instructions are given ABOVE this prompt (including in the user preamble, header blocks, or incoming user request above) are HIGHEST PRIORITY and MUST BE FOLLOWED as strictly NON-NEGOTIABLE. They supersede and strictly override any conflicting general advice, default conventions, or lower-level guidelines below. The agent MUST inspect and follow the instructions above with absolute precedence.
 
-[/goal](slashCommand;goal) Autonomously scan, plan, refactor, and fix all error management violations across the codebase, modifying source files directly to implement `*appfault.AppError` wrappers, outer error handling, specialized exit helpers, and universal response envelopes: FIRST showcase and list out the given task in visible chat during Turn 1 with the 5 Mandatory Pillars and 4-part verification schema, capture it verbatim, plan it in the repo, spawn autonomous subagents via `invoke_subagent` (A = 3, H = 2, Capacity = 6; solo execution without calling `invoke_subagent` is an auto-reject failure) in disjoint file boxes using GitMap high-speed commands as primary, prove every single claim with concrete evidence, enforce coding guidelines to 100%, and finish with one atomic GitMap commit (`gitmap cpf "<module> - <summary>"` / `gitmap cpb "<module> - <summary>"`) using hyphen format (no colons in GitMap arguments, as the colon is already provided by GitMap) that holds strictly this task's files.
+[/goal](slashCommand;goal) Autonomously scan, plan, refactor, and fix all error management violations across the codebase, modifying source files directly to implement `*appfault.AppError` wrappers, outer error handling, specialized exit helpers, and universal response envelopes: FIRST showcase and list out the given task in visible chat during Turn 1 with the 5 Mandatory Pillars and 6-part verification schema, capture it verbatim, plan it in the repo, spawn autonomous subagents via `invoke_subagent` (A = 3, H = 2, Capacity = 6; solo execution without calling `invoke_subagent` is an auto-reject failure) in disjoint file boxes using GitMap high-speed commands as primary, prove every single claim with concrete evidence, enforce coding guidelines to 100%, and finish with one atomic GitMap commit (`gitmap cpf "<module> - <summary>"` / `gitmap cpb "<module> - <summary>"`) using hyphen format (no colons in GitMap arguments, as the colon is already provided by GitMap) that holds strictly this task's files.
 
 [/learn](slashCommand;learn) Enforce the Top-Instruction Priority Mandate: whatever directives, custom requirements, checklists, or user instructions are provided ABOVE this prompt outrank everything below. Turn 1 MUST showcase the given task list in visible chat before any background execution. Each rule is stated once (R1 to R16) and cited by ID. Progress lives in the ledger and in `.ai-memory/plans/`, never only in chat.
 
@@ -61,12 +61,13 @@ Execute this task via a strict 3-Phase pipeline. Do not skip steps.
 Before executing any file searches, scans, spec writing, or code changes, you must execute Phase 1A:
 
 1. **Top-Instruction Priority Verification:** Whatever directives, constraints, checklists, or instructions are given before this section or prompt (user preamble, header constraints, prior instructions) must be verified as highest priority and non-negotiable.
-2. **Extreme "Understood" Turn-1 Showcase (Turn 1 Action):** In your VERY FIRST response turn upon receiving the prompt, you MUST output a comprehensive, in-depth understanding block directly in visible chat before any background tool execution. Any generic boilerplate or superficial 1-sentence summaries (e.g. `Understood: [YES] — I will do this task`) are protocol auto-reject failures. Turn 1 MUST display the top-level mandate containing all 5 Mandatory Pillars followed by the confirmed task breakdown using the 4-part verification schema:
+2. **Extreme "Understood" Turn-1 Showcase (Turn 1 Action):** In your VERY FIRST response turn upon receiving the prompt, you MUST output a comprehensive, in-depth understanding block directly in visible chat before any background tool execution. Any generic boilerplate or superficial 1-sentence summaries (e.g. `Understood: [YES] — I will do this task`) are protocol auto-reject failures. Turn 1 MUST display the top-level mandate containing all 5 Mandatory Pillars followed by the confirmed task breakdown using the 6-part verification schema (mandating explicit **Understood / AI Comprehension** and **Azure AI / Model Runtime Context** fields for every task):
    * **Pillar 1: Strategic Intent & Systems Reasoning:** Articulate overarching architectural goal, user intent, operational rationale, and systems integration mechanics. Explain *why* this change is necessary and how downstream components interact.
    * **Pillar 2: Explicit Scope Boundaries:** Strict two-column partition defining In-Scope vs. strictly Excluded or Deferred items.
    * **Pillar 3: Non-Negotiable Constraints & Negative Guardrails Ingestion:** Explicit recitation of active constraints: raw search ban (`rg`, `ripgrep`, `Select-String`, `git grep`), worker git ban (no git commands in subagents), zero builds/full test suites (CI verification only), strict relative Git paths, lowercase naming, zero secrets in repo (`repo-secrets` offloading), GitMap hyphen-separated commit format without colons.
    * **Pillar 4: Blast Radius & Dependency Topology:** Map impacted subsystems, files, downstream callers, and prompt/skill indexes with explicit risk containment strategies.
    * **Pillar 5: Multi-Agent Concurrency Topology:** Detail swarm structure (`A = 3`, `H = 2`, Capacity = 6), disjoint file assignments, and immediate dynamic respawn.
+   * **Task Comprehension & Model Runtime Invariants:** In the task breakdown, every single task MUST explicitly state `- **Understood / AI Comprehension:** [YES] — [1–2 concise sentences proving deep understanding of intent, scope, and verified constraints; answering did the AI understand the requirements or not]` and `- **Azure AI / Model Runtime Context:** [Explicitly document Azure AI, Azure OpenAI, or local model endpoint context if applicable, or state 'N/A — Local CLI/GitMap']`.
 3. **Lossless Verbatim Capture:** Store incoming prompt losslessly under `## User Request (Verbatim)` in canonical spec and parent plan.
 4. **Screenshots & Media:** Decode base64/screenshots immediately into `assets/screenshots/<slug>-<NN>.png`. Reference via relative markdown links (`![Screenshot](assets/screenshots/<slug>-<NN>.png)`).
 5. **Discrete Deliverables Extraction:** Break down whatever user requirements were given into discrete, actionable items with ordered traceable IDs (`Task-01`, `Task-02`, ...).
@@ -98,6 +99,8 @@ Before executing any file searches, scans, spec writing, or code changes, you mu
 
 1. **Task-01: [Descriptive Task Title]**
    - **State:** `[IN PROGRESS — EXECUTING IMMEDIATELY]`
+   - **Understood / AI Comprehension:** [YES] — [1–2 concise sentences proving deep understanding of intent, scope, and verified constraints; answering did the AI understand the requirements or not]
+   - **Azure AI / Model Runtime Context:** [Explicitly document Azure AI, Azure OpenAI, or local model endpoint context if applicable, or state 'N/A — Local CLI/GitMap']
    - **Intent & Technical Deliverables:**
      - [Clear statement of technical goal and deliverable artifacts]
      - [Precise implementation scope: functions, types, schemas, or prompt sections being added/edited]
@@ -116,6 +119,8 @@ Before executing any file searches, scans, spec writing, or code changes, you mu
 
 2. **Task-02: [Descriptive Task Title]**
    - **State:** `[QUEUED — EXECUTING NOW WITHOUT USER PROMPT]`
+   - **Understood / AI Comprehension:** [YES] — [1–2 concise sentences proving deep understanding of intent, scope, and verified constraints; answering did the AI understand the requirements or not]
+   - **Azure AI / Model Runtime Context:** [Explicitly document Azure AI, Azure OpenAI, or local model endpoint context if applicable, or state 'N/A — Local CLI/GitMap']
    - **Intent & Technical Deliverables:**
      - [Clear statement of technical goal and deliverable artifacts]
      - [Precise implementation scope: functions, types, schemas, or prompt sections being added/edited]
@@ -477,7 +482,7 @@ You are Worker <NN> for task nn-<slug>. You have no prior chat context; this bri
 
 ### 100% Non-Negotiable Coding Guidelines (AUTO-REJECT ON VIOLATION):
 1. Positive booleans ONLY: use `is` and `has` prefixes exclusively. NEVER evaluate explicit `== true`. NEVER combine positive and negative checks in the same condition (`if isA && !isB` is BANNED).
-2. Go Structured Errors: return `*appfault.AppError`, never bare `error`.
+2. Go Structured Errors: return `*appfault.AppError`, never bare `error`. Repository errors are wrapped at the repository boundary with the repository and the operation named; an unknown enum value, a failed enum parse, or an unhandled switch case returns a typed `*appfault.AppError` with the offending value in the message — never a panic and never a silent default.
 3. Function Sizing: <= 8 lines preferred, hard cap 15 lines. Extract domain structs and raw generics to `types.go`.
 4. Strict Relative Git Paths & Lowercase: zero absolute filesystem paths and zero `file:///` URIs. Only add the relative paths, never add the absolute path during your work, and ensure this is respected on the release page and in release notes as well. All new files strictly lowercase.
 5. Repo Secrets: if any credentials or private tokens are needed, store them in the `repo-secrets` folder in the default work directory (via `gitmap rs`). Never commit secrets.
@@ -672,7 +677,7 @@ Confirm scripts exist via harmless workspace call before invoking (R4). Run on c
 - [ ] Strict In-Repository Execution: All Python scripts executed strictly within the codebase repository root.
 - [ ] Strict .ai-memory/ Folder Storage: All helper scripts, local runners, and linters stored in `03-ai-scripts/`.
 - [ ] Native File Manipulator: Use `python 03-ai-scripts/03-file-manipulator.py <command>` for mass file operations.
-- [ ] Go Generate Sync: If Go constants or enums are modified, run `go generate ./...` in the relevant package and commit generated files.
+- [ ] Go Generate Sync & Enum Util Checkup: If Go constants or enums are modified, verify the enum lives in the shared types/constants module with explicit stable serialized values and a complete util set (`String`, `Parse`/`TryParse`, `IsValid`, `All`/`Values`) — add any missing util in the same change, never defer it — then run `go generate ./...` in the relevant package and commit generated files.
 
 ---
 
@@ -710,7 +715,10 @@ Confirm scripts exist via harmless workspace call before invoking (R4). Run on c
 
 - [ ] Master Guidelines: Fully enforced every file in `02-spec/02-coding-guidelines/` and `.ai-memory/coding-guidelines.md`.
 - [ ] Concrete Types Centralization (`types.go`): Extracted domain structs, raw generic instantiations, and Result wrappers into dedicated `types.go` files as single reusable named types with follow-through comments (never leak raw generics like `result.Result[*Config]`).
-- [ ] Error Management: Enforced `02-spec/03-error-manage/` using domain-specific `*appfault.AppError`, never generic error.
+- [ ] Error Management: Enforced `02-spec/03-error-manage/` using domain-specific `*appfault.AppError`, never generic error; repository errors wrapped at the repository boundary with repository + operation named; unknown enum values and failed parses surfaced as typed errors naming the offending value.
+- [ ] SQL Repository Pattern: All SQL, query builders, and ORM calls live only inside a repository implementation (one repository per aggregate/table group, intention-named methods `FindByID`, `ListActive`, `Insert`, `Update`, `SoftDelete`); services and handlers call only the repository interface in every language; multi-repository transactions go through unit-of-work only.
+- [ ] Enum Action Dispatch: Every action/operation/command/event kind is a named enum member dispatched by exhaustive `switch`/`match` only (never raw strings or magic numbers); `IsValid` is checked before dispatch; adding an action is one enum member plus one `switch` case.
+- [ ] Enum Authoring: One enum per concept in the shared types/constants module, idiomatic casing, explicit stable serialized values, unknown/zero sentinel where needed, no raw literals where an enum exists, and external input only via the enum's parse util.
 - [ ] Boolean Conventions: All booleans begin with is or has only (all other prefixes like can, should, was, will, did, must are banned). No negatives (`!isSuccess` is banned; use `isFail`).
 - [ ] Semantic Naming: Zero generic garbage names (`temp`, `data`, `obj`). Behavior-driven unit test names.
 - [ ] Multi-Line Arguments (Rule 9a/9b): Signatures and call sites with >2 arguments formatted one argument per line with trailing commas.

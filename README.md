@@ -43,3 +43,9 @@ every article includes at least 1 original infographic. it communicates the arti
 ## publishing
 
 paste `medium-ready.html` into medium and the links carry over as clickable, descriptive anchors. for other platforms and the repackaging rules (canonical links, varied anchors, avoiding duplicate copy), see the "publication platforms for seo backlinks" section in `01-seo-writing/writing-preferences.md`.
+
+## Memory
+
+- .ai-memory/memory/readme.md
+- .ai-memory/memory/learned/01-recent-session-2026-10-29.md
+- .ai-memory/plans/readme.md

@@ -41,6 +41,7 @@ These local commits are still unpushed because GitHub denied `alimtvnetwork`:
 ## Last 30 commits in this repo
 
 ```text
+bc6dda1 docs(memory) - record the 2026-10-29 warm-up and git session.
 99f9015 chore(sync): mirror canonical prompts, skills, specs
 2b4c226 chore(sync): mirror canonical prompts, skills, specs
 833d97a chore(lfs): track avatar images with git-lfs pointers
@@ -70,5 +71,4 @@ bf93274 chore(assets): track avatar images with Git LFS
 a9f8aae Feature: Add concept library: 12 originals + cleaned versions in assets/concepts, 12 layered SVG backgrounds + PNGs, reusable pill label component, LFS for assets
 2e279e3 Feature: Add angular-play dark background (broadcast-style, yellow motif) PNG + layered SVG
 06d73d9 Feature: Add 27-newspaper-creative-spec with sample, design system, copy formula, generation workflow + newsprint texture bg
-9bc422e Feature: Refine riseup-purple bg: all-uppercase RISEUP, drop shade, purple-blended text, shifted triangle
 ```

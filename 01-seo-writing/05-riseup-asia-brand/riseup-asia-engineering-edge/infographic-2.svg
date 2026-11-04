@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="111.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="52" fill="#F7F5F2" text-anchor="middle">Headcount vs algorithm-first</text>
+<text x="600.0" y="144.0" font-family="Poppins, sans-serif" font-weight="400" font-size="26" fill="#ADA8A2" text-anchor="middle">Software engineering results for a California client</text>
+<rect x="80.0" y="180.0" width="500.0" height="279.0" rx="18" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="181.0" y="234.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#6E6963" text-anchor="start" letter-spacing="4">HEADCOUNT MODEL</text>
+<text x="110.0" y="268.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">More hires, same slow release</text>
+<text x="110.0" y="320.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Cost grows with every hire</text>
+<text x="110.0" y="372.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Tickets move, problems stay</text>
+<rect x="620.0" y="180.0" width="500.0" height="279.0" rx="18" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="675.0" y="234.0" font-family="Poppins, sans-serif" font-weight="600" font-size="24" fill="#FFAD01" text-anchor="start" letter-spacing="4">ALGORITHM-FIRST MODEL</text>
+<text x="650.0" y="268.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Better logic before more hires</text>
+<text x="650.0" y="320.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Senior team reframes problems</text>
+<text x="650.0" y="371.0" font-family="Poppins, sans-serif" font-weight="400" font-size="25" fill="#ADA8A2" text-anchor="start">Smaller problem, better result</text>
+<rect x="306.5" y="491.0" width="587.0" height="84.0" rx="42" fill="#1D1A18" stroke="#FFAD01" stroke-width="2" stroke-opacity="0.43"/>
+<text x="600.0" y="541.0" font-family="Poppins, sans-serif" font-weight="600" font-size="30" fill="#F7F5F2" text-anchor="middle">Fix the logic first — California</text>
+</svg>

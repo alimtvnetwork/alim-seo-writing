@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="140" r="430" fill="url(#gl)"/>
+<text x="315.0" y="120.0" font-family="Poppins, sans-serif" font-weight="600" font-size="26" fill="#FFAD01" text-anchor="start" letter-spacing="7">RISEUP ASIA LLC ENGINEERING</text>
+<text x="600.0" y="293.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="190" fill="#F7F5F2" text-anchor="middle">10X–30X</text>
+<text x="600.0" y="422.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="56" fill="#F7F5F2" text-anchor="middle">Better logic, not headcount</text>
+<rect x="142.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="362.0" y="519.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F7F5F2" text-anchor="middle">180+</text>
+<text x="214.0" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#ADA8A2" text-anchor="start" letter-spacing="3">PRE-VETTED ENGINEERS</text>
+<rect x="618.0" y="476.0" width="440.0" height="96.0" rx="16" fill="#1D1A18" stroke="#f7f5f2" stroke-width="2" stroke-opacity="0.11"/>
+<text x="838.0" y="519.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="40" fill="#F7F5F2" text-anchor="middle">50–70</text>
+<text x="650.5" y="559.0" font-family="Poppins, sans-serif" font-weight="600" font-size="20" fill="#ADA8A2" text-anchor="start" letter-spacing="3">YEARS COMBINED EXPERIENCE</text>
+<text x="600.0" y="616.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#6E6963" text-anchor="middle">California clients: the aim is better logic, not bigger headcount.</text>
+</svg>

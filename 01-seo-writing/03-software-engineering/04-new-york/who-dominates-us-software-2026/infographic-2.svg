@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(168,85,247)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(168,85,247)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0A0F1D"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="109.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F8FAFC" text-anchor="middle">Who dominates US software in 2026</text>
+<text x="195.0" y="178.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">1</text>
+<text x="235.0" y="157.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">NVIDIA</text>
+<text x="235.0" y="190.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Largest market cap, fastest growth at 65.5% — New York view</text>
+<text x="195.0" y="267.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">2</text>
+<text x="235.0" y="246.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Apple</text>
+<text x="235.0" y="279.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Largest revenue at $416,161 million</text>
+<text x="195.0" y="355.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">3</text>
+<text x="235.0" y="335.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Microsoft</text>
+<text x="235.0" y="367.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Highest net income at $133,749 million</text>
+<text x="195.0" y="442.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">4</text>
+<text x="235.0" y="422.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">Alphabet</text>
+<text x="235.0" y="454.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">2nd-largest revenue, smallest market cap of the 4</text>
+<text x="195.0" y="530.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#A855F7" text-anchor="end">5</text>
+<text x="235.0" y="510.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F8FAFC" text-anchor="start">AI challengers</text>
+<text x="235.0" y="542.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#94A3B8" text-anchor="start">Editorial slot: revenue velocity, not yet dominance</text>
+</svg>

@@ -184,3 +184,21 @@ File naming: `<first>-<last>-<title-slug>-with-noise.png`.
 | 143 | Abdullah Malik | Investment Writer | `abdullah-malik-investment-writer-with-noise.png` |
 | 144 | Henrik Jensen | Market Columnist | `henrik-jensen-market-columnist-with-noise.png` |
 | 145 | Peter van Dam | Analyst | `peter-van-dam-analyst-with-noise.png` |
+
+Task: seo-articles-and-avatar-generation (personas 146–150)
+
+5 single-picture PNG avatars for the seo-articles-and-avatar-generation task, in their own
+folder `assets/avatars/seo-articles-and-avatar-generation/`. Recipe: 1080x1080, studio
+headshot, chest-up framing with generous headroom, pure white background only, bright
+high-key lighting with soft even fill and no harsh shadows, photorealistic with sharp
+natural skin texture and subtle ~1% film grain so the portrait does not read as
+AI-generated, no text, no watermark, one image per persona. File naming:
+`<first>-<last>-<title-slug>-white-with-noise.png`.
+
+| # | Name | Title | File |
+|---|------|-------|------|
+| 146 | Iris Nakamura | SEO Writer | `seo-articles-and-avatar-generation/iris-nakamura-seo-writer-white-with-noise.png` |
+| 147 | Andre Baptiste | Technical Writer | `seo-articles-and-avatar-generation/andre-baptiste-technical-writer-white-with-noise.png` |
+| 148 | Clara Whitmore | Editor | `seo-articles-and-avatar-generation/clara-whitmore-editor-white-with-noise.png` |
+| 149 | Dmitri Sokolov | Blogger | `seo-articles-and-avatar-generation/dmitri-sokolov-blogger-white-with-noise.png` |
+| 150 | Tessa Marlowe | Copywriter | `seo-articles-and-avatar-generation/tessa-marlowe-copywriter-white-with-noise.png` |

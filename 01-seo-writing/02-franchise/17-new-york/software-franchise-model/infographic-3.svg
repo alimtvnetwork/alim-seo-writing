@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="gl"><stop offset="0%" stop-color="rgb(255,173,1)" stop-opacity="0.10"/><stop offset="100%" stop-color="rgb(255,173,1)" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0B0A09"/>
+<circle cx="600" cy="120" r="400" fill="url(#gl)"/>
+<text x="600.0" y="109.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="50" fill="#F7F5F2" text-anchor="middle">What a New York buyer weighs first</text>
+<text x="195.0" y="187.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#FFAD01" text-anchor="end">1</text>
+<text x="235.0" y="168.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F7F5F2" text-anchor="start">Recurring revenue base</text>
+<text x="235.0" y="199.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Monthly contracts, not one-off projects</text>
+<text x="195.0" y="276.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#FFAD01" text-anchor="end">2</text>
+<text x="235.0" y="256.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F7F5F2" text-anchor="start">Playbook that survives production</text>
+<text x="235.0" y="287.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Month 6 in New York, 2 AM test</text>
+<text x="195.0" y="364.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#FFAD01" text-anchor="end">3</text>
+<text x="235.0" y="344.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F7F5F2" text-anchor="start">Training depth</text>
+<text x="235.0" y="375.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Diagnosis beats scripts</text>
+<text x="195.0" y="451.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#FFAD01" text-anchor="end">4</text>
+<text x="235.0" y="432.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F7F5F2" text-anchor="start">Territory economics</text>
+<text x="235.0" y="463.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">New York density, higher competition</text>
+<text x="195.0" y="539.0" font-family="Ubuntu, sans-serif" font-weight="700" font-size="54" fill="#FFAD01" text-anchor="end">5</text>
+<text x="235.0" y="520.0" font-family="Poppins, sans-serif" font-weight="600" font-size="27" fill="#F7F5F2" text-anchor="start">Brand fame last</text>
+<text x="235.0" y="551.0" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="#ADA8A2" text-anchor="start">Opens doors, never fixes servers</text>
+</svg>

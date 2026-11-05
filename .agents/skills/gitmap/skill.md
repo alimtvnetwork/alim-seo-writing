@@ -1,9 +1,11 @@
 ---
 name: gitmap
-description: Autonomous developer companion and CLI for ultra-fast repository scanning, polyglot automation (AUM), cluster/SSH delegation, pipeline self-healing, and coding guideline enforcement.
+description: Autonomous developer companion and CLI for ultra-fast repository scanning, polyglot automation (AUM), pipeline self-healing, process management, and coding guideline enforcement.
 ---
 
 # GitMap Autonomous Engineering Skill
+
+> **Invocation:** `@[gitmap](file;.agents/skills/gitmap)`
 
 ## Non-Negotiable Command Replacement Matrix (DO NOT USE X; USE GITMAP Y)
 
@@ -12,24 +14,83 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 | Prohibited Legacy Tool / Pattern | GitMap Mandatory Command | Why GitMap is Required |
 | :--- | :--- | :--- |
 | ❌ `rg`, `ripgrep`, `grep`, `git grep`, `Select-String`, `findstr` | ✅ `gitmap aum search "<pattern>" [dir] [--ext <ext>]` or `gitmap search "<pattern>"` | Multi-core streaming live search (<15ms) with binary null-byte probe, 500 KB file cap, and DH2D SQLite hot cache. Prevents buffer bloat and terminal freezing. |
+| ❌ Ad-hoc Python subprocess git commands or commit searches (e.g. `python -c "import os, subprocess; out = subprocess.check_output(['git', 'log', '-S', ...])"` or inline scripts) | ✅ `gitmap log -S "<pattern>" [path]`, `gitmap log --grep="<pattern>" [path]`, or `gitmap aum search-commits "<pattern>" [path]` (or MCP tool `gitmap_log`) | Direct native Git inspection with Tokyo Night formatted stream (<10ms), zero Python interpreter latency, no temporary files, and automatic pager handling. TOTAL BAN on Python subprocess snippets for git log. |
+| ❌ Searching or reading files via raw terminal commands when MCP is active | ✅ Start `gitmap mcp serve` and call native MCP tools (`gitmap_aum_search`, `gitmap_find`, `gitmap_cat`, `gitmap_log`) | Native JSON-RPC 2.0 toolchain integrated with Antigravity, Cursor, and Claude Desktop. Sub-millisecond tool responses with Split-DB cache. |
 | ❌ `Get-ChildItem` (all variants: bare `Get-ChildItem`, `-Path`, `-Filter`, `-Recurse`, etc.), `dir`, `ls` (in shell), `find . -name "..."`, `dir /s /b` | ✅ `gitmap lf <dir>` or `gitmap list-files [dir]` or `gitmap find "<pattern>" [dir]` | Sub-millisecond directory listing and file glob discovery without shell traversal overhead. TOTAL BAN on PowerShell Get-ChildItem. |
 | ❌ Inspecting plans manually via `Get-ChildItem -Path ".ai-memory/plans"` or `dir` | ✅ `gitmap plans [--json\|--yaml] [N]` (alias: `gitmap plan`) | Instant Tokyo Night styled inventory of completed and pending plans with sequence IDs, status pills, and backlog overflow navigation. |
-| ❌ Directory File Inventory: `Get-ChildItem -Path <dir>`, `dir <dir>`, `ls <dir>` | ✅ `gitmap lf <dir>` (e.g. `gitmap lf src-tauri/src/modules/repo_db`) or `gitmap find "*.*" <dir>` | Instant directory file listing and inventory without PowerShell object pipeline or shell traversal latency. TOTAL BAN on PowerShell Get-ChildItem. |
-| ❌ Raw unbuffered `cat`, `type`, `Get-Content` on source files | ✅ `gitmap cat <filepath>` | Direct zero-disk stream of file contents directly into process stdout for resource-constrained CLI sessions. |
+| ❌ Directory File Inventory: `Get-ChildItem -Path <dir>`, `dir <dir>`, `ls <dir>`, `Get-ChildItem -File \| Select-Object -ExpandProperty Name` | ✅ `gitmap lf <dir>` (e.g. `gitmap lf cli/cmdinstall`) or `gitmap find "*.*" <dir>` | Instant directory file listing and inventory without PowerShell object pipeline or shell traversal latency. TOTAL BAN on PowerShell Get-ChildItem. |
+| ❌ Ad-hoc Python file reading or slicing (`gitmap py -c "open('...').read()"` or `gitmap py -c "lines=open('...').readlines(); print(lines[A:B])"`), `pwsh Get-Content`, raw unbuffered `cat`, `type` | ✅ `gitmap cat <filepath> [-L <start>:<end>] [-q <query>] [-t <tail>] [--head N] [--num] [--raw]` (alias: `gitmap ct`) | Direct zero-disk stream with line range slicing, query filtering, tail/head extraction, gutter line numbers, and safe image cards. TOTAL BAN on ad-hoc Python file reading one-liners. |
+| ❌ Reading log tails with PowerShell (`powershell -Command "Get-Content '...' -Tail N \| Select-String -Pattern '...'"`), or Node.js (`node -e "fs.readFileSync..."`) | ✅ `gitmap cat "<file>" -t <tail> -q "<pattern>"` or `gitmap cat "<file>" -L <line>` | Instant tail search with original line numbers, zero disk writes, and cross-platform reliability. TOTAL BAN on PowerShell Select-String and Node read scripts. |
+| ❌ Python filesystem traversal (`gitmap py -c "import os; [print(...) for ... in os.walk(...) if ...]"`) | ✅ `gitmap find "*<pattern>*" [dir]` or `gitmap aum search "<pattern>" [dir]` | High-speed multi-core file globbing (<10ms) without spinning up Python interpreters or memory bloat. TOTAL BAN on ad-hoc os.walk one-liners. |
+| ❌ Python sleep polling (`gitmap py -c "import time; time.sleep(N)"`) or shell sleep loops | ✅ Use Antigravity `schedule` tool, `gitmap watch`, or reactive task wakeup | Sleep loops freeze terminal threads, burn CPU, and violate non-polling guidelines. |
+| ❌ Bypassing restrict conditions during fleet sync or running V6 script under V7 parent task | ✅ `python 03-ai-scripts/38-sync-prompts-skills-scripts-v7.py` (V7) or `python 03-ai-scripts/38-sync-prompts-skills-scripts.py` (V6) | Dedicated V7 sync engine validates calendar window (< 08:00 AM on weekdays), auto-window slotting, target timezone, and autonomous bot credentials. |
 | ❌ Raw ambient `python script.py` or `python -c "..."` | ✅ `gitmap py "<code-or-script>"` or `gitmap py -c "<expression>"` | Auto-resolves verified Python interpreter from `installation.db` cache (<15ms), avoiding environment discrepancies. |
-| ❌ `powershell -Command "..."` or `pwsh -Command "..."` | ✅ `gitmap pwsh "<cmd>"` or `gitmap ps -c "<cmd>"` | Cross-platform PowerShell execution with deterministic `-NoProfile`, UTF-8 encoding, and automatic fallback. |
+| ❌ Raw directory/file execution via `gitmap ps` (e.g. `gitmap ps "dir"`, `gitmap ps "ls"`, `gitmap ps "Get-ChildItem"`, `gitmap ps "Get-Content"`, `gitmap ps "cat"`) or querying subtasks/plans via PowerShell | ✅ `gitmap dir [path]` / `gitmap ls [path]`<br>`gitmap agent subtask ls [task-id]`<br>`gitmap heatmap`<br>`gitmap cat <filepath>` | `gitmap ps` resolves `pwsh` first (or `powershell.exe` on Windows fallback) and spawns an OS subprocess with `-NoProfile -Command`. Spawning PowerShell for filesystem traversal or file inspection incurs 200–800ms process startup latency, dumps verbose pipeline text into context, and bypasses GitMap's SQLite split-db and DH2D hot cache. TOTAL BAN on raw directory/file execution via `gitmap ps`. |
+| ❌ `powershell -Command "..."` or `pwsh -Command "..."` | ✅ `gitmap pwsh "<cmd>"` or `gitmap ps -c "<cmd>"` | Cross-platform PowerShell execution with deterministic `-NoProfile`, UTF-8 encoding, and automatic fallback. For administrative tasks only; strictly banned for directory/file inspection. |
 | ❌ Raw `bash -c "..."` or `sh -c "..."` | ✅ `gitmap bash "<cmd>"` or `gitmap bash -c "<cmd>"` | Uniform POSIX execution with cross-platform environment isolation across Windows, macOS, and Linux. |
 | ❌ Multi-repo `git status` loops or manual directory scanning | ✅ `gitmap status --dirty` / `gitmap status --json` / `gitmap st` | Single-shot multi-repository audit matrix displaying dirty counts, ahead/behind branches, and uncommitted stashes. |
 | ❌ `gh auth login` interactive prompts or plaintext `.env` files | ✅ `gitmap login --web`, `gitmap login --status`, `gitmap login --token <PAT>` | Token validated via GitHub API before writing; auto-resolved for all clone, pull, and push commands. |
-| ❌ Colons in commit messages (`git commit -m "feat: ..."` or `gitmap cpf "feat: ..."`) | ✅ `gitmap cpf "<module> - <summary>"` (hyphen-separated only) | GitMap automatically provides `Feature: ` or `Bug: ` prefix. Colons inside the message argument cause duplicate prefixes. |
+| ❌ Ad-hoc `git config --global user.name` / `user.email` or manual shell identity toggling for bots | ✅ `gitmap login set global ai-auto` or `gitmap login set ai-auto [agent-name]` | Locks standardized AI automation bot credentials (`gitmap automation bot - runs autonomously <info@rgitmap.com>` or named agent persona) machine-wide or per-repo with automatic original user backup. |
+| ❌ Manual commit author flags (`git commit --author="..."`) or uncredited subagent commits | ✅ `gitmap cpf/cpb/cpc/cfr/cpr --ai-agent <name>` | Attaches designated subagent identity to commit provenance, Git author metadata, Split-DB telemetry, and cognitive heatmap tables. |
+| ❌ Raw `git pull`, `git pull origin <branch>`, `git pull --rebase` | ✅ `gitmap pull [repo]` (or `gitmap pull` in current repo, alias `gitmap p`), `gitmap pull-all` (alias `gitmap pa`) | High-speed multi-phase pull with conflict detection, branch tracking, and auto-stash/rebase handling. TOTAL BAN on raw `git pull` without attempting `gitmap pull` first. |
+| ❌ Third brackets, lowercase conventional syntax, colons in arguments, or misusing commit verbs (`gitmap cpf "chore(release): ..."` or `gitmap cpf "[module]: feat: ..."` or `git commit -m "..."`) | ✅ `gitmap cpr "<module> - <summary>"` (release), `gitmap cpc "<module> - <summary>"` (chore), `gitmap cbf "<module> - <summary>"` (bug fix), `gitmap cfr "<module> - <summary>"` (refactor), `gitmap cpf "<module> - <summary>"` (feature) | Strict verb taxonomy: NEVER use `cpf` for releases, chores, or bugs. GitMap automatically prepends the sovereign type. TOTAL BAN on square brackets `[...]`, colons in arguments, raw `git commit`, and conventional prefixes (`chore(...)`, `feat(...)`, `fix(...)`) inside arguments. |
+| ❌ Raw `$env:LIBCLANG_PATH` exports or manual Cargo wrapper scripts | ✅ `gitmap cargo [args...]` or `gitmap rust status` | Automated LLVM/libclang path discovery on Windows and Linux, injecting `LIBCLANG_PATH` and `PATH` transparently. |
+| ❌ Raw `taskkill /F /PID <pid>` or `kill -9 <pid>` | ✅ `gitmap kill <pid|name|:port> [--force] [--tree]` (alias: `gitmap terminate`) | Cross-platform process termination with safety guards protecting system-critical processes, IDEs, and shells. |
 | ❌ Saving temporary scratch or test scripts into repo git tree | ✅ `gitmap rc text "<content>" --slug <slug> --ext .ps1` | Centralized script storage in `repo-cache` (`repo-storage`) for permanent cross-repo reuse without polluting git worktrees. |
 | ❌ Committing `.env` or credentials to standard repositories | ✅ `gitmap rs text "<secret>" --slug <slug>` | Strict zero-secrets policy; stores credentials exclusively in `repo-secrets` vault. |
 | ❌ `gh run watch` or tight polling loops (`while true; sleep 5`) | ✅ `gitmap pipeline-ai status -t <eta>` or `gitmap pe -t` | Dynamic timeout waiting driven by calculated workflow ETA without burning CPU or Actions API quotas. |
 | ❌ Slow Python fleet sync (`python 03-ai-scripts/38-sync-prompts-skills-scripts.py`) | ✅ `gitmap sync [--workers 8] [--projects <path|json>]` | Native Go multi-repo synchronization across 43 repositories in <5s with 6-stage safe ceremony (backup branch, pre-pull, 5 boundaries, atomic commit). |
+| ❌ Ad-hoc Python scripts querying Antigravity DB (`conversation_summaries.db`) or scratch files (`check_summaries.py`, `query.py`) | ✅ `gitmap agy summaries [N] [-q <query>] [-a] [-j]` (aliases: `gitmap agy convs`, `gitmap convs`, `gitmap agy db`) or `gitmap db-read agy "<sql>"` | Sub-millisecond direct SQL query (<2ms), clean Tokyo Night formatted table, zero python interpreter overhead, JSON support, and zero scratch file pollution. TOTAL BAN on Python scripts for conversation_summaries.db. |
+| ❌ Reading or analyzing files silently without registering Heatmap cognitive intent | ✅ `gitmap heatmap touch <filepath> --reason "<why>"` (or `gitmap cat <filepath> --touch`) | Logs active file lease and inspection purpose into `heatmap.db`, eliminating multi-agent contention and providing instant auditability in `gitmap heatmap live`. |
 | ❌ Python SQLite task scripts or ad-hoc queries (`python -c "import sqlite3..."`) | ✅ `gitmap agent <task|subtask|log|diagnose|crashed|temp-clear>` | Native compiled Go SQLite task manager (<1ms) with WAL mode, single-writer locking, atomic in-flight telemetry, and crash autopsy. |
-| ❌ Python or ad-hoc SQLite scripts (`python -c "import sqlite3..."`), `sqlite3` CLI, DB browser tools | ✅ `gitmap db-read`, `gitmap db-add`, `gitmap db-edit`, `gitmap db-find`, `gitmap db-listing`, `gitmap db-view`, `gitmap db-rest`, `gitmap db-record-del`, `gitmap db-rm` | Compiled native Go SQLite exploration, mutation, view join, REST API server with Swagger UI & visualizer dashboard, and database lifecycle management. |
+| ❌ Python or ad-hoc SQLite scripts (`python -c "import sqlite3..."`), `sqlite3` CLI, DB browser tools | ✅ `gitmap dbsql "<sql>" --path/--db <alias|path> [--json]`, `gitmap db-read`, `gitmap db-add`, `gitmap db-edit`, `gitmap db-find`, `gitmap db-listing`, `gitmap db-view`, `gitmap db-rest`, `gitmap db-record-del`, `gitmap db-rm` | Compiled native Go SQLite direct SQL execution, exploration, mutation, view join, REST API server with Swagger UI & visualizer dashboard, and database lifecycle management. |
 | ❌ Ad-hoc Python network scrapers or image link extractors (e.g. `python -c "import urllib.request, re..."`, `fetch_urls.py`, curl pipes to scrape `prnt.sc`/lightshot/screenshot URLs) | ✅ `gitmap prnt <url1> [url2...] [--extract-only] [--json]` (aliases: `gitmap download-prnt`, `gitmap asset download-prnt`) | Native compiled parallel fetching, multi-tier CDN regex resolution, User-Agent emulation, zero external dependencies, and automatic bidirectional Antigravity Brain synchronization. |
+| ❌ Raw `curl`, `wget`, `Invoke-WebRequest`, or custom Python/Go HTTP fetchers for web resources | ✅ `gitmap url read <url>` (aliases: `gitmap url <url>`, `gitmap get <url>`) | Dedicated SQLite Split-DB (`repodb/url_cache.db`), WAL mode, sub-millisecond retrieval (<0.5ms), unbuffered `output.Raw()` streaming, SHA-256 caching. TOTAL BAN on raw curl/wget. |
+| ❌ Ad-hoc Python file/image copying scripts (`python -c "import os, shutil; shutil.copyfile(...)"`), PIL/Pillow inspection one-liners (`python -c "from PIL import Image..."`), raw PowerShell `Copy-Item`, `New-Item -ItemType Directory`, or shell `cp` for documentation assets | ✅ `gitmap image transfer <src> [dst]` or `gitmap image transfer --latest [name.png]` (aliases: `gitmap img transfer`, `gitmap image cp`, `gitmap asset transfer`, `gitmap media transfer`) | Native compiled Go file stream copy (<5ms), automatic parent directory creation (`os.MkdirAll`), relative Git-root anchoring, SHA-256 deduplication, zero Python runtime dependencies, and instant Markdown embed snippet generation (`![Alt](relative/path)`). TOTAL BAN on ad-hoc Python shutil scripts and PowerShell Copy-Item. |
+| ❌ Ad-hoc Python scripts querying or exporting prompts and attachments (`python -c "import sqlite3..."`), dumping conversation history to disk manually | ✅ `gitmap pdb list` / `gitmap pdb show <id>` / `gitmap pdb extract <id>` / `gitmap pdb ui` / `gitmap pdb export <id>` | Compiled native Go SQLite Split-DB (`prompt.db`) with analytical views, on-demand attachment extraction to `$TEMP/gitmap-prompt-cache/<slug>/` with Antigravity reference markdown links `[Attachment: <title> (<seq>)](file;<path>)`, and Tokyo Night browser visualizer. |
+| ❌ Single-stream downloads for files $\ge 1\text{--}2\text{ MB}$ | ✅ GitMap 10-split segmented parallel download engine with `aria2c` fallback | Dynamic $\ge 1\text{--}2\text{ MB}$ threshold; host `aria2c -s 10 -x 10 -k 5K` or native Go 10-goroutine Range worker pool writing via `io.NewOffsetWriter` with 5KB chunking. |
+| ❌ Grepping repository filesystem or guessing past agent decisions | ✅ `gitmap heatmap` or `gitmap rc heatmap --repo <alias>` | 3-tier database inventory, alias mappings via `db.ListAliasesWithRepo()`, recent tasks across 2–5 repos, dynamic suggestion pills. TOTAL BAN on filesystem grepping for agent traces. |
 | ❌ Modifying shared files blindly without checking multi-agent contention | ✅ `gitmap heatmap discuss` or `gitmap agent heatmap` | Ranks write claims, active leases, and collision blast radius across agents (<5ms). Prevents file lock crashes and concurrent overwrites. |
+| ❌ Raw `cargo build`, `cargo test`, `cargo check` | ✅ `gitmap cargo build [--install]`, `gitmap cargo test`, `gitmap crg check` | Automatically enriches environment with discovered toolchain paths (`CARGO_HOME`, MSVC) and offers auto-install if missing. |
+| ❌ Hardcoded `$env:LIBCLANG_PATH = "..."` or manual LLVM registry searching | ✅ `gitmap aum locate llvm` + `gitmap env set LIBCLANG_PATH <path>` or `gitmap pwsh "$env:LIBCLANG_PATH=...; gitmap cargo test"` | Dynamically resolves LLVM/Clang bin directories in <15ms across machines without breaking portability. |
+| ❌ `taskkill /F /PID <pid>`, `tasklist`, `kill -9`, raw `Stop-Process` | ✅ `gitmap kill <pid|name|:port> [--force] [--tree]` (alias: `gitmap terminate`), `gitmap ports [port]` | Safe cross-platform process termination with PID/port/name validation, caller self-protection guards, and graceful or forced two-stage shutdown. |
+| ❌ Manual pwsh "Move-Item ...; Copy-Item ...", taskkill + copy on locked running binaries | ✅ `gitmap swap-binary [--from <path>] [--to <path>] [--kill] [--reopen]` | Safely generates an OS script (.ps1 or .sh), closes locking PIDs, rotates active binary to .old, copies new binary, and reopens/verifies version without locked file crashes. |
+| ❌ Raw directory inspection of Tauri apps (`dir src-tauri`, `Get-ChildItem src-tauri`) | ✅ `gitmap lf src-tauri`, `gitmap aum search "<pattern>" src-tauri`, `gitmap pe -f tauri` | High-speed directory inventory and pipeline error filtering optimized for Tauri/Rust desktop projects. |
+
+---
+
+### ⚡ High-Speed File Inspection & Positional Line Slicing (`gitmap cat`)
+
+**TOTAL BAN on Ad-hoc Node.js / Python Line Slicers:**
+Never write one-liners like:
+```bash
+# ❌ STRICTLY BANNED: Never run inline Node or Python scripts to read/slice lines!
+node -e "const fs = require('fs'); const lines = fs.readFileSync('path/to/file', 'utf8').split('\n'); for (let i = 2045; i < 2058; i++) console.log(i + 1, lines[i]);"
+python -c "lines = open('path/to/file').readlines(); print(''.join(lines[2045:2058]))"
+```
+
+**✅ MANDATORY: Use `gitmap cat` with native Go line range slicing:**
+GitMap parses line numbers and ranges with complete flexibility, sub-millisecond execution, gutter line numbers, and automatic RC Heatmap telemetry:
+```bash
+# Style 1: Positional start and end (easiest & cleanest!)
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx 2045 2058
+
+# Style 2: Positional range string
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx 2045:2058
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx 2045-2058
+
+# Style 3: Path with colon line numbers (compiler / grep format)
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx:2045:2058
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx:2045-2058
+
+# Style 4: GitHub / Markdown link format
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx#L2045-L2058
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx#L2045
+
+# Style 5: Explicit flag syntax
+gitmap cat src/components/instances/PromptTreeView/DetailHeader.tsx -L 2045:2058
+```
+All styles automatically print Tokyo Night formatted lines with gutter line numbers, file line totals, byte sizes, and log actions to `.ai-memory/heatmap.db`. Pass `--raw` for unadorned line output.
 
 ---
 
@@ -41,6 +102,8 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 - `gitmap login --token <PAT>` — Non-interactive token ingestion (pre-validated against `api.github.com/user` before saving to global git config).
 - `gitmap login --token <PAT> --no-verify` — Offline token ingestion without network probe.
 - `gitmap login --status` — Displays current masked credential state and active user.
+- `gitmap login set global ai-auto` — Locks workstation-global Git identity to `gitmap automation bot - runs autonomously <info@rgitmap.com>` while safely preserving the original developer identity in `original_user.json`.
+- `gitmap login set ai-auto [agent-name]` — Locks Git identity to `gitmap automation bot - <agent-name> - runs autonomously <info@rgitmap.com>` (defaults to `gitmap automation bot - runs autonomously <info@rgitmap.com>` if agent name omitted).
 - `gitmap token list` — Resolves active GitHub token and shows credential origin.
 - `gitmap logout` — Purges stored GitHub credentials from Git global configuration.
 
@@ -61,6 +124,16 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 - `gitmap py -c "<code-or-expression>"` — Direct inline Python command evaluation.
 - `gitmap pwsh "<cmd>"` / `gitmap ps "<cmd>"` — Cross-platform PowerShell execution with `-NoProfile`.
 - `gitmap ps -c "<cmd>"` — Direct inline PowerShell command evaluation.
+- **PowerShell Execution Mechanics (`pwsh` vs `powershell.exe`):**
+  - GitMap first probes `pwsh` (PowerShell 7+ Core, cross-platform) in system `PATH`.
+  - On Windows only (`constants.IsWindowsPlatform()`), falls back to `powershell` (`powershell.exe`, Windows PowerShell 5.1).
+  - On non-Windows platforms, returns `E_POWERSHELL_NOT_FOUND` if `pwsh` is missing.
+  - Passes `-NoProfile -Command "<script>"` on Windows, `-Command "<script>"` on Unix.
+  - **STRICT ENFORCEMENT:** `gitmap ps` is strictly reserved for legitimate PowerShell cmdlets and administrative scripting. Raw directory and file inspection via `gitmap ps` is strictly banned. Always use exact replacement commands:
+    - Directory / file listing: `gitmap dir [path]`, `gitmap ls [path]`, or `gitmap lf [dir]`
+    - Subtask listing: `gitmap agent subtask ls [task-id]`
+    - Cognitive trace & decision history: `gitmap heatmap` or `gitmap heatmap tree`
+    - File reading, slicing & image preview: `gitmap cat <filepath>`
 - `gitmap bash "<cmd>"` / `gitmap sh "<cmd>"` — Cross-platform Bash execution.
 - `gitmap bash -c "<cmd>"` — Direct inline POSIX Bash evaluation.
 - All runner commands support `--dry-run` and `--json` flags for pipeline automation.
@@ -76,7 +149,10 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 
 ### 5. High-Performance Automation (AUM) & File Discovery
 - `gitmap aum search "<pattern>" [dir] [--ext <ext>] [-r] [-i]` (alias: `gitmap aum grep`) — Multi-core streaming live search with lazy regex and binary filtering. ALWAYS scope with target `[dir]` and `--ext`. Replaces slow PowerShell `Select-String`, `Get-ChildItem -Recurse`, and `git grep`. TOTAL BAN on PowerShell `Select-String`, `rg`, `ripgrep`, and `git grep`.
-- `gitmap search "<query>" [--limit <n>]` — Instant SQLite cached symbol & keyword search across scanned repositories using DH2D split-db hot cache.
+  * **Named-Flag Support:** Fully supports `--query <pattern>` (or `-q <pattern>`, `--pattern <pattern>`) and `--root <dir>` (or `--dir <dir>`, `-d <dir>`, `--path <dir>`, `-p <dir>`) in any argument position (e.g. `gitmap aum search --root "cli" --query "cmdpipeline"`, `gitmap aum search --query "func Run" --dir cli -e .go`). Positional and named flags can be freely interchanged.
+- `gitmap aum search-commits "<pattern>" [path] [-S] [--grep] [-n limit] [--oneline]` (aliases: `gitmap aum commits`, `gitmap aum search-history`) — High-speed native Go git commit search engine. Supports pickaxe code changes (`-S`), commit message grep (`--grep`), path filtering, and compact oneline display without invoking Python interpreters or slow shell loops.
+- `gitmap log -S "<pattern>" [path]` — Native Tokyo Night formatted git log pickaxe search.
+- `gitmap search "<query>" [--limit <n>]` — Instant SQLite cached symbol & keyword search across scanned repositories using DH2D split-db hot cache (also accepts `--query <q>`, `-q <q>`, `--pattern <p>`, `--root <r>`).
 - `gitmap aum guard` — Enforces 500 KB limit, large JSON exclusion, and binary null-byte probe.
 - `gitmap aum sequence` — Markdown sequence gap detector and `# XX Title` autofixer.
 - `gitmap aum exclude list` — Query persistent search exclusions from SQLite.
@@ -90,7 +166,9 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 - `gitmap find-files-startswith <prefix>` (alias: `gitmap ffs <prefix>`) — Find by filename prefix.
 - `gitmap find-files-endswith <suffix>` (alias: `gitmap ffe <suffix>`) — Find by filename suffix (e.g. `_test.go`).
 - `gitmap list-files [dir]` (alias: `gitmap lf [dir]`) — List relative file paths matching pattern or directory.
-- `gitmap cat <filepath>` — Direct zero-disk stream of file content into process stdout. Inspect file content immediately in resource-constrained CLI sessions without buffer bloat.
+- `gitmap cat <filepath> [--raw]` (alias: `gitmap ct`) — Direct zero-disk streaming of file content into stdout with flexible path parsing and terminal binary protection:
+  * **Flexible Path Support:** Handles conversational strings, numbered list prefixes (`1. path`), inline comments (`path # note`), bracketed paths (`@[path]`), and Markdown file URIs (`![Image](file:///path)`).
+  * **Safe Image Reader:** For image assets (`.png`, `.jpg`, `.svg`, `.webp`), automatically renders a structured metadata card (format, MIME, dimensions in px, byte size, SHA-256) instead of dumping binary control characters to stdout. Use `--raw` flag to stream raw binary bytes to pipes.
 - `gitmap replace <old> <new>` — Exact literal string replacement with audit trail.
 - `gitmap replace-regex <pat> <subst>` — Regex replacement across repository.
 
@@ -112,41 +190,66 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 - `gitmap pe history-ai` — Analyze CI/CD pipeline history across branches and recent runs.
 - `gitmap pipeline purge` — Actions zero-storage purge maintaining 0.0 GB footprint.
 
-### 7. Semantic & Flat Commit Suite
+### 7. Semantic Commit Suite, CFR & Workgroup
 
-#### GitMap Commit & Release Commands
-| Command | Alias | Scope | Prefix Added | Auto Push | Purpose |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `gitmap commit "<message>"` | `gitmap cm "<msg>"` | Local only | None (verbatim) | No | Fast 1-step auto-stage (`git add -A`) and local commit for scratch/micro-steps. |
-| `gitmap cpf "<module> - <summary>"` | - | Remote | `Feature: ` | Yes | Stage all, commit feature, and push directly to GitHub tracking branch. |
-| `gitmap cpb "<module> - <summary>"` | - | Remote | `Bug: ` | Yes | Stage all, commit bugfix, and push directly to GitHub tracking branch. |
-| `gitmap cpc "<module> - <summary>"` | - | Remote | `Chore: ` | Yes | Stage all, commit chore/maintenance, and push directly to GitHub tracking branch. |
-| `gitmap cpr "<module> - <summary>"` | - | Remote | Release Chore | Yes | Stage all, commit release chore, and push directly to GitHub tracking branch. |
-| `gitmap pcp "<module> - <summary>"` | - | Remote | Hyphen format | Yes | Pull latest with rebase, stage all, commit, and push with preflight verification. |
+Disciplined atomic commit workflow enforcing hyphen-separated messages (`<Module> - <summary>`) and upstream delivery invariants.
 
-#### Command Details & Behavioral Guidelines
-- `gitmap commit "<message>"` (alias `gitmap cm "<message>"`) — 1-step auto-stage (`git add -A`) and local commit without semantic prefixing ('Feature: ', 'Bug: ') and without remote git push. Ideal for quick local iterations, WIP checkpoints, and subtask milestones.
-- `gitmap cpc "<module> - <summary>"` — Stage, commit, and push chore/maintenance branch (GitMap auto-prefixes `Chore: `).
-- `gitmap cpf "<module> - <summary>"` — Stage, commit, and push feature branch (GitMap auto-prefixes `Feature: `).
-- `gitmap cpb "<module> - <summary>"` — Stage, commit, and push bugfix branch (GitMap auto-prefixes `Bug: `).
-- `gitmap cpr "<module> - <summary>"` — Stage, commit, and push release chore.
-- `gitmap pcp "<module> - <summary>"` — Pull latest, commit, and push with preflight verification.
-- `gitmap pull [repo]` (alias `gitmap p`) — Pull targeted repository.
+#### Commands & Behavioral Guidelines
+- `gitmap commit "<msg>"` (alias `gitmap cm "<msg>"`) — Fast 1-step auto-stage (`git add -A`) and local commit without semantic prefixing and without remote push. Ideal for quick local iterations and WIP checkpoints:
+  `gitmap commit "wip - draft initial types and interfaces"`
+- `gitmap cpf "<Module> - <summary>"` — Features ONLY. Stages all, formats with `Feature: <Module> - <summary>`, and pushes:
+  `gitmap cpf "Skills - enrich gitmap skill with 12 real world categories"`
+- `gitmap cbf "<Module> - <summary>"` (alias `gitmap cpb`) — Bug fixes ONLY. Stages all, formats with `Bug: <Module> - <summary>`, and pushes:
+  `gitmap cbf "Cloner - correct concurrency flag parsing and worker limits"`
+- `gitmap cfr "<Module> - <summary>"` — Refactoring ONLY. Stages all, formats with `Refactor: <Module> - <summary>`, and pushes:
+  `gitmap cfr "Guidelines - decompose function argument structs"`
+- `gitmap cpc "<Module> - <summary>"` — Chores, docs, sync, and maintenance ONLY. Stages all, formats with `Chore: <Module> - <summary>`, and pushes:
+  `gitmap cpc "Docs - realign companion skills and remove help flags"`
+- `gitmap cpr "<Module> - <summary>"` — Releases ONLY. Stages all, formats with `Release: <Module> - <summary>`, and pushes. MANDATORY verb for version bumps and releases:
+  `gitmap cpr "v2.18.0 - bump minor version and update changelog"`
+- `gitmap pcp "<Module> - <summary>"` — Pull latest with rebase, stage all, commit, and push with preflight verification:
+  `gitmap pcp "Skills - sync cross-platform runner templates"`
+- `gitmap cpf/cpb/cpc/cfr/cpr "<Module> - <summary>" --ai-agent <name>` — Attaches designated subagent identity (e.g. `--ai-agent "worker-01"`) to commit author metadata, GitMap Split-DB commit history (`repodb/commit_history.db`), and cognitive heatmap tables (`repodb/heatmap.db`). Default author becomes `gitmap automation bot - <name> - runs autonomously <info@rgitmap.com>`:
+  `gitmap cpf "Module - implement feature" --ai-agent "worker-01"`
+- `gitmap merge-right <left> <right> [-y]` (alias `gitmap mr`) — One-way file-level merge writing only into RIGHT.
+- `gitmap merge-left <left> <right> [-y]` (alias `gitmap ml`) — One-way file-level merge writing only into LEFT.
+- `gitmap merge-both <left> <right> [-y]` (alias `gitmap mb`) — Two-way bidirectional merge synchronizing endpoints.
+- `gitmap merge-in <target> <inputs...> [flags]` (alias `gitmap commit-in` / `gitmap cin`) — Multi-source chronological commit replay.
+- `gitmap commit-both <left> <right> [flags]` (alias `gitmap cmb`) — Bidirectional commit replay between repositories.
+- `gitmap commit-left <left> <right> [flags]` (alias `gitmap cml`) — Replay commits from right repo onto left repo.
+- `gitmap commit-right <left> <right> [flags]` (alias `gitmap cmr`) — Replay commits from left repo onto right repo.
+- `gitmap thelp [topic]` (alias `gitmap help`) — Access terminal help screens with rich two-column menus and executable examples. Run `gitmap thelp specific` to browse topics.
+- `gitmap workgroup ls` (alias `gitmap wg ls`) — Inspect folder-specific workgroups, bound SSH keys, and ancestor bindings.
+- `gitmap workgroup add <name> <dir> --ssh-key <key>` — Register folder workgroup and bind dedicated SSH private key.
+- `gitmap workgroup bind <dir> <key>` — Bind folder to dedicated SSH key.
+- `gitmap workgroup test-ssh [name|dir]` — Test remote SSH handshake authentication against GitHub/GitLab.
+- `gitmap pull [repo]` (alias `gitmap p`) — Pull targeted repository. In current directory, simply run `gitmap pull`.
 - `gitmap pull-all` (alias `gitmap pa`) — Pull all repositories in workspace.
 - `gitmap fix [repo] [action]` — Apply remediation to repo (aliases: `stash`, `wip`, `discard`).
 - `gitmap lowercase` (alias `gitmap lcf`) — Safe 2-step `git mv` file case normalization.
 - `gitmap lowercase-readme` — Safe 2-step `git mv` case normalization for root `readme.md`.
-- **TOTAL BAN ON COLONS IN COMMIT MESSAGES:** Never use colons inside commit arguments (e.g. `gitmap cpf "Feature: title"` is FORBIDDEN; use `gitmap cpf "module - title"`).
-- **MANDATORY COMPLETION INVARIANT ('No Push = Not Done'):** Flat commits (`gitmap commit`, `gitmap cm`) are local checkpoints only. For task completion, AGENTS.md §13 strictly mandates that work must be pushed to the remote tracking branch via `gitmap cpf "<module> - <summary>"` or an explicit remote push.
+- **Subsystem Module Standard (Title Case or Lowercase Allowed):** The `<module>` token MUST represent a functional codebase subsystem (e.g. `Auth`, `Storage`, `Ui`, `Guidelines`, `Scanner`, `Cli`, `Sync`, `Prompt`). Title Case (`Auth`, `Storage`, `Ui`) or lowercase (`auth`, `storage`, `ui`) is completely valid. ALL-CAPS shout case (`AUTH`, `STORAGE`) should not be used.
+- **TOTAL BAN ON 'commit' / 'commits' AS MODULE:** The word `commit` or `commits` MUST NEVER be used as a module name (e.g. NEVER run `gitmap cpc "commit - ..."` or `gitmap cpf "COMMIT - ..."`). Committing is already the version control action being performed by Git and GitMap; writing `commit` as the module produces meaningless tautological stuttering (`Chore: commit - ...`). If modifying commit-related tooling, code, or documentation, name the specific component (e.g. `Formatter`, `Provenance`, `Cli`, `Docs`) or omit the module prefix entirely (`gitmap cpc "clean constructor helpers and strip redundant tokens"`).
+- **DRY-RUN BEFORE EVERY GITMAP COMMIT (MANDATORY):** run `gitmap <verb> "<module> - <summary>" --dry-run` (short flag `-n`) before the real commit, then confirm with `git status` and `git diff`. With `--dry-run` the command prints exactly what it WOULD do — the full list of files it would stage (so a sweep of unrelated files is visible before a real run), the formatted commit message, the branch and HEAD, the push target (remote/branch and URL, or local-commit-only for plain `commit`/`cm`), whether it would pull first (`pcp`), and that tag/release actions are none — then exits WITHOUT mutating anything: no commit created, no push, no pull, and no staging changes left behind. It applies to `commit`/`cm`, `cpf`, `cpb`/`cbf`, `cpc`, `cfr`, `cpr`, and `pcp`.
+- **STRICT VERB TAXONOMY (NEVER MISUSE CPF):** Never use `gitmap cpf` for chore, release, or bug fix tasks. Use `cpr` for releases, `cpc` for chores, `cbf` for bug fixes, `cfr` for refactors, and `cpf` for features.
+- **ZERO NESTED CONVENTIONAL PREFIXES:** Never write redundant prefixes inside GitMap arguments (e.g. BANNED: `gitmap cpf "chore(release): bump version"`, `gitmap cpr "release: v1.0"`, `gitmap cpf "feat: ..."`). GitMap automatically adds the prefix!
+- **ZERO THIRD BRACKETS & COLONS IN ARGUMENTS:** Commits MUST NOT use square brackets `[...]` (colloquially called "third brackets") or colons `:` inside the argument. Use space-padded hyphen: `"<module> - summary"`. If square brackets are passed, GitMap automatically sanitizes them to round parentheses.
+- **MANDATORY COMPLETION INVARIANT ('No Push = Not Done'):** Flat commits (`gitmap commit`, `gitmap cm`) are local checkpoints only. For task completion, AGENTS.md §13 strictly mandates that work must be pushed to the remote tracking branch via `gitmap cpf`, `cpc`, `cbf`, `cfr`, or `cpr`.
 
-### 8. Autonomous Agent Onboarding, Curriculum & Memory Training (LLM)
+### 8. Native Toolchains & Process Termination (Rust, Cargo, Proc Kill)
+- `gitmap cargo [args...]` (alias: `gitmap crg`) — Native Cargo runner with automatic LLVM/libclang path injection (`LIBCLANG_PATH` and `PATH`) and install suggestions.
+- `gitmap rust status` (alias: `gitmap rst`, `gitmap rustc`) — Unified Rust frontend inspecting rustc, cargo, rustup, and LLVM/libclang versions and directories. Supports `gitmap rust build`, `gitmap rust test`, `gitmap rust check`, `gitmap rust clippy`.
+- `gitmap proc kill <pid> [--force]` (alias: `gitmap kill <pid|name|:port>`, `gitmap terminate`) — Safe, cross-platform process termination by PID or name with safety guards protecting critical system processes (PID 0, 1, 4) and IDEs/shells (`code`, `antigravity`, `pwsh`, `bash`).
+
+### 9. Autonomous Agent Onboarding, Curriculum & Memory Training (LLM)
 - `gitmap llm train [ai-name] [flags]` (aliases: `gitmap train`, `gitmap llm-train`, `gitmap llm chain`) — Full 6-phase self-looping onboarding curriculum (Discovery, Refactoring, Verification, Semantic Commit, Telemetry, Heal & Fix), auto-generates Antigravity skill, author/sponsor attribution.
 - `gitmap llm train muse [--days <N>]` (aliases: `gitmap train muse`, `gitmap train-muse`, `gitmap llm-train-muse`) — Synchronize Muse N-day memory digest from `repo-cache` (fallback `repo-secrets`), diff against watermark commit, output AI traversal checklist for sequential memory reading, and reconstitute `chat-seeds`.
+- `gitmap llm train --heatmap <path|url>` (aliases: `gitmap train --heatmap`, `gitmap llm-train --heatmap`) — Ingests cognitive decision traces from local SQLite heatmap databases or remote REST endpoints into LLM training curriculum. Supports `--heatmap-repo <slug>` and `--heatmap-task <slug>`.
 - `gitmap llm train --loop` / `gitmap llm train --self-loop <N>` — Autonomous self-looping flags executing continuous 6-phase AI self-looping execution cycles.
 - `gitmap llm train --heal-apply <stash|wip|discard>` — Non-interactively applies git-state remediation recipes during Phase 6a.
 - `gitmap llm train --skill-path <path>` — Target filesystem path for writing the generated skill markdown file (default: `.agents/skills/gitmap/skill.md`).
 - `gitmap llm train --text-only` — Outputs curriculum text to stdout without writing skill file to disk.
-- `gitmap llm train --urls` — Outputs the 7 authoritative public documentation registry links for LLM ingestion.
+- `gitmap llm train --urls` — Outputs the 8 authoritative public documentation registry links for LLM ingestion.
 - `gitmap llm train --url` — Outputs raw public URL to `llm.md` specification.
 - `gitmap llm train -j` / `gitmap llm train --json` — Emits structured machine-readable JSON curriculum and document metadata.
 - `gitmap llm-docs` (alias: `gitmap ld`) — Consolidated markdown command matrix reference for LLMs.
@@ -156,32 +259,47 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 | Flag | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | `--days <N>` | `int` | `7` | Sets memory digest inspection window in days for agent targets (e.g. `gitmap llm train muse --days 7`). |
+| `--heatmap <path\|url>` | `string` | `""` | Path to local SQLite heatmap database or remote HTTP(S) URL for cognitive decision trace ingestion. |
+| `--heatmap-repo <slug>` | `string` | `""` | Filters heatmap training actions by repository slug. |
+| `--heatmap-task <slug>` | `string` | `""` | Filters heatmap training actions by task slug. |
 | `--loop` | `bool` | `false` | Triggers continuous autonomous 6-phase AI self-looping execution cycles. |
 | `--self-loop <N>` | `int` | `0` | Specifies exact number of consecutive iterations for AI self-loop. |
 | `--heal-apply <recipe>` | `string` | `""` | Non-interactively applies git-state remediation recipes during Phase 6a (`stash`, `wip`, `discard`). |
 | `--skill-path <path>` | `string` | `.agents/skills/gitmap/skill.md` | Target filesystem path for writing generated skill markdown file. |
 | `--text-only` | `bool` | `false` | Emits complete curriculum text to stdout without writing files to disk. |
-| `--urls` | `bool` | `false` | Outputs complete 7-document Authoritative Public Documentation Registry for LLM memory ingestion. |
+| `--urls` | `bool` | `false` | Outputs complete 8-document Authoritative Public Documentation Registry for LLM memory ingestion. |
 | `-j`, `--json` | `bool` | `false` | Emits structured machine-readable JSON curriculum and document metadata. |
 
-### 9. Multi-Repo, Cluster & Toolchain Operations
+### 9. Multi-Repo & Toolchain Operations
 - `gitmap pae --json` — Multi-repo pull with compact JSON telemetry (use only when explicitly requested; ban routine polling).
-- `gitmap cluster status` — Inspect multi-node cluster status, heartbeat connectivity, and worker nodes.
-- `gitmap cluster exec workers "<cmd>"` — Execute command in parallel across online worker cluster nodes.
-- `gitmap sc list` — Query servers-clients topology, active services, and background daemon tasks.
-- `gitmap sc ping` — Verify server-client connectivity with zero timeout lag.
-- `gitmap ssh health --all` — Probe port 22 liveness across all known remote hosts and SSH nodes.
-- `gitmap ssh identity --email <email> --seq <N> --operator <name>` — Formats canonical SSH comment token `<email>-muse<muse-sequence>-<operator-name>` and sets `git config` user identity.
 - `gitmap cargo status` — Inspect Rust and Cargo toolchain status.
 - `gitmap install cargo --check` — Validate Cargo and Rust toolchain installation.
 - `gitmap install cargo` — Install Rust toolchain if missing.
 - `gitmap install --list` — Discover developer toolchains, profiles, and runtime packages.
 
 ### 10. Native Fleet Synchronization & SQLite Agent Task Engine
+- `gitmap node bootstrap <target>` (aliases: `gitmap nodes bootstrap`, `gitmap node setup`, `gitmap fleet bootstrap`) — Host-orchestrated one-shot remote Linux/Ubuntu node restoration and onboarding over SSH in 6 automated stages (OS probe, package install `gh/git/curl`, GitMap source clone & `/usr/local/bin/gitmap` compilation, GitHub CLI SSH protocol binding, multi-IDE & Antigravity sync, and `gitmap doctor` telemetry).
 - `gitmap sync` — Synchronizes canonical prompts, skills, shared specs (`02-spec/01-20`), and additive scripts across all 43 registered fleet repositories.
 - `gitmap sync --projects <path|json>` — Accepts a path to JSON file or inline JSON array of repositories (e.g. `'[{"folder": "cat-my"}]'`).
 - `gitmap sync --repo <name>` — Synchronizes a single target repository by name.
 - `gitmap sync --workers <N>` — Sets parallel worker pool concurrency (default: 8).
+
+### 11. Native MCP Server, Rights Matrix, Screen Capture & Line-Cap Linter
+- `gitmap self-install` / `gitmap setup` First-Time Rights Prompt — Prompts for administrative capabilities (`screenshot`, `mcp`, `remote_exec`) with non-blocking `[Y]es`, `[N]o`, `[S]kip`, or Enter (defaults); persists decision in Split-DB (`rights_prompted = true`) to prevent repetitive prompting while allowing ongoing toggling via `gitmap rights` or Web Settings.
+- `gitmap mcp serve` — Starts native MCP server (HTTP on port 8765 with automatic failover to 8766, 8767). If already running, immediately reports active PID, port, endpoints, and exits without pausing. Exposes 17 GitMap tools (`gitmap_aum_search`, `gitmap_find`, `gitmap_cat`, `gitmap_lf`, `gitmap_log`, `gitmap_status`, `gitmap_pull`, `gitmap_nodes`, `gitmap_deploy`, `gitmap_agy`, `gitmap_db`, `gitmap_pipeline_errors`, `gitmap_screenshot`, `gitmap_lines`, `gitmap_plans`, `gitmap_doctor`, `gitmap_rights_status`).
+- `gitmap mcp serve --stdio` (or `-s`) — Starts stdio JSON-RPC 2.0 MCP server for AI clients requiring stdio piping.
+- `gitmap mcp serve --port <port>` — Starts HTTP/SSE MCP server on explicit port.
+- `gitmap mcp status` — Inspects MCP server active port, running status, and registered tools.
+- `gitmap mcp stop` (alias: `gitmap mcp kill`) — Safely terminates running MCP server process and cleans runtime state.
+- `gitmap mcp tools` (alias: `gitmap mcp list`) — Displays all 17 registered MCP tools, capabilities, and descriptions in a formatted table.
+- `gitmap mcp install` — Generates client configuration stanzas for Claude Desktop, Cursor, and Google Antigravity.
+- `gitmap login ssh` — Auto-discovers existing active SSH keys (`~/.ssh/id_ed25519`, `~/.ssh/id_rsa`, `~/.ssh/id_ecdsa`), probes GitHub/GitLab SSH authentication, displays public key, and binds GitHub CLI to use the SSH protocol (`gh config set git_protocol ssh -h github.com`).
+- `gitmap rights status` — Displays Tokyo Night table of active administrative security capabilities.
+- `gitmap rights enable <cap>` / `disable <cap>` — Toggles administrative permissions (`screenshot`, `mcp`, `remote_exec`).
+- `gitmap rights confirm admin` — Admin confirmation gate authorizing sensitive remote actions.
+- `gitmap screenshot [node] [flags]` (alias: `gitmap screen`, `gitmap shot`) — Captures local or remote screen across cluster nodes via SSH/SCP with Tokyo Night summary cards and relative markdown links.
+- `gitmap lines [targets...]` (alias: `gitmap line-count`, `gitmap lc`) — High-speed streaming line counter.
+- `gitmap lines --max 300 -r <path>` — Enforces 300-line code ceiling across workspace, highlighting violating files (`[REFACTOR REQUIRED]`) while strictly exempting all `*.md` files and test inventory JSON files.
 - `gitmap sync --dry-run` — Previews changes across all repositories without making git or file mutations.
 - `gitmap sync --no-push` — Applies changes and commits locally without pushing to remote.
 - `gitmap sync --no-release` — Disables post-sync SemVer release tagging.
@@ -203,6 +321,7 @@ All AI agents operating within GitMap-managed repositories MUST strictly adhere 
 - `gitmap agent diagnose` — Performs deep autopsy and diagnostic reporting on agent task runs.
 - `gitmap agent crashed` — Detects crashed or abandoned agent tasks.
 - `gitmap agent temp-clear` — Safely deletes ephemeral `.ai-memory/temp-agents/` directory.
+- **Cognitive Heatmap & Multi-AI Attribution:** All task actions and cognitive states integrate seamlessly with `gitmap heatmap log --json '<payload>'`, recording model (`model`) and tool (`tool`) attribution for unified swarm forensics. Newly joining subagents inspect active progress via `gitmap agent subtask ls --json`, `gitmap rc heatmap tree`, and `gitmap heatmap search [slug]`.
 
 ### 10.1 AI Agent Communication & Structured Subtask Envelopes
 
@@ -304,59 +423,112 @@ Autonomous subagents (Lead Orchestrators, Branch Coordinators, and Leaf Workers)
 > NEVER run inline Python sqlite3 snippets or execute raw database queries against `.ai-memory/temp-agents/<slug>/agent-task.db`.
 > All agent task lifecycle operations, status inspections, claiming, logging, and diagnostics MUST use compiled `gitmap agent` CLI commands (`task init`, `task status`, `task ls`, `subtask add`, `subtask ls`, `subtask claim`, `subtask complete`, `subtask fail`, `log`, `diagnose`, `crashed`, `temp-clear`).
 
-### 11. Fleet Telemetry & Running-Only Delegation
-- `gitmap nodes-running-only` (alias `gitmap nro`) — Lists strictly online/open nodes (`is_online: true`), filtering out offline noise.
-- `gitmap nro --json` (`-j`) — Emits clean JSON array of online cluster nodes.
-- `gitmap nro exec "<cmd>"` — Runs SSH execution strictly across online nodes without offline timeout delays.
-- `gitmap nro tasks [--json]` — Interrogates active and pending task queues on online nodes.
-- `gitmap nro resources [--json]` — Probes CPU & RAM benchmarks across online nodes.
-- `gitmap nro ping` — Pings reachable nodes with zero timeout lag.
-- `gitmap nro pull` / `gitmap nro cp` / `gitmap nro scan` — High-speed running-only fleet operations.
+### 10.2 Chrome DevTools Protocol (CDP) WebSocket Engine & DOM Inspector
+
+GitMap provides a native pure Go RFC 6455 WebSocket client and JavaScript evaluator for Chrome DevTools Protocol inspection without external dependencies:
+
+- `gitmap cdp targets [-p <port>] [--json]` — Discovers active debugging targets on common DevTools ports (`9222`, `49994`, `9229`, `8315`) or custom port via `http://127.0.0.1:<port>/json/list`.
+- `gitmap cdp probe [-p <port>] [-t <target-id>] [--json]` — Connects via native Go WebSocket client, executes a non-intrusive DOM selector ladder across `textarea`, `div[contenteditable]`, and `[role="textbox"]`, and returns active input element metadata.
+- `gitmap cdp eval "<expression>" [-p <port>] [-t <target-id>] [--json]` — Evaluates arbitrary JavaScript expressions on the active page via `Runtime.evaluate` over WebSocket.
+
+> [!CAUTION]
+> **TOTAL BAN ON RAW PYTHON WEBSOCKET SCRIPTS (`python -c "import socket; send_frame..."`):**
+> AI agents MUST NEVER write or execute ad-hoc Python socket scripts to send/receive masked WebSocket frames (`struct.pack`, `send_frame`, `recv_frame`).
+> Ephemeral ports and target IDs change across browser restarts, and manual socket masking leads to fragile buffers and transcript token bloat.
+> Always use native GitMap commands: `gitmap cdp targets`, `gitmap cdp probe`, or `gitmap cdp eval`.
+
+### 10.3 Automatic Image Transfer & Document Asset Ingestion
+
+- `gitmap image transfer <source-path> [target-path]` (aliases: `gitmap img transfer`, `gitmap image cp`, `gitmap asset transfer`, `gitmap media transfer`) — Copies an image from source to target, automatically creating destination directories, verifying image integrity (PNG, JPG, WEBP, GIF, SVG), computing SHA-256 hash, and printing the relative Markdown embed link.
+- `gitmap image transfer --latest [target-name.png]` (`-l`) — Automatically scans the active conversation brain media directory, user's Downloads, and system temporary screenshot directories for the most recent screenshot image file, copies it to `assets/screenshots/<target-name.png>`, and outputs the markdown snippet.
+- `gitmap image transfer --all-uploaded` (`-a`) — Copies all screenshots and uploaded media from the active conversation into `assets/screenshots/` with SHA-256 deduplication and batch Markdown link generation.
+- `gitmap image transfer <source-path> --dest <dir> [--name <custom-name.png>]` — Transfers the specified source image into the destination folder (e.g. `--dest 02-spec/assets` or `--dest .ai-memory/assets`), optionally renaming it.
+- `gitmap image transfer <source-path> --relative [--markdown]` — Transfers the image and outputs a strictly relative markdown link formatted from the current working directory or active specification file (e.g. `![Screenshot](assets/screenshots/ui.png)`).
+- `gitmap image transfer <image-path> --inspect` (or `gitmap cat <image-path> --info`) — Inspects image header bytes without external Python PIL/Pillow dependencies, displaying dimensions ($W \times H$), color depth, MIME type, file size, and SHA-256 checksum in a Tokyo Night styled table.
+- `gitmap image transfer <source-path> [target-path] --json` — Emits structured JSON telemetry containing `hasTransferred`, `sourcePath`, `destinationPath`, `relativeMarkdownLink`, `sha256`, `width`, `height`, and `fileSizeBytes` for consumption by autonomous multi-agent swarms.
+
+
+### 11. System Diagnostics & Performance Telemetry
 - `gitmap os --json` — Structured machine and OS identity with kernel, build, and version telemetry.
 - `gitmap cpu` / `gitmap processor` — Live & 5s cached CPU utilization, architecture, and core counts.
 - `gitmap ram` — Live & 5s cached memory capacity, free/used MB, and visual utilization meter.
-- `gitmap disk` — Disk volume capacity, free space, and mount telemetry.
 - `gitmap network [--json]` — Network adapter configuration, IPs, MAC addresses, link speeds, and throughput metrics.
-- `gitmap nodes tasks [--json] [--open-only]` — Queries local and remote node task queues with `?` role placeholder.
+
+---
+
+## Autonomous AI Identity & Agent Attribution
+
+Autonomous multi-agent swarms (e.g. V6 and V7 orchestrators) and automated pipelines require distinct identity tracking and commit provenance to differentiate automated AI agent contributions from human developer work.
+
+### 1. Identity Locking Commands
+- `gitmap login set global ai-auto`: locks global Git identity to `gitmap automation bot - runs autonomously <info@rgitmap.com>`. Safely backs up original human developer credentials to `original_user.json` before applying changes.
+- `gitmap login set ai-auto [agent-name]`: locks Git identity to `gitmap automation bot - <agent-name> - runs autonomously <info@rgitmap.com>` (e.g. `gitmap login set ai-auto muse` sets `gitmap automation bot - muse - runs autonomously <info@rgitmap.com>`). If no agent name is specified, defaults to `gitmap automation bot - runs autonomously <info@rgitmap.com>`.
+
+### 2. Semantic Commit Provenance with `--ai-agent`
+- `gitmap cpf/cpb/cpc/cfr/cpr --ai-agent <name>`: attaches designated subagent identity to commit and Split-DB heatmap tables.
+- Example: `gitmap cpf "Module - implement feature" --ai-agent "worker-01"` automatically sets the author to `gitmap automation bot - worker-01 - runs autonomously <info@rgitmap.com>` if `--author` was omitted, recording `meta.AIName` and `meta.IsAIMode`.
+
+### 3. Heatmap Attribution Mechanics
+GitMap cognitive heatmaps natively capture agent attribution across both local Split-DB (`repodb/heatmap.db` and `.ai-memory/heatmap.db`) and companion `repo-cache` databases:
+- **Status & Summary Attribution:** `gitmap heatmap status` and `gitmap heatmap tree` display active agent models, subagent identities, and touch distributions per agent.
+- **Granular Action Records:** Every action logged via `gitmap heatmap log --json '{"task":"<task-slug>","action":"EDIT","file":"<path>","state":"EXECUTION","expected":"<goal>","model":"<model>","tool":"<tool>"}'` stores the calling model, tool environment, and agent identifier in `HeatmapActionLog`.
+- **Commit Telemetry Binding:** Commits executed with `--ai-agent <name>` automatically synchronize with heatmap tables, recording the exact subagent responsible for file touches, modifications, and git hashes in `repodb/heatmap.db` and `repodb/commit_history.db`.
+- **Swarm Collision Forensics:** `gitmap agent heatmap` and `gitmap heatmap discuss` aggregate agent leases and write claims, displaying which specific subagent owns or recently edited a given file box.
+
+---
 
 ### 12. File Contention Heatmap, Cognitive Telemetry & Agent Activity Observation
-- `gitmap heatmap log --task <task> --action <action> --file <file> --state <state> --expected "<goal>"` — Logs granular file touches, reads, modifications, cognitive states, and reasoning directly into `.ai-memory/heatmap.db`.
+- `gitmap heatmap` — **Heatmap Database Discovery Catalog**: Surveys all 3 tiers of heatmap databases (local root `<EffectiveDataDir>/heatmap.db`, per-repo split DBs `<EffectiveDataDir>/heatmap/<repo>/sql.db`, and repo-cache multi-AI DBs `repo-cache/.heatmap/<seq>-<ai>/`), maps registered repository aliases via `db.ListAliasesWithRepo()`, aggregates recent tasks across 2–5 repositories (minimum 5 tasks), and provides dynamic interactive AI suggestion pills.
+- `gitmap heatmap --repo <alias>` / `gitmap rc heatmap [--repo <alias>]` — Repository-scoped heatmap discovery and companion database inspection with alias enrichment and action rollups.
+- `gitmap heatmap log --json '{"task":"<task-slug>","action":"READ|EDIT","file":"<path>","state":"<STATE>","expected":"<goal>","model":"<model>","tool":"<tool>"}'` — **One-shot JSON payload ingestion** logging granular file touches, cognitive reasoning states, expected outcomes, and AI provenance directly into `.ai-memory/heatmap.db`. Eliminates shell quoting failures and escapes.
+- `gitmap heatmap log --task <task> --action <action> --file <file> --state <state> --expected "<goal>" [--model <name>] [--tool <name>]` — Classical CLI flag ingestion with explicit AI provenance attribution.
 - `gitmap heatmap update --id <id> --outcome "<outcome>" --met <true|false>` — Updates logged action with final outcome and verified expectation status.
-- `gitmap heatmap search [query] [-f <file>] [-t <task>]` — Searches logged actions, code snippets, and reasoning notes across tasks and repositories.
-- `gitmap heatmap tree [-t <task-slug>]` — Renders hierarchical tree view of touched files, line ranges, and action counts.
-- `gitmap heatmap status [-t <task-slug>]` — Summary of actions logged, unique files touched, expectation metrics, and verification states.
+- `gitmap heatmap search [query] [-f <file>] [-t <task>]` — Searches logged actions, code snippets, reasoning notes, and execution history across tasks and repositories.
+- `gitmap heatmap tree [-t <task-slug>] [--json]` — Renders hierarchical tree view of touched files, line ranges, action counts, and AI models.
+- `gitmap heatmap status [-t <task-slug>] [--json]` — Summary of actions logged, unique files touched, expectation metrics, verification states, and active agent models.
 - `gitmap heatmap discuss [--window <duration>] [--threshold <n>] [--json]` — Multi-agent file contention analysis and collision blast radius report before touching shared files.
 - `gitmap heatmap live` — Real-time continuous stream of agent actions, file touches, and reasoning across concurrent agents.
 - `gitmap agent log --subtask <id> --agent "<name>" --action "<read|modify|plan>" --file "<path>" --details "<reasoning>"` — In-flight subtask action logging with explicit rationale.
 - `gitmap agent heatmap [--parent <slug>] [--json]` — Ranks files by write-claim count across agent tasks and active subtasks.
 - `gitmap full-summary` (alias `gitmap fs`) — 48-hour active repository activity heatmap TreeView showing commit velocity and dirty working states.
-- **MANDATORY HEATMAP & CONCURRENCY RULE:** In multi-agent autonomous sessions, agents MUST record all file read/edit decisions with reasoning via `gitmap heatmap log` or `gitmap agent log`, and inspect active file leases and contention hotspots via `gitmap agent heatmap` (or `gitmap heatmap status`) before editing shared files.
-- **Roadmap-Connected Heatmap for Dynamic Join:** Newly spawned or dynamically joining subagents (`gitmap agent subtask join`) inspect `gitmap rc heatmap status` and `gitmap rc heatmap tree` to discover where prior agents read/edited and what subtasks remain in `.ai-memory/plans/<slug>.md`, eliminating redundant reads.
+- **Dual-Mode `--json` Operation:** GitMap cleanly separates one-shot JSON payload ingestion (`gitmap heatmap log --json '<payload>'`) from structured JSON output formatting (`gitmap agent heatmap --json`, `gitmap heatmap status --json`, `gitmap heatmap tree --json`). Both can be combined: `gitmap heatmap log --json '<payload>'` ingests the action and immediately returns a structured JSON confirmation envelope.
+- **Mandatory AI Provenance Attribution:** Every cognitive telemetry entry records the active model (`ModelName`) and host environment (`ToolName`) via JSON payload (`"model"`, `"tool"`) or flags (`--model`, `--tool`).
+  * **Google Antigravity IDE:** `model: "gemini-2.5-pro"` (or `"gemini-2.0-flash"`), `tool: "antigravity-ide"`
+  * **Muse Autonomous Fleet:** `model: "muse"`, `tool: "muse-runner"`
+  * **Claude Code / Standalone CLI:** `model: "claude-3-7-sonnet"`, `tool: "claude-code"`
+- **MANDATORY HEATMAP & CONCURRENCY RULE:** In multi-agent autonomous sessions, agents MUST record all file read/edit decisions with reasoning via one-shot `gitmap heatmap log --json`, and inspect active file leases and contention hotspots via `gitmap agent heatmap` (or `gitmap heatmap status`) before editing shared files.
+- **Roadmap-Connected Heatmap for Dynamic Join:** Newly spawned or dynamically joining subagents (`gitmap agent subtask join`) execute `gitmap rc heatmap tree` and `gitmap heatmap search [slug]` to inspect prior file reads, architectural decisions, and remaining roadmap tasks in `.ai-memory/plans/<slug>.md`, eliminating redundant reads and instantly synchronizing with existing work.
 
 #### Mandatory 4-Gate Cognitive Heatmap Workflow
 In multi-agent and autonomous workflows, every file modification or major task phase MUST strictly follow the 4-Gate Cognitive Heatmap Workflow:
 - **Gate 0: Pre-Flight Discovery & Schema Verification:**
-  `gitmap heatmap status` and `gitmap heatmap tables`
+  `gitmap heatmap status` and `gitmap heatmap tables` (or `gitmap rc heatmap status` and `gitmap rc heatmap tree`)
   Inspect active task telemetry, verify SQLite schema tables, and detect any active file leases or contention hotspots before touching files.
-- **Gate 1: Intent, State & Lease Declaration:**
-  `gitmap heatmap log --task <task> --action <action> --file <path> --state <state> --expected "<goal>"`
-  Declare intent, file path, cognitive reasoning state (`EXPLORATION`, `PLANNING`, `EXECUTION`, `VERIFICATION`), and expected goal before making modifications. Records action ID for lifecycle tracking.
+- **Gate 1: Intent, State & Lease Declaration (One-Shot JSON Ingestion):**
+  `gitmap heatmap log --json '{"task":"<task-slug>","action":"READ|EDIT|CREATE|DELETE","file":"<path>","state":"<STATE>","expected":"<goal>","model":"<model>","tool":"<tool>"}'`
+  Declare intent, file path, cognitive reasoning state (`EXPLORATION`, `PLANNING`, `EXECUTION`, `VERIFICATION`), expected goal, model name, and tool environment before reading or modifying files. Returns action ID for lifecycle tracking.
 - **Gate 2: Outcome Recording & Telemetry Close:**
   `gitmap heatmap update --id <id> --outcome "<outcome>" --met true`
   Record actual outcome, verify if expectation was met (`--met true` or `--met false`), and close the telemetry record immediately upon completing execution.
 - **Gate 3: Verification & Hierarchy Audit:**
-  `gitmap heatmap tree --task <task>` and `gitmap heatmap status --task <task>`
-  Inspect hierarchical touch tree, file churn counts, and expectation compliance rate across the task.
+  `gitmap heatmap tree --task <task>` and `gitmap heatmap search <task-slug>`
+  Inspect hierarchical touch tree, file churn counts, model attributions, and search logged decisions across the task.
 
 ### 13. Multi-AI Companion & repo-cache Synchronization (RC Heatmap Suite)
+- **Why RC Split-DB Isolation is Mandatory:** When multiple autonomous AI engines (Antigravity/Gemini, Muse, Claude Code) collaborate simultaneously or sequentially, writing cognitive traces directly into `.ai-memory/heatmap.db` in the repository worktree causes SQLite database file lock contention (`database is locked`), dirty worktree conflicts, and merge collisions during git branch operations. The companion RC heatmap suite solves this by isolating telemetry into dedicated SQLite databases inside `repo-cache` (`repo-cache/.heatmap/<ai-name>/<repo>/heatmap.db`), keeping the main code repository 100% clean.
 - **Automatic RC Vault Creation:** If `repo-cache` (`rc`) or `.ai-memory/heatmap.db` does not exist, GitMap auto-provisions the required split-db structure linked to the active mission and folder.
-- `gitmap rc heatmap <status|tables|query|view|tree|live|sync>` — Complete companion RC telemetry suite routed directly through the unified `rc heatmap` CLI.
+- `gitmap rc heatmap status` — Inspects companion RC telemetry status, active leases, and logged actions across AI engines.
+- `gitmap rc heatmap tree` — Renders hierarchical roadmap and touched file tree in RC vault, showing all previous reads, edits, and decisions.
+- `gitmap rc heatmap live` — Real-time activity stream in RC vault across all active AI engines.
+- `gitmap rc heatmap sync` — Bidirectionally reconciles in-flight decisions with `repo-cache` upstream without creating workspace git conflicts.
+- `gitmap rc heatmap tables` / `gitmap rc heatmap query "<sql>"` — Direct read-only inspection of RC companion databases with busy-timeout guards.
 - `gitmap heatmap rc list-ai` — Lists all supported AI namespaces (`antigravity`, `muse`, `cloud-code`, `codex`, `grok`, `cursor`) and displays ambient detected engine.
-- `gitmap heatmap rc log [flags]` — Logs cognitive actions and decisions into dedicated `repo-cache` isolated split-databases (`.heatmap/<ai-name>/<repo>/heatmap.db`).
+- `gitmap heatmap rc log [flags]` — Logs cognitive actions and decisions into dedicated `repo-cache` isolated split-databases.
 - `gitmap heatmap rc commit [-m "<msg>"]` — Creates a telemetry checkpoint commit in `repo-cache` and marks local changes clean.
-- `gitmap heatmap rc sync` — Bidirectionally reconciles in-flight decisions with `repo-cache` without workspace git conflicts.
-- `gitmap heatmap rc tree` / `gitmap rc heatmap tree` — Renders hierarchical roadmap and touched file tree in RC vault.
-- `gitmap heatmap rc live` / `gitmap rc heatmap live` — Real-time activity stream in RC vault.
+- **Roadmap Traversal for Newly Joined Agents:** Newly joined or dynamically respawned subagents MUST run `gitmap rc heatmap tree` and `gitmap heatmap search [slug]` prior to authoring code. This enables the agent to discover:
+  1. Exactly which files prior agents examined and why (`READ` actions and reasoning notes).
+  2. Which architectural decisions and code edits were committed (`EDIT` actions and outcomes).
+  3. Which roadmap subtasks remain pending, avoiding redundant discovery cycles.
 
 ### 14. AI Decision Heatmap & RC Admin Telemetry
 - `gitmap heatmap tables [--db <root|repo|local>] [--format <table|json|yaml>]` — Inspects the SQLite master catalog and inventories all tables, views, column counts, and row counts in the active heatmap database.
@@ -372,25 +544,19 @@ All companion RC commands support full tri-alias routing parity:
 - `gitmap heatmap rc <status|tables|query|view|tree|live|sync>`
 - `gitmap heatmap rc-heatmap <status|tables|query|view|tree|live|sync>`
 
-#### AI Agent Non-Blocking SQL Recipes
-AI agents analyzing prior session decisions, execution trees, and file hotspots should use direct read-only queries with `--json` or `--yaml` to prevent lock contention:
+#### Shorthand Commands vs Direct SQL Queries
 
-```bash
-# 1. Inspect recent chronological trace for active task slug:
-gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, ReasoningState, IsExpectationMet FROM HeatmapActionLog WHERE TaskSlug = 'heatmap-commands-testing-and-rc-admin-instructions' ORDER BY HeatmapActionLogId ASC" --json
+Instead of typing multi-line SQL queries, use GitMap's dedicated shorthand commands (with direct SQL queries available as secondary alternatives):
 
-# 2. Deep forensic inspection of specific action ID:
-gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, CodeSnippet, CommandText, ReasoningNotes, ExpectedOutcome, ActualOutcome FROM HeatmapActionLog WHERE HeatmapActionLogId = 1" --yaml
-
-# 3. Analyze touched file churn and editing hotspots:
-gitmap heatmap query "SELECT FilePath, COUNT(*) AS TotalTouches, SUM(CASE WHEN ActionType = 'MODIFY' THEN 1 ELSE 0 END) AS Modifies FROM HeatmapActionLog GROUP BY FilePath ORDER BY TotalTouches DESC"
-
-# 4. Extract unmet expectations and failed execution steps:
-gitmap heatmap query "SELECT HeatmapActionLogId, TaskSlug, FilePath, ExpectedOutcome, ActualOutcome FROM HeatmapActionLog WHERE IsExpectationMet = 0" --json
-
-# 5. Cross-repo activity rollup in companion root database:
-gitmap heatmap rc query "SELECT RepoSlug, TotalActionsRecorded FROM HeatmapRepoRegistry ORDER BY TotalActionsRecorded DESC" --tier root
-```
+| Operational Goal | Dedicated GitMap Command (Preferred) | Direct SQL Query Alternative |
+| :--- | :--- | :--- |
+| **Chronological Task Trace** | `gitmap heatmap tree --task <slug>` or `gitmap heatmap view HeatmapActionLog --task <slug> --json` | `gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, ReasoningState, IsExpectationMet FROM HeatmapActionLog WHERE TaskSlug = '<slug>' ORDER BY HeatmapActionLogId ASC" --json` |
+| **Recent Activity Stream** | `gitmap heatmap recent` (alias: `latest`) or `gitmap rc heatmap recent` | `gitmap heatmap query "SELECT HeatmapActionLogId, TaskSlug, ActionType, FilePath, ReasoningState, ExpectedOutcome, ActualOutcome, CreatedAt FROM HeatmapActionLog ORDER BY HeatmapActionLogId DESC LIMIT 20"` |
+| **Unmet Expectations & Failures** | `gitmap heatmap failed` (aliases: `failures`, `unmet`, `broken`) or `gitmap rc heatmap failed` | `gitmap heatmap query "SELECT HeatmapActionLogId, TaskSlug, FilePath, ExpectedOutcome, ActualOutcome FROM HeatmapActionLog WHERE IsExpectationMet = 0" --json` |
+| **File Churn & Hotspot Analysis** | `gitmap heatmap hotfiles` (aliases: `hot`, `hotspots`) or `gitmap rc heatmap hotfiles` | `gitmap heatmap query "SELECT FilePath, COUNT(*) AS Touches, SUM(CASE WHEN ActionType = 'READ' THEN 1 ELSE 0 END) AS Reads, SUM(CASE WHEN ActionType = 'EDIT' THEN 1 ELSE 0 END) AS Edits FROM HeatmapActionLog GROUP BY FilePath ORDER BY Touches DESC LIMIT 20"` |
+| **Parent Tasks & Spec Tracking** | `gitmap heatmap tasks` (alias: `task-list`) or `gitmap rc heatmap tasks` | `gitmap heatmap query "SELECT TaskSlug, TaskName, RootSpecFilePath, TaskFolder, Status, CreatedAt, UpdatedAt FROM HeatmapParentTask ORDER BY UpdatedAt DESC LIMIT 20"` |
+| **Inspect Specific Action ID** | `gitmap heatmap view HeatmapActionLog --id <id> --yaml` or `gitmap heatmap search --id <id>` | `gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, CodeSnippet, CommandText, ReasoningNotes, ExpectedOutcome, ActualOutcome FROM HeatmapActionLog WHERE HeatmapActionLogId = <id>" --yaml` |
+| **Cross-Repo Activity Rollup** | `gitmap rc heatmap status` or `gitmap heatmap rc view HeatmapRepoRegistry --tier root` | `gitmap heatmap rc query "SELECT RepoSlug, TotalActionsRecorded FROM HeatmapRepoRegistry ORDER BY TotalActionsRecorded DESC" --tier root` |
 
 ### 15. Native SQLite Database Exploration, REST API Server & Lifecycle Suite
 - `gitmap db-read "<path-or-alias>" "<sql>"` — Executes read-only SQL query with request timing.
@@ -415,11 +581,52 @@ gitmap heatmap rc query "SELECT RepoSlug, TotalActionsRecorded FROM HeatmapRepoR
 - `gitmap prnt <url1> <url2>... --json` — Emits structured Universal JSON response envelope.
 - `gitmap prnt <url1> <url2>... -o <dir>` — Saves batch downloads to designated custom directory.
 
+### 17. URL Split-DB Caching & 10-Split Segmented Downloader Suite
+- `gitmap url read <url>` (aliases: `gitmap url <url>`, `gitmap read-url <url>`, `gitmap get <url>`) — Universal URL streaming and cache inspection command line interface.
+  * **Dedicated Split-DB Caching:** Automatically persists remote HTTP/HTTPS responses in dedicated `repodb/url_cache.db` with WAL mode and 256MB memory mapping (`PRAGMA mmap_size = 268435456`).
+  * **Sub-Millisecond Retrieval:** Cache hits stream in $<0.5\text{ms}$ without network roundtrips.
+  * **Unbuffered Byte-Faithful Output:** Payloads stream directly to standard output via `output.Raw()`, preserving raw binaries, emojis, and ANSI codes without corruption. Diagnostics and transfer telemetry emit to `output.UIErr()`.
+  * **Automatic 10-Split Downloader:** Payloads $\ge 1\text{--}2\text{ MB}$ automatically activate 10-connection parallel Range downloading using host `aria2c -s 10 -x 10 -k 5K` or native Go 10-goroutine Range workers with 5KB chunking.
+  * **Singleflight Deduplication:** Parallel worker requests coalesce into a single fetch, eliminating duplicate network bandwidth and write lock contention.
+  * **Flags:**
+    - `--fresh` (alias `-f`): Bypasses existing cache and forces a fresh network download.
+    - `--ttl <duration>`: Overrides expiration TTL (e.g. `1h`, `24h`, `7d`; default: `24h`).
+    - `--headers`: Emits HTTP response headers to stderr before the payload.
+    - `--json` (alias `-j`): Emits structured JSON envelope with payload metadata, SHA-256 hash, and cache timing.
+- `gitmap url ls [--limit <n>] [--json]` — Lists cached URLs in tabular format with short hash, size, content type, access count, age, and status.
+- `gitmap url info <url> [--json]` — Displays detailed metadata, ETag, headers, and access audit history for a specific URL.
+- `gitmap url purge [--all]` — Evicts expired records (or all records with `--all`) and reclaims disk space.
+- `gitmap url rm <url>` — Removes a specific URL entry and its cached blob.
+
+### 18. Rust, Cargo & C Toolchain Management
+- `gitmap cargo build [--install]` — Builds active Rust project with auto-toolchain resolution and installation fallback.
+- `gitmap cargo test [flags]` — Executes project test suites in enriched environment with exit code normalization.
+- `gitmap crg check` — Ultra-fast project check and validation (alias for `cargo check`).
+- `gitmap cargo status` — Inspects Rust compiler and Cargo toolchain status.
+- `gitmap aum locate llvm` (or `clang`) — Sub-millisecond locator for LLVM/Clang binaries (resolves `LIBCLANG_PATH`).
+- `gitmap env set <key> <value>` — Persists environment variables across GitMap executions.
+- `gitmap env get <key>` — Reads persisted environment variables.
+
+### 19. Tauri Directory Inspection & Log Diagnostics
+- `gitmap lf src-tauri` — Instant sub-millisecond directory and file inventory of Tauri application roots.
+- `gitmap aum search "<pattern>" src-tauri [-e <ext>]` — Multi-core streaming live search scoped to Tauri Rust and frontend configuration.
+- `gitmap pe -f tauri` — CI/CD and runtime diagnostic log extractor filtered specifically for Tauri build errors.
+
+### 20. Process Termination & Network Port Diagnostics
+- `gitmap kill <pid|name|:port> [--force] [--tree]` (alias `gitmap terminate`, `gitmap proc kill`) — Native cross-platform process termination with safety guards, protected IDE/shell checks, and graceful or forced execution:
+  * Terminate by PID: `gitmap kill 12345`
+  * Terminate process tree: `gitmap kill 12345 --tree` (`-t`)
+  * Force immediate termination: `gitmap kill 12345 --force` (`-f`)
+  * Terminate process listening on TCP port: `gitmap kill :8080 -f`
+  * Terminate process by binary name: `gitmap kill node.exe -f`
+- `gitmap ports [port]` — Inspects listening network ports, bound PIDs, and process names.
+- `gitmap swap-binary [path] [--kill] [--reopen]` — Safely terminates locking PIDs, backs up the active binary to `.old`, copies the newly compiled binary in place, and reopens/verifies version without locked file crashes. Supports `--from <path>`, `--to <path>`, `--script-only`, and `--json`.
+
 ---
 
 ## Practical Real-World Command Examples & Workflows
 
-This section provides authoritative, production-tested, copy-pasteable command examples with concrete flags, arguments, and expected behavior across all 12 operational categories. AI agents must refer directly to these concrete templates rather than probing `--help` flags.
+This section provides authoritative, production-tested, copy-pasteable command examples with concrete flags, arguments, and expected behavior across all 18 operational categories. AI agents must refer directly to these concrete templates rather than probing `--help` flags.
 
 ### 1. Authentication & GitHub Credential Management
 Managing credentials safely without interactive prompts, plaintext leakage, or browser popups during automated turns.
@@ -434,6 +641,15 @@ gitmap login --token "ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" --no-verify
 
 # Non-interactive SSH key profile configuration
 gitmap login ssh work -y
+
+# Lock workstation-global Git identity to default AI automation bot
+gitmap login set global ai-auto
+
+# Lock repository Git identity to named AI automation bot (e.g. worker-01, muse)
+gitmap login set ai-auto worker-01
+
+# Lock repository Git identity to default AI automation bot (agent name omitted)
+gitmap login set ai-auto
 
 # Inspect current authenticated user and masked credential origin
 gitmap login --status
@@ -498,10 +714,18 @@ gitmap py "03-ai-scripts/06-cicd-local-runner.py"
 gitmap py -c "import sys; print(sys.version_info[:2])"
 
 # Cross-platform PowerShell execution with deterministic -NoProfile and UTF-8
+# (Probes pwsh first, falls back to powershell.exe on Windows. BANNED for directory/file exploration!)
 gitmap pwsh "Get-Process | Where-Object WorkingSet -gt 500MB"
 
-# Direct inline PowerShell command evaluation
-gitmap ps -c "Test-Path .ai-memory/heatmap.db"
+# Direct inline PowerShell command evaluation for administrative tasks
+gitmap ps -c "$PSVersionTable.PSVersion"
+
+# BANNED ANTI-PATTERN: gitmap ps "dir", gitmap ps "Get-ChildItem", gitmap ps "cat", gitmap ps "Get-Content"
+# MANDATORY REPLACEMENTS:
+#   gitmap dir [path] / gitmap ls [path]           # Directory & file listing
+#   gitmap agent subtask ls [task-id]              # Subtask listing
+#   gitmap heatmap / gitmap heatmap tree           # Decision history & cognitive trace
+#   gitmap cat <filepath> [-L A:B] [-q query]      # Streaming file inspection & slicing
 
 # Cross-platform POSIX Bash execution across Windows, Linux, and macOS
 gitmap bash "chmod +x scripts/*.sh && ./scripts/check.sh"
@@ -549,6 +773,10 @@ Replacing slow PowerShell `Get-ChildItem`, `Select-String`, and grep with multi-
 ```bash
 # Multi-core streaming live code search with extension and directory scoping
 gitmap aum search "RunFleetPASCommand" cli -e .go
+
+# Named-flag search with explicit root directory and query (ideal for subagent tool calls)
+gitmap aum search --root "cli" --query "cmdpipeline"
+gitmap aum search --query "RunFleetPASCommand" --dir cli -e .go
 
 # Case-insensitive regex search with boundary patterns
 gitmap aum search -r "(\"pas\"|\"pa\")" cli/cmd -e .go -i
@@ -618,20 +846,23 @@ Disciplined atomic commit workflow enforcing hyphen-separated messages and remot
 gitmap commit "wip - draft initial types and interfaces"
 gitmap cm "wip - draft initial types and interfaces"
 
-# Feature commit (auto-prefixes 'Feature: ', stages all, and pushes to GitHub tracking branch)
-gitmap cpf "skills - enrich gitmap skill with 12 real world categories"
+# Feature commit (auto-prefixes 'Feature: ', stages all, and pushes to remote)
+gitmap cpf "Skills - enrich gitmap skill with 12 real world categories"
 
-# Bugfix commit (auto-prefixes 'Bug: ', stages all, and pushes to GitHub tracking branch)
-gitmap cpb "cloner - correct concurrency flag parsing and worker limits"
+# Bugfix commit (auto-prefixes 'Bug: ', stages all, and pushes to remote)
+gitmap cbf "Cloner - correct concurrency flag parsing and worker limits"
 
 # Chore/Maintenance commit (auto-prefixes 'Chore: ', stages all, and pushes)
-gitmap cpc "docs - realign companion skills and remove help flags"
+gitmap cpc "Docs - realign companion skills and remove help flags"
 
-# Release chore commit (auto-prefixes release chore, stages, and pushes)
-gitmap cpr "release - bump minor version and update changelog"
+# Release commit (auto-prefixes 'Release: ', stages, and pushes)
+gitmap cpr "v2.18.0 - bump minor version and update changelog"
 
 # Pull latest with rebase, stage all, commit, and push in one verified flow
-gitmap pcp "skills - sync cross-platform runner templates"
+gitmap pcp "Skills - sync cross-platform runner templates"
+
+# Commit with explicit subagent attribution for Split-DB heatmap tracking
+gitmap cpf "Module - implement autonomous subtask" --ai-agent "worker-01"
 
 # Apply automated repository remediation (stash, discard, or auto-fix)
 gitmap fix all -y
@@ -642,30 +873,12 @@ gitmap lowercase
 gitmap lowercase-readme
 ```
 
-### 8. Multi-Repo, Cluster & Toolchain Operations
-Managing remote cluster topologies, SSH node pooling, and developer toolchains.
+### 8. Multi-Repo & Toolchain Operations
+Managing multi-repository workflows, toolchain installation, and environment preparation.
 
 ```bash
-# Inspect cluster node status, heartbeat connectivity, and worker nodes
-gitmap cluster status
-
-# Execute command across all online cluster workers in parallel
-gitmap cluster exec workers "df -h / && free -m"
-
-# Servers-clients topology service list and status inspection
-gitmap sc list
-
-# Run background daemon task via server-client engine
-gitmap sc bash "python -m http.server 8080"
-
-# Verify server-client daemon connectivity and response latency
-gitmap sc ping
-
-# Check remote SSH fleet health and port 22 connectivity across all nodes
-gitmap ssh health --all
-
-# Register remote node with authentication vault
-gitmap ssh join user@192.168.1.50 --alias worker-node-1
+# Multi-repo pull with compact JSON telemetry
+gitmap pae --json
 
 # Inspect Rust and Cargo toolchain status
 gitmap cargo status
@@ -675,6 +888,9 @@ gitmap install cargo --check
 
 # Install missing toolchain or system runtime
 gitmap install cargo
+
+# Discover developer toolchains, profiles, and runtime packages
+gitmap install --list
 ```
 
 ### 9. Native Fleet Synchronization & SQLite Agent Task Engine
@@ -720,30 +936,51 @@ gitmap agent temp-clear
 ```
 
 ### 10. File Contention Heatmap, Cognitive Telemetry & RC Sync
-Sub-millisecond SQLite WAL tracking of agent decisions, active leases, and contention hotspots.
+Sub-millisecond SQLite WAL tracking of agent decisions, active leases, contention hotspots, and one-shot JSON payload ingestion with multi-AI provenance attribution.
 
 ```bash
+# Heatmap database discovery catalog across 3 tiers, alias mappings, recent tasks, and suggestion pills
+gitmap heatmap
+
+# Repository-filtered heatmap discovery
+gitmap heatmap --repo gitmap
+gitmap rc heatmap --repo gitmap
+
 # Step 0 Pre-Flight schema and status verification
 gitmap heatmap status
 gitmap heatmap tables
 
-# Pre-Action Intent Logging (mandatory prior to reading or modifying files)
-gitmap heatmap log --task "skills-enrichment" --action "READ" --file ".agents/skills/gitmap/skill.md" --state "EXPLORATION" --expected "Analyze existing command matrix"
+# One-Shot JSON Ingestion — Antigravity IDE (Gemini Pro)
+gitmap heatmap log --json '{"task":"313-gitmap-execution","repo":"gitmap","action":"READ","file":"cli/heatmap/heatmap_cmd.go","state":"EXPLORATION","expected":"Audit flag parsing logic","model":"gemini-2.5-pro","tool":"antigravity-ide"}'
+
+# One-Shot JSON Ingestion — Muse Autonomous Fleet (Muse Engine)
+gitmap heatmap log --json '{"task":"313-gitmap-execution","repo":"gitmap","action":"EDIT","file":"cli/cmdssh/ssh_vault.go","state":"EXECUTION","expected":"Add transparent key vault decryption","model":"muse","tool":"muse-runner"}'
+
+# One-Shot JSON Ingestion — Claude Code / Standalone CLI
+gitmap heatmap log --json '{"task":"313-gitmap-execution","repo":"gitmap","action":"READ","file":"cli/cmdupdate/update_fallback_loop.go","state":"EXPLORATION","expected":"Verify asset matching order","model":"claude-3-7-sonnet","tool":"claude-code"}'
 
 # Post-Action Outcome Closure (mandatory immediately after operation)
-gitmap heatmap update --id 1 --outcome "Identified missing real-world examples" --met true
+gitmap heatmap update --id 1042 --outcome "Verified one-shot JSON ingestion and model attribution" --met true
 
 # Render hierarchical causal tree of all actions taken during the task
-gitmap heatmap tree --task "skills-enrichment"
+gitmap heatmap tree --task "313-gitmap-execution"
+gitmap heatmap tree --task "313-gitmap-execution" --json
+
+# Search prior decisions, reasoning notes, and touched files by slug or query
+gitmap heatmap search "313-gitmap-execution"
+gitmap heatmap search "ssh_vault" -f "cli/cmdssh/ssh_vault.go"
 
 # Multi-agent file contention analysis and collision blast radius check
 gitmap agent heatmap
+gitmap agent heatmap --json
 
 # Safe read-only SQL query against cognitive heatmap database
-gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, IsExpectationMet FROM HeatmapActionLog ORDER BY HeatmapActionLogId DESC LIMIT 5" --json
+gitmap heatmap query "SELECT HeatmapActionLogId, ActionType, FilePath, ModelName, ToolName, IsExpectationMet FROM HeatmapActionLog ORDER BY HeatmapActionLogId DESC LIMIT 5" --json
 
-# Companion repo-cache (rc) heatmap status and synchronization
+# Companion repo-cache (rc) heatmap status, tree traversal, and synchronization
 gitmap rc heatmap status
+gitmap rc heatmap tree
+gitmap rc heatmap live
 gitmap rc heatmap sync
 ```
 
@@ -836,17 +1073,245 @@ gitmap plans --yaml
 gitmap plans --yml
 ```
 
+### 14. URL Split-DB Caching & 10-Split Segmented Downloader (`gitmap url`)
+Dedicated SQLite Split-DB (`repodb/url_cache.db`) caching with sub-millisecond retrieval, byte-faithful `output.Raw()` streaming, and automatic 10-split segmented downloading (`aria2c` or native Go Range workers).
+
+```bash
+# Read and stream remote URL with automatic sub-millisecond caching
+gitmap url read https://example.com/schema.json
+
+# Shorthand aliases for agent ergonomics
+gitmap url https://example.com/schema.json
+gitmap get https://example.com/schema.json
+
+# Force fresh network download bypassing existing cache
+gitmap url read https://example.com/schema.json --fresh
+
+# Inspect cached payload metadata, ETag, and TTL
+gitmap url info https://example.com/schema.json
+
+# List cached URLs in tabular format
+gitmap url ls --limit 25
+
+# Purge expired records and reclaim disk space
+gitmap url purge
+
+# Ingest heatmap telemetry database into LLM training curriculum
+gitmap llm train --heatmap repodb/heatmap.db
+gitmap llm train --heatmap https://telemetry.gitmap.internal/api/heatmap/export
+```
+
+### 15. Rust, Cargo & C Toolchain Management
+Native compilation, automated toolchain installation fallback, fast syntax checking, and dynamic LLVM/Clang path resolution for bindgen.
+
+```bash
+# Compile Rust project with automatic toolchain discovery and installation fallback
+gitmap cargo build
+gitmap cargo build --install
+
+# Execute crate test suites in enriched environment with normalized exit codes
+gitmap cargo test
+gitmap cargo test -- --nocapture
+
+# Fast syntax and type checking without producing binary artifacts (<1s)
+gitmap crg check
+
+# Inspect Rust compiler version, active toolchain targets, and Cargo state
+gitmap cargo status
+
+# Sub-millisecond locator resolving LLVM/Clang binary directories (resolves LIBCLANG_PATH)
+gitmap aum locate llvm
+gitmap aum locate clang
+
+# Persist LIBCLANG_PATH in GitMap managed environment registry across sessions
+gitmap env set LIBCLANG_PATH "<path-to-llvm-bin>"
+gitmap env get LIBCLANG_PATH
+
+# Scoped execution injecting LIBCLANG_PATH for a single cargo test run
+gitmap pwsh "$env:LIBCLANG_PATH='<path-to-llvm-bin>'; gitmap cargo test"
+```
+
+### 16. Tauri Workspace Inspection & Build Diagnostics
+Sub-millisecond directory inventories and targeted pipeline error log filtering for Tauri desktop applications.
+
+```bash
+# Instant directory file listing of Tauri workspace without PowerShell Get-ChildItem
+gitmap lf src-tauri
+gitmap lf src-tauri/src
+
+# Multi-core streaming live search scoped to Tauri Rust source files
+gitmap aum search "tauri::Builder" src-tauri -e .rs
+
+# Filter pipeline error logs specifically for Tauri compilation and packaging errors
+gitmap pe -f tauri
+```
+
+### 17. Process Termination, Port Unlocking & IDE Health
+Cross-platform process management, network port inspection, and safe editor lock resolution without raw taskkill.
+
+```bash
+# Inspect listening network ports, bound PIDs, and process names
+gitmap ports
+gitmap ports 1420
+gitmap ports 8080
+
+# Native cross-platform process termination with safety guards (blocks self-kill and protected IDEs/shells unless --force)
+gitmap kill 12345
+gitmap kill 12345 --tree
+gitmap kill 12345 --force
+gitmap kill :8080 --force
+gitmap kill node.exe --force
+
+# Safely swap locked running binary on Windows (generates detached .ps1, kills locking PIDs, backs up to .old, copies, verifies version, and reopens)
+gitmap swap-binary --from .\dist\gitmap.exe --to C:\Users\Administrator\go\bin\gitmap.exe --kill --reopen
+gitmap swap-binary .\dist\gitmap.exe --kill
+
+# Safely swap running binary on Linux / macOS (generates detached .sh supervisor script, halts processes, swaps executable, and verifies)
+gitmap swap-binary --from ./bin/gitmap --to /usr/local/bin/gitmap --kill --reopen
+gitmap swap-binary ./bin/gitmap --kill
+
+# Inspect generated detached swap script without executing
+gitmap swap-binary --from ./dist/gitmap.exe --script-only
+```
+
+---
+
+## Skill Activation Bands & Guardrails (When to Use GitMap)
+
+### ✅ When to Activate This Skill (Green Band)
+- Operating inside any workspace or repository containing `.git` managed by or integrated with GitMap.
+- Multi-agent swarm orchestration (`execute-parent-task-with-n-steps-v6`, `execute-parent-task-with-n-steps-v7`, `execute-with-e2e`).
+- Performing rapid file discovery (`gitmap lf`, `gitmap find`) or streaming regex code search (`gitmap aum search`).
+- Setting up AI automation bot credentials (`gitmap login set global ai-auto`, `gitmap login set ai-auto <agent-name>`).
+- Staging, formatting, and pushing atomic semantic commits (`gitmap cpf`, `gitmap cbf`, `gitmap cpc`, `gitmap cfr`, `gitmap cpr`).
+- Inspecting CI/CD pipeline health and error telemetry (`gitmap pipeline-ai`, `gitmap pe -t`).
+- Querying, mutating, or serving SQLite Split-DB architectures (`gitmap db-read`, `gitmap db-find`, `gitmap db-view`).
+- Downloading screenshot assets (`gitmap prnt`) or fetching remote URLs with caching (`gitmap url read`).
+- Safe process termination (`gitmap kill`) and binary rotation (`gitmap swap-binary`).
+
+### ⛔ When NOT to Use / Out of Bounds (Red Band)
+- Subagents must NEVER execute raw `git` commands (`git commit`, `git add`, `git push`, `git checkout`); only the lead orchestrator invokes GitMap semantic commit verbs.
+- Routine builds and tests: Do NOT run full test suites (`go test ./...`, `npm test`, `pytest`) or full project builds (`go build`, `npm run build`, `cargo build`) unless explicitly commanded by the user or executing `execute-with-e2e`.
+- Do NOT use slow prohibited legacy tools (`rg`, `ripgrep`, `grep`, `git grep`, `Select-String`, `findstr`, `Get-ChildItem`, `dir`, `ls`).
+- Do NOT run inline Python SQLite scripts (`python -c "import sqlite3..."`).
+- Do NOT use absolute file paths or `file:///` URIs; use strictly relative Git paths.
+- Do NOT invent CLI flags; verify commands before execution.
+
 ---
 
 ## Operational Guardrails & Non-Negotiable Invariants
 
 1. **Learning & Skill Acquisition:** Run `gitmap llm train` (or `gitmap train --loop`) to initialize or verify GitMap skills. Run `gitmap llm train muse --days 7` when performing Muse memory IO synchronization. Never run broad keyword searches like `gitmap aum search "train"` to discover how commands work.
-2. **Mandatory Pre-Flight Pull:** Always run `git pull` before modifying code.
+2. **Mandatory Pre-Flight Pull via GitMap:** Always run `gitmap pull` (fallback `git pull`) before modifying code.
 3. **Scoped Search:** Always provide target directories and extensions to `gitmap aum search` (e.g. `gitmap aum search "target" cli --ext .go`).
 4. **File Size & Binary Guard:** Respect 500 KB limit (Rule R19); never commit test binaries or temp artifacts.
 5. **Coding Guidelines:** Max 8–15 lines per function, single return types with `*appfault.AppError`, affirmative booleans (`isReady`, `hasCache`).
 6. **Script Offloading:** Save all temporary diagnostics to `repo-cache` via `gitmap rc` to prevent dirty working trees.
 7. **Strict Relative Git Paths:** All paths and references must be relative to repository root (`02-spec/...`, `.ai-memory/...`); zero absolute paths and zero `file:///` URIs.
 8. **Zero Storage Ban:** Zero uploads to `actions/upload-artifact`. Maintain 0.0 GB Actions storage quota across all repositories.
-9. **Total Ban on Python SQLite Scripts:** NEVER run `python 03-ai-scripts/46-agent-sqlite-task-manager.py` or `python -c "import sqlite3..."`. For agent tasks, use native compiled `gitmap agent` subcommands exclusively. For inspecting, exploring, querying, mutating, or viewing SQLite databases (e.g. Antigravity DBs, split databases, application storage), use `gitmap db-read`, `gitmap db-add`, `gitmap db-edit`, `gitmap db-find`, `gitmap db-listing`, `gitmap db-view`, `gitmap db-rest`, `gitmap db-record-del`, `gitmap db-rm` (or aliases `dbr`, `dba`, `dbe`, `dbf`, `dbl`, `dbv`, `dbrs`, `dbrd`, `dbrm`).
-10. **Total Ban on Ad-Hoc Python Web Scrapers:** NEVER run `python -c "import urllib.request..."` or write ad-hoc Python scripts (`fetch_urls.py`, etc.) to scrape web pages, extract images, or download screenshot URLs (e.g., `prnt.sc`, `image.prntscr.com`, `i.imgur.com`). You MUST use native compiled `gitmap prnt <url1> [url2...] [--extract-only] [--json]` (alias `gitmap download-prnt`), which automatically handles User-Agent headers, multi-tier CDN resolution, and bidirectional Antigravity Brain synchronization. See `@[.agents/skills/gitmap]` for full command reference.
+9. **Total Ban on Python SQLite Scripts & Ad-Hoc Database Queries:** NEVER run `python 03-ai-scripts/46-agent-sqlite-task-manager.py` or ad-hoc scripts like `python -c "import sqlite3..."`. Ad-hoc Python SQLite usage is AGGRESSIVELY PROHIBITED. You MUST use native compiled GitMap database commands exclusively: `gitmap db-find` / `gitmap dbf` for pattern-matching and regular expression searches across tables and columns; `gitmap db-read` / `gitmap dbr` for read-only table/SQL inspection; `gitmap db-listing` / `gitmap dbl` to discover registered Split-DB tiers; `gitmap db-view` / `gitmap dbv` for join analysis; `gitmap db-add` / `gitmap db-edit` / `gitmap db-rm` for safe mutations; and `gitmap agent` subcommands for task tracking.
+10. **Total Ban on Ad-Hoc Python Web Scrapers:** NEVER run `python -c "import urllib.request..."` or write ad-hoc Python scripts (`fetch_urls.py`, etc.) to scrape web pages, extract images, or download screenshot URLs (e.g., `prnt.sc`, `image.prntscr.com`, `i.imgur.com`). You MUST use native compiled `gitmap prnt <url1> [url2...] [--extract-only] [--json]` (alias `gitmap download-prnt`), which automatically handles User-Agent headers, multi-tier CDN resolution, and bidirectional Antigravity Brain synchronization. See `@[gitmap](file;.agents/skills/gitmap)` for full command reference.
+11. **Total Ban on Raw Web Fetchers & Single-Stream Downloads:** NEVER invoke `curl`, `wget`, `Invoke-WebRequest`, or custom HTTP scripts to read remote files. All remote URLs MUST be fetched via `gitmap url read <url>` (aliases: `gitmap url`, `gitmap get`), which provides dedicated Split-DB caching (`repodb/url_cache.db`), sub-millisecond retrieval (<0.5ms), unbuffered byte-faithful streaming via `output.Raw()`, and automatic 10-split segmented downloading (`aria2c` or native Go Range workers) for files $\ge 1\text{--}2\text{ MB}$.
+12. **Total Ban on Filesystem Grepping for Past Agent Decisions:** NEVER grep source files or guess past subagent actions. You MUST run `gitmap heatmap` or `gitmap rc heatmap --repo <alias>` to discover multi-tier SQLite heatmap databases, cross-referenced repository aliases, and recent tasks across 2–5 repositories with interactive suggestion pills.
+13. **Total Ban on Raw Cargo Invocations & Ad-Hoc Toolchain Variables:** NEVER run raw `cargo build`, `cargo test`, `cargo check`, or hardcode `$env:LIBCLANG_PATH` manually. You MUST use `gitmap cargo build [--install]`, `gitmap cargo test`, `gitmap crg check`, and dynamic resolution via `gitmap aum locate llvm` and `gitmap env set LIBCLANG_PATH <path>`.
+14. **Total Ban on Raw Process Termination:** NEVER execute raw `taskkill /F /PID <pid>`, `Stop-Process`, or `kill -9` directly. You MUST use native compiled `gitmap kill <pid|name|:port> [--force] [--tree]` (aliases: `gitmap terminate`, `gitmap proc kill`) or `gitmap ports [port]`.
+15. **Total Ban on Raw Locked Binary Operations:** NEVER attempt manual binary replacement on locked, running executables using PowerShell `Move-Item`, `Copy-Item`, raw `taskkill` + copy, or shell copy scripts that cause locked file crashes or sharing violations (`ERROR_SHARING_VIOLATION` / `0x20`). You MUST use `gitmap swap-binary [--from <path>] [--to <path>] [--kill] [--reopen]` (or alias `gitmap swap-bin`) to safely generate a platform-specific runner script, gracefully terminate locking PIDs, rotate the active binary to `.old`, install the new binary, verify version integrity, and restart.
+16. **Total Ban on Raw Tauri Directory Inspection:** NEVER inspect Tauri roots with raw shell `dir` or `Get-ChildItem`. You MUST use `gitmap lf src-tauri`, `gitmap aum search "<pattern>" src-tauri`, and `gitmap pe -f tauri`.
+17. **Total Ban on Raw Git Pull, Raw Git Commits & Misusing Commit Verbs:** NEVER execute raw `git pull` without trying `gitmap pull` first. NEVER execute raw `git commit`, `git commit -m`, `git add -A`, or raw `git push`. NEVER misuse commit verbs (e.g. NEVER use `cpf` for releases or chores). Use `gitmap cpr` for releases, `gitmap cpc` for chores, `gitmap cbf` for bug fixes, `gitmap cfr` for refactors, and `gitmap cpf` for features. NEVER nest conventional prefixes (like `chore(release):`, `feat(...)`, `fix(...)`) inside the GitMap argument as GitMap provides the prefix automatically. Use `<module> - summary` format with a hyphen and NO square brackets `[...]` or colons in the argument. Module must be Title Case or lowercase representing the subsystem; TOTAL BAN on `commit` / `commits` as a module name.
+18. **Total Ban on Anonymous AI Autonomous Commits (Mandatory AI Name & On-The-Fly Teaching):** AI agents operating autonomously MUST provide their agent name when setting credentials (`gitmap login set ai-auto <agent-name>`) and when committing (`gitmap cpf/cpb/cpc/cfr/cpr --ai-agent <name>`). Omitting the agent name triggers on-the-fly teaching diagnostics showing valid syntax (`antigravity`, `gemini`, `cursor-model`, `muse`, `claude`). Machine-wide generic bots use `gitmap login set global ai-auto`. Default bot parameters can be configured via CLI (`gitmap settings set ai_auto.default_agent <agent-name>`) or the Web Settings UI (`Speed & Automation` -> `ai-auto`).
+   - **MANDATORY DYNAMIC AGENT IDENTIFICATION:** AI agents MUST determine and configure their active identity dynamically based on their actual host platform; **TOTAL BAN on hardcoding or blindly defaulting to `muse`**.
+     - Inside **Google Antigravity (AGY)**: ALWAYS use `antigravity` (`gitmap login set ai-auto antigravity` and `gitmap settings set ai_auto.default_agent antigravity`).
+     - Inside **Cursor IDE**: ALWAYS use `cursor-model` (`gitmap login set ai-auto cursor-model`).
+     - Inside **Claude / DevTools**: ALWAYS use `claude` (`gitmap login set ai-auto claude`).
+     - Inside **Gemini CLI**: ALWAYS use `gemini` (`gitmap login set ai-auto gemini`).
+     - Inside **Muse Autonomous Agent**: Use `muse` ONLY when confirmed running within a dedicated Muse instance.
+
+19. **Total Ban on Ad-Hoc Python File Reading, Filesystem Crawling, Sleep Polling, and Shell Pipelines:**
+AI agents are STRICTLY PROHIBITED from running ad-hoc Python one-liners, PowerShell pipeline scripts, or Node.js snippets to open, read, slice, search, or sleep across the codebase. You MUST use compiled, native GitMap commands:
+- ❌ **BANNED:** `powershell -Command "Get-Content 'path/to/transcript.jsonl' -Tail 5 | Select-String -Pattern 'media|USER_INPUT'"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/transcript.jsonl -t 5 -q "media|USER_INPUT"`
+- ❌ **BANNED:** `node -e "const fs = require('fs'); const lines = fs.readFileSync('.../transcript.jsonl', 'utf-8').trim().split('\n'); console.log(JSON.parse(lines[1519]).content);"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/transcript.jsonl -L 1519 --field content` (extracts any JSON key cleanly)
+- ❌ **BANNED:** `gitmap py -c "import time; time.sleep(8)"` or shell `sleep 8` / `Start-Sleep -Seconds 8`
+  👉 **MANDATORY REPLACEMENT:** Use Antigravity `schedule` tool, `gitmap watch`, or reactive task wakeup. Sleep loops freeze terminal threads, burn CPU, and violate non-polling guidelines.
+- ❌ **BANNED:** `Get-ChildItem -Path "cli/cmdinstall" -File | Select-Object -ExpandProperty Name` or `dir /s /b`
+  👉 **MANDATORY REPLACEMENT:** `gitmap lf cli/cmdinstall` or `gitmap find "*.*" cli/cmdinstall`
+- ❌ **BANNED:** `gitmap py -c "import os; [print(root, files) for root, dirs, files in os.walk('...') if any('subagent' in f.lower() or 'research' in f.lower() for f in files)]"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap find "*subagent*" [dir]` and `gitmap find "*research*" [dir]`
+- ❌ **BANNED:** `gitmap py -c "import os; [print(os.path.join(r, f)) for r, d, fs in os.walk('cli/cmdui') for f in fs if 'settings' in f.lower()]"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap find "*settings*" cli/cmdui` (or `gitmap aum search "settings" cli/cmdui`)
+- ❌ **BANNED:** `gitmap py -c "print(open('cli/cmdui/ui_server_settings.go', encoding='utf-8').read())"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat cli/cmdui/ui_server_settings.go`
+- ❌ **BANNED:** `gitmap py -c "open_f = open('path/to/file.ext').read(); [print(l) for l in open_f.splitlines() if 'word' in l.lower()][:15]"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/file.ext -q "word" -l 15`
+- ❌ **BANNED:** `gitmap py -c "open_f = open('path').read(); [print(l) for l in open_f.splitlines() if 'Get-ChildItem' in l or 'gitmap find' in l or 'ban' in l.lower() or 'search' in l.lower()][:15]"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path -q "Get-ChildItem|gitmap find|ban|search" -l 15` (multi-token pipe search)
+- ❌ **BANNED:** `gitmap py -c "open_f = open('path').read(); print('File length:', len(open_f))"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path --info` (or `-i`, `--stats`)
+- ❌ **BANNED:** `gitmap py -c "lines = open('path/to/file.ext').readlines(); print(''.join(lines[140:220]))"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/file.ext -L 140:220 --num`
+- ❌ **BANNED:** `gitmap py -c "import json; line = [l for l in open('transcript.jsonl')...]"`
+  👉 **MANDATORY REPLACEMENT:** Use native agent tool `read_file` with line range bounds, or `gitmap cat transcript.jsonl -L <line> --field <key>`
+- ❌ **BANNED:** `pwsh -Command "Get-Content path/to/file.ext -TotalCount 30"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/file.ext --head 30` (or `gitmap head path/to/file.ext 30`)
+- ❌ **BANNED:** `gitmap py -c "lines = open('path/to/file.ext').readlines(); print(''.join(lines[-25:]))"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap cat path/to/file.ext -t 25` (or `--tail 25`)
+
+20. **Total Ban on Restrict Condition Bypasses in Fleet Sync (V6 vs V7 Engine Versioning):**
+When executing under the V7 Master Autonomous Engine (`@[execute-parent-task-with-n-steps-v7]`) or any time-restricted pipeline, agents MUST NOT run unconstrained sync scripts or bypass the calendar-aware morning commit cutoff.
+- **V6 Parent Tasks (Unrestricted):** Execute `python 03-ai-scripts/38-sync-prompts-skills-scripts.py [--repo <name>]`.
+- **V7 Parent Tasks (Time-Restricted & Autobot Governed):** Execute `python 03-ai-scripts/38-sync-prompts-skills-scripts-v7.py [--tz <tz>] [--repo <name>]` (or pass `--v7 --auto-window --schedule`).
+- The V7 sync engine validates:
+  1. Operating window: Commits on weekdays are restricted to morning window (< 08:00 AM) in target timezone, or auto-window slotting.
+  2. Autonomous bot identity: Confirms `gitmap automation bot` identity or active `--ai-agent <name>` persona.
+  3. Safe multi-branch backup, pre/post release tagging, and non-negotiable boundaries (Spec 21 exclusion, additive scripts).
+
+21. **Total Ban on Unauthorized E2E Testing, Builds, and Test Subtask Injection (Zero-Build / Zero-Test Invariant):**
+- **Subtask Decomposition Invariant:** In Phase 1C planning (`gitmap agent subtask add`), AI planners MUST NEVER create, plan, or inject an E2E testing subtask (e.g. `TASK-XX: E2E Test Suite Remediation (Achieve 100% Pass in ...)`), compiler build subtask, or release ceremony subtask unless the user prompt EXPLICITLY requested E2E testing or a version release!
+- **Zero Builds / Zero Tests Rule:** If E2E testing was NOT requested in the user prompt, you MUST NOT run full builds (`go build`, `npm run build`, `vite build`, `cargo build`) or full test suites (`go test ./...`, `npm test`, `pytest`, runner scripts). Verification is strictly static inspection and single-file targeted linters.
+- **Mandatory Completion Tables:** Every turn MUST conclude with the 4 mandatory completion tables (Task Execution Matrix, Coding Guidelines Table, Boundary Audit, Upstream Delivery Table) and the masked verification script. When E2E was not requested, Table 1 and Table 2 must explicitly document: `E2E Testing: Skipped (Not requested per Zero Build / Zero Test Invariant)`.
+
+22. **Total Ban on Ad-Hoc Python Subprocess Snippets & Raw Grep for Git Log and Code Search:**
+AI agents are STRICTLY PROHIBITED from running ad-hoc Python subprocess snippets, inline scripts, or raw grep commands to search git history, inspect commit diffs, or grep codebase text.
+- ❌ **BANNED:** `python -c "import os, subprocess; out = subprocess.check_output(['git', 'log', '-S', 'history', ...]); print(out)"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap log -S "history" [path]` or `gitmap aum search-commits "history" [path]` or native MCP tool `gitmap_log`.
+- ❌ **BANNED:** `python -c "import os, subprocess; subprocess.run(['git', 'log', '--grep', ...])"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap log --grep="<query>" [path]` or `gitmap aum search-commits --grep "<query>" [path]`.
+- ❌ **BANNED:** Raw `git grep`, `grep -rn`, `ripgrep`, or `findstr` in terminal.
+  👉 **MANDATORY REPLACEMENT:** `gitmap aum search "<pattern>" [path] [--ext <ext>]` or native MCP tool `gitmap_aum_search`.
+- ✅ **MANDATORY MCP SERVE FIRST:** When operating inside an MCP-enabled IDE (Google Antigravity, Cursor, Claude Desktop), start and interact with `gitmap mcp serve` first. It serves on HTTP port 8765 (with automatic failover to 8766, 8767), displays active running info, and subsequent calls exit immediately without pausing. Utilize the native 17 MCP tools (`gitmap_aum_search`, `gitmap_find`, `gitmap_cat`, `gitmap_log`, etc.) for zero-disk, sub-millisecond workspace exploration.
+
+22. **Total Ban on Ad-Hoc Python Database Scripts Querying SQLite / Antigravity Databases:**
+- **❌ BANNED:** Creating scratch Python scripts (e.g. `check_summaries.py`, `query.py`, `brain/.../scratch/*.py`) or executing inline Python one-liners (`python -c "import sqlite3..."`, `gitmap py -c "import sqlite3..."`) to query `conversation_summaries.db`, `gitmap.db`, or any Split-DB SQLite database.
+- 👉 **MANDATORY REPLACEMENTS:**
+  - `gitmap dbsql "<SQL>" --path <alias|path> [--json]` (direct SQL execution; flags: `--path` / `-p`, `--db` / `-d`, `--json` / `-j`; aliases: `dbsql`, `db-sql`, `dbs`)
+  - `gitmap agy summaries [N] [-q <query>] [-a] [-j]` (dedicated conversation state & summary inspector; aliases: `gitmap agy convs`, `gitmap convs`, `gitmap agy db`)
+  - `gitmap db query "<SQL>" --path/--db <alias|path> [--json]` (execute read-only SQL across any SQLite database)
+  - `gitmap db tables / schema / columns / list --path/--db <alias|path>` (introspect tables, DDL, and columns)
+  - **Supported System Aliases:** `--path remediation` (`repodb/remediation.db`), `--path agy` (`conversation_summaries.db`), `--path master` (`gitmap.db`), `--path heatmap` (`heatmap.db`), `--path pipeline` (`pipeline/sql.db`), `--path tasks` (`tasks/sql.db`).
+  - See `@[ai_code_execution_restrictions](file;.agents/rules/ai_code_execution_restrictions.md)` for full specifications.
+
+23. **Mandatory Heatmap Inspection & Auto-Touch on File Read (Zero UDFs):**
+- Whenever an AI agent begins reading, inspecting, or analyzing a source code file or specification during troubleshooting, research, or planning, the agent SHOULD use:
+  ```bash
+  # Inspect and automatically touch heatmap (Zero UDF flags needed):
+  gitmap heatmap <filepath> [-L start:end] [--num]
+
+  # Or use native cat (automatically records touch in heatmap in background):
+  gitmap cat <filepath> [-L start:end] [--num]
+  ```
+- **Zero UDFs Required:** No need to supply `--reason`, `--action`, or manual JSON payloads for file inspection. GitMap automatically resolves relative and absolute paths, sets `action="read"`, `tool="cat"`, and records line ranges in `repodb/heatmap.db`.
+- The file content is printed directly to the terminal, and the heatmap record is stored atomically in SQLite.
+- **TOTAL BAN on ad-hoc Python reading:** `gitmap py -c "lines = open('...').readlines()"` is strictly prohibited. Use `gitmap heatmap <filepath>` or `gitmap cat <filepath>`.
+
+24. **Total Ban on Ad-Hoc Python Shutil Scripts, PIL/Pillow Invocations, and PowerShell Image Copying:**
+AI agents are STRICTLY PROHIBITED from running ad-hoc Python one-liners, PowerShell pipeline scripts, or Bash utilities to copy, move, inspect, or stage image files and screenshots into documentation.
+- ❌ **BANNED:** `python -c "import os, shutil; os.makedirs('assets/screenshots', exist_ok=True); shutil.copyfile('...', 'assets/screenshots/shot.png')"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap image transfer "<src>" assets/screenshots/shot.png --markdown`
+- ❌ **BANNED:** `powershell -Command "New-Item -ItemType Directory -Force assets/screenshots; Copy-Item '...' 'assets/screenshots/shot.png'"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap image transfer "<src>" assets/screenshots/shot.png`
+- ❌ **BANNED:** `python -c "from PIL import Image; im = Image.open('...'); print(im.size)"`
+  👉 **MANDATORY REPLACEMENT:** `gitmap image transfer "<file>" --inspect` (or `gitmap cat "<file>" --info`)
+- ❌ **BANNED:** Markdown image embeds with absolute paths: `![Shot](D:\work\gitmap\assets\screenshots\shot.png)` or `![Shot](file:///C:/Users/...)`
+  👉 **MANDATORY REPLACEMENT:** Strict relative repository paths only: `![Shot](assets/screenshots/shot.png)` or `![Shot](assets/<name>.png)`. Absolute Windows drive letters (`C:\`, `D:\`), Unix absolute roots (`/home/...`), and `file:///` URIs are AGGRESSIVELY FORBIDDEN.
+

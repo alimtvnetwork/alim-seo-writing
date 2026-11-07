@@ -1,6 +1,6 @@
 ---
 name: python-dry-caching
-description: Design, implement, and maintain high-performance, cached Python automation scripts leveraging 03-ai-scripts/02-shared-engine.py.
+description: "Design, implement, and maintain high-performance, cached Python automation scripts leveraging 03-ai-scripts/02-shared-engine.py."
 ---
 
 # Python DRY Architecture & Caching Specification

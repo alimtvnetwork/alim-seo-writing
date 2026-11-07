@@ -1,6 +1,6 @@
 ---
 name: create-slide-deck
-description: Autonomously architect, construct, and style high-authority, declarative, 16:9 presentation slide decks, interactive presenter HUDs, 10 production themes, 10-step precision color ramps, and real-time Slide Builder Modes on the 1920x1080 virtual canvas with pure live DOM typography.
+description: "Autonomously architect, construct, and style high-authority, declarative, 16:9 presentation slide decks, interactive presenter HUDs, 10 production themes, 10-step precision color ramps, and real-time Slide Builder Modes on the 1920x1080 virtual canvas with pure live DOM typography."
 ---
 
 # Create Presentation Slide Deck & Live Builder System

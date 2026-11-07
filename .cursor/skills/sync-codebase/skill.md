@@ -1,6 +1,6 @@
 ---
 name: sync-codebase
-description: Autonomously synchronize prompts, skills, coding guidelines, and AI scripts across target repositories using parameter-driven paths, automated backup branches, and non-negotiable boundaries.
+description: "Autonomously synchronize prompts, skills, coding guidelines, and AI scripts across target repositories using parameter-driven paths, automated backup branches, and non-negotiable boundaries."
 ---
 
 # Multi-Repository Codebase Synchronization (Alias)

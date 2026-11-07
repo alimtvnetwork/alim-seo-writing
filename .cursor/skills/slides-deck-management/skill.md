@@ -1,6 +1,6 @@
 ---
 name: slides-deck-management
-description: Author, update, configure, and verify interactive presentation slides and deck registries in slides-app.
+description: "Author, update, configure, and verify interactive presentation slides and deck registries in slides-app."
 ---
 
 # Slides Deck Management & Presentation Authoring

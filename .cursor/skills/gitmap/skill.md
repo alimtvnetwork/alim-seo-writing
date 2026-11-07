@@ -1,6 +1,6 @@
 ---
 name: gitmap
-description: Autonomous developer companion and CLI for ultra-fast repository scanning, polyglot automation (AUM), cluster/SSH delegation, pipeline self-healing, and coding guideline enforcement.
+description: "Autonomous developer companion and CLI for ultra-fast repository scanning, polyglot automation (AUM), cluster/SSH delegation, pipeline self-healing, and coding guideline enforcement."
 ---
 
 # GitMap Autonomous Engineering Skill

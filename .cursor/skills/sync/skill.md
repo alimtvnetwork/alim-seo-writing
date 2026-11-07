@@ -1,6 +1,6 @@
 ---
 name: sync
-description: Autonomously pull, backup, and synchronize canonical prompts, skills, shared specs (02-spec/01-* to 02-spec/20-*), and additive AI scripts across all 43 connected repositories while enforcing non-negotiable boundaries.
+description: "Autonomously pull, backup, and synchronize canonical prompts, skills, shared specs (02-spec/01-* to 02-spec/20-*), and additive AI scripts across all 43 connected repositories while enforcing non-negotiable boundaries."
 ---
 
 # Multi-Repository Synchronization & Deployment Engine (`sync`)
